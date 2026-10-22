@@ -10,10 +10,27 @@
     "revisions": [],
     "market": {
       "indices": [
-        { "name": "S&P 500", "value": "7,712.57", "changePct": 0.28 },
-        { "name": "Nasdaq Composite", "value": "26,424.82", "changePct": -0.02 },
-        { "name": "SOX (semis)", "value": "11,283.81", "changePct": -0.29 },
-        { "name": "10Y Treasury yield", "value": "5.12%", "changePct": null, "changeText": "-3 bp" }
+        {
+          "name": "S&P 500",
+          "value": "7,712.57",
+          "changePct": 0.28
+        },
+        {
+          "name": "Nasdaq Composite",
+          "value": "26,424.82",
+          "changePct": -0.02
+        },
+        {
+          "name": "SOX (semis)",
+          "value": "11,283.81",
+          "changePct": -0.29
+        },
+        {
+          "name": "10Y Treasury yield",
+          "value": "5.12%",
+          "changePct": null,
+          "changeText": "-3 bp"
+        }
       ],
       "driver": {
         "text": "Stocks rose as investors rotated out of megacap tech into small caps, the Dow and healthcare, helped by lower Treasury yields and a reversal in oil after weak September housing starts (1.221M vs about 1.3M expected).",
@@ -21,11 +38,23 @@
         "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rises-sp-500-nasdaq-climb-as-dip-buying-resumes-165236471.html",
         "pubTime": "Oct 20, 2026"
       },
-      "dataRelease": { "name": "Sept housing starts", "actual": "1.221M", "expected": "~1.3M" },
+      "dataRelease": {
+        "name": "Sept housing starts",
+        "actual": "1.221M",
+        "expected": "~1.3M"
+      },
       "cryptoTime": "4:00 PM ET prices (Coinbase)",
       "crypto": [
-        { "name": "Bitcoin (BTC)", "price": "$82,503.62", "changePct": 0.89 },
-        { "name": "Ethereum (ETH)", "price": "$2,434.80", "changePct": 1.78 }
+        {
+          "name": "Bitcoin (BTC)",
+          "price": "$82,503.62",
+          "changePct": 0.89
+        },
+        {
+          "name": "Ethereum (ETH)",
+          "price": "$2,434.80",
+          "changePct": 1.78
+        }
       ],
       "cryptoDriver": {
         "text": "Bitcoin and ether rose modestly (BTC still below $84,000). Crypto-linked stocks moved more than the tokens: Circle +5.53% and Strategy (MSTR) +4.93%. The source gives no specific catalyst for the crypto move.",
@@ -36,8 +65,11 @@
     },
     "tickers": [
       {
-        "ticker": "BABA", "name": "Alibaba Group Holding Ltd", "status": "updated",
-        "close": "$108.61", "changePct": 0.04,
+        "ticker": "BABA",
+        "name": "Alibaba Group Holding Ltd",
+        "status": "updated",
+        "close": "$108.61",
+        "changePct": 0.04,
         "items": [
           {
             "type": "news",
@@ -50,26 +82,38 @@
         ]
       },
       {
-        "ticker": "CRCL", "name": "Circle Internet Group, Inc.", "status": "clean",
-        "close": "$85.87", "changePct": 5.53,
+        "ticker": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "status": "clean",
+        "close": "$85.87",
+        "changePct": 5.53,
         "items": [],
         "cleanNote": "No qualifying item in this window."
       },
       {
-        "ticker": "ETHA", "name": "iShares Ethereum Trust ETF", "status": "clean",
-        "close": "$55.07", "changePct": 1.77,
+        "ticker": "ETHA",
+        "name": "iShares Ethereum Trust ETF",
+        "status": "clean",
+        "close": "$55.07",
+        "changePct": 1.77,
         "items": [],
         "cleanNote": "No qualifying item in this window."
       },
       {
-        "ticker": "FUTU", "name": "Futu Holdings Ltd", "status": "clean",
-        "close": "$105.51", "changePct": 0.01,
+        "ticker": "FUTU",
+        "name": "Futu Holdings Ltd",
+        "status": "clean",
+        "close": "$105.51",
+        "changePct": 0.01,
         "items": [],
         "cleanNote": "No qualifying item in this window."
       },
       {
-        "ticker": "NVDA", "name": "NVIDIA Corp", "status": "updated",
-        "close": "$216.47", "changePct": -0.29,
+        "ticker": "NVDA",
+        "name": "NVIDIA Corp",
+        "status": "updated",
+        "close": "$216.47",
+        "changePct": -0.29,
         "items": [
           {
             "type": "news",
@@ -82,28 +126,39 @@
         ]
       },
       {
-        "ticker": "TIGR", "name": "UP Fintech Holding Ltd", "status": "clean",
-        "close": "$4.10", "changePct": 0.99,
+        "ticker": "TIGR",
+        "name": "UP Fintech Holding Ltd",
+        "status": "clean",
+        "close": "$4.10",
+        "changePct": 0.99,
         "items": [],
         "cleanNote": "No qualifying item in this window."
       },
       {
-        "ticker": "TSLA", "name": "Tesla, Inc.", "status": "clean",
-        "close": "$373.71", "changePct": 1.54,
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "status": "clean",
+        "close": "$373.71",
+        "changePct": 1.54,
         "items": [],
         "cleanNote": "No qualifying item in this window."
       },
       {
-        "ticker": "GOOG", "name": "Alphabet Inc.", "status": "updated",
-        "close": "$336.40", "changePct": -1.11,
+        "ticker": "GOOG",
+        "name": "Alphabet Inc.",
+        "status": "updated",
+        "close": "$336.40",
+        "changePct": -1.11,
         "items": [
           {
             "type": "analyst",
             "headline": "BMO Capital raises Alphabet price target to $480",
             "summary": "Cites recent Gemini releases, strong Google Cloud checks and growing external TPU sales; raises its Google Cloud revenue estimates 4% for 2026 and 17% for 2027.",
             "firm": "BMO Capital (Brian Pitz)",
-            "oldRating": "Outperform", "newRating": "Outperform",
-            "oldTarget": "$465", "newTarget": "$480",
+            "oldRating": "Outperform",
+            "newRating": "Outperform",
+            "oldTarget": "$465",
+            "newTarget": "$480",
             "sourceName": "TheFly via TipRanks",
             "sourceUrl": "https://www.tipranks.com/news/the-fly/alphabet-price-target-raised-to-480-from-465-at-bmo-capital-thefly-news",
             "pubTime": "Oct 20, 2026, 9:37 AM ET"
@@ -111,8 +166,11 @@
         ]
       },
       {
-        "ticker": "AVGO", "name": "Broadcom Inc.", "status": "updated",
-        "close": "$334.37", "changePct": -0.07,
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "status": "updated",
+        "close": "$334.37",
+        "changePct": -0.07,
         "items": [
           {
             "type": "news",
@@ -129,59 +187,212 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "October 21, 2026",
-    "periodStart": "Tue, Oct 20, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Wed, Oct 21, 2026, 8:00 AM ET",
-    "lastUpdated": "Wed, Oct 21, 2026, 10:56 AM ET",
-    "timezoneNote": "All times below are shown in ET (America/New_York). Close and % shown are the Oct 20 regular-session close.",
+    "reportDate": "October 22, 2026",
+    "periodStart": "Wed, Oct 21, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Thu, Oct 22, 2026, 8:00 AM ET",
+    "lastUpdated": "Thu, Oct 22, 2026, 7:49 AM ET",
+    "timezoneNote": "All times below are shown in ET (America/New_York). Index levels labelled 'close' are Oct 21 regular-session closes; futures and crypto are early-morning snapshots. Ticker closes are left blank where they could not be verified.",
     "revisions": [],
     "market": {
-      "indices": [],
-      "driver": null,
-      "cryptoTime": "8:00 AM ET prices (Coinbase), change vs Oct 20 4:00 PM ET",
+      "indices": [
+        {
+          "name": "S&P 500 (Oct 21 close)",
+          "value": "7,757.17",
+          "changePct": 0.58
+        },
+        {
+          "name": "Nasdaq Composite (Oct 21 close)",
+          "value": "26,702.86",
+          "changePct": 1.05
+        },
+        {
+          "name": "S&P 500 futures (7:23 AM ET)",
+          "value": "7,714.00",
+          "changePct": -1.11
+        },
+        {
+          "name": "Nasdaq-100 futures (7:23 AM ET)",
+          "value": "29,459.50",
+          "changePct": -1.82
+        },
+        {
+          "name": "Dow futures (7:23 AM ET)",
+          "value": "52,688.00",
+          "changePct": -0.7
+        }
+      ],
+      "driver": {
+        "text": "US futures are sharply lower, led by tech, as oil jumped to a five-month high after a deadly attack on a Saudi oil field (WTI roughly $99) and investors digested Tesla and Meta earnings. Semiconductors are weak premarket on AI-spending-return worries (Lam Research down more than 7% despite record revenue).",
+        "sourceName": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/markets/article/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
+        "pubTime": "Oct 22, 2026, 7:23 AM ET"
+      },
+      "cryptoTime": "Snapshot times differ: BTC ~7:23 AM ET (Yahoo Finance quote, change vs prior day); ETH ~2:07 AM ET (CoinGecko via CryptoTimes, 24h change). ETH may have fallen since: an untimed ticker on The Block showed about $2,403 (-3.5%).",
       "crypto": [
-        { "name": "Bitcoin (BTC)", "price": "$83,419.09", "changePct": 1.11 },
-        { "name": "Ethereum (ETH)", "price": "$2,467.07", "changePct": 1.32 }
+        {
+          "name": "Bitcoin (BTC)",
+          "price": "$81,815.32",
+          "changePct": -1.88
+        },
+        {
+          "name": "Ethereum (ETH)",
+          "price": "$2,442",
+          "changePct": 0.2
+        }
       ],
       "calendar": [
         {
-          "time": "After the close",
-          "text": "Tesla Q3 results (webcast 5:30 PM ET). Consensus: revenue $28.3B, EPS $0.45; options imply about a 5.9% move.",
-          "sourceName": "Invezz",
-          "sourceUrl": "https://invezz.com/news/2026/10/21/tesla-earnings-margins-cybercab-optimus-in-focus-as-spacex-merger-talks-intensify/"
+          "time": "8:30 AM ET",
+          "text": "Weekly jobless claims (estimate 200K) and continuing claims (estimate 1.72M).",
+          "sourceName": "Investrade Morning Preview",
+          "sourceUrl": "https://investrade.com/morning-preview-october-22-2026/"
+        },
+        {
+          "time": "10:00 AM ET",
+          "text": "Leading Index, September (estimate -0.1% m/m).",
+          "sourceName": "Investrade Morning Preview",
+          "sourceUrl": "https://investrade.com/morning-preview-october-22-2026/"
+        },
+        {
+          "time": "11:00 AM ET",
+          "text": "Kansas City Fed Manufacturing Survey, October (prior 20).",
+          "sourceName": "Investrade Morning Preview",
+          "sourceUrl": "https://investrade.com/morning-preview-october-22-2026/"
+        },
+        {
+          "time": "Before the open",
+          "text": "Earnings include Procter & Gamble, Honeywell, Union Pacific, Comcast, Blackstone and Lockheed Martin per the calendar. None of your holdings report today; report times and consensus were not given in the source.",
+          "sourceName": "Investrade Morning Preview",
+          "sourceUrl": "https://investrade.com/morning-preview-october-22-2026/"
         },
         {
           "time": "After the close",
-          "text": "Meta Q3 results (call 4:30 PM ET).",
-          "sourceName": "Investing Cube",
-          "sourceUrl": "https://www.investingcube.com/shares/nasdaq-futures-jump-over-1-as-ai-stocks-rebound-ahead-of-tesla-and-meta-earnings/"
+          "text": "Western Digital (memory/AI storage read-through) and Newmont report; no consensus given in the source.",
+          "sourceName": "Investrade Morning Preview",
+          "sourceUrl": "https://investrade.com/morning-preview-october-22-2026/"
         }
       ]
     },
     "tickers": [
-      { "ticker": "BABA", "name": "Alibaba Group Holding Ltd", "status": "clean", "close": "$108.61", "changePct": 0.04, "items": [], "cleanNote": "No qualifying item in this window." },
-      { "ticker": "CRCL", "name": "Circle Internet Group, Inc.", "status": "clean", "close": "$85.87", "changePct": 5.53, "items": [], "cleanNote": "No qualifying item in this window." },
-      { "ticker": "ETHA", "name": "iShares Ethereum Trust ETF", "status": "clean", "close": "$55.07", "changePct": 1.77, "items": [], "cleanNote": "No qualifying item in this window." },
-      { "ticker": "FUTU", "name": "Futu Holdings Ltd", "status": "clean", "close": "$105.51", "changePct": 0.01, "items": [], "cleanNote": "No qualifying item in this window." },
-      { "ticker": "NVDA", "name": "NVIDIA Corp", "status": "clean", "close": "$216.47", "changePct": -0.29, "items": [], "cleanNote": "No qualifying item in this window." },
-      { "ticker": "TIGR", "name": "UP Fintech Holding Ltd", "status": "clean", "close": "$4.10", "changePct": 0.99, "items": [], "cleanNote": "No qualifying item in this window." },
       {
-        "ticker": "TSLA", "name": "Tesla, Inc.", "status": "updated",
-        "close": "$373.71", "changePct": 1.54,
-        "premarket": { "price": "$379.19", "changePct": 1.47, "asOf": "~8:34 AM ET" },
+        "ticker": "BABA",
+        "name": "Alibaba Group Holding Ltd",
+        "status": "updated",
         "items": [
           {
             "type": "news",
-            "headline": "Tesla and SpaceX form special committees to study a merger",
-            "summary": "Musk said committees of independent directors at both companies will study a combination (about $3.6T combined value at current valuations). He is excluded from direct negotiations as a conflicted party and said there is no guarantee terms will be reached. US approval would need a majority of all Tesla shares.",
-            "sourceName": "TipRanks",
-            "sourceUrl": "https://www.tipranks.com/news/tesla-stock-ticks-up-to-379-19-ahead-of-earnings-as-elon-musk-pursues-a-3-6-trillion-merger-with-spacex",
-            "pubTime": "Oct 21, 2026, updated 8:34 AM ET"
+            "headline": "China market regulator pushes e-commerce platforms on product quality; Alibaba shares drop",
+            "summary": "China's State Administration for Market Regulation called for enhanced product quality and safety standards on e-commerce platforms, flagging livestreaming sales and quick retail, both growth areas for Alibaba. Shares fell as much as 6.3%, the steepest drop in two months. Renewed regulatory scrutiny can raise compliance costs and weigh on the multiple.",
+            "sourceName": "GuruFocus",
+            "sourceUrl": "https://www.gurufocus.com/news/9135970/alibaba-baba-shares-drop-63-amid-chinas-ecommerce-quality-crackdown",
+            "pubTime": "Oct 22, 2026, 1:55 (GuruFocus timestamp, zone not stated)"
+          },
+          {
+            "type": "industry",
+            "headline": "Hang Seng tumbles about 500 points as Alibaba sinks below HK$100",
+            "summary": "Hong Kong opened lower and the Hang Seng fell roughly 500 to 600 points, with Alibaba down more than 5% to an intraday low near HK$98.80. This is the local-listing move that BABA's US shares are likely to follow at the open. The source gives no reason for the drop; the regulatory item above is a likely driver but is not confirmed by this article.",
+            "sourceName": "Dim Sum Daily",
+            "sourceUrl": "https://www.dimsumdaily.hk/hang-seng-tumbles-500-points-as-alibaba-sinks-below-hk100-and-lenovo-drops-over-5/",
+            "pubTime": "Oct 22, 2026, 10:49 AM HKT (about 10:49 PM ET Oct 21)"
           }
         ]
       },
-      { "ticker": "GOOG", "name": "Alphabet Inc.", "status": "clean", "close": "$336.40", "changePct": -1.11, "items": [], "cleanNote": "No qualifying item in this window." },
-      { "ticker": "AVGO", "name": "Broadcom Inc.", "status": "clean", "close": "$334.37", "changePct": -0.07, "items": [], "cleanNote": "No qualifying item in this window." }
+      {
+        "ticker": "CRCL",
+        "name": "Circle Internet Group, Inc.",
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No qualifying item in this window. (The OCC's final GENIUS Act stablecoin rules and the CRCL rally to about $90.65 came midday Oct 21, before the 4:00 PM ET window start.)"
+      },
+      {
+        "ticker": "ETHA",
+        "name": "iShares Ethereum Trust ETF",
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Ether ETFs snap five-day outflow streak with about $14.9M of inflows",
+            "summary": "US spot ether ETFs took in about $14.9M net on Wednesday (Grayscale +$28.1M, Fidelity FETH +$13M), ending five straight sessions of outflows. The inflow is small and ETHA's own flow was not given, but ETF flows are a direct driver of ETHA's holdings and price sentiment. Spot bitcoin ETFs took in about $528M.",
+            "sourceName": "The Block",
+            "sourceUrl": "https://www.theblock.co/news/markets/2026-10-22-bitcoin-etfs-draw-528-million-as-ether-funds-snap-five-day-outflow-streak-421904",
+            "pubTime": "Oct 22, 2026, 5:55 AM ET"
+          }
+        ]
+      },
+      {
+        "ticker": "FUTU",
+        "name": "Futu Holdings Ltd",
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No qualifying item in this window."
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corp",
+        "status": "updated",
+        "items": [
+          {
+            "type": "industry",
+            "headline": "Chip stocks slide premarket on AI-spending-return worries; Lam Research down 7%+",
+            "summary": "Premarket, Lam Research fell more than 7% despite record revenue, and Intel, Marvell and AMD each fell over 4%. Investors are asking for proof AI spending turns into earnings, after Meta raised the low end of its 2026 capex range to $135B (from $130B) and Tesla cut its capex. Nvidia is not named individually, but a sector-wide risk-off tone can pressure NVDA at the open; higher hyperscaler capex is the demand side that supports it.",
+            "sourceName": "Stocktwits",
+            "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-slide-premarket-as-ai-spending-worries-resurface-oil-tops-112-on-iran-tensions-supply-concerns/cZxw43bRBwp",
+            "pubTime": "Oct 22, 2026, 7:16 AM EDT"
+          }
+        ]
+      },
+      {
+        "ticker": "TIGR",
+        "name": "UP Fintech Holding Ltd",
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No qualifying item in this window."
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Tesla cuts 2026 capex to about $20B; shares reverse lower after hours",
+            "summary": "Q3 revenue was $28.05B (roughly in line) and adjusted EPS $0.48 vs $0.45 expected, but Tesla cut full-year capex to about $20B from more than $25B. Shares turned lower after hours (down more than 2% as of 6:09 PM ET) and were reported down nearly 5% premarket, as investors questioned the pace of AI/robotics spending. Sources differ on the revenue consensus ($27.9B to $28.3B), so the revenue result is best read as in line.",
+            "sourceName": "Seoul Economic Daily",
+            "sourceUrl": "https://en.sedaily.com/international/2026/10/22/tesla-cuts-annual-capex-target-to-20-billion-from-25-billion",
+            "pubTime": "Oct 21, 2026, ~6:20 PM ET (07:20 KST Oct 22)"
+          },
+          {
+            "type": "news",
+            "headline": "Tesla call: Optimus ramp 'a year or longer', Cybercab targeted by end of 2026, no SpaceX merger comment",
+            "summary": "Musk said early Optimus production has started at Fremont but reaching 20,000 units a week will take at least a year, and the hand is the hardest part. Cybercab customer availability is targeted by end of 2026. Management declined questions on the proposed SpaceX merger, and the quarter carried a $142M mark-to-market loss on SpaceX holdings. Long-dated timelines and merger uncertainty can weigh on the stock's growth premium. This source is AI-assisted, so verify key figures against Tesla filings.",
+            "sourceName": "Investing.com",
+            "sourceUrl": "https://www.investing.com/news/transcripts/earnings-call-transcript-tesla-beats-q3-2026-estimates-as-stock-slips-after-hours-93CH-4964365",
+            "pubTime": "Oct 21, 2026, 6:39 PM (time zone not stated)"
+          }
+        ]
+      },
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet Inc.",
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No qualifying item in this window."
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "status": "updated",
+        "items": [
+          {
+            "type": "industry",
+            "headline": "Semiconductors weak premarket as AI-capex return questions resurface",
+            "summary": "Lam Research fell more than 7% premarket and Intel, Marvell and AMD each dropped over 4%. Meta lifted the low end of its 2026 capex forecast to $135B (range $135B to $145B), which supports demand for custom AI silicon, but the market is reacting to AI-return scrutiny rather than the spending itself. Broadcom is not named in the article, so any read-through is indirect.",
+            "sourceName": "Stocktwits",
+            "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-slide-premarket-as-ai-spending-worries-resurface-oil-tops-112-on-iran-tensions-supply-concerns/cZxw43bRBwp",
+            "pubTime": "Oct 22, 2026, 7:16 AM EDT"
+          }
+        ]
+      }
     ]
   }
 }
