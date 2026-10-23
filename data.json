@@ -2,87 +2,76 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "October 22, 2026",
-    "periodStart": "Wed, Oct 21, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Thu, Oct 22, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Thu, Oct 22, 2026, 5:04 PM ET",
+    "reportDate": "October 23, 2026",
+    "periodStart": "Thu, Oct 22, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Fri, Oct 23, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Fri, Oct 23, 2026, 4:53 PM ET",
     "timezoneNote": "All times below are shown in ET (America/New_York).",
     "revisions": [],
     "market": {
       "indices": [
         {
           "name": "S&P 500",
-          "value": "7,663.45",
-          "changePct": -1.21
+          "value": "7,623.68",
+          "changePct": -0.52
         },
         {
           "name": "Nasdaq Composite",
-          "value": "26,008.86",
-          "changePct": -2.6
+          "value": "25,955.34",
+          "changePct": -0.21
         },
         {
           "name": "Dow Jones",
-          "value": "52,867.98",
-          "changePct": 0.02
+          "value": "52,215.16",
+          "changePct": -1.23
         },
         {
           "name": "10Y Treasury yield",
-          "value": "4.95%",
+          "value": "4.99%",
           "changePct": null,
-          "changeText": "about -19 bp (Yahoo ticker)"
+          "changeText": "about +3.5 bp (Yahoo; Kiplinger shows 5.001%, +4.8 bp)"
         }
       ],
       "driver": {
-        "text": "Tech sold off on renewed AI-spending-return worries after Tesla and Meta earnings (Meta -8%, its largest drop since July; Lam Research -10% despite record results). Oil jumped (Brent ~$112-113, WTI ~$100) on Iran and Saudi tensions, and Treasury yields fell as investors bought bonds. The Philadelphia Semiconductor Index was down over 6% intraday (no closing level retrieved).",
-        "sourceName": "Yahoo Finance live blog / BNN Bloomberg",
-        "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
-        "pubTime": "Oct 22, 2026"
+        "text": "Stocks fell on U.S.-Iran tension and a jump in oil (WTI ~$103.3, +3.9%; Brent settled at $116.72, a six-month high), on top of the AI/tech selloff carried over from Thursday. Airlines dropped over 4% on fuel costs; American Express fell ~3% on a ~5% workforce cut; cybersecurity names (Palo Alto, Cloudflare) rallied. Fed expected to hold at its Oct 27-28 meeting. SOX closing level not retrieved.",
+        "sourceName": "Yahoo Finance live blog",
+        "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",
+        "pubTime": "Oct 23, 2026, 4:42 PM ET"
       },
       "dataRelease": {
-        "name": "Initial jobless claims",
-        "actual": "194K (lowest in three months)",
-        "expected": "consensus not verified this run"
+        "name": "No major economic release reported for the day",
+        "actual": "n/a",
+        "expected": "n/a"
       },
-      "cryptoTime": "No verified 4:00 PM ET crypto prices. Bitcoin shown is a midday snapshot (~12:35 PM ET, Yahoo ticker); no timed ether price was retrieved.",
+      "cryptoTime": "No verified 4:00 PM ET crypto prices. Bitcoin is Yahoo's quote on its post-close (4:42 PM ET) update; ether is a 7:13 AM ET CoinDesk snapshot.",
       "crypto": [
         {
-          "name": "Bitcoin (BTC) - midday snapshot",
-          "price": "$81,371.85",
-          "changePct": -3.83
+          "name": "Bitcoin (BTC)",
+          "price": "$81,388.49",
+          "changePct": 0.28
+        },
+        {
+          "name": "Ether (ETH) - morning snapshot",
+          "price": "$2,394.03",
+          "changePct": -0.19
         }
       ],
       "cryptoDriver": {
-        "text": "Bitcoin rose to nearly $85,000 late Wednesday, then fell back below $82,000 as weak tech earnings soured risk appetite (about $431M of liquidations over 24 hours per CoinGlass). Ether was down roughly 2% in the morning, and ETHA closed -4.52%.",
-        "sourceName": "CoinDesk live updates",
-        "sourceUrl": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-        "pubTime": "Oct 22, 2026, 5:54 AM ET"
+        "text": "Bitcoin held near $81,000-82,000 in a quiet range after a week of ~$3,000 swings; oil and the Oct 27-28 Fed meeting are the main worries. U.S. spot bitcoin ETFs had $635.6M net outflows on Oct 22, led by BlackRock's IBIT ($254.1M).",
+        "sourceName": "CoinDesk / Crypto Times",
+        "sourceUrl": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+        "pubTime": "Oct 23, 2026, 7:13 AM ET"
       }
     },
     "tickers": [
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "updated",
+        "status": "clean",
         "close": null,
         "changePct": null,
-        "items": [
-          {
-            "type": "news",
-            "headline": "China market regulator urges 9 e-commerce platforms to tighten quality controls; Alibaba's Hong Kong shares close down 6.2%",
-            "summary": "SAMR's Oct 21 notice (counterfeits, mismatched descriptions, false advertising) hit Alibaba's HK shares, which closed at HK$97.30 (-6.17%), the steepest drop in about two months. The US ADR closed Oct 21 at $104.41 (-3.87%) and traded near $99.60 premarket Oct 22; its Oct 22 close was not verified. Regulatory scrutiny can raise compliance costs and pressure the multiple.",
-            "sourceName": "TokenPost",
-            "sourceUrl": "https://www.tokenpost.com/news/regulation/38094",
-            "pubTime": "Oct 22, 2026, 12:40 PM ET"
-          },
-          {
-            "type": "industry",
-            "headline": "Alibaba leads Hong Kong tech slide on China regulatory move",
-            "summary": "Hang Seng fell as much as 3% and Hang Seng Tech as much as 4.7%. Analysts also pointed to the end of a 90-day grace period for offshore trust taxes, linked to recent stake sales by major shareholders.",
-            "sourceName": "Bloomberg via Yahoo Finance",
-            "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/alibaba-shares-post-steepest-drop-043240480.html",
-            "pubTime": "Oct 22, 2026, 5:35 AM ET"
-          }
-        ]
+        "items": [],
+        "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
       },
       {
         "ticker": "CRCL",
@@ -91,22 +80,22 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item in this window. Closing price not verified this run."
+        "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
       },
       {
         "ticker": "ETHA",
         "name": "iShares Ethereum Trust ETF",
         "status": "updated",
-        "close": "$53.88",
-        "changePct": -4.52,
+        "close": null,
+        "changePct": null,
         "items": [
           {
             "type": "news",
-            "headline": "Bitcoin round-trips to $85,000 then slides; ether down about 2% as tech earnings sour risk appetite",
-            "summary": "ETHA tracks ether directly; crypto fell with equities on the AI-spending selloff and rising liquidations (~$431M over 24 hours). ETHA closed -4.52% per MarketBeat's quote.",
-            "sourceName": "CoinDesk",
-            "sourceUrl": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-            "pubTime": "Oct 22, 2026, 5:54 AM ET"
+            "headline": "Crypto steady near $81K bitcoin / ~$2,400 ether; spot bitcoin ETFs saw $635M outflows Thursday",
+            "summary": "ETHA tracks ether, which was roughly flat to down 1% (about $2,394-2,402) in a quiet session. ETF outflows and Iran/oil headlines are the main sentiment drivers ahead of the Fed. ETHA's close was not verified.",
+            "sourceName": "Crypto Times",
+            "sourceUrl": "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/",
+            "pubTime": "Oct 23, 2026, 3:07 AM ET"
           }
         ]
       },
@@ -117,30 +106,22 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item in this window. Closing price not verified this run."
+        "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corp",
         "status": "updated",
-        "close": "$212.21",
-        "changePct": -4.4,
+        "close": null,
+        "changePct": null,
         "items": [
           {
             "type": "industry",
-            "headline": "Nvidia falls over 4% as chip stocks slide on AI financing worries",
-            "summary": "SOX down over 6% intraday. Concerns include the cost of funding AI buildouts, circular-financing worries (reported ~$2.8B Nvidia/Tesla investment in Samsung Electro-Mechanics) and higher oil. Jensen Huang said neocloud demand is very strong but capital availability is the constraint.",
-            "sourceName": "Invezz",
-            "sourceUrl": "https://invezz.com/news/2026/10/22/why-nvidia-stock-is-down-over-4-on-thursday/",
-            "pubTime": "Oct 22, 2026, 1:13 PM ET"
-          },
-          {
-            "type": "industry",
-            "headline": "Steep bill for AI buildout punishes Meta and other tech favourites",
-            "summary": "Meta -8% on negative free cash flow and a new non-voting share class; Lam Research -10% as supply constraints limited guidance; neocloud names CoreWeave and Nebius fell. Questions on AI ROI weigh on Nvidia's demand outlook.",
-            "sourceName": "BNN Bloomberg",
-            "sourceUrl": "https://www.bnnbloomberg.ca/investing/2026/10/22/steep-bill-for-ai-buildout-punishes-meta-other-tech-favourites/",
-            "pubTime": "Oct 22, 2026, 2:44 PM ET"
+            "headline": "Selling broadens beyond AI trade; Nvidia and AMD close mixed as financing worries hit neocloud stocks",
+            "summary": "After Thursday's steep chip selloff, concerns about rising financing costs and slower AI capex weighed on neocloud names such as CoreWeave, a key Nvidia customer group. Nvidia closed mixed and kept its lead in market value over Apple. Nvidia's exact close was not verified.",
+            "sourceName": "Yahoo Finance live blog",
+            "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",
+            "pubTime": "Oct 23, 2026, 4:42 PM ET"
           }
         ]
       },
@@ -151,58 +132,42 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item in this window. Closing price not verified this run."
+        "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
       },
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
-        "status": "updated",
-        "close": "$374.58",
-        "changePct": -3.08,
-        "items": [
-          {
-            "type": "news",
-            "headline": "Tesla slips after Q3 results on profit concerns",
-            "summary": "Shares closed at $374.58 (-3.08%) after the Q3 report; investors weighed profit concerns and the capex cut against the AI/robotics buildout, amid a broader tech selloff.",
-            "sourceName": "Motley Fool (midday market update)",
-            "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/10/22/stock-market-midday-oct-22-tech-weakness-drags-nasdaq-lower-as-ai-spending-concerns-mount/",
-            "pubTime": "Oct 22, 2026, 12:27 PM ET"
-          }
-        ]
+        "status": "clean",
+        "close": "$372.22",
+        "changePct": -0.63,
+        "items": [],
+        "cleanNote": "No qualifying stock-specific item retrieved in this window."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc.",
         "status": "updated",
-        "close": "$320.76",
-        "changePct": -3.1,
+        "close": null,
+        "changePct": null,
         "items": [
           {
-            "type": "industry",
-            "headline": "Tech selloff on AI-return doubts drags megacaps",
-            "summary": "Alphabet is not named in the article. Sector-wide pressure came from AI-ROI doubts after Meta's results and rising oil. Alphabet reports earnings next week.",
-            "sourceName": "Motley Fool (midday market update)",
-            "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/10/22/stock-market-midday-oct-22-tech-weakness-drags-nasdaq-lower-as-ai-spending-concerns-mount/",
-            "pubTime": "Oct 22, 2026, 12:27 PM ET"
+            "type": "news",
+            "headline": "Alphabet (GOOGL) down 1.2% ahead of earnings next week",
+            "summary": "Shares fell with the broader market as oil and Iran tension weighed; the company reports next week, so guidance on AI capex and cloud will be the next big price driver. GOOG's own close was not verified.",
+            "sourceName": "Kiplinger",
+            "sourceUrl": "https://www.kiplinger.com/investing/stocks/dow-drops-652-points-as-oil-treasury-yields-rise-stock-market-today",
+            "pubTime": "Oct 23, 2026"
           }
         ]
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
-        "status": "updated",
-        "close": "$323.24",
-        "changePct": -4.31,
-        "items": [
-          {
-            "type": "industry",
-            "headline": "AI chip stocks Nvidia, Broadcom and Micron resume slide",
-            "summary": "Broadcom was down about 3% premarket on AI-spending worries, its exposure to large infrastructure projects, and higher oil. It closed -4.31% at $323.24 per StockAnalysis.",
-            "sourceName": "TipRanks",
-            "sourceUrl": "https://www.tipranks.com/news/ai-chip-stocks-nvidia-broadcom-and-micron-resume-their-slide-what-wall-street-sees-next",
-            "pubTime": "Oct 22, 2026, 9:09 AM ET"
-          }
-        ]
+        "status": "clean",
+        "close": null,
+        "changePct": null,
+        "items": [],
+        "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
       }
     ]
   },
