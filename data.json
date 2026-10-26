@@ -174,87 +174,82 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "October 23, 2026",
-    "periodStart": "Thu, Oct 22, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Fri, Oct 23, 2026, 7:45 AM ET",
-    "lastUpdated": "Fri, Oct 23, 2026, 7:55 AM ET",
-    "timezoneNote": "All times below are shown in ET (America/New_York). Index levels labelled 'close' are Oct 22 regular-session closes; futures are 6:00 AM ET moves (levels not retrieved); crypto are early-morning snapshots. Ticker-level items without a stated time zone are flagged.",
+    "reportDate": "October 26, 2026",
+    "periodStart": "Fri, Oct 23, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Mon, Oct 26, 2026, 7:50 AM ET",
+    "lastUpdated": "Mon, Oct 26, 2026, 7:55 AM ET",
+    "timezoneNote": "All times below are shown in ET (America/New_York). Index levels labelled 'close' are Oct 23 regular-session closes (from Friday's recap); futures levels are from a Yahoo Finance snapshot at roughly 6:40 AM ET; crypto are early-morning snapshots. Items without a stated time are flagged. SOX close was not retrieved and is omitted.",
     "revisions": [],
     "market": {
       "indices": [
         {
-          "name": "S&P 500 (Oct 22 close)",
-          "value": "7,663.43",
-          "changePct": -1.21
+          "name": "S&P 500 (Oct 23 close)",
+          "value": "7,623.68",
+          "changePct": -0.52
         },
         {
-          "name": "Nasdaq Composite (Oct 22 close)",
-          "value": "26,008.86",
-          "changePct": -2.6
+          "name": "Nasdaq Composite (Oct 23 close)",
+          "value": "25,955.34",
+          "changePct": -0.21
         },
         {
-          "name": "Philadelphia Semiconductor Index, SOX (Oct 22 close)",
-          "value": "10,731.98",
-          "changePct": -6.72
-        },
-        {
-          "name": "US 10-year Treasury yield (Oct 22 close)",
-          "value": "4.96%",
+          "name": "US 10-year Treasury yield (~5:46 AM ET)",
+          "value": "4.99%",
           "changePct": null
         },
         {
-          "name": "S&P 500 futures (6:00 AM ET)",
-          "value": "level not retrieved",
-          "changePct": -0.23
+          "name": "S&P 500 futures (~6:40 AM ET)",
+          "value": "7,672.75",
+          "changePct": 0.17
         },
         {
-          "name": "Nasdaq-100 futures (6:00 AM ET)",
-          "value": "level not retrieved",
-          "changePct": -0.04
+          "name": "Nasdaq futures (~6:40 AM ET)",
+          "value": "29,141.25",
+          "changePct": 0.08
         },
         {
-          "name": "Dow futures (6:00 AM ET)",
-          "value": "level not retrieved",
-          "changePct": -0.6
+          "name": "Dow futures (~6:40 AM ET)",
+          "value": "52,577.00",
+          "changePct": 0.35
         }
       ],
       "driver": {
-        "text": "US futures are slightly lower after Thursday's AI-funding rout (SOX -6.7%, Nasdaq -2.6%, with all 30 SOX members down). Nvidia CEO Jensen Huang said there is 'a scarcity of capital' for AI infrastructure and neoclouds lack working capital, which is weighing on chips; Nvidia is up about 0.4% premarket after closing -4.4%. Oil is firm (Brent about $114, WTI above $101) on reports the US and Israel may consider new strikes on Iran after the November midterms. The 10Y yield fell 17 bp to 4.96% on Thursday (largest one-day drop since March 2023); a 4.98% reading was quoted at 6:19 AM ET.",
-        "sourceName": "Stocktwits (futures, Nvidia, oil) and Closing Look (index closes, SOX, yields)",
-        "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-s-and-p-500-futures-drop-premarket-nvda-amd-meta-crwv-mrna-wdc-be-in-focus/cZxyfNARBxI",
-        "pubTime": "Oct 23, 2026, 6:13 AM ET"
+        "text": "US futures are modestly higher after Friday's selloff (Dow down 600+ points) as President Trump ruled out an immediate US attack on Iran and oil eased (WTI about $101.3, Brent about $110.1, both down ~1.4-1.9%). Investors are bracing for a heavy earnings week and the Fed decision Wednesday at 2 p.m. ET (CME FedWatch ~90.6% odds of no change; a 'hawkish pause' is possible after hotter inflation data). AI stocks have struggled to rebound after last week's selloff. Itau Unibanco is down ~28% premarket after Lula won Brazil's election.",
+        "sourceName": "Benzinga; Yahoo Finance live blog",
+        "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62583105/stock-market-today-dow-jones-sp-500-futures-rise-after-trump-rules-out-iran-strike-itub-non-cls-in-focus",
+        "pubTime": "Oct 26, 2026, 5:46 AM ET (Benzinga); Yahoo live blog ~6:40 AM ET"
       },
-      "cryptoTime": "CoinGecko snapshot via CryptoTimes at about 3:30 AM ET (07:30 UTC); 24h changes. The Block put BTC near $81,500 (-3.4% over the past day) at 7:39 AM ET, so the 24h change varies by source and window.",
+      "cryptoTime": "Bitcoin: Yahoo Finance quote at ~6:40 AM ET (Benzinga showed ~$80,406 at 5:46 AM ET). Ether: Crypto Times snapshot at 3:20 AM ET.",
       "crypto": [
         {
           "name": "Bitcoin (BTC)",
-          "price": "$81,642",
-          "changePct": -0.7
+          "price": "$80,330",
+          "changePct": 0.19
         },
         {
           "name": "Ethereum (ETH)",
-          "price": "$2,402",
+          "price": "~$2,320",
           "changePct": -1.0
         }
       ],
       "calendar": [
         {
-          "time": "By 9:45 AM ET",
-          "text": "S&P Global flash US manufacturing and services PMI (no consensus given in the source).",
-          "sourceName": "Benzinga",
-          "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62553473/stock-market-today-sp-500-nasdaq-100-futures-mixed-ahead-of-global-pmi-data-western-digital-newmont-crown-castle-in-focus"
-        },
-        {
-          "time": "10:00 AM ET",
-          "text": "University of Michigan final consumer sentiment survey (no consensus given in the source).",
-          "sourceName": "Benzinga",
-          "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62553473/stock-market-today-sp-500-nasdaq-100-futures-mixed-ahead-of-global-pmi-data-western-digital-newmont-crown-castle-in-focus"
+          "time": "Today (times not stated)",
+          "text": "Chicago Fed National Activity Index, September (-0.1 expected, -0.04 prior); Dallas Fed manufacturing index, October (9.8 prior). Benzinga says no major US economic events are scheduled.",
+          "sourceName": "Yahoo Finance live blog; Benzinga",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html"
         },
         {
           "time": "Earnings",
-          "text": "Western Digital (fiscal Q1 EPS $4.64 vs $4.07 est.), Newmont (EPS $2.20 vs $2.11), Bloom Energy and Omnicom reported; Western Digital fell about 6.7% after hours despite above-estimate guidance (memory/AI storage read-through). None of your holdings report today. Alphabet reports Oct 28.",
-          "sourceName": "Benzinga; Closing Look; The Motley Fool",
-          "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62553473/stock-market-today-sp-500-nasdaq-100-futures-mixed-ahead-of-global-pmi-data-western-digital-newmont-crown-castle-in-focus"
+          "text": "Verizon, Nucor, Public Storage and Amkor are listed for today; after the close: Celestica (EPS est. $2.99), Cadence Design (EPS est. $2.05) and Welltower (EPS est. $0.90). None of your holdings report today.",
+          "sourceName": "Yahoo Finance live blog; Benzinga",
+          "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62583105/stock-market-today-dow-jones-sp-500-futures-rise-after-trump-rules-out-iran-strike-itub-non-cls-in-focus"
+        },
+        {
+          "time": "This week",
+          "text": "Tue: durable goods, Case-Shiller, new home sales, FOMC meeting begins. Wed: Fed decision 2:00 PM ET; Alphabet (GOOG) and Microsoft report. Coinbase reports Oct 29 after the close (read-through for CRCL).",
+          "sourceName": "Benzinga; Yahoo Finance live blog; 24/7 Wall St.",
+          "sourceUrl": "https://247wallst.com/investing/2026/10/25/coinbase-q3-earnings-preview-can-cryptos-rebound-save-coin-from-a-fourth-consecutive-miss-oct-29/"
         }
       ]
     },
@@ -262,17 +257,9 @@
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "updated",
-        "items": [
-          {
-            "type": "industry",
-            "headline": "Hang Seng closes up 0.69% at 23,093; Alibaba +0.46% in Hong Kong after regulator-driven slide",
-            "summary": "Hong Kong rebounded Friday after Thursday's 2.9% drop, when Alibaba fell 5.9% on China's market regulator meeting on e-commerce quality. Alibaba's local shares edged up while the tech gauge gained 2.05%. The source gives no catalyst and no article timestamp (inferred Friday HK session), so treat as context for BABA's US open.",
-            "sourceName": "The Standard (HK)",
-            "sourceUrl": "https://www.thestandard.com.hk/finance/article/346332/Hong-Kong-shares-close-higher-Minimax-advance-16-percent",
-            "pubTime": "Oct 23, 2026, HK afternoon (timestamp not stated)"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No new Alibaba-specific or China-tech item retrieved for this window (searches returned only older items, including the earlier regulator-driven slide)."
       },
       {
         "ticker": "CRCL",
@@ -281,11 +268,11 @@
         "items": [
           {
             "type": "industry",
-            "headline": "Crypto-linked stocks sold off Thursday; bitcoin ETFs see largest outflow since June",
-            "summary": "Circle fell 3.4% Thursday alongside Coinbase (-4.5%), Strategy (-5.0%) and Galaxy (-9.7%) as bitcoin fell about 4% to near $81K. Bitcoin ETF outflows of $635.6M add to risk-off crypto sentiment, which tends to hit CRCL via USDC-demand and trading-activity expectations.",
-            "sourceName": "Closing Look (Capp Notes); The Block",
-            "sourceUrl": "https://cappnotes.substack.com/p/closing-look-thursday-october-22",
-            "pubTime": "Oct 22, 2026, evening (exact time not shown); The Block Oct 23, 7:39 AM ET"
+            "headline": "Coinbase CFO says Circle agreement 'will renew on the same terms'; record $20B average USDC held in Coinbase products",
+            "summary": "A Coinbase Q3 preview notes the USDC revenue-share agreement with Circle is expected to renew unchanged, a modest positive for CRCL's distribution economics. Bitcoin slipping to ~$80K and softer crypto trading volume are sentiment risks; Coinbase reports Oct 29 after the close, a read-through for stablecoin and crypto activity.",
+            "sourceName": "24/7 Wall St.",
+            "sourceUrl": "https://247wallst.com/investing/2026/10/25/coinbase-q3-earnings-preview-can-cryptos-rebound-save-coin-from-a-fourth-consecutive-miss-oct-29/",
+            "pubTime": "Oct 25, 2026, 11:10 AM ET"
           }
         ]
       },
@@ -296,11 +283,11 @@
         "items": [
           {
             "type": "news",
-            "headline": "US ether ETFs lose $110.6M Thursday as bitcoin ETFs post $635.6M outflow, largest since June",
-            "summary": "Net ether ETF outflows return a day after a small inflow ended a five-day outflow streak. ETHA's own flow was not given. ETF flows directly affect ETHA's holdings and sentiment; ETH was about $2,402 (-1.0% over 24 hours).",
-            "sourceName": "The Block",
-            "sourceUrl": "https://www.theblock.co/news/markets/2026-10-23-bitcoin-etfs-swing-back-to-net-outflows-erase-previous-day-inflows-426483",
-            "pubTime": "Oct 23, 2026, 7:39 AM ET"
+            "headline": "Ether near $2,320 as US spot ether ETFs are on pace for about $1.18B of October outflows; Glamsterdam test delayed",
+            "summary": "Per Farside Investors data cited by Crypto Times, spot ether ETFs have had net inflows on only three of 17 October sessions, and BlackRock's ETHA accounts for most of the selling. Separately, core developers postponed the Glamsterdam upgrade on the Hoodi testnet (set for Oct 26) to study EIP-8037; no mainnet date is set. Continued outflows and a delayed upgrade weigh on ETH sentiment ahead of Wednesday's Fed decision.",
+            "sourceName": "Crypto Times",
+            "sourceUrl": "https://www.cryptotimes.io/2026/10/26/ethereum-price-today-eth-clings-to-2320-as-44m-longs-wiped-glamsterdam-stalls-before-fed/",
+            "pubTime": "Oct 26, 2026, 3:20 AM ET"
           }
         ]
       },
@@ -309,7 +296,7 @@
         "name": "Futu Holdings Ltd",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item in this window. (Search found only background on China's earlier cross-border brokerage crackdown, not new news.)"
+        "cleanNote": "No qualifying item in this window. (Search found only background on China's May cross-border brokerage crackdown, not new news.)"
       },
       {
         "ticker": "NVDA",
@@ -318,19 +305,19 @@
         "items": [
           {
             "type": "news",
-            "headline": "Nvidia closed -4.4% after Huang says AI infrastructure faces 'a scarcity of capital'; shares +0.4% premarket",
-            "summary": "Jensen Huang told CNBC neoclouds lack the working capital to fund growth even though demand is strong. Investors read it as a funding limit on Nvidia's customers, a direct risk to GPU orders. CoreWeave hit a 17-month low and AMD fell more than 8% Thursday; Nvidia is slightly higher premarket.",
-            "sourceName": "Stocktwits",
-            "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-s-and-p-500-futures-drop-premarket-nvda-amd-meta-crwv-mrna-wdc-be-in-focus/cZxyfNARBxI",
-            "pubTime": "Oct 23, 2026, 6:13 AM ET"
+            "headline": "AI bear slams Nvidia's GPU pitch: 'There's not scarcity other than that which is created by Jensen Huang'",
+            "summary": "A weekend Yahoo Finance piece pushes back on Jensen Huang's claim of an AI capital/GPU scarcity. It extends last week's debate over AI-infrastructure financing that drove the chip selloff; skepticism about neocloud demand and funding is a risk to Nvidia's customer base. Full article text was not retrieved, so details are limited to the headline.",
+            "sourceName": "Yahoo Finance",
+            "sourceUrl": "https://finance.yahoo.com/technology/article/ai-bear-slams-nvidias-gpu-pitch-theres-not-scarcity-other-than-that-which-is-created-by-jensen-huang-171507476.html",
+            "pubTime": "Weekend of Oct 24-26, 2026 (exact time not stated)"
           },
           {
             "type": "industry",
-            "headline": "SOX plunges 6.72% to lowest since July 29, all 30 members down",
-            "summary": "The semiconductor index's worst day in recent memory sets the tone for Nvidia today. Drivers cited: AI funding and capex-return worries and falling neocloud confidence. A rebound or further slide in chips will likely move NVDA more than company-specific news.",
-            "sourceName": "Closing Look (Capp Notes)",
-            "sourceUrl": "https://cappnotes.substack.com/p/closing-look-thursday-october-22",
-            "pubTime": "Oct 22, 2026, evening (exact time not shown)"
+            "headline": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+            "summary": "CNBC headline on Nvidia's financing support for neocloud customers as those stocks sell off. The page could not be fetched, so only the headline is verified; the date comes from the URL (Oct 24).",
+            "sourceName": "CNBC",
+            "sourceUrl": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+            "pubTime": "Oct 24, 2026 (time not stated)"
           }
         ]
       },
@@ -348,35 +335,35 @@
         "items": [
           {
             "type": "news",
-            "headline": "Tesla closes -3.1% at $374.58 after capex cut and thin margins",
-            "summary": "Q3 revenue was flat near $28.0B; adjusted EPS $0.48 beat the ~$0.45 estimate but GAAP EPS fell to $0.22 and operating margin was 2.6% vs 5.8% a year ago. Full-year 2026 capex guidance was cut to about $20B from more than $25B. Rising operating expenses until products like Optimus commercialize remain the focus.",
-            "sourceName": "HeyGoTrade",
-            "sourceUrl": "https://www.heygotrade.com/en/news/tesla-tsla-stock-news-october-23-2026/",
-            "pubTime": "Oct 23, 2026, 12:30 AM ET (04:30 UTC)"
+            "headline": "Wall Street weighs SpaceX earnings and a likely Tesla tie-up; Canaccord lifts Tesla target to $442",
+            "summary": "After SpaceX's better-than-expected quarter, strategists are treating a SpaceX-Tesla combination as likely, though no deal is announced (special committees formed; a SpaceX filing said no determination has been made). Canaccord raised its Tesla target to $442 from $410 on a merger scenario; Yorkville's Dan Ives sees an 80-90% chance of a deal by end-2027. Tesla closed Friday at $372.22 (-0.63%). Merger headlines are a swing factor for TSLA; deal terms and dilution are unknown.",
+            "sourceName": "Yahoo Finance",
+            "sourceUrl": "https://finance.yahoo.com/markets/stocks/article/the-worlds-super-company-wall-street-weighs-spacex-earnings-companys-likely-tesla-tie-up-173949705.html",
+            "pubTime": "Oct 25, 2026, 1:39 PM ET"
           }
         ]
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No Alphabet-specific item in this window. Context: chip/AI selloff Thursday; Alphabet reports earnings Oct 28 (Motley Fool, Oct 21)."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Alphabet down ~1% premarket ahead of Wednesday earnings alongside Microsoft; AI spending and backlogs in focus",
+            "summary": "GOOG was down 1.08% in Yahoo's premarket snapshot. Alphabet and Microsoft report Wednesday (Oct 28), and investors are weighing rising AI capex and cloud backlogs after last week's AI selloff; the Fed decision lands the same afternoon. A cloud-growth or capex surprise is the main catalyst for the stock this week.",
+            "sourceName": "Yahoo Finance live blog",
+            "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",
+            "pubTime": "Oct 26, 2026, ~6:40 AM ET"
+          }
+        ]
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
-        "status": "updated",
-        "items": [
-          {
-            "type": "industry",
-            "headline": "Broadcom -4.3% in chip rout despite Tigress Buy initiation with $600 target",
-            "summary": "Broadcom fell with the SOX (-6.7%) on AI-funding worries. Tigress initiated at Buy with a $600 target, a supportive analyst view, but it did not offset sector selling. Broadcom's custom-chip customers rely on the same AI financing channels now being questioned.",
-            "sourceName": "Closing Look (Capp Notes)",
-            "sourceUrl": "https://cappnotes.substack.com/p/closing-look-thursday-october-22",
-            "pubTime": "Oct 22, 2026, evening (exact time not shown)"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No Broadcom-specific item in this window. Sector backdrop: AI stocks are still struggling to rebound after last week's selloff and AI-financing worries (see NVDA)."
       }
     ]
   }
