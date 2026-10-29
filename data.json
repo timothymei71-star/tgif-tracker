@@ -145,23 +145,22 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "October 28, 2026",
-    "periodStart": "Tue, Oct 27, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Wed, Oct 28, 2026, 7:50 AM ET",
-    "lastUpdated": "Wed, Oct 28, 2026, 7:55 AM ET",
-    "timezoneNote": "All times shown in ET (America/New_York). Under the Tier 1/Tier 2 sourcing rules, this run could not retrieve the text of any Reuters, Bloomberg, WSJ or CNBC article (CNBC pages failed to load; Reuters searches were rejected), and the only company releases retrieved (Nvidia, Oct 26) pre-date the window. Index levels, the market driver and crypto prices are therefore left out rather than taken from a disallowed or unverified source.",
+    "reportDate": "October 29, 2026",
+    "periodStart": "Wed, Oct 28, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Thu, Oct 29, 2026, 7:50 AM ET",
+    "lastUpdated": "Thu, Oct 29, 2026, 7:55 AM ET",
+    "timezoneNote": "All times shown in ET (America/New_York). Under the Tier 1/Tier 2 sourcing rules, this run could not load the body of any CNBC, Reuters, Bloomberg or WSJ article, nor Alphabet's SEC exhibit 99.1 (fetches failed); only headlines returned in search results from CNBC are used, and figures beyond those headlines are left out rather than taken from a disallowed or unverified source. Index levels, crypto prices and the calendar are omitted for the same reason.",
     "revisions": [],
     "market": {
       "indices": [],
+      "driver": {
+        "text": "Per CNBC headlines: Nasdaq-100 futures fell more than 1% as Alphabet shares sold off after its earnings report, and Alphabet stock dropped 10% while Microsoft rose after earnings. Article bodies could not be retrieved, so further detail is not included.",
+        "sourceName": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+        "pubTime": "Oct 29, 2026 (pre-market; exact time not retrieved)"
+      },
       "crypto": [],
-      "calendar": [
-        {
-          "time": "Wed Oct 28, 4:30 PM ET (after the close)",
-          "text": "Alphabet (GOOG) reports Q3 2026 results; conference call at 1:30 PM PT / 4:30 PM ET. Other calendar entries (Fed decision, economic data) could not be verified from an allowed source this run and are omitted.",
-          "sourceName": "Alphabet Investor Relations (abc.xyz)",
-          "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
-        }
-      ]
+      "calendar": []
     },
     "tickers": [
       {
@@ -169,63 +168,72 @@
         "name": "Alibaba Group Holding Ltd",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       },
       {
         "ticker": "CRCL",
         "name": "Circle Internet Group, Inc.",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       },
       {
         "ticker": "ETHA",
         "name": "iShares Ethereum Trust ETF",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       },
       {
         "ticker": "FUTU",
         "name": "Futu Holdings Ltd",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corp",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window. The latest Nvidia press release found (Oct 26: expanded Meta collaboration, proposed $3B equity investment in Meta) pre-dates the window and was in the prior brief's period."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       },
       {
         "ticker": "TIGR",
         "name": "UP Fintech Holding Ltd",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       },
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window. Q3 2026 results are due after today's close (call 4:30 PM ET, per Alphabet IR)."
+        "status": "updated",
+        "items": [
+          {
+            "type": "earnings",
+            "headline": "Alphabet shares drop about 10% after Q3 earnings while Microsoft rises",
+            "summary": "Alphabet reported Q3 2026 results after the Oct 28 close. Per the CNBC headline, the stock dropped 10% in the after-hours/pre-market session while Microsoft rose after its own earnings; a separate CNBC live-blog headline says Nasdaq-100 futures fell more than 1% as Alphabet sold off. Result details (revenue, cloud, capex, cash flow) were not retrieved from Alphabet's release or an allowed article this run, so they are not stated.",
+            "sourceName": "CNBC",
+            "sourceUrl": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+            "pubTime": "Oct 29, 2026 (exact time not retrieved)"
+          }
+        ],
+        "cleanNote": "Article body and Alphabet's SEC exhibit 99.1 could not be retrieved; only headline-level facts are stated."
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "status": "clean",
         "items": [],
-        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 27 4:00 PM ET to Oct 28 window."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 28 4:00 PM ET to Oct 29 window."
       }
     ]
   }
