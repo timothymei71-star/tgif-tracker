@@ -2,40 +2,40 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "October 28, 2026",
-    "periodStart": "Tue, Oct 27, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Wed, Oct 28, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Wed, Oct 28, 2026, 5:05 PM ET",
+    "reportDate": "October 29, 2026",
+    "periodStart": "Wed, Oct 28, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Thu, Oct 29, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Thu, Oct 29, 2026, 4:55 PM ET",
     "timezoneNote": "All times below are shown in ET (America/New_York).",
     "revisions": [],
     "market": {
       "indices": [
         {
           "name": "S&P 500",
-          "value": "7,743.97",
-          "changePct": 0.28
+          "value": "7,721.02",
+          "changePct": -0.31
         },
         {
           "name": "Nasdaq Composite",
-          "value": "26,549.85",
-          "changePct": 0.27
+          "value": "26,188.08",
+          "changePct": -1.36
         },
         {
           "name": "Dow Jones",
-          "value": "52,475.10",
-          "changePct": 0.19
+          "value": "52,345.80",
+          "changePct": -0.25
         }
       ],
       "driver": {
-        "text": "Wall Street ended higher as the Fed held its key rate steady, as expected; the statement upgraded its view of the economy but said inflation remains elevated, and CME FedWatch showed an 85.0% chance of a 25 bp hike in December (78.3% a day earlier). The Philadelphia Semiconductor index rose 1.8%, its fourth straight gain, after SK Hynix reported a more than sevenfold jump in quarterly profit (Micron +5.9%). U.S. crude rose after Houthi attacks on a Saudi refinery. Vertiv +16.5% on a beat and raised guidance; Robinhood -3.3% on weaker crypto trading. After the close, Microsoft rose over 4% and Alphabet fell more than 7% in extended trading after results. Thursday brings the PCE inflation report and advance Q3 GDP. SOX closing level and 10Y yield not verified from an allowed source.",
+        "text": "Wall Street ended lower as Alphabet shares slumped after a revenue miss and accelerated AI-related cash burn in its report released late Wednesday. Semiconductor stocks snapped a four-day winning streak. A first take on third-quarter GDP showed the economy grew faster than expected (figures not given in the source). Closing levels are described as preliminary. Marvell slumped on reports of talks to buy Lumentum; Fortinet and ServiceNow each fell more than 20%. SOX closing level, 10Y yield and PCE figures not verified from an allowed source.",
         "sourceName": "Reuters (via Virginia Business)",
-        "sourceUrl": "https://virginiabusiness.com/wall-street-rises-fed-holds-rates-steady-earnings/",
-        "pubTime": "Oct 28, 2026, 4:31 PM ET"
+        "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
+        "pubTime": "Oct 29, 2026, 4:26 PM ET"
       },
       "cryptoTime": "No verified 4:00 PM ET crypto prices from an allowed source this run.",
       "crypto": [],
       "dataRelease": {
-        "name": "No data release for Oct 28 verified from an allowed source this run (PCE inflation and advance Q3 GDP are due Thursday, per Reuters).",
+        "name": "Advance Q3 GDP: grew at a faster-than-expected pace (actual and expected figures not given in the Reuters report). PCE figures not verified from an allowed source.",
         "actual": "n/a",
         "expected": "n/a"
       }
@@ -57,7 +57,7 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item from an allowed source in this window. Reuters reported Robinhood fell 3.3% on weaker crypto trading, a sector read-through; no CRCL-specific cause retrieved. Closing price not verified from an allowed source this run."
+        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "ETHA",
@@ -66,7 +66,7 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No ETHA-specific item from an allowed source. Ether price at 4:00 PM ET not verified."
+        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "FUTU",
@@ -86,11 +86,11 @@
         "items": [
           {
             "type": "industry",
-            "headline": "Chip stocks extend rally as SOX gains for a fourth session",
-            "summary": "Semiconductor index rose 1.8% (fourth straight gain) after SK Hynix reported a more than sevenfold jump in quarterly profit; Micron rose 5.9%. Per Reuters, investors were focused on whether AI spending will continue. Sector backdrop relevant to NVDA; NVDA-specific move not stated in the source.",
+            "headline": "Chip stocks snap four-day winning streak",
+            "summary": "Per Reuters, semiconductor stocks snapped a four-day winning streak on Thursday as Alphabet's AI-spending-related results weighed on the Nasdaq; Marvell slumped on reports of talks to buy Lumentum. Sector backdrop for NVDA; no NVDA-specific move stated in the source.",
             "sourceName": "Reuters (via Virginia Business)",
-            "sourceUrl": "https://virginiabusiness.com/wall-street-rises-fed-holds-rates-steady-earnings/",
-            "pubTime": "Oct 28, 2026, 4:31 PM ET"
+            "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
+            "pubTime": "Oct 29, 2026, 4:26 PM ET"
           }
         ],
         "cleanNote": "Closing price not verified from an allowed source this run."
@@ -116,11 +116,20 @@
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc.",
-        "status": "clean",
+        "status": "updated",
         "close": null,
         "changePct": null,
-        "items": [],
-        "cleanNote": "Alphabet reported Q3 results after the close; per Reuters the shares fell more than 7% in after-hours trading. This falls outside the 4:00 PM window and will be covered in the next brief; results details not verified from Alphabet's release this run. Closing price not verified from an allowed source this run."
+        "items": [
+          {
+            "type": "earnings",
+            "headline": "Alphabet shares slump after revenue miss and rising AI cash burn",
+            "summary": "Per Reuters, Alphabet shares slumped on Thursday after its third-quarter report, released late Wednesday, showed a revenue miss and accelerated AI-related cash burn; the move dragged the Nasdaq lower. Percentage move and detailed figures not stated in the retrieved source (Alphabet's own release page and SEC exhibit could not be read this run).",
+            "sourceName": "Reuters (via Virginia Business)",
+            "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
+            "pubTime": "Oct 29, 2026, 4:26 PM ET"
+          }
+        ],
+        "cleanNote": "Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "AVGO",
@@ -131,11 +140,11 @@
         "items": [
           {
             "type": "industry",
-            "headline": "Chip stocks extend rally as SOX gains for a fourth session",
-            "summary": "Semiconductor index rose 1.8% (fourth straight gain) after SK Hynix reported a more than sevenfold jump in quarterly profit; Micron rose 5.9%. Per Reuters, investors were focused on whether AI spending will continue. Sector backdrop relevant to AVGO; AVGO-specific move not stated in the source.",
+            "headline": "Chip stocks snap four-day winning streak",
+            "summary": "Per Reuters, semiconductor stocks snapped a four-day winning streak on Thursday as Alphabet's AI-spending-related results weighed on the Nasdaq; Marvell slumped on reports of talks to buy Lumentum. Sector backdrop for AVGO; no AVGO-specific move stated in the source.",
             "sourceName": "Reuters (via Virginia Business)",
-            "sourceUrl": "https://virginiabusiness.com/wall-street-rises-fed-holds-rates-steady-earnings/",
-            "pubTime": "Oct 28, 2026, 4:31 PM ET"
+            "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
+            "pubTime": "Oct 29, 2026, 4:26 PM ET"
           }
         ],
         "cleanNote": "Closing price not verified from an allowed source this run."
