@@ -83,6 +83,7 @@
   .priceblock{display:flex; align-items:baseline; gap:8px; font-family:var(--font-mono); flex-shrink:0;}
   .priceblock .px{font-size:14px; font-weight:700;}
   .priceblock .chg{font-size:12.5px;}
+  .priceblock .ptag{font-size:11px; color:var(--ink-soft);}
   .badge{font-family:var(--font-mono); font-size:10.5px; letter-spacing:.03em; text-transform:uppercase; padding:3px 8px; border-radius:20px; white-space:nowrap; flex-shrink:0;}
   .badge.updated{background:var(--blue-soft); color:var(--blue);}
   .badge.clean{background:var(--accent-soft); color:var(--accent);}
@@ -229,7 +230,7 @@ function renderMarket(report){
   if(m.driver){
     const drv = el('div','market-driver');
     let html = m.driver.text;
-    if(m.dataRelease) html += ' <span class="cpi">['+m.dataRelease.name+': '+m.dataRelease.actual+' actual vs '+m.dataRelease.expected+' expected]</span>';
+    if(m.dataRelease && m.dataRelease.name && m.dataRelease.actual) html += ' <span class="cpi">['+m.dataRelease.name+': '+m.dataRelease.actual+' actual vs '+m.dataRelease.expected+' expected]</span>';
     html += ' — <a href="'+m.driver.sourceUrl+'" target="_blank" rel="noopener">'+m.driver.sourceName+' ↗</a>';
     drv.innerHTML = html;
     sec.appendChild(drv);
@@ -241,7 +242,6 @@ function renderMarket(report){
     });
     if(m.cryptoTime) cr.insertBefore(el('span','cnote', m.cryptoTime), cr.firstChild);
     if(m.cryptoDriver) cr.appendChild(el('div','cnote', m.cryptoDriver.text+' — <a href="'+m.cryptoDriver.sourceUrl+'" target="_blank" rel="noopener">'+m.cryptoDriver.sourceName+' ↗</a>'));
-    if(m.cryptoNote) cr.appendChild(el('div','cnote', m.cryptoNote));
     sec.appendChild(cr);
   }
   if(m.calendar && m.calendar.length){
@@ -328,8 +328,19 @@ function renderBoard(report){
     summary.appendChild(idblock);
 
     const priceblock = el('div','priceblock');
-    priceblock.appendChild(el('span','px', t.close || '—'));
-    priceblock.appendChild(el('span','chg '+pctClass(t.changePct), fmtPct(t.changePct)));
+    if(t.priceMode === 'morning'){
+      if(t.premarket){
+        priceblock.appendChild(el('span','px', t.premarket.price));
+        priceblock.appendChild(el('span','chg '+pctClass(t.premarket.changePct), fmtPct(t.premarket.changePct)));
+        priceblock.appendChild(el('span','ptag', 'pre · ' + t.premarket.asOf));
+      }else{
+        priceblock.appendChild(el('span','px', t.prevClose || '—'));
+        priceblock.appendChild(el('span','ptag', 'prev close'));
+      }
+    }else{
+      priceblock.appendChild(el('span','px', t.close || '—'));
+      priceblock.appendChild(el('span','chg '+pctClass(t.changePct), fmtPct(t.changePct)));
+    }
     summary.appendChild(priceblock);
 
     const right = el('div','rightblock');
@@ -340,7 +351,11 @@ function renderBoard(report){
     card.appendChild(summary);
 
     const body = el('div','card-body');
-    if(t.premarket) body.appendChild(el('div','item-summary','<strong>Premarket:</strong> '+t.premarket.price+' <span class="chg '+pctClass(t.premarket.changePct)+'">'+fmtPct(t.premarket.changePct)+'</span> ('+t.premarket.asOf+')'));
+    if(t.priceMode === 'morning'){
+      if(t.prevClose) body.appendChild(el('div','item-summary','<strong>Previous close:</strong> '+t.prevClose));
+    }else if(t.premarket){
+      body.appendChild(el('div','item-summary','<strong>Premarket:</strong> '+t.premarket.price+' <span class="chg '+pctClass(t.premarket.changePct)+'">'+fmtPct(t.premarket.changePct)+'</span> ('+t.premarket.asOf+')'));
+    }
     if(t.items.length===0 && !t.corporateAction){
       body.appendChild(el('div','clean-note', t.cleanNote || 'No qualifying item in this window.'));
     }
@@ -360,6 +375,7 @@ function renderFooter(report){
   f.innerHTML = '';
   if(report.timezoneNote) f.appendChild(el('div','', report.timezoneNote));
   f.appendChild(el('div','', 'Every item above was opened and confirmed directly before inclusion. Source: company releases and SEC filings first, then established financial press. Opinion pieces and forums excluded.'));
+  if(report.priceInfo) f.appendChild(el('div','', 'Prices: Yahoo Finance (stocks and indices), Coinbase (BTC, ETH), US Treasury (10Y yield). Pulled ' + report.priceInfo.generatedAt + '.'));
   f.appendChild(el('div','', 'Reports are generated each trading day: Morning Brief by 8:30 AM ET, Daily Recap in the evening after the close.'));
 }
 
@@ -422,14 +438,73 @@ function syncHash(){
   try{ history.replaceState(null, '', '#' + activeDate + '/' + activeTab); }catch(e){}
 }
 
+async function loadPrices(date, mode){
+  const k = 'p-' + date + '-' + mode;
+  if(!(k in reportCache)){
+    try{
+      const r = await fetch('prices/' + date + '-' + mode + '.json', {cache:'no-cache'});
+      reportCache[k] = r.ok ? await r.json() : null;
+    }catch(e){ reportCache[k] = null; }
+  }
+  return reportCache[k];
+}
+
+function fmtUsd(n){
+  return '$' + Number(n).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+}
+function normName(s){ return String(s||'').toLowerCase().replace(/[^a-z0-9]/g,''); }
+
+// All numbers (closes, premarket, indices, 10Y, BTC/ETH) come from the price script's file.
+// The written report only supplies the news; the numbers here replace anything it contains.
+function applyPrices(report, p){
+  if(!report || !p) return report;
+  const r = JSON.parse(JSON.stringify(report));
+  r.priceInfo = {generatedAt: p.generatedAt, mode: p.mode};
+  (r.tickers||[]).forEach(t=>{
+    const q = p.tickers && p.tickers[t.ticker];
+    if(!q) return;
+    t.priceMode = p.mode;
+    if(p.mode === 'recap'){
+      t.close = fmtUsd(q.close); t.changePct = q.changePct;
+    }else{
+      t.prevClose = fmtUsd(q.prevClose);
+      if(q.premarket !== undefined && q.premarket !== null){
+        t.premarket = {price: fmtUsd(q.premarket), changePct: q.premarketChangePct, asOf: q.premarketAsOf};
+      }else{ t.premarket = null; }
+    }
+  });
+  r.market = r.market || {};
+  const m = r.market;
+  const tag = p.mode === 'morning' ? 'prev close' : null;
+  const scripted = (p.indices||[]).map(i=>({name:i.name, value:i.value, changePct:i.changePct, proxy:tag}));
+  if(p.tenYear){
+    const bp = p.tenYear.changeBp;
+    scripted.push({name:'10Y Treasury yield', value:p.tenYear.value, changePct:null,
+                   changeText:(bp>0?'+':'')+bp+' bp', proxy:tag});
+  }
+  const have = new Set(scripted.map(i=>normName(i.name)));
+  const extras = (m.indices||[]).filter(i=>{
+    const n = normName(i.name);
+    return !have.has(n) && !/^(10y|sox|sp500|nasdaqcomposite)/.test(n);
+  });
+  if(scripted.length) m.indices = scripted.concat(extras);
+  if(p.crypto && p.crypto.length){
+    m.crypto = p.crypto; m.cryptoTime = p.cryptoTime;
+  }
+  delete m.cryptoNote;
+  return r;
+}
+
 async function showDay(date, mode){
   const entry = INDEX.find(d => d.date === date) || INDEX[0];
   activeDate = entry.date;
-  const [rc, mo] = await Promise.all([
+  const [rc, mo, prc, pmo] = await Promise.all([
     entry.recap ? loadReport(activeDate, 'recap') : null,
-    entry.morning ? loadReport(activeDate, 'morning') : null
+    entry.morning ? loadReport(activeDate, 'morning') : null,
+    entry.recap ? loadPrices(activeDate, 'recap') : null,
+    entry.morning ? loadPrices(activeDate, 'morning') : null
   ]);
-  REPORTS = {recap: rc, morning: mo};
+  REPORTS = {recap: applyPrices(rc, prc), morning: applyPrices(mo, pmo)};
   activeTab = (mode && REPORTS[mode]) ? mode : (REPORTS.recap ? 'recap' : 'morning');
   syncHash();
   renderAll();
