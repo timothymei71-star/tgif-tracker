@@ -1,0 +1,143 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "October 28, 2026",
+  "periodStart": "Tue, Oct 27, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Wed, Oct 28, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Wed, Oct 28, 2026, 5:05 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York).",
+  "revisions": [],
+  "market": {
+    "indices": [
+      {
+        "name": "S&P 500",
+        "value": "7,743.97",
+        "changePct": 0.28
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "26,549.85",
+        "changePct": 0.27
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,475.10",
+        "changePct": 0.19
+      }
+    ],
+    "driver": {
+      "text": "Wall Street ended higher as the Fed held its key rate steady, as expected; the statement upgraded its view of the economy but said inflation remains elevated, and CME FedWatch showed an 85.0% chance of a 25 bp hike in December (78.3% a day earlier). The Philadelphia Semiconductor index rose 1.8%, its fourth straight gain, after SK Hynix reported a more than sevenfold jump in quarterly profit (Micron +5.9%). U.S. crude rose after Houthi attacks on a Saudi refinery. Vertiv +16.5% on a beat and raised guidance; Robinhood -3.3% on weaker crypto trading. After the close, Microsoft rose over 4% and Alphabet fell more than 7% in extended trading after results. Thursday brings the PCE inflation report and advance Q3 GDP. SOX closing level and 10Y yield not verified from an allowed source.",
+      "sourceName": "Reuters (via Virginia Business)",
+      "sourceUrl": "https://virginiabusiness.com/wall-street-rises-fed-holds-rates-steady-earnings/",
+      "pubTime": "Oct 28, 2026, 4:31 PM ET"
+    },
+    "cryptoTime": "No verified 4:00 PM ET crypto prices from an allowed source this run.",
+    "crypto": [],
+    "dataRelease": {
+      "name": "No data release for Oct 28 verified from an allowed source this run (PCE inflation and advance Q3 GDP are due Thursday, per Reuters).",
+      "actual": "n/a",
+      "expected": "n/a"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Reuters reported Robinhood fell 3.3% on weaker crypto trading, a sector read-through; no CRCL-specific cause retrieved. Closing price not verified from an allowed source this run."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No ETHA-specific item from an allowed source. Ether price at 4:00 PM ET not verified."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "industry",
+          "headline": "Chip stocks extend rally as SOX gains for a fourth session",
+          "summary": "Semiconductor index rose 1.8% (fourth straight gain) after SK Hynix reported a more than sevenfold jump in quarterly profit; Micron rose 5.9%. Per Reuters, investors were focused on whether AI spending will continue. Sector backdrop relevant to NVDA; NVDA-specific move not stated in the source.",
+          "sourceName": "Reuters (via Virginia Business)",
+          "sourceUrl": "https://virginiabusiness.com/wall-street-rises-fed-holds-rates-steady-earnings/",
+          "pubTime": "Oct 28, 2026, 4:31 PM ET"
+        }
+      ],
+      "cleanNote": "Closing price not verified from an allowed source this run."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "Alphabet reported Q3 results after the close; per Reuters the shares fell more than 7% in after-hours trading. This falls outside the 4:00 PM window and will be covered in the next brief; results details not verified from Alphabet's release this run. Closing price not verified from an allowed source this run."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "industry",
+          "headline": "Chip stocks extend rally as SOX gains for a fourth session",
+          "summary": "Semiconductor index rose 1.8% (fourth straight gain) after SK Hynix reported a more than sevenfold jump in quarterly profit; Micron rose 5.9%. Per Reuters, investors were focused on whether AI spending will continue. Sector backdrop relevant to AVGO; AVGO-specific move not stated in the source.",
+          "sourceName": "Reuters (via Virginia Business)",
+          "sourceUrl": "https://virginiabusiness.com/wall-street-rises-fed-holds-rates-steady-earnings/",
+          "pubTime": "Oct 28, 2026, 4:31 PM ET"
+        }
+      ],
+      "cleanNote": "Closing price not verified from an allowed source this run."
+    }
+  ]
+}

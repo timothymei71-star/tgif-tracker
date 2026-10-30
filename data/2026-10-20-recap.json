@@ -1,0 +1,185 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "October 20, 2026",
+  "periodStart": "Mon, Oct 19, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Tue, Oct 20, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Wed, Oct 21, 2026, 10:56 AM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York).",
+  "revisions": [],
+  "market": {
+    "indices": [
+      {
+        "name": "S&P 500",
+        "value": "7,712.57",
+        "changePct": 0.28
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "26,424.82",
+        "changePct": -0.02
+      },
+      {
+        "name": "SOX (semis)",
+        "value": "11,283.81",
+        "changePct": -0.29
+      },
+      {
+        "name": "10Y Treasury yield",
+        "value": "5.12%",
+        "changePct": null,
+        "changeText": "-3 bp"
+      }
+    ],
+    "driver": {
+      "text": "Stocks rose as investors rotated out of megacap tech into small caps, the Dow and healthcare, helped by lower Treasury yields and a reversal in oil after weak September housing starts (1.221M vs about 1.3M expected).",
+      "sourceName": "Yahoo Finance live blog",
+      "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rises-sp-500-nasdaq-climb-as-dip-buying-resumes-165236471.html",
+      "pubTime": "Oct 20, 2026"
+    },
+    "dataRelease": {
+      "name": "Sept housing starts",
+      "actual": "1.221M",
+      "expected": "~1.3M"
+    },
+    "cryptoTime": "4:00 PM ET prices (Coinbase)",
+    "crypto": [
+      {
+        "name": "Bitcoin (BTC)",
+        "price": "$82,503.62",
+        "changePct": 0.89
+      },
+      {
+        "name": "Ethereum (ETH)",
+        "price": "$2,434.80",
+        "changePct": 1.78
+      }
+    ],
+    "cryptoDriver": {
+      "text": "Bitcoin and ether rose modestly (BTC still below $84,000). Crypto-linked stocks moved more than the tokens: Circle +5.53% and Strategy (MSTR) +4.93%. The source gives no specific catalyst for the crypto move.",
+      "sourceName": "Cappnotes — Closing Look, Oct 20",
+      "sourceUrl": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "pubTime": "Oct 20, 2026"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "updated",
+      "close": "$108.61",
+      "changePct": 0.04,
+      "items": [
+        {
+          "type": "news",
+          "headline": "ByteDance, Alibaba and Tencent reported to have ordered over $35B of Nvidia chips",
+          "summary": "Reuters report: the orders are for Nvidia's RTX Pro 5500 (Blackwell-based) workstation chips. A source told Reuters Nvidia might be able to fill only a tiny portion of the order.",
+          "sourceName": "TipRanks (citing Reuters)",
+          "sourceUrl": "https://www.tipranks.com/news/nvidia-stock-nvda-falls-despite-report-of-35b-chip-orders-from-chinese-tech-giants-heres-why",
+          "pubTime": "Oct 20, 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "close": "$85.87",
+      "changePct": 5.53,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "close": "$55.07",
+      "changePct": 1.77,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "close": "$105.51",
+      "changePct": 0.01,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "close": "$216.47",
+      "changePct": -0.29,
+      "items": [
+        {
+          "type": "news",
+          "headline": "Report: ByteDance, Alibaba and Tencent order over $35B of Nvidia chips; Nvidia may fill only a small part",
+          "summary": "Shares slipped to about $216 in premarket. Per Reuters, Nvidia warned the firms it may struggle to meet the orders because its production plans may not be sufficient.",
+          "sourceName": "TipRanks (citing Reuters)",
+          "sourceUrl": "https://www.tipranks.com/news/nvidia-stock-nvda-falls-despite-report-of-35b-chip-orders-from-chinese-tech-giants-heres-why",
+          "pubTime": "Oct 20, 2026, ~7:08 AM ET"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "close": "$4.10",
+      "changePct": 0.99,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "close": "$373.71",
+      "changePct": 1.54,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "updated",
+      "close": "$336.40",
+      "changePct": -1.11,
+      "items": [
+        {
+          "type": "analyst",
+          "headline": "BMO Capital raises Alphabet price target to $480",
+          "summary": "Cites recent Gemini releases, strong Google Cloud checks and growing external TPU sales; raises its Google Cloud revenue estimates 4% for 2026 and 17% for 2027.",
+          "firm": "BMO Capital (Brian Pitz)",
+          "oldRating": "Outperform",
+          "newRating": "Outperform",
+          "oldTarget": "$465",
+          "newTarget": "$480",
+          "sourceName": "TheFly via TipRanks",
+          "sourceUrl": "https://www.tipranks.com/news/the-fly/alphabet-price-target-raised-to-480-from-465-at-bmo-capital-thefly-news",
+          "pubTime": "Oct 20, 2026, 9:37 AM ET"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "updated",
+      "close": "$334.37",
+      "changePct": -0.07,
+      "items": [
+        {
+          "type": "news",
+          "headline": "Broadcom and NTT DOCOMO sign 10-year agreement for DOCOMO's private cloud",
+          "summary": "Covers licenses, technical assistance and maintenance for VMware products including VMware Cloud Foundation; the first 10-year comprehensive agreement by Broadcom Japan.",
+          "sourceName": "GlobeNewswire (company release)",
+          "sourceUrl": "https://www.globenewswire.com/news-release/2026/10/20/3383992/19933/en/broadcom-to-advance-ntt-docomo-s-private-cloud-with-vmware-cloud-foundation.html",
+          "pubTime": "Oct 19, 2026, 9:00 PM ET"
+        }
+      ]
+    }
+  ]
+}

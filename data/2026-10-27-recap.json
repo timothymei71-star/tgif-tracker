@@ -1,0 +1,160 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "October 27, 2026",
+  "periodStart": "Mon, Oct 26, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Tue, Oct 27, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Tue, Oct 27, 2026, 4:53 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York).",
+  "revisions": [],
+  "market": {
+    "indices": [
+      {
+        "name": "S&P 500",
+        "value": "7,722.60",
+        "changePct": 0.6
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "26,477.81",
+        "changePct": 1.18
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,377.57",
+        "changePct": 0.03
+      }
+    ],
+    "driver": {
+      "text": "An AI-fueled tech rally led the gains; talk of Anthropic's IPO lifted chip stocks for a third straight session. Energy was the weakest sector as crude eased on Middle East peace negotiations. The Fed began its October meeting, widely expected to hold rates at 3.75%-4%; CME FedWatch points to a possible hike in December. Meta fell 1.6% after raising its equity fundraising to $97.5B; Boeing fell 10.7% on a larger-than-expected Q3 loss. Microsoft and Alphabet report Wednesday, Amazon Thursday. SOX and 10Y yield closing levels not verified from an allowed source.",
+      "sourceName": "Reuters (via MarketScreener)",
+      "sourceUrl": "https://marketscreener.com/news/wall-street-ends-higher-on-revived-ai-momentum-ce785cddde81f423",
+      "pubTime": "Oct 27, 2026, 4:02 PM ET"
+    },
+    "dataRelease": {
+      "name": "US new orders for computers and peripheral equipment rose (September); supports view of strong AI-related spending. Actual vs expected figures not given in the source.",
+      "actual": "n/a",
+      "expected": "n/a"
+    },
+    "cryptoTime": "No verified 4:00 PM ET crypto prices from an allowed source this run.",
+    "crypto": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified this run."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified this run. Crypto-linked stocks: no stated cause retrieved for any CRCL move."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No ETHA-specific item from an allowed source. Ether price at 4:00 PM ET not verified."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified this run."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "news",
+          "headline": "Nvidia to invest $3 billion in Meta's equity offering",
+          "summary": "Meta raised its planned offerings to $97.5B (incl. $25B common stock at $625/share, ~$12.5B convertible preferred, up to $60B at-the-market). Nvidia said it would put $3B into the offering; Nvidia, AMD and Broadcom together showed interest in up to $5B of Class A shares. Meta is a major buyer of Nvidia AI chips. Nvidia's own closing move not verified.",
+          "sourceName": "Reuters (via Investing.com)",
+          "sourceUrl": "https://www.investing.com/news/economy-news/meta-eyes-record-975-billion-equity-raise-to-fund-ai-expansion-4975360",
+          "pubTime": "Oct 27, 2026, 8:05 AM ET"
+        },
+        {
+          "type": "industry",
+          "headline": "Chip stocks extend rally on Anthropic IPO buzz",
+          "summary": "Semiconductor stocks rose for a third straight session as Anthropic's IPO filing renewed AI-demand focus; the SOX was up 3.2% around midday per Reuters (closing move not given).",
+          "sourceName": "Reuters (via Spokesman-Review)",
+          "sourceUrl": "https://www.spokesman.com/stories/2026/oct/27/wall-street-rises-as-ai-momentum-holds-heading-int/",
+          "pubTime": "Oct 27, 2026, midday ET"
+        }
+      ],
+      "cleanNote": "Closing price not verified this run."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified this run."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "news",
+          "headline": "Tesla shares reach highest level in more than three months",
+          "summary": "Tesla was up 3.8% around midday, a day after a gain of more than 5%, reaching its highest level in over three months, per Reuters. The report did not state a specific cause; closing move not verified.",
+          "sourceName": "Reuters (via Spokesman-Review)",
+          "sourceUrl": "https://www.spokesman.com/stories/2026/oct/27/wall-street-rises-as-ai-momentum-holds-heading-int/",
+          "pubTime": "Oct 27, 2026, midday ET"
+        }
+      ],
+      "cleanNote": "Closing price not verified this run."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "Alphabet reports earnings Wednesday, Oct 28 (per Reuters). No other qualifying item; closing price not verified."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "news",
+          "headline": "Banks and Blackstone line up $63B to finance Broadcom AI chips for Anthropic",
+          "summary": "BofA, Blackstone, Citi and Morgan Stanley will provide $63B for a special purpose vehicle to buy Broadcom AI chips and networking gear and lease them to Anthropic; Broadcom provides residual value support to lenders. About $43.5B is senior debt. Deliveries expected to begin in 2027. Moody's said Broadcom is among the strongest large tech companies but risk rises if many such deals occur quickly. Shares were up almost 4% around midday per Reuters; close not verified.",
+          "sourceName": "Reuters (via KSL)",
+          "sourceUrl": "https://www.ksl.com/article/51641301/wall-st-banks-blackstone-line-up-63-billion-to-finance-broadcom-ai-chips-for-anthropic",
+          "pubTime": "Oct 26, 2026, 5:56 PM ET"
+        }
+      ],
+      "cleanNote": "Closing price not verified this run."
+    }
+  ]
+}

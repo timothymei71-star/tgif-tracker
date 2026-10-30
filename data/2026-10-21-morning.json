@@ -1,0 +1,137 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "October 21, 2026",
+  "periodStart": "Tue, Oct 20, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Wed, Oct 21, 2026, 8:00 AM ET",
+  "lastUpdated": "Wed, Oct 21, 2026, 10:56 AM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York). Close and % shown are the Oct 20 regular-session close.",
+  "revisions": [],
+  "market": {
+    "indices": [],
+    "driver": null,
+    "cryptoTime": "8:00 AM ET prices (Coinbase), change vs Oct 20 4:00 PM ET",
+    "crypto": [
+      {
+        "name": "Bitcoin (BTC)",
+        "price": "$83,419.09",
+        "changePct": 1.11
+      },
+      {
+        "name": "Ethereum (ETH)",
+        "price": "$2,467.07",
+        "changePct": 1.32
+      }
+    ],
+    "calendar": [
+      {
+        "time": "After the close",
+        "text": "Tesla Q3 results (webcast 5:30 PM ET). Consensus: revenue $28.3B, EPS $0.45; options imply about a 5.9% move.",
+        "sourceName": "Invezz",
+        "sourceUrl": "https://invezz.com/news/2026/10/21/tesla-earnings-margins-cybercab-optimus-in-focus-as-spacex-merger-talks-intensify/"
+      },
+      {
+        "time": "After the close",
+        "text": "Meta Q3 results (call 4:30 PM ET).",
+        "sourceName": "Investing Cube",
+        "sourceUrl": "https://www.investingcube.com/shares/nasdaq-futures-jump-over-1-as-ai-stocks-rebound-ahead-of-tesla-and-meta-earnings/"
+      }
+    ]
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "close": "$108.61",
+      "changePct": 0.04,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "close": "$85.87",
+      "changePct": 5.53,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "close": "$55.07",
+      "changePct": 1.77,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "close": "$105.51",
+      "changePct": 0.01,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "clean",
+      "close": "$216.47",
+      "changePct": -0.29,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "close": "$4.10",
+      "changePct": 0.99,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "close": "$373.71",
+      "changePct": 1.54,
+      "premarket": {
+        "price": "$379.19",
+        "changePct": 1.47,
+        "asOf": "~8:34 AM ET"
+      },
+      "items": [
+        {
+          "type": "news",
+          "headline": "Tesla and SpaceX form special committees to study a merger",
+          "summary": "Musk said committees of independent directors at both companies will study a combination (about $3.6T combined value at current valuations). He is excluded from direct negotiations as a conflicted party and said there is no guarantee terms will be reached. US approval would need a majority of all Tesla shares.",
+          "sourceName": "TipRanks",
+          "sourceUrl": "https://www.tipranks.com/news/tesla-stock-ticks-up-to-379-19-ahead-of-earnings-as-elon-musk-pursues-a-3-6-trillion-merger-with-spacex",
+          "pubTime": "Oct 21, 2026, updated 8:34 AM ET"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "close": "$336.40",
+      "changePct": -1.11,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "close": "$334.37",
+      "changePct": -0.07,
+      "items": [],
+      "cleanNote": "No qualifying item in this window."
+    }
+  ]
+}

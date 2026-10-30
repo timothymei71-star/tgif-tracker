@@ -1,0 +1,153 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "October 30, 2026",
+  "periodStart": "Thu, Oct 29, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Fri, Oct 30, 2026, 7:55 AM ET",
+  "lastUpdated": "Fri, Oct 30, 2026, 7:55 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). CNBC, Bloomberg.com and SEC pages could not be loaded this run; Reuters and Bloomberg text was read through syndicated copies (KFGO for Reuters, BNN Bloomberg for Bloomberg). Cash index levels, SOX, the 10Y yield, crypto spot prices and today's economic calendar were not verified from an allowed source and are left out.",
+  "revisions": [],
+  "market": {
+    "indices": [
+      {
+        "name": "S&P 500 E-mini futures",
+        "value": "-77.5 pts",
+        "changeText": "-1.0%"
+      },
+      {
+        "name": "Nasdaq 100 E-mini futures",
+        "value": "-640 pts",
+        "changeText": "-2.16%"
+      },
+      {
+        "name": "Dow E-mini futures",
+        "value": "-25 pts",
+        "changeText": "-0.05%"
+      }
+    ],
+    "driver": {
+      "text": "Nasdaq futures fell more than 2% as Amazon (-7.2% premarket) and Intel (-25%) reported results: Amazon showed a sharp third-quarter cash outflow and signaled higher capex next year; Intel warned it would burn cash this year. Alphabet was down 0.9% after Thursday's record selloff. Futures data as of 4:04 AM ET. Per Reuters, the Fed held rates steady earlier this week and a hike is widely expected as soon as December.",
+      "sourceName": "Reuters (via KFGO)",
+      "sourceUrl": "https://kfgo.com/2026/10/30/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/",
+      "pubTime": "Oct 30, 2026, 3:46 AM ET"
+    },
+    "cryptoTime": "No verified crypto spot prices from an allowed source this run.",
+    "crypto": [],
+    "cryptoDriver": {
+      "text": "Hackers stole $6.3 billion from Binance in the largest crypto theft on record. Bitcoin hit a six-week low of $76,368 and ether fell more than 3% to a two-month low of $2,178 before stabilizing; Coinbase shares slid 4.8%. Prices are intraday lows as of the 5:15 AM ET update, not current quotes.",
+      "sourceName": "Bloomberg (via BNN Bloomberg)",
+      "sourceUrl": "https://www.bnnbloomberg.ca/markets/crypto/2026/10/30/worlds-biggest-crypto-heist-hackers-steal-us63-billion-from-binance/"
+    },
+    "calendar": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 29 4:00 PM ET to Oct 30 window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "regulatory",
+          "headline": "Circle froze more than $800 million of assets tied to the $6.3B Binance hack",
+          "summary": "About half of the stolen assets were frozen by stablecoin issuers; Circle froze more than $800 million and Tether nearly $1.57 billion. Binance halted withdrawals and said it expects to resume within 48 hours. Relevant to USDC issuer actions and crypto-market sentiment; Circle's share move is not stated in the source.",
+          "sourceName": "Bloomberg (via BNN Bloomberg)",
+          "sourceUrl": "https://www.bnnbloomberg.ca/markets/crypto/2026/10/30/worlds-biggest-crypto-heist-hackers-steal-us63-billion-from-binance/",
+          "pubTime": "Oct 30, 2026 (originally posted Oct 29, 10:08 PM ET; updated 5:15 AM ET)"
+        }
+      ],
+      "cleanNote": ""
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "updated",
+      "items": [
+        {
+          "type": "price move",
+          "headline": "Ether falls to two-month low of $2,178 after Binance hack",
+          "summary": "Ether fell more than 3% to a two-month low of $2,178 before stabilizing after hackers stole $6.3 billion from Binance. Bitcoin hit a six-week low of $76,368. ETHA tracks ether's price.",
+          "sourceName": "Bloomberg (via BNN Bloomberg)",
+          "sourceUrl": "https://www.bnnbloomberg.ca/markets/crypto/2026/10/30/worlds-biggest-crypto-heist-hackers-steal-us63-billion-from-binance/",
+          "pubTime": "Oct 30, 2026 (updated 5:15 AM ET)"
+        }
+      ],
+      "cleanNote": ""
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 29 4:00 PM ET to Oct 30 window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "price move",
+          "headline": "Nvidia down 2.5% premarket as AI-spending worries hit chip stocks",
+          "summary": "Shares fell 2.5% premarket (AMD -7%) after Amazon and Intel results raised concern over the returns on Big Tech AI infrastructure spending and debt-funded capex.",
+          "sourceName": "Reuters (via KFGO)",
+          "sourceUrl": "https://kfgo.com/2026/10/30/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/",
+          "pubTime": "Oct 30, 2026, 3:46 AM ET"
+        }
+      ],
+      "cleanNote": ""
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 29 4:00 PM ET to Oct 30 window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in the Oct 29 4:00 PM ET to Oct 30 window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "price move",
+          "headline": "Alphabet extends losses, down 0.9% premarket after record selloff",
+          "summary": "Shares fell another 0.9% premarket after Thursday's record selloff; Reuters cites disappointing search-advertising results and sharply higher cash outflows.",
+          "sourceName": "Reuters (via KFGO)",
+          "sourceUrl": "https://kfgo.com/2026/10/30/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/",
+          "pubTime": "Oct 30, 2026, 3:46 AM ET"
+        }
+      ],
+      "cleanNote": ""
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "price move",
+          "headline": "Broadcom down about 4% premarket on AI-spending concerns",
+          "summary": "Shares fell roughly 4% premarket as investors reacted to Amazon's cash outflow and higher capex signal and Intel's cash-burn warning, deepening unease over AI infrastructure spending returns.",
+          "sourceName": "Reuters (via KFGO)",
+          "sourceUrl": "https://kfgo.com/2026/10/30/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/",
+          "pubTime": "Oct 30, 2026, 3:46 AM ET"
+        }
+      ],
+      "cleanNote": ""
+    }
+  ]
+}

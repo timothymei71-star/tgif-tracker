@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daily Holdings Brief</title>
 <style>
   /* Layout: meta bar + market context + summary strip, then a list of per-ticker report cards (native <details> for expand) */
@@ -95,6 +97,13 @@
   .item.analyst{border-left-color:var(--accent);}
   .item.regulatory{border-left-color:var(--amber);}
 
+  .day-nav{display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:18px;}
+  .day-nav select,.day-nav button{font-family:var(--font-body); font-size:13.5px; color:var(--ink); background:var(--paper); border:1px solid var(--rule); border-radius:4px; padding:7px 10px; cursor:pointer;}
+  .day-nav select{min-width:190px; font-weight:600;}
+  .day-nav button:disabled{opacity:.4; cursor:default;}
+  .day-nav button:not(:disabled):hover,.day-nav select:hover{border-color:var(--ink-soft);}
+  .day-nav .spacer{flex:1}
+  .day-nav .count{font-size:12px; color:var(--ink-soft);}
   .tabs{display:flex; gap:6px; margin-top:18px; border-bottom:1px solid var(--rule);}
   .tab-btn{font-family:var(--font-display); font-weight:700; font-size:14px; color:var(--ink-soft); background:none; border:none; padding:10px 4px; cursor:pointer; position:relative; top:1px;}
   .tab-btn.active{color:var(--ink); border-bottom:2px solid var(--accent);}
@@ -127,6 +136,8 @@
   <div class="eyebrow">TGIF-I &middot; Portfolio Monitoring</div>
   <h1>Daily Holdings Brief</h1>
 </header>
+
+<div class="day-nav" id="dayNav" hidden></div>
 
 <div class="tabs" id="tabs"></div>
 
@@ -173,9 +184,9 @@ function renderTabs(){
   wrap.innerHTML = '';
   ['recap','morning'].forEach(key=>{
     const r = REPORTS[key];
-    const btn = el('button','tab-btn'+(activeTab===key?' active':''), r.label + (r.populated ? '' : ' <span style="opacity:.55">— Not yet available</span>'));
+    const btn = el('button','tab-btn'+(activeTab===key?' active':''), LABELS[key] + ((r && r.populated) ? '' : ' <span style="opacity:.55">— Not available</span>'));
     btn.type = 'button';
-    btn.addEventListener('click', ()=>{ activeTab = key; renderAll(); });
+    btn.addEventListener('click', ()=>{ activeTab = key; syncHash(); renderAll(); });
     wrap.appendChild(btn);
   });
 }
@@ -353,7 +364,8 @@ function renderFooter(report){
 }
 
 function renderAll(){
-  const report = REPORTS[activeTab];
+  renderDayNav();
+  const report = REPORTS[activeTab] || {label: LABELS[activeTab], populated:false, tickers:[]};
   renderTabs();
   const legend = document.getElementById('legend');
   const emptyState = document.getElementById('emptyState');
@@ -367,7 +379,7 @@ function renderAll(){
     board.hidden = true;
     marketSection.hidden = true;
     emptyState.hidden = false;
-    emptyState.innerHTML = '<strong>' + report.label + ' not yet available.</strong><br>This tab is reserved for a future report with its own coverage period and update schedule — nothing has been produced for it yet.';
+    emptyState.innerHTML = '<strong>' + report.label + ' not available' + (activeDate ? ' for ' + fmtDay(activeDate) : '') + '.</strong><br>No report of this type was produced for this day.';
     renderFooter(report);
     return;
   }
@@ -381,10 +393,94 @@ function renderAll(){
   renderFooter(report);
 }
 
-fetch('data.json')
-  .then(r => r.json())
-  .then(data => { REPORTS = data; activeTab = REPORTS.recap.populated ? 'recap' : 'morning'; renderAll(); })
-  .catch(err => {
-    document.getElementById('board').innerHTML = '<div class="empty-state">Could not load data.json — '+err+'</div>';
+// ---- History: every run is saved as data/<date>-<mode>.json and listed in data/index.json ----
+const LABELS = {recap:'Daily Recap', morning:'Morning Brief'};
+let INDEX = [];
+let activeDate = null;
+const reportCache = {};
+
+function fmtDay(iso){
+  const p = iso.split('-').map(Number);
+  return new Date(p[0], p[1]-1, p[2]).toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric', year:'numeric'});
+}
+
+async function loadReport(date, mode){
+  const k = date + '-' + mode;
+  if(!(k in reportCache)){
+    try{
+      const r = await fetch('data/' + k + '.json', {cache:'no-cache'});
+      if(!r.ok) throw new Error(r.status);
+      const j = await r.json();
+      j.label = j.label || LABELS[mode];
+      reportCache[k] = j;
+    }catch(e){ reportCache[k] = null; }
+  }
+  return reportCache[k];
+}
+
+function syncHash(){
+  try{ history.replaceState(null, '', '#' + activeDate + '/' + activeTab); }catch(e){}
+}
+
+async function showDay(date, mode){
+  const entry = INDEX.find(d => d.date === date) || INDEX[0];
+  activeDate = entry.date;
+  const [rc, mo] = await Promise.all([
+    entry.recap ? loadReport(activeDate, 'recap') : null,
+    entry.morning ? loadReport(activeDate, 'morning') : null
+  ]);
+  REPORTS = {recap: rc, morning: mo};
+  activeTab = (mode && REPORTS[mode]) ? mode : (REPORTS.recap ? 'recap' : 'morning');
+  syncHash();
+  renderAll();
+}
+
+function renderDayNav(){
+  const nav = document.getElementById('dayNav');
+  if(!INDEX.length){ nav.hidden = true; return; }
+  nav.hidden = false;
+  nav.innerHTML = '';
+  const i = INDEX.findIndex(d => d.date === activeDate);
+  const older = el('button', '', '◂ Older'); older.type = 'button'; older.disabled = i >= INDEX.length - 1;
+  older.addEventListener('click', () => showDay(INDEX[i+1].date, activeTab));
+  const newer = el('button', '', 'Newer ▸'); newer.type = 'button'; newer.disabled = i <= 0;
+  newer.addEventListener('click', () => showDay(INDEX[i-1].date, activeTab));
+  const sel = el('select'); sel.setAttribute('aria-label', 'Choose a day');
+  INDEX.forEach(d => {
+    const kinds = [d.morning ? 'Morning' : null, d.recap ? 'Recap' : null].filter(Boolean).join(' + ');
+    const o = el('option', '', fmtDay(d.date) + ' — ' + kinds);
+    o.value = d.date; if(d.date === activeDate) o.selected = true;
+    sel.appendChild(o);
   });
+  sel.addEventListener('change', () => showDay(sel.value, activeTab));
+  const latest = el('button', '', 'Latest'); latest.type = 'button'; latest.disabled = i === 0;
+  latest.addEventListener('click', () => showDay(INDEX[0].date));
+  nav.append(older, sel, newer, latest, el('span', 'spacer'), el('span', 'count', INDEX.length + ' days of history'));
+}
+
+async function init(){
+  try{
+    const r = await fetch('data/index.json', {cache:'no-cache'});
+    if(!r.ok) throw new Error('no index');
+    INDEX = (await r.json()).days || [];
+    if(!INDEX.length) throw new Error('empty index');
+    const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})(?:\/(recap|morning))?$/);
+    await showDay(m ? m[1] : INDEX[0].date, m ? m[2] : null);
+  }catch(e){
+    // Fallback: no history yet, show the latest data.json
+    try{
+      const r = await fetch('data.json', {cache:'no-cache'});
+      REPORTS = await r.json();
+      activeTab = REPORTS.recap.populated ? 'recap' : 'morning';
+      renderAll();
+    }catch(err){
+      document.getElementById('board').innerHTML = '<div class="empty-state">Could not load report data — '+err+'</div>';
+    }
+  }
+}
+window.addEventListener('hashchange', () => {
+  const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})(?:\/(recap|morning))?$/);
+  if(m && INDEX.length && (m[1] !== activeDate || (m[2] && m[2] !== activeTab))) showDay(m[1], m[2]);
+});
+init();
 </script>

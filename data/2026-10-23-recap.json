@@ -1,0 +1,172 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "October 23, 2026",
+  "periodStart": "Thu, Oct 22, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Fri, Oct 23, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Fri, Oct 23, 2026, 4:53 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York).",
+  "revisions": [],
+  "market": {
+    "indices": [
+      {
+        "name": "S&P 500",
+        "value": "7,623.68",
+        "changePct": -0.52
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "25,955.34",
+        "changePct": -0.21
+      },
+      {
+        "name": "Dow Jones",
+        "value": "52,215.16",
+        "changePct": -1.23
+      },
+      {
+        "name": "10Y Treasury yield",
+        "value": "4.99%",
+        "changePct": null,
+        "changeText": "about +3.5 bp (Yahoo; Kiplinger shows 5.001%, +4.8 bp)"
+      }
+    ],
+    "driver": {
+      "text": "Stocks fell on U.S.-Iran tension and a jump in oil (WTI ~$103.3, +3.9%; Brent settled at $116.72, a six-month high), on top of the AI/tech selloff carried over from Thursday. Airlines dropped over 4% on fuel costs; American Express fell ~3% on a ~5% workforce cut; cybersecurity names (Palo Alto, Cloudflare) rallied. Fed expected to hold at its Oct 27-28 meeting. SOX closing level not retrieved.",
+      "sourceName": "Yahoo Finance live blog",
+      "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",
+      "pubTime": "Oct 23, 2026, 4:42 PM ET"
+    },
+    "dataRelease": {
+      "name": "No major economic release reported for the day",
+      "actual": "n/a",
+      "expected": "n/a"
+    },
+    "cryptoTime": "No verified 4:00 PM ET crypto prices. Bitcoin is Yahoo's quote on its post-close (4:42 PM ET) update; ether is a 7:13 AM ET CoinDesk snapshot.",
+    "crypto": [
+      {
+        "name": "Bitcoin (BTC)",
+        "price": "$81,388.49",
+        "changePct": 0.28
+      },
+      {
+        "name": "Ether (ETH) - morning snapshot",
+        "price": "$2,394.03",
+        "changePct": -0.19
+      }
+    ],
+    "cryptoDriver": {
+      "text": "Bitcoin held near $81,000-82,000 in a quiet range after a week of ~$3,000 swings; oil and the Oct 27-28 Fed meeting are the main worries. U.S. spot bitcoin ETFs had $635.6M net outflows on Oct 22, led by BlackRock's IBIT ($254.1M).",
+      "sourceName": "CoinDesk / Crypto Times",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+      "pubTime": "Oct 23, 2026, 7:13 AM ET"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "news",
+          "headline": "Crypto steady near $81K bitcoin / ~$2,400 ether; spot bitcoin ETFs saw $635M outflows Thursday",
+          "summary": "ETHA tracks ether, which was roughly flat to down 1% (about $2,394-2,402) in a quiet session. ETF outflows and Iran/oil headlines are the main sentiment drivers ahead of the Fed. ETHA's close was not verified.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/10/23/crypto-price-today-bitcoin-price-falls-to-81668-as-635m-etf-outflows-drag-ethereum-xrp/",
+          "pubTime": "Oct 23, 2026, 3:07 AM ET"
+        }
+      ]
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "industry",
+          "headline": "Selling broadens beyond AI trade; Nvidia and AMD close mixed as financing worries hit neocloud stocks",
+          "summary": "After Thursday's steep chip selloff, concerns about rising financing costs and slower AI capex weighed on neocloud names such as CoreWeave, a key Nvidia customer group. Nvidia closed mixed and kept its lead in market value over Apple. Nvidia's exact close was not verified.",
+          "sourceName": "Yahoo Finance live blog",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",
+          "pubTime": "Oct 23, 2026, 4:42 PM ET"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "close": "$372.22",
+      "changePct": -0.63,
+      "items": [],
+      "cleanNote": "No qualifying stock-specific item retrieved in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "updated",
+      "close": null,
+      "changePct": null,
+      "items": [
+        {
+          "type": "news",
+          "headline": "Alphabet (GOOGL) down 1.2% ahead of earnings next week",
+          "summary": "Shares fell with the broader market as oil and Iran tension weighed; the company reports next week, so guidance on AI capex and cloud will be the next big price driver. GOOG's own close was not verified.",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/stocks/dow-drops-652-points-as-oil-treasury-yields-rise-stock-market-today",
+          "pubTime": "Oct 23, 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "close": null,
+      "changePct": null,
+      "items": [],
+      "cleanNote": "No qualifying item retrieved in this window. Closing price not verified this run."
+    }
+  ]
+}
