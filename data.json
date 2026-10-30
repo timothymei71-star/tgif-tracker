@@ -2,42 +2,43 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "October 29, 2026",
-    "periodStart": "Wed, Oct 28, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Thu, Oct 29, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Thu, Oct 29, 2026, 4:55 PM ET",
-    "timezoneNote": "All times below are shown in ET (America/New_York).",
+    "reportDate": "October 30, 2026",
+    "periodStart": "Thu, Oct 29, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Fri, Oct 30, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Fri, Oct 30, 2026, 4:53 PM ET",
+    "timezoneNote": "All times below are shown in ET (America/New_York). Closing index levels, SOX, the 10Y yield, PCE and 4:00 PM ET crypto prices could not be verified from an allowed source this run (CNBC pages and Reuters' closing report were not retrievable); Reuters' 11:52 AM ET intraday levels are shown instead and labeled as such.",
     "revisions": [],
     "market": {
       "indices": [
         {
-          "name": "S&P 500",
-          "value": "7,721.02",
-          "changePct": -0.31
+          "name": "S&P 500 (intraday, 11:52 AM ET)",
+          "value": "7,600.19",
+          "changePct": -1.56
         },
         {
-          "name": "Nasdaq Composite",
-          "value": "26,188.08",
-          "changePct": -1.36
+          "name": "Nasdaq Composite (intraday, 11:52 AM ET)",
+          "value": "25,533.95",
+          "changePct": -2.48
         },
         {
-          "name": "Dow Jones",
-          "value": "52,345.80",
-          "changePct": -0.25
+          "name": "Dow Jones (intraday, 11:52 AM ET)",
+          "value": "51,968.84",
+          "changePct": -0.71
         }
       ],
       "driver": {
-        "text": "Wall Street ended lower as Alphabet shares slumped after a revenue miss and accelerated AI-related cash burn in its report released late Wednesday. Semiconductor stocks snapped a four-day winning streak. A first take on third-quarter GDP showed the economy grew faster than expected (figures not given in the source). Closing levels are described as preliminary. Marvell slumped on reports of talks to buy Lumentum; Fortinet and ServiceNow each fell more than 20%. SOX closing level, 10Y yield and PCE figures not verified from an allowed source.",
-        "sourceName": "Reuters (via Virginia Business)",
-        "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
-        "pubTime": "Oct 29, 2026, 4:26 PM ET"
+        "text": "Per Reuters, the Nasdaq hit a near three-month low on Friday as results from Amazon and Intel rattled the AI trade: Amazon reported a sharp third-quarter cash outflow and signaled higher capex next year (shares -2% at midday after paring larger premarket losses), and Intel warned it would burn cash this year, falling nearly 29%, its steepest one-day drop on record. Coinbase fell 13% as the $6.3 billion Binance heist weighed on crypto-linked stocks. Index levels are as of 11:52 AM ET, not closing figures.",
+        "sourceName": "Reuters (via Lufkin Daily News)",
+        "sourceUrl": "https://lufkindailynews.com/news_reuters/business/nasdaq-hits-near-three-month-low-as-amazon-intel-rattle-ai-trade/article_a9360e82-0465-596a-aa41-c475ee3d1699.html",
+        "pubTime": "Oct 30, 2026 (figures as of 11:52 AM ET)"
       },
       "cryptoTime": "No verified 4:00 PM ET crypto prices from an allowed source this run.",
       "crypto": [],
-      "dataRelease": {
-        "name": "Advance Q3 GDP: grew at a faster-than-expected pace (actual and expected figures not given in the Reuters report). PCE figures not verified from an allowed source.",
-        "actual": "n/a",
-        "expected": "n/a"
+      "cryptoDriver": {
+        "text": "Hackers stole $6.3 billion from Binance in the largest crypto theft on record. Bitcoin hit a six-week low of $76,368 and ether fell more than 3% to a two-month low of $2,178 before stabilizing; Coinbase shares slid 4.8% at that time. Prices are lows as of the 5:15 AM ET update, not 4:00 PM ET quotes.",
+        "sourceName": "Bloomberg (via BNN Bloomberg)",
+        "sourceUrl": "https://www.bnnbloomberg.ca/markets/crypto/2026/10/30/worlds-biggest-crypto-heist-hackers-steal-us63-billion-from-binance/",
+        "pubTime": "Oct 30, 2026 (originally posted Oct 29, 10:08 PM ET; updated 5:15 AM ET)"
       }
     },
     "tickers": [
@@ -48,25 +49,43 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in this window. Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "status": "clean",
+        "status": "updated",
         "close": null,
         "changePct": null,
-        "items": [],
-        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+        "items": [
+          {
+            "type": "regulatory",
+            "headline": "Circle froze more than $800 million of assets tied to the $6.3B Binance hack",
+            "summary": "Per Bloomberg, about half of the stolen assets were frozen by stablecoin issuers; Circle froze more than $800 million and Tether nearly $1.57 billion. Binance halted withdrawals and said it expects to resume within 48 hours. Relevant to USDC issuer actions and crypto-market sentiment; Circle's share move is not stated in the source.",
+            "sourceName": "Bloomberg (via BNN Bloomberg)",
+            "sourceUrl": "https://www.bnnbloomberg.ca/markets/crypto/2026/10/30/worlds-biggest-crypto-heist-hackers-steal-us63-billion-from-binance/",
+            "pubTime": "Oct 30, 2026 (originally posted Oct 29, 10:08 PM ET; updated 5:15 AM ET)"
+          }
+        ],
+        "cleanNote": "Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "ETHA",
         "name": "iShares Ethereum Trust ETF",
-        "status": "clean",
+        "status": "updated",
         "close": null,
         "changePct": null,
-        "items": [],
-        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+        "items": [
+          {
+            "type": "price move",
+            "headline": "Ether falls to two-month low of $2,178 after Binance hack",
+            "summary": "Ether fell more than 3% to a two-month low of $2,178 before stabilizing after hackers stole $6.3 billion from Binance; bitcoin hit a six-week low of $76,368. ETHA tracks ether's price. Levels are lows as of the 5:15 AM ET update, not closing prices.",
+            "sourceName": "Bloomberg (via BNN Bloomberg)",
+            "sourceUrl": "https://www.bnnbloomberg.ca/markets/crypto/2026/10/30/worlds-biggest-crypto-heist-hackers-steal-us63-billion-from-binance/",
+            "pubTime": "Oct 30, 2026 (originally posted Oct 29, 10:08 PM ET; updated 5:15 AM ET)"
+          }
+        ],
+        "cleanNote": "Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "FUTU",
@@ -75,7 +94,7 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in this window. Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "NVDA",
@@ -85,12 +104,12 @@
         "changePct": null,
         "items": [
           {
-            "type": "industry",
-            "headline": "Chip stocks snap four-day winning streak",
-            "summary": "Per Reuters, semiconductor stocks snapped a four-day winning streak on Thursday as Alphabet's AI-spending-related results weighed on the Nasdaq; Marvell slumped on reports of talks to buy Lumentum. Sector backdrop for NVDA; no NVDA-specific move stated in the source.",
-            "sourceName": "Reuters (via Virginia Business)",
-            "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
-            "pubTime": "Oct 29, 2026, 4:26 PM ET"
+            "type": "price move",
+            "headline": "Nvidia down 3.7% intraday in global chip selloff after Intel's cash-burn warning",
+            "summary": "Per Reuters, Nvidia was down 3.7% as of 11:52 AM ET amid a global chip selloff triggered by Intel's warning that it would burn cash this year (weak PC market, manufacturing hurdles, heavy capacity spending). Intel fell nearly 29%. Intraday figure, not the close.",
+            "sourceName": "Reuters (via Lufkin Daily News)",
+            "sourceUrl": "https://lufkindailynews.com/news_reuters/business/nasdaq-hits-near-three-month-low-as-amazon-intel-rattle-ai-trade/article_a9360e82-0465-596a-aa41-c475ee3d1699.html",
+            "pubTime": "Oct 30, 2026 (figures as of 11:52 AM ET)"
           }
         ],
         "cleanNote": "Closing price not verified from an allowed source this run."
@@ -102,7 +121,7 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in this window. Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "TSLA",
@@ -111,7 +130,7 @@
         "close": null,
         "changePct": null,
         "items": [],
-        "cleanNote": "No qualifying item from an allowed source in this window. Closing price not verified from an allowed source this run."
+        "cleanNote": "No qualifying item verified from an allowed source (Tier 1 or Tier 2) in this window. Closing price not verified from an allowed source this run."
       },
       {
         "ticker": "GOOG",
@@ -121,12 +140,12 @@
         "changePct": null,
         "items": [
           {
-            "type": "earnings",
-            "headline": "Alphabet shares slump after revenue miss and rising AI cash burn",
-            "summary": "Per Reuters, Alphabet shares slumped on Thursday after its third-quarter report, released late Wednesday, showed a revenue miss and accelerated AI-related cash burn; the move dragged the Nasdaq lower. Percentage move and detailed figures not stated in the retrieved source (Alphabet's own release page and SEC exhibit could not be read this run).",
-            "sourceName": "Reuters (via Virginia Business)",
-            "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
-            "pubTime": "Oct 29, 2026, 4:26 PM ET"
+            "type": "price move",
+            "headline": "Alphabet down marginally after record selloff the prior session",
+            "summary": "Per Reuters, Alphabet was down marginally intraday on Friday after a record selloff on Thursday following a sharp increase in its cash outflows. Reuters' premarket report put the decline at 0.9%, citing weak search-advertising results and higher cash outflows. Intraday figure, not the close.",
+            "sourceName": "Reuters (via Lufkin Daily News)",
+            "sourceUrl": "https://lufkindailynews.com/news_reuters/business/nasdaq-hits-near-three-month-low-as-amazon-intel-rattle-ai-trade/article_a9360e82-0465-596a-aa41-c475ee3d1699.html",
+            "pubTime": "Oct 30, 2026 (figures as of 11:52 AM ET)"
           }
         ],
         "cleanNote": "Closing price not verified from an allowed source this run."
@@ -139,12 +158,12 @@
         "changePct": null,
         "items": [
           {
-            "type": "industry",
-            "headline": "Chip stocks snap four-day winning streak",
-            "summary": "Per Reuters, semiconductor stocks snapped a four-day winning streak on Thursday as Alphabet's AI-spending-related results weighed on the Nasdaq; Marvell slumped on reports of talks to buy Lumentum. Sector backdrop for AVGO; no AVGO-specific move stated in the source.",
-            "sourceName": "Reuters (via Virginia Business)",
-            "sourceUrl": "https://virginiabusiness.com/wall-street-falls-alphabet-revenue-miss-ai-spending/",
-            "pubTime": "Oct 29, 2026, 4:26 PM ET"
+            "type": "price move",
+            "headline": "Broadcom down about 4% premarket in chip selloff",
+            "summary": "Per Reuters, Broadcom fell roughly 4% in premarket trading as semiconductor stocks sold off after Amazon's sharp third-quarter cash outflow and Intel's cash-burn warning. Broadcom is not mentioned in Reuters' midday report; the close is not verified.",
+            "sourceName": "Reuters (via KFGO)",
+            "sourceUrl": "https://kfgo.com/2026/10/30/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/",
+            "pubTime": "Oct 30, 2026, 3:46 AM ET"
           }
         ],
         "cleanNote": "Closing price not verified from an allowed source this run."
