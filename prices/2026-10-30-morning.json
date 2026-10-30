@@ -1,0 +1,98 @@
+{
+  "mode": "morning",
+  "reportDate": "2026-10-30",
+  "generatedAt": "2026-10-30 15:04 ET",
+  "tickers": {
+    "BABA": {
+      "prevClose": 99.54,
+      "premarket": 98.75,
+      "premarketChangePct": -0.79,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "CRCL": {
+      "prevClose": 79.99,
+      "premarket": 74.66,
+      "premarketChangePct": -6.66,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "ETHA": {
+      "prevClose": 52.78,
+      "premarket": 50.48,
+      "premarketChangePct": -4.36,
+      "premarketAsOf": "7:59 AM ET"
+    },
+    "FUTU": {
+      "prevClose": 101.47,
+      "premarket": 98.5,
+      "premarketChangePct": -2.93,
+      "premarketAsOf": "7:59 AM ET"
+    },
+    "NVDA": {
+      "prevClose": 213.66,
+      "premarket": 207.04,
+      "premarketChangePct": -3.1,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "TIGR": {
+      "prevClose": 4.07,
+      "premarket": 4.0,
+      "premarketChangePct": -1.72,
+      "premarketAsOf": "7:37 AM ET"
+    },
+    "TSLA": {
+      "prevClose": 403.3,
+      "premarket": 394.72,
+      "premarketChangePct": -2.13,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "GOOG": {
+      "prevClose": 282.32,
+      "premarket": 279.5,
+      "premarketChangePct": -1.0,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "AVGO": {
+      "prevClose": 345.0,
+      "premarket": 331.5,
+      "premarketChangePct": -3.91,
+      "premarketAsOf": "8:00 AM ET"
+    }
+  },
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,720.39",
+      "changePct": -0.3
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,184.72",
+      "changePct": -1.38
+    },
+    {
+      "name": "SOX (semis)",
+      "value": "11,518.20",
+      "changePct": -1.42
+    }
+  ],
+  "tenYear": {
+    "value": "4.98%",
+    "changeBp": -7,
+    "asOfDate": "2026-10-29",
+    "source": "US Treasury daily par yield curve"
+  },
+  "crypto": [
+    {
+      "name": "Bitcoin (BTC)",
+      "price": "$77,241.91",
+      "changePct": -3.52
+    },
+    {
+      "name": "Ethereum (ETH)",
+      "price": "$2,233.40",
+      "changePct": -3.82
+    }
+  ],
+  "cryptoTime": "8:00 AM ET prices (Coinbase)",
+  "errors": []
+}
