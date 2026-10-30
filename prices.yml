@@ -1,0 +1,53 @@
+name: Fetch market prices
+
+on:
+  schedule:
+    # GitHub cron is UTC and ignores daylight saving. Each run is listed at both the EDT and EST
+    # offsets; the script's --only-if-et-hour guard lets only the correct one do any work.
+    - cron: "5 12,13 * * 1-5"   # morning: 8:05 AM ET (12:05 UTC in EDT, 13:05 UTC in EST)
+    - cron: "20 20,21 * * 1-5"  # recap:   4:20 PM ET (20:20 UTC in EDT, 21:20 UTC in EST)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "recap or morning"
+        required: true
+        default: recap
+        type: choice
+        options: [recap, morning]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance requests
+      - name: Work out which run this is
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "args=${{ inputs.mode }} --force" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "5 12,13 * * 1-5" ]; then
+            echo "args=morning --only-if-et-hour 8" >> "$GITHUB_OUTPUT"
+          else
+            echo "args=recap --only-if-et-hour 16" >> "$GITHUB_OUTPUT"
+          fi
+      - run: python scripts/fetch_prices.py ${{ steps.pick.outputs.args }}
+      - name: Commit prices
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Prices $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
