@@ -194,9 +194,14 @@ def main():
     out["errors"] = errors
 
     if a.mode == "recap" and not tick:
-        print("No ticker data for today (market closed or data unavailable); not writing a file")
+        print("No ticker data for today; not writing a file")
         print(json.dumps(errors, indent=1))
-        return 0
+        closed = bool(errors) and all("no bar for" in e for e in errors)
+        if closed:
+            print("Every ticker reports no bar for today: market closed (holiday). Nothing to do.")
+            return 0
+        print("FAILED: data could not be fetched (not a market holiday). Failing the run so it shows red in Actions.")
+        return 1
 
     path = Path("prices") / f"{today.isoformat()}-{a.mode}.json"
     path.parent.mkdir(exist_ok=True)
