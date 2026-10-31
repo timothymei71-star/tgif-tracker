@@ -9,12 +9,13 @@ Only numbers come from here. Nothing is estimated: if a value can't be fetched i
 left out and an entry is added to "errors".
 Usage: python scripts/fetch_prices.py recap|morning [--only-if-et-hour N] [--force]
 """
-import argparse, csv, io, json, sys, datetime as dt
+import argparse, csv, io, json, sys, warnings, datetime as dt
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import requests
 import yfinance as yf
 
+warnings.filterwarnings("ignore", message=".*inplace keyword.*")  # noisy yfinance/pandas deprecation notice
 ET = ZoneInfo("America/New_York")
 UTC = ZoneInfo("UTC")
 TICKERS = ["BABA", "CRCL", "ETHA", "FUTU", "NVDA", "TIGR", "TSLA", "GOOG", "AVGO"]
@@ -27,10 +28,28 @@ def pct(new, old):
     return round((new / old - 1) * 100, 2) if old else None
 
 
-def daily(sym):
-    """Daily bars as a list of (date, close), oldest first."""
-    h = yf.Ticker(sym).history(period="15d", interval="1d", auto_adjust=False)
+def _bars(h):
     return [(i.date(), float(r["Close"])) for i, r in h.iterrows() if r["Close"] == r["Close"]]
+
+
+def daily(sym):
+    """Daily bars as a list of (date, close), oldest first.
+
+    Uses explicit ET dates rather than period="15d": a period query can drop today's bar when it is
+    run late in the evening (after midnight UTC). If today's bar is still missing after the close,
+    retry with other ranges before giving up.
+    """
+    today = dt.datetime.now(ET).date()
+    end = today + dt.timedelta(days=1)
+    t = yf.Ticker(sym)
+    bars = _bars(t.history(start=(end - dt.timedelta(days=25)).isoformat(), end=end.isoformat(),
+                           interval="1d", auto_adjust=False))
+    if (not bars or bars[-1][0] != today) and dt.datetime.now(ET).hour >= 16:
+        for kw in ({"period": "1mo"}, {"period": "5d"}):
+            retry = _bars(t.history(interval="1d", auto_adjust=False, **kw))
+            if retry and retry[-1][0] == today:
+                return retry
+    return bars
 
 
 def quote_close(sym, today):
@@ -169,7 +188,10 @@ def main():
             except Exception as e1:
                 if sym != "^HXC":
                     raise
-                q = index_quote_fred("NASDAQHXC")  # Golden Dragon fallback
+                try:
+                    q = index_quote_fred("NASDAQHXC")  # Golden Dragon fallback
+                except Exception as e2:
+                    raise ValueError(f"Yahoo failed ({e1}); FRED failed ({e2})")
                 errors.append(f"{name}: Yahoo failed ({e1}); used FRED instead")
             idx.append({"name": name, "value": f"{q['close']:,.2f}", "changePct": q["changePct"]})
         except Exception as e:
