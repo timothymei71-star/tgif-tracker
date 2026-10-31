@@ -1,7 +1,7 @@
 {
   "mode": "recap",
   "reportDate": "2026-10-30",
-  "generatedAt": "2026-10-30 16:53 ET",
+  "generatedAt": "2026-10-30 21:37 ET",
   "tickers": {
     "BABA": {
       "close": 98.04,
@@ -85,5 +85,7 @@
     }
   ],
   "cryptoTime": "4:00 PM ET prices (Coinbase)",
-  "errors": []
+  "errors": [
+    "Golden Dragon (China): Yahoo failed (need two daily bars); FRED failed (HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15))"
+  ]
 }
