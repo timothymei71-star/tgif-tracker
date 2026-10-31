@@ -39,16 +39,25 @@ def daily(sym):
     run late in the evening (after midnight UTC). If today's bar is still missing after the close,
     retry with other ranges before giving up.
     """
-    today = dt.datetime.now(ET).date()
+    now = dt.datetime.now(ET)
+    today = now.date()
     end = today + dt.timedelta(days=1)
     t = yf.Ticker(sym)
     bars = _bars(t.history(start=(end - dt.timedelta(days=25)).isoformat(), end=end.isoformat(),
                            interval="1d", auto_adjust=False))
-    if (not bars or bars[-1][0] != today) and dt.datetime.now(ET).hour >= 16:
-        for kw in ({"period": "1mo"}, {"period": "5d"}):
-            retry = _bars(t.history(interval="1d", auto_adjust=False, **kw))
-            if retry and retry[-1][0] == today:
-                return retry
+    if (not bars or bars[-1][0] != today) and now.hour >= 16:
+        # Late in the evening Yahoo keeps today's daily row but leaves its Close empty (NaN).
+        # The chart metadata still carries the official regular-session close, so use that,
+        # but only if it is stamped at/after the close today (never a live or after-hours price).
+        try:
+            meta = t.history_metadata or {}
+            px, ts = meta.get("regularMarketPrice"), meta.get("regularMarketTime")
+            if px and ts:
+                stamp = dt.datetime.fromtimestamp(int(ts), tz=ET)
+                if stamp.date() == today and stamp.hour >= 13:
+                    bars = [b for b in bars if b[0] < today] + [(today, float(px))]
+        except Exception:
+            pass
     return bars
 
 
@@ -65,7 +74,7 @@ def quote_close(sym, today):
 def fred_series(series_id):
     """Daily closes from FRED's public CSV (no key). Used as a fallback for the Golden Dragon index."""
     r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": series_id},
-                     headers=HEADERS, timeout=30)
+                     headers=HEADERS, timeout=15)
     r.raise_for_status()
     out = []
     for row in csv.DictReader(io.StringIO(r.text)):
@@ -188,6 +197,12 @@ def main():
             except Exception as e1:
                 if sym != "^HXC":
                     raise
+                try:  # diagnostics: show what Yahoo has for the index
+                    print("DEBUG ^HXC raw tail:\n", yf.Ticker("^HXC").history(
+                        start=(today - dt.timedelta(days=12)).isoformat(), end=(today + dt.timedelta(days=1)).isoformat(),
+                        interval="1d", auto_adjust=False)[["Close"]].tail(8))
+                except Exception as ex:
+                    print("DEBUG ^HXC failed:", repr(ex))
                 try:
                     q = index_quote_fred("NASDAQHXC")  # Golden Dragon fallback
                 except Exception as e2:
