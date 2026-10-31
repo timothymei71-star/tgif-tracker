@@ -71,17 +71,22 @@ def quote_close(sym, today):
             "changePct": pct(bars[-1][1], bars[-2][1])}
 
 
-def fred_series(series_id):
-    """Daily closes from FRED's public CSV (no key). Used as a fallback for the Golden Dragon index."""
-    r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": series_id},
-                     headers=HEADERS, timeout=15)
+def nasdaq_index_rows(code, today):
+    """Daily index values from Nasdaq's own index site (the same request its History page makes)."""
+    r = requests.post(
+        "https://indexes.nasdaqomx.com/Index/HistoryData",
+        data={"id": code, "startDate": (today - dt.timedelta(days=20)).isoformat() + "T00:00:00.000",
+              "endDate": (today + dt.timedelta(days=1)).isoformat() + "T00:00:00.000", "timeOfDay": "EOD"},
+        headers={"User-Agent": "Mozilla/5.0 (compatible; tgif-tracker/1.0)",
+                 "Referer": f"https://indexes.nasdaqomx.com/Index/History/{code}",
+                 "X-Requested-With": "XMLHttpRequest"},
+        timeout=30)
     r.raise_for_status()
-    out = []
-    for row in csv.DictReader(io.StringIO(r.text)):
-        v = row.get(series_id, ".")
-        if v not in (".", ""):
-            out.append((dt.date.fromisoformat(row["observation_date" if "observation_date" in row else "DATE"]), float(v)))
-    return sorted(out)
+    rows = sorted((dt.date.fromisoformat(x["TimeStamp"][:10]), float(x["Value"]))
+                  for x in r.json().get("aaData", []) if x.get("Value") is not None)
+    if not rows:
+        raise ValueError("Nasdaq returned no rows")
+    return rows
 
 
 def premarket(sym, today, cutoff):
@@ -178,36 +183,19 @@ def main():
         bars = [b for b in daily(sym) if b[0] < today]
         return {"close": round(bars[-1][1], 2), "changePct": pct(bars[-1][1], bars[-2][1])}
 
-    def index_quote_fred(series_id):
-        bars = [b for b in fred_series(series_id) if (b[0] == today if a.mode == "recap" else b[0] < today)]
-        if len(bars) < 2 and a.mode != "recap":
-            raise ValueError("not enough FRED observations")
-        if a.mode == "recap":
-            allb = [b for b in fred_series(series_id) if b[0] <= today]
-            if not allb or allb[-1][0] != today or len(allb) < 2:
-                raise ValueError("FRED has no value for today yet")
-            return {"close": round(allb[-1][1], 2), "changePct": pct(allb[-1][1], allb[-2][1])}
-        return {"close": round(bars[-1][1], 2), "changePct": pct(bars[-1][1], bars[-2][1])}
+    def index_quote_nasdaq(code):
+        rows = nasdaq_index_rows(code, today)
+        use = [r for r in rows if (r[0] <= today if a.mode == "recap" else r[0] < today)]
+        if a.mode == "recap" and (not use or use[-1][0] != today):
+            raise ValueError(f"Nasdaq has no value for {today} yet (last: {use[-1][0] if use else None})")
+        if len(use) < 2:
+            raise ValueError("need two Nasdaq daily values")
+        return {"close": round(use[-1][1], 2), "changePct": pct(use[-1][1], use[-2][1])}
 
     idx = []
     for name, sym in INDICES:
         try:
-            try:
-                q = index_quote(sym)
-            except Exception as e1:
-                if sym != "^HXC":
-                    raise
-                try:  # diagnostics: show what Yahoo has for the index
-                    print("DEBUG ^HXC raw tail:\n", yf.Ticker("^HXC").history(
-                        start=(today - dt.timedelta(days=12)).isoformat(), end=(today + dt.timedelta(days=1)).isoformat(),
-                        interval="1d", auto_adjust=False)[["Close"]].tail(8))
-                except Exception as ex:
-                    print("DEBUG ^HXC failed:", repr(ex))
-                try:
-                    q = index_quote_fred("NASDAQHXC")  # Golden Dragon fallback
-                except Exception as e2:
-                    raise ValueError(f"Yahoo failed ({e1}); FRED failed ({e2})")
-                errors.append(f"{name}: Yahoo failed ({e1}); used FRED instead")
+            q = index_quote_nasdaq("HXC") if sym == "^HXC" else index_quote(sym)
             idx.append({"name": name, "value": f"{q['close']:,.2f}", "changePct": q["changePct"]})
         except Exception as e:
             errors.append(f"{name}: {e}")
