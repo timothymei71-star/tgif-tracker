@@ -485,7 +485,7 @@ function applyPrices(report, p){
   const have = new Set(scripted.map(i=>normName(i.name)));
   const extras = (m.indices||[]).filter(i=>{
     const n = normName(i.name);
-    return !have.has(n) && !/^(10y|sox|sp500|nasdaqcomposite)/.test(n);
+    return !have.has(n) && !/^(10y|sox|sp500|nasdaqcomposite|goldendragon|nasdaqgoldendragon)/.test(n);
   });
   if(scripted.length) m.indices = scripted.concat(extras);
   if(p.crypto && p.crypto.length){

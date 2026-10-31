@@ -18,7 +18,7 @@ import yfinance as yf
 ET = ZoneInfo("America/New_York")
 UTC = ZoneInfo("UTC")
 TICKERS = ["BABA", "CRCL", "ETHA", "FUTU", "NVDA", "TIGR", "TSLA", "GOOG", "AVGO"]
-INDICES = [("S&P 500", "^GSPC"), ("Nasdaq Composite", "^IXIC"), ("SOX (semis)", "^SOX")]
+INDICES = [("Golden Dragon (China)", "^HXC"), ("S&P 500", "^GSPC"), ("Nasdaq Composite", "^IXIC"), ("SOX (semis)", "^SOX")]
 CRYPTO = [("Bitcoin (BTC)", "BTC-USD"), ("Ethereum (ETH)", "ETH-USD")]
 HEADERS = {"User-Agent": "tgif-tracker/1.0"}
 
@@ -41,6 +41,19 @@ def quote_close(sym, today):
         raise ValueError("need two daily bars")
     return {"close": round(bars[-1][1], 2), "prevClose": round(bars[-2][1], 2),
             "changePct": pct(bars[-1][1], bars[-2][1])}
+
+
+def fred_series(series_id):
+    """Daily closes from FRED's public CSV (no key). Used as a fallback for the Golden Dragon index."""
+    r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": series_id},
+                     headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    out = []
+    for row in csv.DictReader(io.StringIO(r.text)):
+        v = row.get(series_id, ".")
+        if v not in (".", ""):
+            out.append((dt.date.fromisoformat(row["observation_date" if "observation_date" in row else "DATE"]), float(v)))
+    return sorted(out)
 
 
 def premarket(sym, today, cutoff):
@@ -131,13 +144,33 @@ def main():
             errors.append(f"{s}: {e}")
     out["tickers"] = tick
 
+    def index_quote(sym):
+        if a.mode == "recap":
+            return quote_close(sym, today)
+        bars = [b for b in daily(sym) if b[0] < today]
+        return {"close": round(bars[-1][1], 2), "changePct": pct(bars[-1][1], bars[-2][1])}
+
+    def index_quote_fred(series_id):
+        bars = [b for b in fred_series(series_id) if (b[0] == today if a.mode == "recap" else b[0] < today)]
+        if len(bars) < 2 and a.mode != "recap":
+            raise ValueError("not enough FRED observations")
+        if a.mode == "recap":
+            allb = [b for b in fred_series(series_id) if b[0] <= today]
+            if not allb or allb[-1][0] != today or len(allb) < 2:
+                raise ValueError("FRED has no value for today yet")
+            return {"close": round(allb[-1][1], 2), "changePct": pct(allb[-1][1], allb[-2][1])}
+        return {"close": round(bars[-1][1], 2), "changePct": pct(bars[-1][1], bars[-2][1])}
+
     idx = []
     for name, sym in INDICES:
         try:
-            q = quote_close(sym, today) if a.mode == "recap" else None
-            if q is None:
-                bars = [b for b in daily(sym) if b[0] < today]
-                q = {"close": round(bars[-1][1], 2), "changePct": pct(bars[-1][1], bars[-2][1])}
+            try:
+                q = index_quote(sym)
+            except Exception as e1:
+                if sym != "^HXC":
+                    raise
+                q = index_quote_fred("NASDAQHXC")  # Golden Dragon fallback
+                errors.append(f"{name}: Yahoo failed ({e1}); used FRED instead")
             idx.append({"name": name, "value": f"{q['close']:,.2f}", "changePct": q["changePct"]})
         except Exception as e:
             errors.append(f"{name}: {e}")
