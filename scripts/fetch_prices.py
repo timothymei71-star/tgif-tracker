@@ -223,6 +223,15 @@ def main():
             print("Every ticker reports no bar for today: market closed (holiday). Nothing to do.")
             return 0
         print("FAILED: data could not be fetched (not a market holiday). Failing the run so it shows red in Actions.")
+        try:  # diagnostics so the next log shows exactly what Yahoo returned
+            print("DEBUG now (ET):", now.isoformat(), "| yfinance", yf.__version__)
+            t = yf.Ticker("NVDA")
+            print("DEBUG NVDA explicit-range tail:\n", t.history(start=(today - dt.timedelta(days=6)).isoformat(),
+                  end=(today + dt.timedelta(days=1)).isoformat(), interval="1d", auto_adjust=False)[["Close"]].tail(4))
+            print("DEBUG NVDA period=5d tail:\n", t.history(period="5d", interval="1d", auto_adjust=False)[["Close"]].tail(4))
+            print("DEBUG NVDA 5m last bars:\n", t.history(period="2d", interval="5m", auto_adjust=False)[["Close"]].tail(3))
+        except Exception as ex:
+            print("DEBUG failed:", repr(ex))
         return 1
 
     path = Path("prices") / f"{today.isoformat()}-{a.mode}.json"
