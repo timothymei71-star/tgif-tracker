@@ -151,14 +151,27 @@ def ten_year(today, require_today):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("mode", choices=["recap", "morning"])
-    ap.add_argument("--only-if-et-hour", type=int, help="exit quietly unless the current ET hour matches (handles DST)")
+    ap.add_argument("--only-if-et-hour", type=int,
+                    help="scheduled mode: only run inside the mode's ET time window and only if today's file is missing or had errors (GitHub starts scheduled jobs up to an hour late, so an exact-hour check is not safe)")
     ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
 
     now = dt.datetime.now(ET)
-    if a.only_if_et_hour is not None and not a.force and now.hour != a.only_if_et_hour:
-        print(f"ET hour is {now.hour}, wanted {a.only_if_et_hour}; skipping")
-        return 0
+    if a.only_if_et_hour is not None and not a.force:
+        minutes = now.hour * 60 + now.minute
+        lo, hi = (8 * 60, 12 * 60) if a.mode == "morning" else (16 * 60 + 10, 23 * 60 + 59)
+        if not lo <= minutes <= hi:
+            print(f"ET time {now:%H:%M} is outside the {a.mode} window; skipping")
+            return 0
+        prior = Path("prices") / f"{now.date().isoformat()}-{a.mode}.json"
+        if prior.exists():
+            try:
+                finished = not json.loads(prior.read_text()).get("errors")
+            except Exception:
+                finished = False
+            if finished:
+                print(f"{prior} already exists with no errors; nothing to do")
+                return 0
     today = now.date()
     if today.weekday() >= 5 and not a.force:
         print("Weekend; skipping")
