@@ -1,0 +1,97 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 2, 2026",
+  "periodStart": "Fri, Oct 30, 2026, 4:00 PM ET (previous close; weekend rolled up)",
+  "periodEnd": "Mon, Nov 2, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Mon, Nov 2, 2026, 5:08 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York).",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Reuters, steep declines in U.S. AI and tech shares are testing the rotation into other sectors that had supported the broader indexes, with investors focused on the large financing needed for AI spending and whether returns will justify it. Disappointing results from Alphabet, Amazon and Intel added to the pressure; Intel fell nearly 29% on Friday, and the S&P 500 tech sector fell 6.8% in October, its biggest monthly drop since March 2025. Separately, per Reuters, oil fell more than 4% on Monday (Brent down 4.2% at $108.64 a barrel by 10:20 GMT) on hopes of progress in talks to end the U.S.-Israeli war on Iran.",
+      "sourceName": "Reuters (via Kitco)",
+      "sourceUrl": "https://www.kitco.com/news/off-the-wire/2026-11-02/october-dive-ai-related-shares-tests-broader-us-stock-markets",
+      "pubTime": "Nov 2, 2026, 10:45 AM ET (updated 10:51 AM ET)"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": [
+    {
+      "source": "CNBC",
+      "headline": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Apple, Rivian, Amazon, CrowdStrike, Broadcom & more",
+      "url": "https://www.cnbc.com/2026/11/02/biggest-stocks-by-analyst-calls-on-wall-street.html",
+      "reason": "Could not be opened (fetch error)"
+    },
+    {
+      "source": "CNBC",
+      "headline": "Stock market news for Nov. 2, 2026",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+      "reason": "Could not be opened (fetch error)"
+    }
+  ]
+}
