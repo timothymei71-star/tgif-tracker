@@ -44,11 +44,16 @@ jobs:
             echo "args=recap --only-if-et-hour 16" >> "$GITHUB_OUTPUT"
           fi
       - run: python scripts/fetch_prices.py ${{ steps.pick.outputs.args }}
-      - name: Commit prices
+      - name: Fetch SEC filings
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        run: python scripts/fetch_filings.py ${{ steps.pick.outputs.args }}
+      - name: Commit prices and filings
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add prices
+          git add prices filings
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "Prices $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main
