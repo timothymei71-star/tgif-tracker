@@ -1,8 +1,21 @@
 {
  "mode": "morning",
  "reportDate": "2026-11-02",
+ "generatedAt": "2026-11-02T13:20:52-05:00",
+ "lookbackHours": 78,
+ "source": "SEC EDGAR",
+ "entities": {},
  "filings": {},
  "errors": [
-  "SEC ticker list: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+  "SEC ticker list: HTTP 403 from www.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "BABA: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "CRCL: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "ETHA: not found in the SEC ticker list",
+  "FUTU: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "NVDA: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "TIGR: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "TSLA: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "GOOG: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
+  "AVGO: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'"
  ]
 }
