@@ -16,15 +16,19 @@ ET = ZoneInfo("America/New_York")
 TICKERS = ["BABA", "CRCL", "ETHA", "FUTU", "NVDA", "TIGR", "TSLA", "GOOG", "AVGO"]
 FORMS = {"8-K", "8-K/A", "6-K", "6-K/A", "10-Q", "10-K", "20-F", "40-F", "S-1", "S-1/A", "F-1",
          "424B5", "424B2", "SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A", "SD", "DEF 14A", "DEFA14A"}
-UA = {"User-Agent": "tgif-tracker timothymei71-star@users.noreply.github.com",
-      "Accept-Encoding": "gzip, deflate"}
+UA = {"User-Agent": "TGIF Tracker timothymei71-star@users.noreply.github.com",
+      "Accept-Encoding": "gzip, deflate", "Accept": "application/json, text/html, */*"}
+# Known SEC CIKs so the run does not depend on the www.sec.gov ticker list (checked via the entity name in the output).
+KNOWN_CIKS = {"GOOG": 1652044, "NVDA": 1045810, "TSLA": 1318605, "AVGO": 1730168,
+              "BABA": 1577552, "CRCL": 1876042, "FUTU": 1754581, "TIGR": 1722608}
 EXCERPT_CHARS = 4000
 
 
 def get(url, **kw):
     time.sleep(0.15)  # SEC allows about 10 requests per second
     r = requests.get(url, headers=UA, timeout=30, **kw)
-    r.raise_for_status()
+    if not r.ok:
+        raise RuntimeError(f"HTTP {r.status_code} from {url.split('//')[1].split('/')[0]}: {r.text[:120]!r}")
     return r
 
 
@@ -53,8 +57,16 @@ def exhibit_url(cik, acc_nodash):
     return None
 
 
+_names = {}
+
+
+def entity_name(cik):
+    return _names.get(cik, "")
+
+
 def filings_for(ticker, cik, since):
     sub = get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json").json()
+    _names[cik] = sub.get("name", "")
     rec = sub["filings"]["recent"]
     out = []
     for i, form in enumerate(rec["form"]):
@@ -117,15 +129,13 @@ def main():
     # Look back 30 hours; on Monday go back to Friday afternoon so weekend filings are included.
     hours = 78 if now.weekday() == 0 else 30
     since = now.astimezone(dt.timezone.utc) - dt.timedelta(hours=hours)
-    errors, result = [], {}
-    try:
-        ciks = cik_map()
-    except Exception as e:
-        print(f"could not load the SEC ticker list: {e}", file=sys.stderr)
-        path.parent.mkdir(exist_ok=True)
-        path.write_text(json.dumps({"mode": a.mode, "reportDate": now.date().isoformat(), "filings": {},
-                                    "errors": [f"SEC ticker list: {e}"]}, indent=1))
-        return 1
+    errors, result, entities = [], {}, {}
+    ciks = dict(KNOWN_CIKS)
+    if any(t not in ciks for t in TICKERS):
+        try:
+            ciks = {**cik_map(), **ciks}
+        except Exception as e:
+            errors.append(f"SEC ticker list: {e}")
     for t in TICKERS:
         cik = ciks.get(t)
         if not cik:
@@ -133,13 +143,14 @@ def main():
             continue
         try:
             result[t] = filings_for(t, cik, since)
+            entities[t] = entity_name(cik)
         except Exception as e:
             errors.append(f"{t}: {e}")
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps({
         "mode": a.mode, "reportDate": now.date().isoformat(),
         "generatedAt": now.isoformat(timespec="seconds"), "lookbackHours": hours,
-        "source": "SEC EDGAR", "filings": result, "errors": errors}, indent=1))
+        "source": "SEC EDGAR", "entities": entities, "filings": result, "errors": errors}, indent=1))
     n = sum(len(v) for v in result.values())
     print(f"wrote {path}: {n} filings, {len(errors)} errors")
     for e in errors:
