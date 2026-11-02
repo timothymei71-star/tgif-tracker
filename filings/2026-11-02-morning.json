@@ -1,0 +1,8 @@
+{
+ "mode": "morning",
+ "reportDate": "2026-11-02",
+ "filings": {},
+ "errors": [
+  "SEC ticker list: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+ ]
+}
