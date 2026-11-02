@@ -1,7 +1,7 @@
 {
   "mode": "morning",
   "reportDate": "2026-11-02",
-  "generatedAt": "2026-11-02 12:28 ET",
+  "generatedAt": "2026-11-02 12:32 ET",
   "tickers": {
     "BABA": {
       "prevClose": 98.04,
@@ -60,6 +60,11 @@
   },
   "indices": [
     {
+      "name": "Golden Dragon (China)",
+      "value": "5,396.75",
+      "changePct": -0.27
+    },
+    {
       "name": "S&P 500",
       "value": "7,580.07",
       "changePct": -1.82
@@ -94,7 +99,5 @@
     }
   ],
   "cryptoTime": "8:00 AM ET prices (Coinbase)",
-  "errors": [
-    "Golden Dragon (China): Invalid isoformat string: '/Date(1793'"
-  ]
+  "errors": []
 }
