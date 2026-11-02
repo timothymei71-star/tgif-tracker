@@ -9,7 +9,7 @@ Only numbers come from here. Nothing is estimated: if a value can't be fetched i
 left out and an entry is added to "errors".
 Usage: python scripts/fetch_prices.py recap|morning [--only-if-et-hour N] [--force]
 """
-import argparse, csv, io, json, sys, warnings, datetime as dt
+import argparse, csv, io, json, re, sys, warnings, datetime as dt
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import requests
