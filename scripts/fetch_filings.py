@@ -7,7 +7,7 @@ company news can quote real numbers from the filing instead of relying on a news
 
 Usage: python scripts/fetch_filings.py morning|recap [--force] [--only-if-et-hour N]
 """
-import argparse, html, json, re, sys, time, datetime as dt
+import argparse, html, json, os, re, sys, time, datetime as dt
 from pathlib import Path
 from zoneinfo import ZoneInfo
 import requests
@@ -16,7 +16,10 @@ ET = ZoneInfo("America/New_York")
 TICKERS = ["BABA", "CRCL", "ETHA", "FUTU", "NVDA", "TIGR", "TSLA", "GOOG", "AVGO"]
 FORMS = {"8-K", "8-K/A", "6-K", "6-K/A", "10-Q", "10-K", "20-F", "40-F", "S-1", "S-1/A", "F-1",
          "424B5", "424B2", "SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A", "SD", "DEF 14A", "DEFA14A"}
-UA = {"User-Agent": "TGIF Tracker timothymei71-star@users.noreply.github.com",
+# The SEC requires real contact details in the User-Agent. Set the SEC_CONTACT secret in GitHub
+# (for example "Jane Doe jane@example.com"); it is never written into the repo.
+CONTACT = os.environ.get("SEC_CONTACT", "").strip() or "timothymei71-star@users.noreply.github.com"
+UA = {"User-Agent": f"TGIF Tracker {CONTACT}",
       "Accept-Encoding": "gzip, deflate", "Accept": "application/json, text/html, */*"}
 # Known SEC CIKs so the run does not depend on the www.sec.gov ticker list (checked via the entity name in the output).
 KNOWN_CIKS = {"GOOG": 1652044, "NVDA": 1045810, "TSLA": 1318605, "AVGO": 1730168,

@@ -47,6 +47,8 @@ jobs:
       - name: Fetch SEC filings
         if: ${{ !cancelled() }}
         continue-on-error: true
+        env:
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
         run: python scripts/fetch_filings.py ${{ steps.pick.outputs.args }}
       - name: Commit prices and filings
         if: ${{ !cancelled() }}
