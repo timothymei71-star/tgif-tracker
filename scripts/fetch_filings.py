@@ -23,7 +23,7 @@ UA = {"User-Agent": f"TGIF Tracker {CONTACT}",
       "Accept-Encoding": "gzip, deflate", "Accept": "application/json, text/html, */*"}
 # Known SEC CIKs so the run does not depend on the www.sec.gov ticker list (checked via the entity name in the output).
 KNOWN_CIKS = {"GOOG": 1652044, "NVDA": 1045810, "TSLA": 1318605, "AVGO": 1730168,
-              "BABA": 1577552, "CRCL": 1876042, "FUTU": 1754581, "TIGR": 1722608}
+              "BABA": 1577552, "CRCL": 1876042, "FUTU": 1754581}  # TIGR and ETHA come from the SEC ticker list
 EXCERPT_CHARS = 4000
 
 
