@@ -17,9 +17,9 @@
     "calendar": [
       {
         "time": "After the close",
-        "event": "Apple reports quarterly earnings",
         "sourceName": "Reuters (via MarketScreener)",
-        "sourceUrl": "https://marketscreener.com/news/us-stocks-set-for-higher-open-as-ai-trade-steadies-midterms-in-focus-ce785fd8d08ef52d"
+        "sourceUrl": "https://marketscreener.com/news/us-stocks-set-for-higher-open-as-ai-trade-steadies-midterms-in-focus-ce785fd8d08ef52d",
+        "text": "Apple reports quarterly earnings"
       }
     ]
   },
