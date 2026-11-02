@@ -53,7 +53,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add prices filings
+          git add prices
+          if [ -d filings ]; then git add filings; fi
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "Prices $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main

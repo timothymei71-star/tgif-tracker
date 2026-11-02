@@ -16,7 +16,7 @@ ET = ZoneInfo("America/New_York")
 TICKERS = ["BABA", "CRCL", "ETHA", "FUTU", "NVDA", "TIGR", "TSLA", "GOOG", "AVGO"]
 FORMS = {"8-K", "8-K/A", "6-K", "6-K/A", "10-Q", "10-K", "20-F", "40-F", "S-1", "S-1/A", "F-1",
          "424B5", "424B2", "SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A", "SD", "DEF 14A", "DEFA14A"}
-UA = {"User-Agent": "tgif-tracker (https://github.com/timothymei71-star/tgif-tracker)",
+UA = {"User-Agent": "tgif-tracker timothymei71-star@users.noreply.github.com",
       "Accept-Encoding": "gzip, deflate"}
 EXCERPT_CHARS = 4000
 
@@ -122,6 +122,9 @@ def main():
         ciks = cik_map()
     except Exception as e:
         print(f"could not load the SEC ticker list: {e}", file=sys.stderr)
+        path.parent.mkdir(exist_ok=True)
+        path.write_text(json.dumps({"mode": a.mode, "reportDate": now.date().isoformat(), "filings": {},
+                                    "errors": [f"SEC ticker list: {e}"]}, indent=1))
         return 1
     for t in TICKERS:
         cik = ciks.get(t)
