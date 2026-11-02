@@ -1,0 +1,91 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 2, 2026",
+  "periodStart": "Fri, Oct 30, 2026, 4:00 PM ET (previous close; weekend rolled up)",
+  "periodEnd": "Mon, Nov 2, 2026, 9:10 AM ET",
+  "lastUpdated": "Mon, Nov 2, 2026, 9:10 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Reuters was read through a MarketScreener republication.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Reuters, US index futures rose at 8:06 AM ET after the Nasdaq-100 lost over $2.5 trillion in October on concerns about Big Tech AI spending and debt financing. Alphabet was among the top premarket gainers. Intel was down about 1% after its worst one-day fall since the 1980s on Friday. Oil fell more than 4% on hopes of a deal to end the US-Israeli war on Iran. Midterm elections are Tuesday.",
+      "sourceName": "Reuters (via MarketScreener)",
+      "sourceUrl": "https://marketscreener.com/news/us-stocks-set-for-higher-open-as-ai-trade-steadies-midterms-in-focus-ce785fd8d08ef52d",
+      "pubTime": "Nov 2, 2026, 8:32 AM ET"
+    },
+    "calendar": [
+      {
+        "time": "After the close",
+        "event": "Apple reports quarterly earnings",
+        "sourceName": "Reuters (via MarketScreener)",
+        "sourceUrl": "https://marketscreener.com/news/us-stocks-set-for-higher-open-as-ai-trade-steadies-midterms-in-focus-ce785fd8d08ef52d"
+      }
+    ]
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ]
+}
