@@ -1,21 +1,40 @@
 {
  "mode": "morning",
  "reportDate": "2026-11-02",
- "generatedAt": "2026-11-02T13:20:52-05:00",
+ "generatedAt": "2026-11-02T13:30:51-05:00",
  "lookbackHours": 78,
  "source": "SEC EDGAR",
- "entities": {},
- "filings": {},
- "errors": [
-  "SEC ticker list: HTTP 403 from www.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "BABA: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "CRCL: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "ETHA: not found in the SEC ticker list",
-  "FUTU: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "NVDA: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "TIGR: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "TSLA: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "GOOG: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'",
-  "AVGO: HTTP 403 from data.sec.gov: '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"'"
- ]
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "iQIYI, Inc.",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [],
+  "GOOG": [
+   {
+    "form": "424B5",
+    "filed": "2026-11-02",
+    "acceptedET": "2026-11-02 6:04 AM ET",
+    "items": "",
+    "description": "424B5",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/0001193125-26-442515-index.htm"
+   }
+  ],
+  "AVGO": []
+ },
+ "errors": []
 }
