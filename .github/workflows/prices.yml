@@ -4,8 +4,10 @@ on:
   schedule:
     # GitHub cron is UTC and ignores daylight saving. Each run is listed at both the EDT and EST
     # offsets; the script's --only-if-et-hour guard lets only the correct one do any work.
-    - cron: "5 12,13 * * 1-5"   # morning: 8:05 AM ET (12:05 UTC in EDT, 13:05 UTC in EST)
-    - cron: "20 20,21 * * 1-5"  # recap:   4:20 PM ET (20:20 UTC in EDT, 21:20 UTC in EST)
+    # GitHub often starts scheduled jobs 30-65 minutes late, so each is listed at several hours.
+    # The script only works inside its ET window and skips once today's file exists without errors.
+    - cron: "5 12,13,14,15 * * 1-5"   # morning: first try 8:05 AM ET, retries later in the morning
+    - cron: "20 20,21,22,23 * * 1-5"  # recap:   first try 4:20 PM ET, retries through the evening
   workflow_dispatch:
     inputs:
       mode:
@@ -36,7 +38,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "args=${{ inputs.mode }} --force" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "5 12,13 * * 1-5" ]; then
+          elif [ "${{ github.event.schedule }}" = "5 12,13,14,15 * * 1-5" ]; then
             echo "args=morning --only-if-et-hour 8" >> "$GITHUB_OUTPUT"
           else
             echo "args=recap --only-if-et-hour 16" >> "$GITHUB_OUTPUT"
