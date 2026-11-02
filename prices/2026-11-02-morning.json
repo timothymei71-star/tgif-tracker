@@ -1,0 +1,100 @@
+{
+  "mode": "morning",
+  "reportDate": "2026-11-02",
+  "generatedAt": "2026-11-02 12:28 ET",
+  "tickers": {
+    "BABA": {
+      "prevClose": 98.04,
+      "premarket": 101.31,
+      "premarketChangePct": 3.34,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "CRCL": {
+      "prevClose": 72.54,
+      "premarket": 72.8,
+      "premarketChangePct": 0.36,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "ETHA": {
+      "prevClose": 50.42,
+      "premarket": 51.55,
+      "premarketChangePct": 2.24,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "FUTU": {
+      "prevClose": 98.45,
+      "premarket": 99.99,
+      "premarketChangePct": 1.56,
+      "premarketAsOf": "7:41 AM ET"
+    },
+    "NVDA": {
+      "prevClose": 204.64,
+      "premarket": 206.57,
+      "premarketChangePct": 0.94,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "TIGR": {
+      "prevClose": 3.87,
+      "premarket": 3.92,
+      "premarketChangePct": 1.34,
+      "premarketAsOf": "7:43 AM ET"
+    },
+    "TSLA": {
+      "prevClose": 399.81,
+      "premarket": 402.76,
+      "premarketChangePct": 0.74,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "GOOG": {
+      "prevClose": 278.22,
+      "premarket": 279.72,
+      "premarketChangePct": 0.54,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "AVGO": {
+      "prevClose": 326.08,
+      "premarket": 326.95,
+      "premarketChangePct": 0.27,
+      "premarketAsOf": "8:00 AM ET"
+    }
+  },
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "changePct": -1.82
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,437.00",
+      "changePct": -2.86
+    },
+    {
+      "name": "SOX (semis)",
+      "value": "10,688.80",
+      "changePct": -7.2
+    }
+  ],
+  "tenYear": {
+    "value": "4.94%",
+    "changeBp": -4,
+    "asOfDate": "2026-10-30",
+    "source": "US Treasury daily par yield curve"
+  },
+  "crypto": [
+    {
+      "name": "Bitcoin (BTC)",
+      "price": "$77,674.24",
+      "changePct": -0.1
+    },
+    {
+      "name": "Ethereum (ETH)",
+      "price": "$2,282.40",
+      "changePct": 1.05
+    }
+  ],
+  "cryptoTime": "8:00 AM ET prices (Coinbase)",
+  "errors": [
+    "Golden Dragon (China): Invalid isoformat string: '/Date(1793'"
+  ]
+}
