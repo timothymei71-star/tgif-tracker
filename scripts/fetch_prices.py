@@ -82,7 +82,13 @@ def nasdaq_index_rows(code, today):
                  "X-Requested-With": "XMLHttpRequest"},
         timeout=30)
     r.raise_for_status()
-    rows = sorted((dt.date.fromisoformat(x["TimeStamp"][:10]), float(x["Value"]))
+    def to_date(ts):
+        # Nasdaq sends either "2026-10-30T00:00:00" or the .NET form "/Date(1793318400000)/"
+        m = re.search(r"/Date\((-?\d+)", str(ts))
+        if m:  # +12h so a midnight stamped in any timezone still lands on the right calendar day
+            return (dt.datetime.fromtimestamp(int(m.group(1)) / 1000, dt.timezone.utc) + dt.timedelta(hours=12)).date()
+        return dt.date.fromisoformat(str(ts)[:10])
+    rows = sorted((to_date(x["TimeStamp"]), float(str(x["Value"]).replace(",", "")))
                   for x in r.json().get("aaData", []) if x.get("Value") is not None)
     if not rows:
         raise ValueError("Nasdaq returned no rows")
