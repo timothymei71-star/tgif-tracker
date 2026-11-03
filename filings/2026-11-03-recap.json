@@ -1,0 +1,40 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-03",
+ "generatedAt": "2026-11-03T16:58:16-05:00",
+ "lookbackHours": 30,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-02",
+    "acceptedET": "2026-11-02 5:00 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926121458/tm267596d9_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926121458/0001104659-26-121458-index.htm"
+   }
+  ],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": []
+}
