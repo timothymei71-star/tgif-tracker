@@ -1,0 +1,65 @@
+name: Fetch news, filings and analyst actions
+
+on:
+  schedule:
+    # GitHub cron is UTC and ignores daylight saving, and GitHub often starts jobs 30-65 minutes late.
+    # Each run is listed at several hours; the scripts only work inside their ET window and skip once
+    # today's file is complete.
+    - cron: "45 10,11,12 * * 1-5"   # morning: first try about 6:45 AM ET, so it is ready before the 8:20 AM brief
+    - cron: "30 20,21,22 * * 1-5"   # recap:   first try about 4:30 PM ET
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "recap or morning"
+        required: true
+        default: recap
+        type: choice
+        options: [recap, morning]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance requests
+      - name: Work out which run this is
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "args=${{ inputs.mode }} --force" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "45 10,11,12 * * 1-5" ]; then
+            echo "args=morning --only-if-et-hour 8" >> "$GITHUB_OUTPUT"
+          else
+            echo "args=recap --only-if-et-hour 16" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Fetch SEC filings
+        continue-on-error: true
+        env:
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
+        run: python scripts/fetch_filings.py ${{ steps.pick.outputs.args }}
+      - name: Fetch headlines, official releases and analyst actions
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          BLS_CONTACT: ${{ secrets.BLS_CONTACT }}
+        run: python scripts/fetch_news.py ${{ steps.pick.outputs.args }}
+      - name: Commit
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for d in filings news; do if [ -d "$d" ]; then git add "$d"; fi; done
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "News and filings $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main

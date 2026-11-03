@@ -117,7 +117,7 @@ def main():
 
     if a.only_if_et_hour is not None and not a.force:
         minutes = now.hour * 60 + now.minute
-        lo, hi = (8 * 60, 12 * 60) if a.mode == "morning" else (16 * 60 + 10, 23 * 60 + 59)
+        lo, hi = (6 * 60 + 30, 12 * 60) if a.mode == "morning" else (16 * 60 + 10, 23 * 60 + 59)
         if not lo <= minutes <= hi:
             print(f"ET time {now:%H:%M} outside the {a.mode} window; skipping")
             return 0

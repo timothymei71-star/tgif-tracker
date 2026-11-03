@@ -374,8 +374,8 @@ function renderFooter(report){
   const f = document.getElementById('footer');
   f.innerHTML = '';
   if(report.timezoneNote) f.appendChild(el('div','', report.timezoneNote));
-  f.appendChild(el('div','', 'Every item above was opened and confirmed directly before inclusion. Source: company releases and SEC filings first, then established financial press. Opinion pieces and forums excluded.'));
-  if(report.priceInfo) f.appendChild(el('div','', 'Prices: Yahoo Finance (stocks and indices), Coinbase (BTC, ETH), US Treasury (10Y yield). Pulled ' + report.priceInfo.generatedAt + '.'));
+  f.appendChild(el('div','', 'Sources: company releases and SEC filings first, then established financial press. Where a full article could not be opened, an item is based only on the publisher\'s headline and opening summary and says nothing beyond it. Opinion pieces and forums are excluded.'));
+  if(report.priceInfo) f.appendChild(el('div','', 'Prices: Yahoo Finance (stocks, S&P 500, Nasdaq, SOX), Nasdaq (Golden Dragon), Coinbase (BTC, ETH), US Treasury (10Y yield). Analyst ratings and targets: Yahoo Finance. Pulled ' + report.priceInfo.generatedAt + '.'));
   f.appendChild(el('div','', 'Reports are generated each trading day: Morning Brief by 8:30 AM ET, Daily Recap in the evening after the close.'));
 }
 
