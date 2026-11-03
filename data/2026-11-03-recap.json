@@ -1,0 +1,91 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 3, 2026",
+  "periodStart": "Mon, Nov 2, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Tue, Nov 3, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Tue, Nov 3, 2026, 5:20 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York).",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Reuters, the Nasdaq Composite rose 0.83% and the S&P 500 rose 0.35% while the Dow fell 0.40%, as AI-related heavyweights and chip stocks rebounded and the Philadelphia chip index jumped. Nvidia rose after four straight losing sessions, Micron gained and AMD rose ahead of its after-the-close earnings report; Apple fell after warning that rising memory-chip costs would pressure its holiday-quarter gross margin, and Palantir dipped despite beating third-quarter expectations and forecasting revenue above estimates. The Nasdaq 100 closed Monday more than 10% below its Oct. 6 record, which confirms a correction. Oil eased as investors weighed talks to end the wars in Ukraine and Iran, though a senior Iranian official told Reuters the two sides remain far from a deal. U.S. midterm elections were held.",
+      "sourceName": "Reuters (via Kitco)",
+      "sourceUrl": "https://www.kitco.com/news/off-the-wire/2026-11-03/nasdaq-ends-higher-ai-heavyweights-rebound-ahead-midterm-results",
+      "pubTime": "Nov 3, 2026, 4:12 PM ET (updated 4:19 PM ET)"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": [
+    {
+      "source": "CNBC",
+      "headline": "Stock market news for Nov. 3, 2026",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+      "reason": "Could not be opened (fetch error)"
+    }
+  ]
+}
