@@ -1,0 +1,130 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 4, 2026",
+  "periodStart": "Tue, Nov 3, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Wed, Nov 4, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Wed, Nov 4, 2026, 6:15 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per WSJ, U.S. stocks surged as investors reacted to Democrats winning control of both chambers of Congress in the midterm elections (2:16 PM ET). Indexes opened higher on hope that legislative gridlock will keep the focus on corporate results, but data-center plans key to the AI build-out took a hit (WSJ, 10:16 AM ET). Treasury yields fell after the Democratic win (WSJ, 3:18 PM ET). Oil futures fell on raised hopes for a settlement to the Middle East conflict (WSJ, 3:59 PM ET), and gold futures recovered the $4,000 level as oil slid (WSJ, 2:47 PM ET). Earlier, Bloomberg and WSJ reported that AMD's forecast topped estimates on soaring AI chip demand.",
+      "sourceName": "WSJ",
+      "sourceUrl": "https://www.wsj.com/finance/investing/stock-futures-edge-lower-treasurys-strengthen-after-democratic-sweep-f2198d07",
+      "pubTime": "Nov 4, 2026, 2:16 PM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "earnings",
+          "headline": "Circle reports third-quarter 2026 results; USDC in circulation $73.9 billion",
+          "summary": "Circle's Q3 2026 press release (furnished with an 8-K, Item 2.02, at 6:26 AM ET; 10-Q filed 9:12 AM ET) reported total revenue and reserve income of $865 million, up 17% year over year (reserve income $658 million, other revenue $207 million). Net income from continuing operations was $226 million, up 5%, and adjusted EBITDA was $317 million, up 85%, a 70% margin. USDC in circulation at quarter end was $73.9 billion, flat year over year; the quarterly average was $73.3 billion, up 8%. Circle left its 2026 guidance unchanged (other revenue $310-$330 million, RLDC margin 41.7-43.7%, adjusted operating expenses $570-$585 million). The release also reported a definitive agreement to acquire Tazapay (expected to close in 2027, pending regulatory approvals), a $100 million equity investment from Binance and a workforce reduction of about 5% with $9.1 million in restructuring expenses. The stock closed up 1.2%.",
+          "sourceName": "SEC EDGAR 8-K Exhibit 99.1 (Circle Internet Group)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0001876042/000187604226000309/finalq3epr-110326.htm",
+          "pubTime": "Nov 4, 2026, 6:26 AM ET",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Nvidia China clients to get 1% of $70 billion RTX chips ordered",
+          "summary": "Bloomberg's summary: Chinese AI developers expect to receive only a small fraction of the advanced Nvidia chips they have ordered over the next several months, as Nvidia struggles to boost production to meet soaring demand. Nvidia closed down 3.17%.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-04/nvidia-china-clients-to-get-1-of-70-billion-rtx-chips-ordered",
+          "pubTime": "Nov 3, 2026, 10:14 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Musk's Tesla, SpaceX slide as Democrats sweep Congress",
+          "summary": "Bloomberg's summary: shares of Tesla and SpaceX fell ahead of Wednesday's U.S. open as Democrats swept to control of Congress, sharpening investor concern over the future of Elon Musk's key holdings. Tesla closed down 3.34%.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds",
+          "pubTime": "Nov 3, 2026, 11:28 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Google to invest $15 billion in Malaysia over two years",
+          "summary": "Bloomberg's summary: Alphabet's Google plans to spend $15 billion to expand data center and cloud operations in Malaysia as the AI boom fuels demand for digital infrastructure. WSJ's summary says the investment covers 2027 and 2028 and also supports talent development and clean-energy and water initiatives. The stock closed up 3.25%.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-04/google-to-spend-15-billion-in-malaysia-data-center-expansion",
+          "pubTime": "Nov 4, 2026, 4:00 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Google curbs AI in school accounts after pushback",
+          "summary": "WSJ's summary: Google turns off the Gemini chatbot and Google Search by default for schoolchildren after a WSJ investigation into Google's AI rollout in schools.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/google-curbs-ai-in-school-accounts-after-pushback-6b8021fc",
+          "pubTime": "Nov 3, 2026, 5:53 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
