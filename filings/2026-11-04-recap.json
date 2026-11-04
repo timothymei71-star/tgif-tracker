@@ -1,0 +1,50 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-04",
+ "generatedAt": "2026-11-04T16:14:57-05:00",
+ "lookbackHours": 30,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [],
+  "CRCL": [
+   {
+    "form": "10-Q",
+    "filed": "2026-11-04",
+    "acceptedET": "2026-11-04 9:12 AM ET",
+    "items": "",
+    "description": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/0001876042-26-000311-index.htm"
+   },
+   {
+    "form": "8-K",
+    "filed": "2026-11-04",
+    "acceptedET": "2026-11-04 6:26 AM ET",
+    "items": "2.02,9.01",
+    "description": "8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/crcl-20261104.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/0001876042-26-000309-index.htm",
+    "excerpt": "crcl-20261104 0001876042 false 0001876042 2026-11-04 2026-11-04 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): November 4, 2026 CIRCLE INTERNET GROUP, INC. (Exact name of registrant as specified in its charter) Delaware 001-42671 99-2840274 (State or other jurisdiction of incorporation or organization) (Commission File Number) (I.R.S. Employer Identification Number) One World Trade Center New York , NY 10007 ( 332 ) 334-0660 (Address, including zip code, and telephone number, including area code, of registrant\u2019s principal executive offices) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: \u2610 Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \u2610 Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) \u2610 Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) \u2610 Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol Name of each exchange on which registered Class A common stock, par value $0.0001 per share CRCL New York Stock Exchange Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\u00a7230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\u00a7240.12b-2 of this chapter). Emerging growth company \u2610 If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \u2610 _______________________________________________________________________________________________________________ Item 2.02. Results of Operations and Financial Condition On November 4, 2026, Circle Internet Group, Inc. (the \u201cCompany\u201d) issued a press release announcing its financial results for the third quarter ended September 30, 2026. A copy of the press release is attached hereto as Exhibit 99.1. The information in Item 2.02 of this current report on Form 8-K and Exhibit 99.1 attached hereto shall not be deemed \u201cfiled\u201d for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as expressly set forth by specific reference in such filing. Item 9.01. Financial Statements and Exhibits (d) Exhibits Exhibit No. Description 99.1 Press Release dated November 4, 2026 104 Cover Page Interactive Data File (embedded with the Inline XBRL document) SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. CIRCLE INTERNET GROUP, INC. Date: November 4, 2026 By: /s/ Jeremy Fox-Geen Name: Jeremy Fox-Geen Title: Chief Financial Officer"
+   }
+  ],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": []
+}
