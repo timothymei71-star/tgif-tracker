@@ -93,31 +93,25 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "November 3, 2026",
-    "periodStart": "Mon, Nov 2, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Tue, Nov 3, 2026, 9:25 AM ET",
-    "lastUpdated": "Tue, Nov 3, 2026, 9:25 AM ET",
-    "timezoneNote": "All times shown in ET (America/New_York). Reuters was read through a Lufkin Daily News republication.",
+    "reportDate": "November 4, 2026",
+    "periodStart": "Tue, Nov 3, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Wed, Nov 4, 2026, 9:20 AM ET",
+    "lastUpdated": "Wed, Nov 4, 2026, 9:20 AM ET",
+    "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per Reuters, at 7:07 AM ET Dow E-minis were down 0.94%, S&P 500 E-minis down 0.19% and Nasdaq 100 E-minis up 0.13%; the Nasdaq-100 closed Monday more than 10% below its record close, confirming a correction. Apple fell 3.9% premarket after warning that rising memory chip costs will pressure its holiday-quarter gross margin. Palantir fell 7.7% despite beating third-quarter expectations and forecasting fourth-quarter revenue above estimates. Nvidia rose 1.4% after four straight losing sessions. Crude rose after an Iranian official said a deal to end the war was far off. U.S. midterm elections are today.",
-        "sourceName": "Reuters (via Lufkin Daily News)",
-        "sourceUrl": "https://lufkindailynews.com/news_reuters/business/wall-st-futures-mixed-as-apple-falls-on-margin-warning-midterm-results-awaited/article_a2bff943-257d-5606-8ec7-a6691ff537f1.html",
-        "pubTime": "Nov 3, 2026 (premarket; exact time not shown)"
+        "text": "U.S. stock futures rallied and Treasurys strengthened after Democrats won control of Congress in the midterm elections, with futures reversing earlier losses once President Trump said he would accept the result (WSJ, 6:23 AM ET; Bloomberg). The dollar and Treasury yields fell and gold rose above $4,000 an ounce (Bloomberg). Asian stocks recovered early losses as AI worries eased, and renewable energy stocks rallied globally. UBS said the Democratic result would bring renewed volatility to tech stocks without necessarily derailing the AI investment cycle (WSJ). AMD's forecast topped estimates on soaring AI chip demand (Bloomberg). Oil fell as investors weighed the midterm results and U.S.-Iran developments (WSJ).",
+        "sourceName": "WSJ / Bloomberg",
+        "sourceUrl": "https://www.wsj.com/finance/investing/stock-futures-edge-lower-treasurys-strengthen-after-democratic-sweep-f2198d07",
+        "pubTime": "Nov 4, 2026, 6:23 AM ET"
       },
       "calendar": [
         {
-          "time": "After the close",
-          "sourceName": "Reuters (via Lufkin Daily News)",
-          "sourceUrl": "https://lufkindailynews.com/news_reuters/business/wall-st-futures-mixed-as-apple-falls-on-margin-warning-midterm-results-awaited/article_a2bff943-257d-5606-8ec7-a6691ff537f1.html",
-          "text": "AMD reports quarterly earnings"
-        },
-        {
-          "time": "All day",
-          "sourceName": "Reuters (via Lufkin Daily News)",
-          "sourceUrl": "https://lufkindailynews.com/news_reuters/business/wall-st-futures-mixed-as-apple-falls-on-margin-warning-midterm-results-awaited/article_a2bff943-257d-5606-8ec7-a6691ff537f1.html",
-          "text": "U.S. midterm elections"
+          "time": "8:00 AM ET",
+          "sourceName": "Circle Investor Relations",
+          "sourceUrl": "https://investor.circle.com/events-and-presentations/event-details/2026/Circle-Reports-Third-Quarter-2026-Results/default.aspx",
+          "text": "Circle (CRCL) third-quarter 2026 results webcast"
         }
       ]
     },
@@ -132,9 +126,18 @@
       {
         "ticker": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "earnings",
+            "headline": "Circle reports third-quarter 2026 results",
+            "summary": "Circle filed an 8-K (Item 2.02) at 6:26 AM ET furnishing a press release on its financial results for the quarter ended September 30, 2026. Circle's investor site lists the results release and a live webcast at 8:00 AM ET on November 4. The headline figures sit in the attached Exhibit 99.1 press release, which was not read here.",
+            "sourceName": "SEC EDGAR 8-K (Circle Internet Group)",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/crcl-20261104.htm",
+            "pubTime": "Nov 4, 2026, 6:26 AM ET",
+            "sourceDepth": "full"
+          }
+        ]
       },
       {
         "ticker": "ETHA",
@@ -153,9 +156,18 @@
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corp",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Nvidia China clients to get 1% of $70 billion RTX chips ordered",
+            "summary": "Bloomberg's summary: Chinese AI developers expect to receive only a small fraction of the advanced Nvidia chips they have ordered over the next several months, as Nvidia struggles to boost production to meet soaring demand.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-04/nvidia-china-clients-to-get-1-of-70-billion-rtx-chips-ordered",
+            "pubTime": "Nov 3, 2026, 10:14 PM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "TIGR",
@@ -167,16 +179,43 @@
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Musk's Tesla, SpaceX slide as Democrats sweep Congress",
+            "summary": "Bloomberg's summary: shares of Tesla and SpaceX fell ahead of Wednesday's U.S. open as Democrats swept to control of Congress, sharpening investor concern over the future of Elon Musk's key holdings. WSJ separately reported the shares fell sharply premarket.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds",
+            "pubTime": "Nov 3, 2026, 11:28 PM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Google to invest $15 billion in Malaysia over two years",
+            "summary": "Bloomberg's summary: Alphabet's Google plans to spend $15 billion to expand data center and cloud operations in Malaysia as the AI boom fuels demand for digital infrastructure. WSJ's summary says the investment covers 2027 and 2028 and also supports talent development and clean-energy and water initiatives.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-04/google-to-spend-15-billion-in-malaysia-data-center-expansion",
+            "pubTime": "Nov 4, 2026, 4:00 AM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Google curbs AI in school accounts after pushback",
+            "summary": "WSJ's summary: Google turns off the Gemini chatbot and Google Search by default for schoolchildren after a WSJ investigation into Google's AI rollout in schools.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/tech/ai/google-curbs-ai-in-school-accounts-after-pushback-6b8021fc",
+            "pubTime": "Nov 3, 2026, 5:53 PM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "AVGO",
@@ -188,10 +227,10 @@
     ],
     "droppedLinks": [
       {
-        "source": "CNBC",
-        "headline": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Apple, Rivian, Amazon, CrowdStrike, Broadcom & more",
-        "url": "https://www.cnbc.com/2026/11/02/biggest-stocks-by-analyst-calls-on-wall-street.html",
-        "reason": "Could not be opened (fetch error)"
+        "source": "SEC EDGAR",
+        "headline": "Circle 8-K Exhibit 99.1 press release / filing index",
+        "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/0001876042-26-000309-index.htm",
+        "reason": "Could not be opened (fetch not permitted)"
       }
     ]
   }
