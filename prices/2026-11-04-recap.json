@@ -1,7 +1,7 @@
 {
   "mode": "recap",
   "reportDate": "2026-11-04",
-  "generatedAt": "2026-11-04 16:59 ET",
+  "generatedAt": "2026-11-04 17:58 ET",
   "tickers": {
     "BABA": {
       "close": 105.29,
@@ -51,6 +51,11 @@
   },
   "indices": [
     {
+      "name": "Golden Dragon (China)",
+      "value": "5,722.71",
+      "changePct": 3.49
+    },
+    {
       "name": "S&P 500",
       "value": "7,688.62",
       "changePct": 1.58
@@ -85,7 +90,5 @@
     }
   ],
   "cryptoTime": "4:00 PM ET prices (Coinbase)",
-  "errors": [
-    "Golden Dragon (China): Nasdaq has no value for 2026-11-04 yet (last: 2026-11-03)"
-  ]
+  "errors": []
 }
