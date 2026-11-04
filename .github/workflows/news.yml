@@ -51,7 +51,7 @@ jobs:
         if: ${{ !cancelled() }}
         continue-on-error: true
         env:
-          BLS_CONTACT: ${{ secrets.BLS_CONTACT }}
+          BLS_CONTACT: ${{ secrets.BLS_CONTACT || secrets.SEC_CONTACT }}
         run: python scripts/fetch_news.py ${{ steps.pick.outputs.args }}
       - name: Commit
         if: ${{ !cancelled() }}
