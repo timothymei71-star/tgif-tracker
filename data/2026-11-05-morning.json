@@ -1,0 +1,100 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 5, 2026",
+  "periodStart": "Wed, Nov 4, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Thu, Nov 5, 2026, 8:25 AM ET",
+  "lastUpdated": "Thu, Nov 5, 2026, 8:25 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Artificial-intelligence stocks continued to weaken globally as investors digested the Democratic sweep in the U.S. midterm elections (WSJ, 4:46 AM ET). Treasury and European bond yields fell, with U.S. yields at eight-week lows, as markets weighed the prospect of fiscal restraint under a divided government (WSJ, 5:15 AM ET). Chipmaker Qualcomm's earnings disappointed (WSJ). Bloomberg reported that large hyperscaler tech stocks rose as Democrats threaten to slow AI spending, though not all AI companies fared well. Bloomberg also reported that Hong Kong stocks are rebounding as investors rotate from hardware stocks into discounted Chinese internet platforms. Oil rose but stayed below $100 a barrel as traders weighed U.S.-Iran diplomacy (WSJ, 5:38 AM ET), after plunging on Wednesday as the Dow posted its best day in 18 months (MarketWatch).",
+      "sourceName": "WSJ / Bloomberg / MarketWatch",
+      "sourceUrl": "https://www.wsj.com/finance/stocks/ai-selloff-extends-treasurys-gain-as-blue-wave-reverberates-2d60fa21",
+      "pubTime": "Nov 5, 2026, 4:46 AM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "analyst",
+          "headline": "HC Wainwright lowers Circle price target to $100 from $104",
+          "summary": "HC Wainwright & Co. maintained its Buy rating on Circle and lowered its price target to $100 from $104, per Yahoo Finance analyst data.",
+          "firm": "HC Wainwright & Co.",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$104",
+          "newTarget": "$100",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
