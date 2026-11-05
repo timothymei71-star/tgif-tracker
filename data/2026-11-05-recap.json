@@ -1,0 +1,217 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 5, 2026",
+  "periodStart": "Wed, Nov 4, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Thu, Nov 5, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Thu, Nov 5, 2026, 6:20 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per WSJ, U.S. stocks plunged as disappointment in two major chip designers' earnings and post-election fears about curbed data-center development caused a rout in artificial-intelligence companies (4:51 PM ET); the Nasdaq composite closed in correction territory in the market's worst day since last April's tariff turmoil (WSJ, 4:41 PM ET). MarketWatch reported the S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record, and that Micron, Sandisk and other AI stocks fell sharply as Wall Street weighed the prospect of a slower AI buildout (4:32 PM ET). The Financial Times reported investors fear newly elected politicians will seek to slow data-center development (11:59 AM ET). Treasuries surged on haven demand (Bloomberg, 10:54 AM ET), and oil futures recovered some of the previous session's heavy losses as hopes held for a U.S.-Iran agreement (WSJ, 3:55 PM ET). Earlier in the day, Bloomberg reported Hong Kong stocks rebounding as investors rotated from hardware into discounted Chinese internet platforms.",
+      "sourceName": "WSJ / MarketWatch / Financial Times / Bloomberg",
+      "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-ai-rally-hits-a-wall-ec689f1e",
+      "pubTime": "Nov 5, 2026, 4:51 PM ET",
+      "sourceDepth": "headline"
+    },
+    "cryptoDriver": {
+      "text": "The Block reported that Bitcoin and ether fell as the Nasdaq selloff hit crypto, triggering $1.03 billion in liquidations and erasing Bitcoin's post-election gains.",
+      "sourceName": "The Block",
+      "sourceUrl": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
+      "pubTime": "Nov 5, 2026, 3:11 PM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "analyst",
+          "headline": "HC Wainwright & Co. lowers Circle price target to $100 from $104",
+          "summary": "HC Wainwright & Co. kept its Buy rating on Circle and lowered its price target to $100 from $104, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+          "firm": "HC Wainwright & Co.",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$104",
+          "newTarget": "$100",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "TD Cowen lowers Circle price target to $87 from $92",
+          "summary": "TD Cowen kept its Buy rating on Circle and lowered its price target to $87 from $92, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+          "firm": "TD Cowen",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$92",
+          "newTarget": "$87",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Wells Fargo lowers Circle price target to $101 from $115",
+          "summary": "Wells Fargo kept its Overweight rating on Circle and lowered its price target to $101 from $115, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+          "firm": "Wells Fargo",
+          "oldRating": "Overweight",
+          "newRating": "Overweight",
+          "oldTarget": "$115",
+          "newTarget": "$101",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Susquehanna lowers Circle price target to $86 from $92",
+          "summary": "Susquehanna kept its Neutral rating on Circle and lowered its price target to $86 from $92, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+          "firm": "Susquehanna",
+          "oldRating": "Neutral",
+          "newRating": "Neutral",
+          "oldTarget": "$92",
+          "newTarget": "$86",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Keefe, Bruyette & Woods lowers Circle price target to $90 from $105",
+          "summary": "Keefe, Bruyette & Woods kept its Market Perform rating on Circle and lowered its price target to $90 from $105, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+          "firm": "Keefe, Bruyette & Woods",
+          "oldRating": "Market Perform",
+          "newRating": "Market Perform",
+          "oldTarget": "$105",
+          "newTarget": "$90",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Needham lowers Circle price target to $103 from $134",
+          "summary": "Needham kept its Buy rating on Circle and lowered its price target to $103 from $134, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+          "firm": "Needham",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$134",
+          "newTarget": "$103",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "news",
+          "headline": "Samsung Wallet launches USDC accounts on Solana for US Galaxy users",
+          "summary": "The Block's summary: Samsung Wallet's Stablecoin Account is now live for eligible U.S. Galaxy users, allowing them to use USDC on Solana.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+          "pubTime": "Nov 5, 2026, 9:19 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "The 'Musk selloff' deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
+          "summary": "MarketWatch's summary: investors worry a divided Washington could derail \"Elon, Inc.\" Tesla closed down 10.77%.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f",
+          "pubTime": "Nov 5, 2026, 4:43 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "analyst",
+          "headline": "GLJ Research maintains Sell on Tesla with $24.86 price target",
+          "summary": "GLJ Research reiterated its Sell rating and $24.86 price target on Tesla, per Yahoo Finance analyst data.",
+          "firm": "GLJ Research",
+          "oldRating": "Sell",
+          "newRating": "Sell",
+          "oldTarget": "$24.86",
+          "newTarget": "$24.86",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/TSLA/analysis",
+          "pubTime": "Nov 5, 2026",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Google plans to spend $17 billion on Wyoming data center",
+          "summary": "Bloomberg's summary: Alphabet's Google will spend $17 billion to build a data center in Wyoming, formally putting a price tag on the proposal two days after voters across the US delivered a broad rebuke to the development of such massive projects for AI work. Alphabet (GOOG) closed down 1.94%.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
+          "pubTime": "Nov 5, 2026, 2:02 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
