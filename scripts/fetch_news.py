@@ -104,6 +104,41 @@ def fetch_feed(url, ua=BROWSER_UA):
     return out
 
 
+HKEX_BASE = "https://www1.hkexnews.hk"
+HKEX_COMPANIES = [("BABA", "9988", "Alibaba Group (HKEX 9988)")]  # only BABA is also listed in Hong Kong
+
+
+def hkex_announcements(code, label, since):
+    """Company announcements from HKEXnews (Tier 1). Returned in the same shape as the other official feeds."""
+    h = {"User-Agent": BROWSER_UA, "Referer": HKEX_BASE + "/"}
+    r = requests.get(f"{HKEX_BASE}/search/prefix.do", params={"callback": "cb", "lang": "EN", "type": "A", "name": code, "market": "SEHK"}, headers=h, timeout=30)
+    if not r.ok:
+        raise RuntimeError(f"HKEX lookup HTTP {r.status_code}")
+    m = re.search(r"\((\{.*\})\)", r.text, re.S)
+    info = json.loads(m.group(1)).get("stockInfo", []) if m else []
+    stock = next((x for x in info if str(x.get("code")) == code), None)
+    if not stock:
+        raise RuntimeError("HKEX stock id not found")
+    today = dt.datetime.now(ET).date()
+    params = {"sortDir": 0, "sortByOptions": "DateTime", "category": 0, "market": "SEHK", "stockId": stock["stockId"],
+              "documentType": -1, "fromDate": since.astimezone(ET).strftime("%Y%m%d"), "toDate": today.strftime("%Y%m%d"),
+              "title": "", "searchType": 0, "t1code": -2, "t2Gcode": -2, "t2code": -2, "rowRange": 50, "lang": "EN"}
+    r = requests.get(f"{HKEX_BASE}/search/titleSearchServlet.do", params=params, headers=h, timeout=30)
+    if not r.ok:
+        raise RuntimeError(f"HKEX search HTTP {r.status_code}")
+    rows = r.json().get("result") or "[]"
+    rows = json.loads(rows) if isinstance(rows, str) else rows
+    out = []
+    for x in rows:
+        title = clean(x.get("TITLE", ""), 300)
+        link = x.get("FILE_LINK", "")
+        if title and link:
+            out.append({"title": title, "summary": clean(x.get("LONG_TEXT", ""), 200),
+                        "url": link if link.startswith("http") else HKEX_BASE + link,
+                        "published": x.get("DATE_TIME")})
+    return {"source": label, "tier": 1, "items": out[:25]}
+
+
 def analyst_rows(since_date):
     import yfinance as yf
     res, errs = {}, []
@@ -193,6 +228,12 @@ def main():
             {"title": i["title"], "summary": i["summary"], "url": i["url"],
              "published": i["published"].astimezone(ET).strftime("%Y-%m-%d %-I:%M %p ET") if i["published"] else None}
             for i in items if not i["published"] or i["published"] >= since][:25]})
+
+    for t, code, label in HKEX_COMPANIES:
+        try:
+            official.append(hkex_announcements(code, label, since))
+        except Exception as e:
+            errors.append(f"HKEX {t}: {str(e)[:100]}")
 
     analysts, aerrs = analyst_rows((since.astimezone(ET)).date())
     errors += aerrs
