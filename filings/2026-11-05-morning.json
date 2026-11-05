@@ -1,0 +1,72 @@
+{
+ "mode": "morning",
+ "reportDate": "2026-11-05",
+ "generatedAt": "2026-11-05T06:36:33-05:00",
+ "lookbackHours": 30,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-05",
+    "acceptedET": "2026-11-05 6:06 AM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926122960/tm2629111d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926122960/0001104659-26-122960-index.htm",
+    "exhibitUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926122960/tm2629111d1_ex99-1.htm",
+    "excerpt": "EX-99.1 2 tm2629111d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 FF301 Page 1 of 10 v 1.2.1 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 October 2026 Status: New Submission To : Hong Kong Exchanges and Clearing Limited Name of Issuer: Alibaba Group Holding Limited Date Submitted: 05 November 2026 I. Movements in Authorised / Registered Share Capital 1. Class of shares Ordinary shares Type of shares Not applicable Listed on the Exchange (Note 1) Yes Stock code (if listed) 09988 Description Multi-counter stock code 89988 RMB Description Number of authorised/registered shares Par value Authorised/registered share capital Balance at close of preceding month 32,000,000,000 USD 0.000003125 USD 100,000 Increase / decrease (-) 0 USD 0 Balance at close of the month 32,000,000,000 USD 0.000003125 USD 100,000 Total authorised/registered share capital at the end of the month: USD 100,000 FF301 Page 2 of 10 v 1.2.1 II. Movements in Issued Shares and/or Treasury Shares and Public Float Sufficiency Confirmation 1. Class of shares Ordinary shares Type of shares Not applicable Listed on the Exchange (Note 1) Yes Stock code (if listed) 09988 Description Multi-counter stock code 89988 RMB Description Number of issued shares (excluding treasury shares) Number of treasury shares Total number of issued shares Balance at close of preceding month 19,901,959,514 0 19,901,959,514 Increase / decrease (-) 0 0 Balance at close of the month 19,901,959,514 0 19,901,959,514 Public float sufficiency confirmation (Note 4) Pursuant to Main Board Rule 13.32D(1) or 19A.28D(1) / GEM Rule 17.37D(1) or 25.21D(1), we hereby confirm that, in relation to the class of shares as set out above, as at the close of the month: \u2714 the applicable public float requirement (see below) has been complied with the applicable public float requirement (see below) has not been complied with The applicable minimum public float requirement for the class of shares as set out above pursuant to Main Board Rule 13.32B or 19A.28B / GEM Rule 17.37B or 25.21B (as the case may be) is: Applicable public float threshold Initial Prescribed Threshold - 25% of the total number of issued shares in the class to which the listed shares belong (excluding treasury shares) Additional information The above public float level is confirmed based on publicly available information and the best knowledge of the Company. FF301 Page 3 of 10 v 1.2.1 III. Details of Movements in Issued Shares and/or Treasury Shares (A). Share Options (under Share Option Schemes of the Issuer) 1. Class of shares Ordinary shares Type of shares Not applicable Listed on the Exchange (Note 1) Yes Stock code (if listed) 09988 Description Multi-counter stock code 89988 RMB Description Particulars of share option scheme Number of share options outstanding at close of preceding month Movement during the month Number of share options outstanding at close of the month Number of new shares issued during the month pursuant thereto (A1) Number of treasury shares transferred out of treasury during the month pursuant thereto (A2) Number of shares which may be issued or transferred out of treasury pursuant thereto as at close of the month The total number of shares which may be issued or transferred out of treasury upon exercise of all share options to be granted under the scheme at close of the month 1). Share options granted under 2014 Post-IPO Equity Incentive Plan (Adopted in September 2014 as amended from time to time) 27,424,000 27,424,000 27,424,000 0 General Meeting approval date (if applicable) 2). Share options granted under 2024 Equity Incentive Plan (Adopted in August 2024 as amended from time to time) 0 0 0 0 0 341,444,696 General Meeting approval date (if applicable) Increase in issued shares (excluding treasury shares): 0 Ordinary shares (AA1) Decrease in treasury shares: 0 Ordinary shares (AA2) Total funds raised "
+   }
+  ],
+  "CRCL": [
+   {
+    "form": "10-Q",
+    "filed": "2026-11-04",
+    "acceptedET": "2026-11-04 9:12 AM ET",
+    "items": "",
+    "description": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/0001876042-26-000311-index.htm"
+   },
+   {
+    "form": "8-K",
+    "filed": "2026-11-04",
+    "acceptedET": "2026-11-04 6:26 AM ET",
+    "items": "2.02,9.01",
+    "description": "8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/crcl-20261104.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/0001876042-26-000309-index.htm",
+    "excerpt": "crcl-20261104 0001876042 false 0001876042 2026-11-04 2026-11-04 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 Date of Report (Date of earliest event reported): November 4, 2026 CIRCLE INTERNET GROUP, INC. (Exact name of registrant as specified in its charter) Delaware 001-42671 99-2840274 (State or other jurisdiction of incorporation or organization) (Commission File Number) (I.R.S. Employer Identification Number) One World Trade Center New York , NY 10007 ( 332 ) 334-0660 (Address, including zip code, and telephone number, including area code, of registrant\u2019s principal executive offices) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: \u2610 Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \u2610 Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) \u2610 Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) \u2610 Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol Name of each exchange on which registered Class A common stock, par value $0.0001 per share CRCL New York Stock Exchange Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\u00a7230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\u00a7240.12b-2 of this chapter). Emerging growth company \u2610 If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \u2610 _______________________________________________________________________________________________________________ Item 2.02. Results of Operations and Financial Condition On November 4, 2026, Circle Internet Group, Inc. (the \u201cCompany\u201d) issued a press release announcing its financial results for the third quarter ended September 30, 2026. A copy of the press release is attached hereto as Exhibit 99.1. The information in Item 2.02 of this current report on Form 8-K and Exhibit 99.1 attached hereto shall not be deemed \u201cfiled\u201d for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d), or otherwise subject to the liabilities of that section, nor shall it be deemed incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as expressly set forth by specific reference in such filing. Item 9.01. Financial Statements and Exhibits (d) Exhibits Exhibit No. Description 99.1 Press Release dated November 4, 2026 104 Cover Page Interactive Data File (embedded with the Inline XBRL document) SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. CIRCLE INTERNET GROUP, INC. Date: November 4, 2026 By: /s/ Jeremy Fox-Geen Name: Jeremy Fox-Geen Title: Chief Financial Officer"
+   }
+  ],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [],
+  "GOOG": [
+   {
+    "form": "424B2",
+    "filed": "2026-11-04",
+    "acceptedET": "2026-11-04 4:21 PM ET",
+    "items": "",
+    "description": "424B2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/0001193125-26-447343-index.htm"
+   }
+  ],
+  "AVGO": []
+ },
+ "errors": []
+}
