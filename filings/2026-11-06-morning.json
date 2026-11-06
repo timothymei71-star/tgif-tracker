@@ -1,0 +1,64 @@
+{
+ "mode": "morning",
+ "reportDate": "2026-11-06",
+ "generatedAt": "2026-11-06T06:33:35-05:00",
+ "lookbackHours": 30,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-06",
+    "acceptedET": "2026-11-06 6:01 AM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/tm2629189d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/0001104659-26-123545-index.htm",
+    "exhibitUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/tm2629189d1_ex99-1.htm",
+    "excerpt": "EX-99.1 2 tm2629189d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited (the \u201c Hong Kong Stock Exchange \u201d) take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. We have one class of shares, and each holder of our shares is entitled to one vote per share. As the Alibaba Partnership\u2019s director nomination rights are categorized as a weighted voting rights structure (the \u201c WVR structure \u201d) under the Rules Governing the Listing of Securities on the Hong Kong Stock Exchange, we are deemed as a company with a WVR structure. Shareholders and prospective investors should be aware of the potential risks of investing in a company with a WVR structure. Our American depositary shares, each representing eight of our shares, are listed on the New York Stock Exchange in the United States under the symbol BABA. Alibaba Group Holding Limited \u963f\u91cc\u5df4\u5df4\u96c6\u5718\u63a7\u80a1\u6709\u9650\u516c\u53f8 (Incorporated in the Cayman Islands with limited liability) (Stock Code: 9988 (HKD Counter) and 89988 (RMB Counter)) DATE OF BOARD MEETING Our board of directors will hold a board meeting for the purposes of, among other matters, discussing our unaudited results for the three months and six months ended September 30, 2026 (\u201c Results \u201d) and the Results announcement on November 18, 2026, and such Results and the Results announcement will further be approved by or on behalf of the Board and announced on November 19, 2026 . By order of the Board Alibaba Group Holding Limited Kevin Jinwei ZHANG Secretary Hong Kong, November 6, 2026 As at the date of this announcement, our board of directors comprises Mr. Joseph C. TSAI as the chairman, Mr. Eddie Yongming WU, Mr. J. Michael EVANS and Ms. Maggie Wei WU as directors, and Mr. Jerry YANG, Ms. Wan Ling MARTELLO, Mr. Weijian SHAN, Ms. Irene Yun-Lien LEE, Mr. Albert Kong Ping NG and Mr. Kabir MISRA as independent directors."
+   },
+   {
+    "form": "6-K",
+    "filed": "2026-11-05",
+    "acceptedET": "2026-11-05 6:06 AM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926122960/tm2629111d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926122960/0001104659-26-122960-index.htm",
+    "exhibitUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926122960/tm2629111d1_ex99-1.htm",
+    "excerpt": "EX-99.1 2 tm2629111d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 FF301 Page 1 of 10 v 1.2.1 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 October 2026 Status: New Submission To : Hong Kong Exchanges and Clearing Limited Name of Issuer: Alibaba Group Holding Limited Date Submitted: 05 November 2026 I. Movements in Authorised / Registered Share Capital 1. Class of shares Ordinary shares Type of shares Not applicable Listed on the Exchange (Note 1) Yes Stock code (if listed) 09988 Description Multi-counter stock code 89988 RMB Description Number of authorised/registered shares Par value Authorised/registered share capital Balance at close of preceding month 32,000,000,000 USD 0.000003125 USD 100,000 Increase / decrease (-) 0 USD 0 Balance at close of the month 32,000,000,000 USD 0.000003125 USD 100,000 Total authorised/registered share capital at the end of the month: USD 100,000 FF301 Page 2 of 10 v 1.2.1 II. Movements in Issued Shares and/or Treasury Shares and Public Float Sufficiency Confirmation 1. Class of shares Ordinary shares Type of shares Not applicable Listed on the Exchange (Note 1) Yes Stock code (if listed) 09988 Description Multi-counter stock code 89988 RMB Description Number of issued shares (excluding treasury shares) Number of treasury shares Total number of issued shares Balance at close of preceding month 19,901,959,514 0 19,901,959,514 Increase / decrease (-) 0 0 Balance at close of the month 19,901,959,514 0 19,901,959,514 Public float sufficiency confirmation (Note 4) Pursuant to Main Board Rule 13.32D(1) or 19A.28D(1) / GEM Rule 17.37D(1) or 25.21D(1), we hereby confirm that, in relation to the class of shares as set out above, as at the close of the month: \u2714 the applicable public float requirement (see below) has been complied with the applicable public float requirement (see below) has not been complied with The applicable minimum public float requirement for the class of shares as set out above pursuant to Main Board Rule 13.32B or 19A.28B / GEM Rule 17.37B or 25.21B (as the case may be) is: Applicable public float threshold Initial Prescribed Threshold - 25% of the total number of issued shares in the class to which the listed shares belong (excluding treasury shares) Additional information The above public float level is confirmed based on publicly available information and the best knowledge of the Company. FF301 Page 3 of 10 v 1.2.1 III. Details of Movements in Issued Shares and/or Treasury Shares (A). Share Options (under Share Option Schemes of the Issuer) 1. Class of shares Ordinary shares Type of shares Not applicable Listed on the Exchange (Note 1) Yes Stock code (if listed) 09988 Description Multi-counter stock code 89988 RMB Description Particulars of share option scheme Number of share options outstanding at close of preceding month Movement during the month Number of share options outstanding at close of the month Number of new shares issued during the month pursuant thereto (A1) Number of treasury shares transferred out of treasury during the month pursuant thereto (A2) Number of shares which may be issued or transferred out of treasury pursuant thereto as at close of the month The total number of shares which may be issued or transferred out of treasury upon exercise of all share options to be granted under the scheme at close of the month 1). Share options granted under 2014 Post-IPO Equity Incentive Plan (Adopted in September 2014 as amended from time to time) 27,424,000 27,424,000 27,424,000 0 General Meeting approval date (if applicable) 2). Share options granted under 2024 Equity Incentive Plan (Adopted in August 2024 as amended from time to time) 0 0 0 0 0 341,444,696 General Meeting approval date (if applicable) Increase in issued shares (excluding treasury shares): 0 Ordinary shares (AA1) Decrease in treasury shares: 0 Ordinary shares (AA2) Total funds raised "
+   }
+  ],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [],
+  "GOOG": [
+   {
+    "form": "8-K",
+    "filed": "2026-11-05",
+    "acceptedET": "2026-11-05 4:10 PM ET",
+    "items": "8.01,9.01",
+    "description": "8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/0001193125-26-449835-index.htm",
+    "excerpt": "8-K NASDAQ NASDAQ Depositary Shares, each representing a 1/20th interest in a share of 6.25% of Series A Mandatory Convertible Preferred Stock, par value $0.001 per NASDAQ Depositary Shares, each representing a 1/20th interest in a share of 6.25% of Series B Mandatory Convertible Preferred Stock, par value $0.001 per NASDAQ false 0001652044 0001652044 2026-11-05 2026-11-05 0001652044 us-gaap:CommonStockMember 2026-11-05 2026-11-05 0001652044 goog:CapitalClassCMember 2026-11-05 2026-11-05 0001652044 goog:DepositarySharesSeriesAMandatoryConvertiblePreferredStockMember 2026-11-05 2026-11-05 0001652044 goog:DepositarySharesSeriesBMandatoryConvertiblePreferredStockMember 2026-11-05 2026-11-05 0001652044 goog:A2.375SeniorNotesDue2028Member 2026-11-05 2026-11-05 0001652044 goog:A2.500SeniorNotesDue2029Member 2026-11-05 2026-11-05 0001652044 goog:A4.125SeniorNotesDue2029Member 2026-11-05 2026-11-05 0001652044 goog:A3.200SeniorNotesDue2030Member 2026-11-05 2026-11-05 0001652044 goog:A2.875SeniorNotesDue2031Member 2026-11-05 2026-11-05 0001652044 goog:A3.450SeniorNotesDue2032Member 2026-11-05 2026-11-05 0001652044 goog:A4.625SeniorNotesDue2032Member 2026-11-05 2026-11-05 0001652044 goog:A3.000SeniorNotesDue2033Member 2026-11-05 2026-11-05 0001652044 goog:A3.125SeniorNotesDue2034Member 2026-11-05 2026-11-05 0001652044 goog:A3.625SeniorNotesDue2034Member 2026-11-05 2026-11-05 0001652044 goog:A3.375SeniorNotesDue2037Member 2026-11-05 2026-11-05 0001652044 goog:A3.500SeniorNotesDue2038Member 2026-11-05 2026-11-05 0001652044 goog:A4.100SeniorNotesDue2039Member 2026-11-05 2026-11-05 0001652044 goog:A5.500SeniorNotesDue2041Member 2026-11-05 2026-11-05 0001652044 goog:A4.000SeniorNotesDue2044Member 2026-11-05 2026-11-05 0001652044 goog:A3.875SeniorNotesDue2045Member 2026-11-05 2026-11-05 0001652044 goog:A4.500SeniorNotesDue2045Member 2026-11-05 2026-11-05 0001652044 goog:A4.000SeniorNotesDue2054Member 2026-11-05 2026-11-05 0001652044 goog:A5.875SeniorNotesDue2058Member 2026-11-05 2026-11-05 0001652044 goog:A4.800SeniorNotesDue2063Member 2026-11-05 2026-11-05 0001652044 goog:A4.375SeniorNotesDue2064Member 2026-11-05 2026-11-05 0001652044 goog:A6.125SeniorNotesDue2126Member 2026-11-05 2026-11-05 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of The Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 5, 2026 ALPHABET INC. (Exact name of registrant as specified in its charter) Delaware 001-37580 61-1767919 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) 1600 Amphitheatre Parkway Mountain View , CA 94043 (Address of principal executive offices, including zip code) (650) 253-0000 (Registrant\u2019s telephone number, including area code) Not Applicable (Former name or former address, if changed since last report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below): \u2610 Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \u2610 Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) \u2610 Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) \u2610 Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Class A Common Stock, $0.001 par value GOOGL Nasdaq Stock Market LLC none none (Nasdaq Global Select Market) Class C Capital Stock, $0.001 par value GOOG Nasdaq Stock Market LLC none none (Nasdaq Global Select Market) Depositary Shares, each representing a 1/20th interest in a share of 6.25% of Series A Mandatory Convertible Preferred Stock, par value "
+   }
+  ],
+  "AVGO": []
+ },
+ "errors": []
+}
