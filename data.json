@@ -219,29 +219,52 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "November 5, 2026",
-    "periodStart": "Wed, Nov 4, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Thu, Nov 5, 2026, 8:25 AM ET",
-    "lastUpdated": "Thu, Nov 5, 2026, 8:25 AM ET",
+    "reportDate": "November 6, 2026",
+    "periodStart": "Thu, Nov 5, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Fri, Nov 6, 2026, 8:25 AM ET",
+    "lastUpdated": "Fri, Nov 6, 2026, 8:25 AM ET",
     "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Artificial-intelligence stocks continued to weaken globally as investors digested the Democratic sweep in the U.S. midterm elections (WSJ, 4:46 AM ET). Treasury and European bond yields fell, with U.S. yields at eight-week lows, as markets weighed the prospect of fiscal restraint under a divided government (WSJ, 5:15 AM ET). Chipmaker Qualcomm's earnings disappointed (WSJ). Bloomberg reported that large hyperscaler tech stocks rose as Democrats threaten to slow AI spending, though not all AI companies fared well. Bloomberg also reported that Hong Kong stocks are rebounding as investors rotate from hardware stocks into discounted Chinese internet platforms. Oil rose but stayed below $100 a barrel as traders weighed U.S.-Iran diplomacy (WSJ, 5:38 AM ET), after plunging on Wednesday as the Dow posted its best day in 18 months (MarketWatch).",
-        "sourceName": "WSJ / Bloomberg / MarketWatch",
-        "sourceUrl": "https://www.wsj.com/finance/stocks/ai-selloff-extends-treasurys-gain-as-blue-wave-reverberates-2d60fa21",
-        "pubTime": "Nov 5, 2026, 4:46 AM ET",
+        "text": "Per WSJ, Asian equities slumped as the rout in artificial-intelligence-linked stocks continued, sending tech-heavy indexes toward bear-market territory (3:51 AM ET), while Nasdaq futures recovered some ground ahead of U.S. jobs data due later Friday (5:06 AM ET). Bloomberg reported Taiwan authorized its National Financial Stabilization Fund to support its stock market (5:35 AM ET) and imposed short-selling curbs (5:48 AM ET), and that selling by trend-following systematic funds amplified Thursday's record plunge in Nasdaq 100 market value (5:30 AM ET). The Financial Times reported futures point to small gains at the opening bell (6:10 AM ET). WSJ reported Treasury yields turned higher ahead of the jobs data (6:23 AM ET) and oil fell below $100 a barrel as investors focused on Washington's next move on Iran (3:58 AM ET).",
+        "sourceName": "WSJ / Bloomberg / Financial Times",
+        "sourceUrl": "https://www.wsj.com/finance/stocks/asian-equities-tumble-as-ai-selloff-deepens-89319881?mod=rss_markets_main",
+        "pubTime": "Nov 6, 2026, 6:23 AM ET",
         "sourceDepth": "headline"
       },
-      "calendar": []
+      "calendar": [
+        {
+          "time": "Later today",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/finance/stocks/nasdaq-futures-steady-after-asian-ai-rout-as-investors-brace-for-jobs-day-83415c52?mod=rss_markets_main",
+          "text": "U.S. October jobs report"
+        }
+      ],
+      "cryptoDriver": {
+        "text": "CoinDesk reported that ETFs shed $430 million after the tech rout.",
+        "sourceName": "CoinDesk",
+        "sourceUrl": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
+        "pubTime": "Nov 6, 2026, 4:53 AM ET",
+        "sourceDepth": "headline"
+      }
     },
     "tickers": [
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "filing",
+            "headline": "Alibaba sets Nov 18 board meeting for September-quarter results; announcement Nov 19",
+            "summary": "In a Form 6-K filed with the SEC (accepted 6:01 AM ET), Alibaba said its board will meet to discuss unaudited results for the three months and six months ended September 30, 2026, with the results announcement on November 18, 2026 and the results approved and announced on November 19, 2026, per the filing's wording.",
+            "sourceName": "SEC EDGAR (Alibaba Form 6-K)",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/tm2629189d1_6k.htm",
+            "pubTime": "Nov 6, 2026, 6:01 AM ET",
+            "sourceDepth": "full"
+          }
+        ]
       },
       {
         "ticker": "CRCL",
@@ -250,7 +273,91 @@
         "items": [
           {
             "type": "analyst",
-            "headline": "HC Wainwright lowers Circle price target to $100 from $104",
+            "headline": "JP Morgan lowers Circle price target to $100 from $110",
+            "summary": "JP Morgan maintained its Overweight rating on Circle and lowered its price target to $100 from $110, per Yahoo Finance analyst data.",
+            "firm": "JP Morgan",
+            "oldRating": "Overweight",
+            "newRating": "Overweight",
+            "oldTarget": "$110",
+            "newTarget": "$100",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "TD Cowen lowers Circle price target to $87 from $92",
+            "summary": "TD Cowen maintained its Buy rating on Circle and lowered its price target to $87 from $92, per Yahoo Finance analyst data.",
+            "firm": "TD Cowen",
+            "oldRating": "Buy",
+            "newRating": "Buy",
+            "oldTarget": "$92",
+            "newTarget": "$87",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Wells Fargo lowers Circle price target to $101 from $115",
+            "summary": "Wells Fargo maintained its Overweight rating on Circle and lowered its price target to $101 from $115, per Yahoo Finance analyst data.",
+            "firm": "Wells Fargo",
+            "oldRating": "Overweight",
+            "newRating": "Overweight",
+            "oldTarget": "$115",
+            "newTarget": "$101",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Susquehanna lowers Circle price target to $86 from $92",
+            "summary": "Susquehanna maintained its Neutral rating on Circle and lowered its price target to $86 from $92, per Yahoo Finance analyst data.",
+            "firm": "Susquehanna",
+            "oldRating": "Neutral",
+            "newRating": "Neutral",
+            "oldTarget": "$92",
+            "newTarget": "$86",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Keefe, Bruyette & Woods lowers Circle price target to $90 from $105",
+            "summary": "Keefe, Bruyette & Woods maintained its Market Perform rating on Circle and lowered its price target to $90 from $105, per Yahoo Finance analyst data.",
+            "firm": "Keefe, Bruyette & Woods",
+            "oldRating": "Market Perform",
+            "newRating": "Market Perform",
+            "oldTarget": "$105",
+            "newTarget": "$90",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Needham lowers Circle price target to $103 from $134",
+            "summary": "Needham maintained its Buy rating on Circle and lowered its price target to $103 from $134, per Yahoo Finance analyst data.",
+            "firm": "Needham",
+            "oldRating": "Buy",
+            "newRating": "Buy",
+            "oldTarget": "$134",
+            "newTarget": "$103",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "HC Wainwright & Co. lowers Circle price target to $100 from $104",
             "summary": "HC Wainwright & Co. maintained its Buy rating on Circle and lowered its price target to $100 from $104, per Yahoo Finance analyst data.",
             "firm": "HC Wainwright & Co.",
             "oldRating": "Buy",
@@ -281,9 +388,18 @@
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corp",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Nvidia steps up monitoring of AI accelerators sold in Southeast Asia",
+            "summary": "Per Bloomberg, Nvidia is stepping up monitoring of AI accelerators sold in Southeast Asia, a step to curtail semiconductor smuggling after criticism that it has not done enough to stop shipments from illegally reaching Chinese companies. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-boosts-chip-tracking-in-southeast-asia-to-fight-smuggling",
+            "pubTime": "Nov 6, 2026, 5:03 AM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "TIGR",
@@ -295,9 +411,32 @@
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Musk says Tesla will wind down Cybertruck production at Texas Gigafactory next year",
+            "summary": "Per MarketWatch, Tesla CEO Elon Musk said in a post on X that the automaker will wind down the production of Cybertrucks in its Texas Gigafactory next year. The headline frames it as a shift in production at the factory. Written from the headline and the publisher's summary only.",
+            "sourceName": "MarketWatch",
+            "sourceUrl": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
+            "pubTime": "Nov 6, 2026, 5:37 AM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "analyst",
+            "headline": "GLJ Research reiterates Sell rating on Tesla, $24.86 target",
+            "summary": "GLJ Research reiterated its Sell rating on Tesla with a $24.86 price target, per Yahoo Finance analyst data.",
+            "firm": "GLJ Research",
+            "oldRating": "Sell",
+            "newRating": "Sell",
+            "oldTarget": "$24.86",
+            "newTarget": "$24.86",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/TSLA/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
+          }
+        ]
       },
       {
         "ticker": "GOOG",
@@ -314,6 +453,13 @@
         "cleanNote": "No material company news in this window."
       }
     ],
-    "droppedLinks": []
+    "droppedLinks": [
+      {
+        "source": "SEC EDGAR",
+        "headline": "Alphabet 8-K (Items 8.01, 9.01) filed Nov 5, 2026 4:10 PM ET",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+        "reason": "Could not be opened (fetch not permitted); excerpt showed only the cover page"
+      }
+    ]
   }
 }
