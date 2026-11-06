@@ -2,25 +2,30 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "November 5, 2026",
-    "periodStart": "Wed, Nov 4, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Thu, Nov 5, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Thu, Nov 5, 2026, 6:20 PM ET",
+    "reportDate": "November 6, 2026",
+    "periodStart": "Thu, Nov 5, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Fri, Nov 6, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Fri, Nov 6, 2026, 6:15 PM ET",
     "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per WSJ, U.S. stocks plunged as disappointment in two major chip designers' earnings and post-election fears about curbed data-center development caused a rout in artificial-intelligence companies (4:51 PM ET); the Nasdaq composite closed in correction territory in the market's worst day since last April's tariff turmoil (WSJ, 4:41 PM ET). MarketWatch reported the S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record, and that Micron, Sandisk and other AI stocks fell sharply as Wall Street weighed the prospect of a slower AI buildout (4:32 PM ET). The Financial Times reported investors fear newly elected politicians will seek to slow data-center development (11:59 AM ET). Treasuries surged on haven demand (Bloomberg, 10:54 AM ET), and oil futures recovered some of the previous session's heavy losses as hopes held for a U.S.-Iran agreement (WSJ, 3:55 PM ET). Earlier in the day, Bloomberg reported Hong Kong stocks rebounding as investors rotated from hardware into discounted Chinese internet platforms.",
-        "sourceName": "WSJ / MarketWatch / Financial Times / Bloomberg",
-        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-ai-rally-hits-a-wall-ec689f1e",
-        "pubTime": "Nov 5, 2026, 4:51 PM ET",
+        "text": "Per WSJ, U.S. stocks ended mixed after strong jobs data and a modest rebound for AI companies failed to quell investor nerves about the sustainability of the AI boom (5:01 PM ET). Bloomberg reported that the Treasury market pared a steep weekly advance after strong October employment data revived wagers on a Federal Reserve rate hike next month (8:47 AM ET), and that selling by trend-following systematic funds amplified Thursday's record plunge in Nasdaq 100 market value (1:49 PM ET). WSJ reported Taiwan activated market-stabilization measures after the global AI-related selloff (6:16 AM ET), and that oil futures ended little changed but sharply lower on the week on hopes for a negotiated solution to the Middle East conflict (4:14 PM ET).",
+        "sourceName": "WSJ / Bloomberg",
+        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6?mod=rss_markets_main",
+        "pubTime": "Nov 6, 2026, 5:01 PM ET",
         "sourceDepth": "headline"
       },
+      "dataRelease": {
+        "name": "U.S. October jobs report (nonfarm payrolls)",
+        "actual": "+165,000 jobs; unemployment rate 4.1% (BLS, preliminary)",
+        "expected": "Reported as above analysts' expectations (FT, SCMP); no consensus figure in the sources"
+      },
       "cryptoDriver": {
-        "text": "The Block reported that Bitcoin and ether fell as the Nasdaq selloff hit crypto, triggering $1.03 billion in liquidations and erasing Bitcoin's post-election gains.",
-        "sourceName": "The Block",
-        "sourceUrl": "https://www.theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434",
-        "pubTime": "Nov 5, 2026, 3:11 PM ET",
+        "text": "CoinDesk reported that ETFs shed $430 million after the tech rout.",
+        "sourceName": "CoinDesk",
+        "sourceUrl": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
+        "pubTime": "Nov 6, 2026, 4:53 AM ET",
         "sourceDepth": "headline"
       }
     },
@@ -28,9 +33,18 @@
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "filing",
+            "headline": "Alibaba sets Nov 18 board meeting for September-quarter results; announcement Nov 19",
+            "summary": "In a Form 6-K filed with the SEC (accepted 6:01 AM ET), Alibaba said its board will meet to discuss unaudited results for the three months and six months ended September 30, 2026, with the results announcement on November 18, 2026 and the results approved and announced on November 19, 2026, per the filing's wording. The stock closed up 1.28% on Nov 6.",
+            "sourceName": "SEC EDGAR (Alibaba Form 6-K)",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/tm2629189d1_6k.htm",
+            "pubTime": "Nov 6, 2026, 6:01 AM ET",
+            "sourceDepth": "full"
+          }
+        ]
       },
       {
         "ticker": "CRCL",
@@ -39,12 +53,12 @@
         "items": [
           {
             "type": "analyst",
-            "headline": "HC Wainwright & Co. lowers Circle price target to $100 from $104",
-            "summary": "HC Wainwright & Co. kept its Buy rating on Circle and lowered its price target to $100 from $104, per Yahoo Finance analyst data. Circle closed down 8.72%.",
-            "firm": "HC Wainwright & Co.",
-            "oldRating": "Buy",
-            "newRating": "Buy",
-            "oldTarget": "$104",
+            "headline": "JP Morgan lowers CRCL price target to $100 from $110",
+            "summary": "JP Morgan maintained its Overweight rating and lowered its price target to $100 from $110, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
+            "firm": "JP Morgan",
+            "oldRating": "Overweight",
+            "newRating": "Overweight",
+            "oldTarget": "$110",
             "newTarget": "$100",
             "sourceName": "Yahoo Finance analyst data",
             "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
@@ -53,8 +67,8 @@
           },
           {
             "type": "analyst",
-            "headline": "TD Cowen lowers Circle price target to $87 from $92",
-            "summary": "TD Cowen kept its Buy rating on Circle and lowered its price target to $87 from $92, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+            "headline": "TD Cowen lowers CRCL price target to $87 from $92",
+            "summary": "TD Cowen maintained its Buy rating and lowered its price target to $87 from $92, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
             "firm": "TD Cowen",
             "oldRating": "Buy",
             "newRating": "Buy",
@@ -67,8 +81,8 @@
           },
           {
             "type": "analyst",
-            "headline": "Wells Fargo lowers Circle price target to $101 from $115",
-            "summary": "Wells Fargo kept its Overweight rating on Circle and lowered its price target to $101 from $115, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+            "headline": "Wells Fargo lowers CRCL price target to $101 from $115",
+            "summary": "Wells Fargo maintained its Overweight rating and lowered its price target to $101 from $115, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
             "firm": "Wells Fargo",
             "oldRating": "Overweight",
             "newRating": "Overweight",
@@ -81,8 +95,8 @@
           },
           {
             "type": "analyst",
-            "headline": "Susquehanna lowers Circle price target to $86 from $92",
-            "summary": "Susquehanna kept its Neutral rating on Circle and lowered its price target to $86 from $92, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+            "headline": "Susquehanna lowers CRCL price target to $86 from $92",
+            "summary": "Susquehanna maintained its Neutral rating and lowered its price target to $86 from $92, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
             "firm": "Susquehanna",
             "oldRating": "Neutral",
             "newRating": "Neutral",
@@ -95,8 +109,8 @@
           },
           {
             "type": "analyst",
-            "headline": "Keefe, Bruyette & Woods lowers Circle price target to $90 from $105",
-            "summary": "Keefe, Bruyette & Woods kept its Market Perform rating on Circle and lowered its price target to $90 from $105, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+            "headline": "Keefe, Bruyette & Woods lowers CRCL price target to $90 from $105",
+            "summary": "Keefe, Bruyette & Woods maintained its Market Perform rating and lowered its price target to $90 from $105, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
             "firm": "Keefe, Bruyette & Woods",
             "oldRating": "Market Perform",
             "newRating": "Market Perform",
@@ -109,8 +123,8 @@
           },
           {
             "type": "analyst",
-            "headline": "Needham lowers Circle price target to $103 from $134",
-            "summary": "Needham kept its Buy rating on Circle and lowered its price target to $103 from $134, per Yahoo Finance analyst data. Circle closed down 8.72%.",
+            "headline": "Needham lowers CRCL price target to $103 from $134",
+            "summary": "Needham maintained its Buy rating and lowered its price target to $103 from $134, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
             "firm": "Needham",
             "oldRating": "Buy",
             "newRating": "Buy",
@@ -122,13 +136,18 @@
             "sourceDepth": "full"
           },
           {
-            "type": "news",
-            "headline": "Samsung Wallet launches USDC accounts on Solana for US Galaxy users",
-            "summary": "The Block's summary: Samsung Wallet's Stablecoin Account is now live for eligible U.S. Galaxy users, allowing them to use USDC on Solana.",
-            "sourceName": "The Block",
-            "sourceUrl": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
-            "pubTime": "Nov 5, 2026, 9:19 AM ET",
-            "sourceDepth": "headline"
+            "type": "analyst",
+            "headline": "HC Wainwright & Co. lowers CRCL price target to $100 from $104",
+            "summary": "HC Wainwright & Co. maintained its Buy rating and lowered its price target to $100 from $104, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
+            "firm": "HC Wainwright & Co.",
+            "oldRating": "Buy",
+            "newRating": "Buy",
+            "oldTarget": "$104",
+            "newTarget": "$100",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
+            "pubTime": "Nov 5, 2026",
+            "sourceDepth": "full"
           }
         ]
       },
@@ -149,9 +168,18 @@
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corp",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Nvidia steps up monitoring of AI accelerators sold in Southeast Asia",
+            "summary": "Per Bloomberg, Nvidia is stepping up monitoring of AI accelerators sold in Southeast Asia, a step to curtail semiconductor smuggling after criticism that it has not done enough to stop shipments from illegally reaching Chinese companies. The stock closed up 2.78% on Nov 6. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-boosts-chip-tracking-in-southeast-asia-to-fight-smuggling",
+            "pubTime": "Nov 6, 2026, 5:03 AM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "TIGR",
@@ -167,17 +195,17 @@
         "items": [
           {
             "type": "news",
-            "headline": "The 'Musk selloff' deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
-            "summary": "MarketWatch's summary: investors worry a divided Washington could derail \"Elon, Inc.\" Tesla closed down 10.77%.",
-            "sourceName": "MarketWatch",
-            "sourceUrl": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f",
-            "pubTime": "Nov 5, 2026, 4:43 PM ET",
+            "headline": "Musk says Tesla will wind down Cybertruck production at Texas Gigafactory",
+            "summary": "Per SCMP, Tesla would wind down Cybertruck production at its Texas gigafactory around mid-2027, CEO Elon Musk said on Friday in an X post, after years of persistently weak sales; WSJ's headline likewise says the truck will wind down production amid slow sales, and MarketWatch's says the run comes to an end. Tesla closed up 4.23% on Nov 6. Written from the headline and the publisher's summary only.",
+            "sourceName": "South China Morning Post / WSJ / MarketWatch",
+            "sourceUrl": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
+            "pubTime": "Nov 6, 2026, 1:54 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "analyst",
-            "headline": "GLJ Research maintains Sell on Tesla with $24.86 price target",
-            "summary": "GLJ Research reiterated its Sell rating and $24.86 price target on Tesla, per Yahoo Finance analyst data.",
+            "headline": "GLJ Research reiterates Sell rating on Tesla, $24.86 target",
+            "summary": "GLJ Research reiterated its Sell rating on Tesla with a $24.86 price target, per Yahoo Finance analyst data.",
             "firm": "GLJ Research",
             "oldRating": "Sell",
             "newRating": "Sell",
@@ -197,11 +225,20 @@
         "items": [
           {
             "type": "news",
-            "headline": "Google plans to spend $17 billion on Wyoming data center",
-            "summary": "Bloomberg's summary: Alphabet's Google will spend $17 billion to build a data center in Wyoming, formally putting a price tag on the proposal two days after voters across the US delivered a broad rebuke to the development of such massive projects for AI work. Alphabet (GOOG) closed down 1.94%.",
+            "headline": "Alphabet's drone unit to invest up to $125 million in new Texas facility",
+            "summary": "Per WSJ, Wing is investing up to $125 million over the next two years in a new manufacturing facility in Fort Worth, with the capacity to build tens of thousands of aircraft each year. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/business/alphabets-drone-unit-to-invest-up-to-125-million-in-new-texas-facility-d9725c3b?mod=pls_whats_news_us_business_f",
+            "pubTime": "Nov 6, 2026, 2:56 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Google takes over Wyoming data center that Crusoe had pitched",
+            "summary": "Per Bloomberg, Google has bought out Crusoe's data center site in southeast Wyoming, opting to take on the project itself after the AI computing company failed to lock in customers. Alphabet (GOOG) closed up 0.78% on Nov 6. Written from the headline and the publisher's summary only.",
             "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
-            "pubTime": "Nov 5, 2026, 2:02 PM ET",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-06/google-takes-over-wyoming-data-center-that-crusoe-had-pitched",
+            "pubTime": "Nov 6, 2026, 2:30 PM ET",
             "sourceDepth": "headline"
           }
         ]
@@ -214,7 +251,14 @@
         "cleanNote": "No material company news in this window."
       }
     ],
-    "droppedLinks": []
+    "droppedLinks": [
+      {
+        "source": "SEC EDGAR",
+        "headline": "Alphabet 8-K (Items 8.01, 9.01) filed Nov 5, 2026 4:10 PM ET",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+        "reason": "Could not be opened (fetch not permitted); excerpt showed only the cover page"
+      }
+    ]
   },
   "morning": {
     "label": "Morning Brief",
