@@ -1,0 +1,91 @@
+{
+  "mode": "recap",
+  "reportDate": "2026-11-06",
+  "generatedAt": "2026-11-06 16:53 ET",
+  "tickers": {
+    "BABA": {
+      "close": 109.45,
+      "prevClose": 108.07,
+      "changePct": 1.28
+    },
+    "CRCL": {
+      "close": 67.88,
+      "prevClose": 69.48,
+      "changePct": -2.3
+    },
+    "ETHA": {
+      "close": 50.33,
+      "prevClose": 50.77,
+      "changePct": -0.87
+    },
+    "FUTU": {
+      "close": 98.06,
+      "prevClose": 94.04,
+      "changePct": 4.27
+    },
+    "NVDA": {
+      "close": 186.64,
+      "prevClose": 181.6,
+      "changePct": 2.78
+    },
+    "TIGR": {
+      "close": 3.9,
+      "prevClose": 3.75,
+      "changePct": 4.0
+    },
+    "TSLA": {
+      "close": 358.22,
+      "prevClose": 343.69,
+      "changePct": 4.23
+    },
+    "GOOG": {
+      "close": 283.93,
+      "prevClose": 281.74,
+      "changePct": 0.78
+    },
+    "AVGO": {
+      "close": 293.69,
+      "prevClose": 291.53,
+      "changePct": 0.74
+    }
+  },
+  "indices": [
+    {
+      "name": "S&P 500",
+      "value": "7,376.86",
+      "changePct": 0.31
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "24,579.42",
+      "changePct": 1.09
+    },
+    {
+      "name": "SOX (semis)",
+      "value": "9,390.25",
+      "changePct": 4.21
+    }
+  ],
+  "tenYear": {
+    "value": "4.86%",
+    "changeBp": 2,
+    "asOfDate": "2026-11-06",
+    "source": "US Treasury daily par yield curve"
+  },
+  "crypto": [
+    {
+      "name": "Bitcoin (BTC)",
+      "price": "$75,769.94",
+      "changePct": -0.41
+    },
+    {
+      "name": "Ethereum (ETH)",
+      "price": "$2,225.85",
+      "changePct": -0.9
+    }
+  ],
+  "cryptoTime": "4:00 PM ET prices (Coinbase)",
+  "errors": [
+    "Golden Dragon (China): Nasdaq has no value for 2026-11-06 yet (last: 2026-11-05)"
+  ]
+}
