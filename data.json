@@ -2,30 +2,25 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "November 6, 2026",
-    "periodStart": "Thu, Nov 5, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Fri, Nov 6, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Fri, Nov 6, 2026, 6:15 PM ET",
+    "reportDate": "November 9, 2026",
+    "periodStart": "Fri, Nov 6, 2026, 4:00 PM ET (previous close; weekend rolled up)",
+    "periodEnd": "Mon, Nov 9, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Mon, Nov 9, 2026, 6:20 PM ET",
     "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per WSJ, U.S. stocks ended mixed after strong jobs data and a modest rebound for AI companies failed to quell investor nerves about the sustainability of the AI boom (5:01 PM ET). Bloomberg reported that the Treasury market pared a steep weekly advance after strong October employment data revived wagers on a Federal Reserve rate hike next month (8:47 AM ET), and that selling by trend-following systematic funds amplified Thursday's record plunge in Nasdaq 100 market value (1:49 PM ET). WSJ reported Taiwan activated market-stabilization measures after the global AI-related selloff (6:16 AM ET), and that oil futures ended little changed but sharply lower on the week on hopes for a negotiated solution to the Middle East conflict (4:14 PM ET).",
-        "sourceName": "WSJ / Bloomberg",
-        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-after-jobs-data-muted-ai-rebound-945344f6?mod=rss_markets_main",
-        "pubTime": "Nov 6, 2026, 5:01 PM ET",
+        "text": "Per WSJ, U.S. stocks jumped Monday even as Nvidia shares sank after its board launched an investigation into CEO Jensen Huang, with the market rebounding from last week's rout (WSJ, 4:04 AM and 2:29 PM ET). Bloomberg reported a risk-on relief rally after President Trump said he is unlikely to launch broad attacks on Iran, with oil falling to its lowest since August (8:34 AM and 6:34 AM ET), and that most Treasuries fell as investors regained risk appetite (12:03 PM ET); WSJ reported U.S. and eurozone bond yields rose ahead of the inflation and rates outlook (2:33 PM ET). MarketWatch reported the rally is spreading beyond Big Tech, with Tuesday's CPI inflation report and a heavy slate of Federal Reserve speakers ahead (3:42 PM ET), and that AMD and Broadcom shares posted big gains Monday as Nvidia fell (1:33 PM ET). Written from headlines and publisher summaries only.",
+        "sourceName": "WSJ / Bloomberg / MarketWatch",
+        "sourceUrl": "https://www.wsj.com/finance/stocks/stock-futures-treasurys-steady-but-nvidia-slides-premarket-on-huang-probe-31deea55?mod=rss_markets_main",
+        "pubTime": "Nov 9, 2026, 2:29 PM ET",
         "sourceDepth": "headline"
       },
-      "dataRelease": {
-        "name": "U.S. October jobs report (nonfarm payrolls)",
-        "actual": "+165,000 jobs; unemployment rate 4.1% (BLS, preliminary)",
-        "expected": "Reported as above analysts' expectations (FT, SCMP); no consensus figure in the sources"
-      },
       "cryptoDriver": {
-        "text": "CoinDesk reported that ETFs shed $430 million after the tech rout.",
-        "sourceName": "CoinDesk",
-        "sourceUrl": "https://www.coindesk.com/markets/2026/11/06/bitcoin-recovers-usd76-000-level-as-etfs-shed-usd430-million-after-tech-rout",
-        "pubTime": "Nov 6, 2026, 4:53 AM ET",
+        "text": "The Block reported Bitcoin closed below its 50-week moving average as more than $1 billion in crypto long positions were liquidated over 24 hours (8:04 AM ET Nov 9); earlier it reported Bitcoin ETFs flipped negative for 2026 after a $1.28 billion outflow week, the worst since June (Nov 7). CoinDesk reported the Nvidia-led tech selloff weighed on crypto majors (6:42 AM ET).",
+        "sourceName": "The Block",
+        "sourceUrl": "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+        "pubTime": "Nov 9, 2026, 8:04 AM ET",
         "sourceDepth": "headline"
       }
     },
@@ -33,18 +28,9 @@
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "updated",
-        "items": [
-          {
-            "type": "filing",
-            "headline": "Alibaba sets Nov 18 board meeting for September-quarter results; announcement Nov 19",
-            "summary": "In a Form 6-K filed with the SEC (accepted 6:01 AM ET), Alibaba said its board will meet to discuss unaudited results for the three months and six months ended September 30, 2026, with the results announcement on November 18, 2026 and the results approved and announced on November 19, 2026, per the filing's wording. The stock closed up 1.28% on Nov 6.",
-            "sourceName": "SEC EDGAR (Alibaba Form 6-K)",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/tm2629189d1_6k.htm",
-            "pubTime": "Nov 6, 2026, 6:01 AM ET",
-            "sourceDepth": "full"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No material company news in this window."
       },
       {
         "ticker": "CRCL",
@@ -52,102 +38,13 @@
         "status": "updated",
         "items": [
           {
-            "type": "analyst",
-            "headline": "JP Morgan lowers CRCL price target to $100 from $110",
-            "summary": "JP Morgan maintained its Overweight rating and lowered its price target to $100 from $110, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
-            "firm": "JP Morgan",
-            "oldRating": "Overweight",
-            "newRating": "Overweight",
-            "oldTarget": "$110",
-            "newTarget": "$100",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
-          },
-          {
-            "type": "analyst",
-            "headline": "TD Cowen lowers CRCL price target to $87 from $92",
-            "summary": "TD Cowen maintained its Buy rating and lowered its price target to $87 from $92, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
-            "firm": "TD Cowen",
-            "oldRating": "Buy",
-            "newRating": "Buy",
-            "oldTarget": "$92",
-            "newTarget": "$87",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
-          },
-          {
-            "type": "analyst",
-            "headline": "Wells Fargo lowers CRCL price target to $101 from $115",
-            "summary": "Wells Fargo maintained its Overweight rating and lowered its price target to $101 from $115, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
-            "firm": "Wells Fargo",
-            "oldRating": "Overweight",
-            "newRating": "Overweight",
-            "oldTarget": "$115",
-            "newTarget": "$101",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
-          },
-          {
-            "type": "analyst",
-            "headline": "Susquehanna lowers CRCL price target to $86 from $92",
-            "summary": "Susquehanna maintained its Neutral rating and lowered its price target to $86 from $92, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
-            "firm": "Susquehanna",
-            "oldRating": "Neutral",
-            "newRating": "Neutral",
-            "oldTarget": "$92",
-            "newTarget": "$86",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
-          },
-          {
-            "type": "analyst",
-            "headline": "Keefe, Bruyette & Woods lowers CRCL price target to $90 from $105",
-            "summary": "Keefe, Bruyette & Woods maintained its Market Perform rating and lowered its price target to $90 from $105, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
-            "firm": "Keefe, Bruyette & Woods",
-            "oldRating": "Market Perform",
-            "newRating": "Market Perform",
-            "oldTarget": "$105",
-            "newTarget": "$90",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
-          },
-          {
-            "type": "analyst",
-            "headline": "Needham lowers CRCL price target to $103 from $134",
-            "summary": "Needham maintained its Buy rating and lowered its price target to $103 from $134, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
-            "firm": "Needham",
-            "oldRating": "Buy",
-            "newRating": "Buy",
-            "oldTarget": "$134",
-            "newTarget": "$103",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
-          },
-          {
-            "type": "analyst",
-            "headline": "HC Wainwright & Co. lowers CRCL price target to $100 from $104",
-            "summary": "HC Wainwright & Co. maintained its Buy rating and lowered its price target to $100 from $104, per Yahoo Finance analyst data. Circle closed down 2.3% on Nov 6.",
-            "firm": "HC Wainwright & Co.",
-            "oldRating": "Buy",
-            "newRating": "Buy",
-            "oldTarget": "$104",
-            "newTarget": "$100",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/CRCL/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
+            "type": "news",
+            "headline": "Coinbase and PNC Bank expand partnership with USDC payments for corporate clients",
+            "summary": "Per The Block, PNC Bank is piloting USDC payment acceptance for corporate and institutional clients through its expanded partnership with Coinbase. Circle closed down 0.47% on Nov 9. Written from the headline and the publisher's summary only.",
+            "sourceName": "The Block",
+            "sourceUrl": "https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466",
+            "pubTime": "Nov 9, 2026, 11:01 AM ET",
+            "sourceDepth": "headline"
           }
         ]
       },
@@ -172,21 +69,85 @@
         "items": [
           {
             "type": "news",
-            "headline": "Nvidia steps up monitoring of AI accelerators sold in Southeast Asia",
-            "summary": "Per Bloomberg, Nvidia is stepping up monitoring of AI accelerators sold in Southeast Asia, a step to curtail semiconductor smuggling after criticism that it has not done enough to stop shipments from illegally reaching Chinese companies. The stock closed up 2.78% on Nov 6. Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-boosts-chip-tracking-in-southeast-asia-to-fight-smuggling",
-            "pubTime": "Nov 6, 2026, 5:03 AM ET",
+            "headline": "Nvidia board investigates reports CEO Jensen Huang was a spying target after affair",
+            "summary": "Per WSJ, Nvidia's board is investigating reports that CEO Jensen Huang was a spying target; Huang apologized for being unfaithful to his wife after an affair with an executive suspected of working for Chinese intelligence. WSJ also reported Nvidia shares fell close to 5% premarket (4:41 AM ET), and in its midday market coverage that U.S. stocks jumped even as Nvidia shares sank after the board launched the investigation. Nvidia closed down 4.27% on Nov 9. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/tech/ai/nvidias-board-to-investigate-reports-that-jensen-huang-was-spying-target-c630325e?mod=rss_Technology",
+            "pubTime": "Nov 9, 2026, 6:02 AM ET",
             "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Bloomberg: Huang affair puts a $200 billion dent in Nvidia's stock price",
+            "summary": "Per Bloomberg, a spying scandal adds to pressure on the chipmaker's stock. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/newsletters/2026-11-09/jensen-huang-puts-200-billion-dent-in-nvidia-s-stock-price",
+            "pubTime": "Nov 9, 2026, 6:22 AM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Nvidia shares fall as it probes alleged Chinese spy scandal",
+            "summary": "Per the Financial Times, Nvidia's board opened an investigation after CEO Jensen Huang admitted to an affair. Written from the headline and the publisher's summary only.",
+            "sourceName": "Financial Times",
+            "sourceUrl": "https://www.ft.com/content/fa3b0a35-1aa9-4f31-97b4-e4c599e3e654?syn-25a6b1a6=1",
+            "pubTime": "Nov 9, 2026, 2:53 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors",
+            "summary": "Per the Financial Times, Alice Huang boasted of having access to Nvidia GPUs and of her connection to Alibaba. Written from the headline and the publisher's summary only.",
+            "sourceName": "Financial Times",
+            "sourceUrl": "https://www.ft.com/content/5d8c1e1d-6ce0-4eb4-9f5c-722fa5c4841d?syn-25a6b1a6=1",
+            "pubTime": "Nov 9, 2026, 10:35 AM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "analyst",
+            "headline": "RBC Capital reiterates NVDA Outperform, $330 price target",
+            "summary": "RBC Capital maintained its Outperform rating with a $330 price target, per Yahoo Finance analyst data. Nvidia closed down 4.27% on Nov 9.",
+            "firm": "RBC Capital",
+            "oldRating": "Outperform",
+            "newRating": "Outperform",
+            "oldTarget": "$330",
+            "newTarget": "$330",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+            "pubTime": "Nov 9, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Goldman Sachs reiterates NVDA Buy, $300 price target",
+            "summary": "Goldman Sachs maintained its Buy rating with a $300 price target, per Yahoo Finance analyst data. Nvidia closed down 4.27% on Nov 9.",
+            "firm": "Goldman Sachs",
+            "oldRating": "Buy",
+            "newRating": "Buy",
+            "oldTarget": "$300",
+            "newTarget": "$300",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+            "pubTime": "Nov 9, 2026",
+            "sourceDepth": "full"
           }
         ]
       },
       {
         "ticker": "TIGR",
         "name": "UP Fintech Holding Ltd",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Tiger Brokers targets Hong Kong growth as Beijing curbs overseas stock trading",
+            "summary": "Per SCMP, Tiger Brokers is seeking to offset the effects of Beijing's regulatory crackdown by tapping business opportunities in Hong Kong; Tiger Brokers (Hong Kong) CEO and Group CFO John Zeng said user growth is currently mainly driven by local Hong Kong clients and overall client growth remains very strong. UP Fintech closed up 1.28% on Nov 9. Written from the headline and the publisher's summary only.",
+            "sourceName": "South China Morning Post",
+            "sourceUrl": "https://www.scmp.com/business/companies/article/3373556/tiger-brokers-targets-hong-kong-growth-beijing-curbs-overseas-stock-trading",
+            "pubTime": "Nov 6, 2026, 8:00 PM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "TSLA",
@@ -195,26 +156,30 @@
         "items": [
           {
             "type": "news",
-            "headline": "Musk says Tesla will wind down Cybertruck production at Texas Gigafactory",
-            "summary": "Per SCMP, Tesla would wind down Cybertruck production at its Texas gigafactory around mid-2027, CEO Elon Musk said on Friday in an X post, after years of persistently weak sales; WSJ's headline likewise says the truck will wind down production amid slow sales, and MarketWatch's says the run comes to an end. Tesla closed up 4.23% on Nov 6. Written from the headline and the publisher's summary only.",
-            "sourceName": "South China Morning Post / WSJ / MarketWatch",
-            "sourceUrl": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
-            "pubTime": "Nov 6, 2026, 1:54 PM ET",
+            "headline": "Musk staked his empire on Texas; state Democrats now want to rein him in",
+            "summary": "Per WSJ, Musk has big plans for Tesla and SpaceX in Texas and now faces opposition from state Democrats. Tesla closed up 5.54% on Nov 9. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/politics/policy/elon-musk-texas-midterm-elections-b993e58d?mod=pls_whats_news_us_business_f",
+            "pubTime": "Nov 6, 2026, 10:00 PM ET",
             "sourceDepth": "headline"
           },
           {
-            "type": "analyst",
-            "headline": "GLJ Research reiterates Sell rating on Tesla, $24.86 target",
-            "summary": "GLJ Research reiterated its Sell rating on Tesla with a $24.86 price target, per Yahoo Finance analyst data.",
-            "firm": "GLJ Research",
-            "oldRating": "Sell",
-            "newRating": "Sell",
-            "oldTarget": "$24.86",
-            "newTarget": "$24.86",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/TSLA/analysis",
-            "pubTime": "Nov 5, 2026",
-            "sourceDepth": "full"
+            "type": "news",
+            "headline": "Tech Stocks Recover Some Losses (WSJ markets newsletter noting the Cybertruck meets its end)",
+            "summary": "Per WSJ's Nov 6 markets newsletter, which flagged that the Cybertruck meets its end. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13?mod=rss_markets_main",
+            "pubTime": "Nov 6, 2026, 4:24 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "China's EV safety push gives foreign brands from Tesla to GM an opening for a comeback",
+            "summary": "Per SCMP, about 10 foreign carmakers from Tesla to General Motors were displaying EV technology at the China International Import Expo, as Beijing's clampdown on so-called rapidly developed vehicles benefits international brands. Written from the headline and the publisher's summary only.",
+            "sourceName": "South China Morning Post",
+            "sourceUrl": "https://www.scmp.com/business/china-business/article/3373588/chinas-ev-safety-push-gives-foreign-brands-tesla-gm-opening-comeback",
+            "pubTime": "Nov 7, 2026, 3:00 AM ET",
+            "sourceDepth": "headline"
           }
         ]
       },
@@ -225,20 +190,20 @@
         "items": [
           {
             "type": "news",
-            "headline": "Alphabet's drone unit to invest up to $125 million in new Texas facility",
-            "summary": "Per WSJ, Wing is investing up to $125 million over the next two years in a new manufacturing facility in Fort Worth, with the capacity to build tens of thousands of aircraft each year. Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/business/alphabets-drone-unit-to-invest-up-to-125-million-in-new-texas-facility-d9725c3b?mod=pls_whats_news_us_business_f",
-            "pubTime": "Nov 6, 2026, 2:56 PM ET",
+            "headline": "Google rolls out new AI chips to challenge Nvidia",
+            "summary": "Per Bloomberg, Alphabet's Google is rolling out new artificial intelligence chips, aiming to capitalize on its rapid ascent as a challenger to Nvidia. Alphabet (GOOG) closed up 0.73% on Nov 9. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-09/google-rolls-out-new-ai-chips-to-challenge-nvidia-video",
+            "pubTime": "Nov 9, 2026, 4:12 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "Google takes over Wyoming data center that Crusoe had pitched",
-            "summary": "Per Bloomberg, Google has bought out Crusoe's data center site in southeast Wyoming, opting to take on the project itself after the AI computing company failed to lock in customers. Alphabet (GOOG) closed up 0.78% on Nov 6. Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-06/google-takes-over-wyoming-data-center-that-crusoe-had-pitched",
-            "pubTime": "Nov 6, 2026, 2:30 PM ET",
+            "headline": "Federal government probes Waymo over school-bus safety",
+            "summary": "Per WSJ, the federal government is probing Waymo; Waymo had said it fixed the software on its driverless cars to stop them from passing school buses flashing red lights. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/business/autos/federal-government-probes-waymo-over-school-bus-safety-c2885716?mod=pls_whats_news_us_business_f",
+            "pubTime": "Nov 9, 2026, 12:23 PM ET",
             "sourceDepth": "headline"
           }
         ]
@@ -251,14 +216,7 @@
         "cleanNote": "No material company news in this window."
       }
     ],
-    "droppedLinks": [
-      {
-        "source": "SEC EDGAR",
-        "headline": "Alphabet 8-K (Items 8.01, 9.01) filed Nov 5, 2026 4:10 PM ET",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
-        "reason": "Could not be opened (fetch not permitted); excerpt showed only the cover page"
-      }
-    ]
+    "droppedLinks": []
   },
   "morning": {
     "label": "Morning Brief",
