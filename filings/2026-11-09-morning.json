@@ -1,0 +1,62 @@
+{
+ "mode": "morning",
+ "reportDate": "2026-11-09",
+ "generatedAt": "2026-11-09T06:37:33-05:00",
+ "lookbackHours": 78,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-06",
+    "acceptedET": "2026-11-06 6:01 AM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/tm2629189d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/0001104659-26-123545-index.htm",
+    "exhibitUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926123545/tm2629189d1_ex99-1.htm",
+    "excerpt": "EX-99.1 2 tm2629189d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited (the \u201c Hong Kong Stock Exchange \u201d) take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. We have one class of shares, and each holder of our shares is entitled to one vote per share. As the Alibaba Partnership\u2019s director nomination rights are categorized as a weighted voting rights structure (the \u201c WVR structure \u201d) under the Rules Governing the Listing of Securities on the Hong Kong Stock Exchange, we are deemed as a company with a WVR structure. Shareholders and prospective investors should be aware of the potential risks of investing in a company with a WVR structure. Our American depositary shares, each representing eight of our shares, are listed on the New York Stock Exchange in the United States under the symbol BABA. Alibaba Group Holding Limited \u963f\u91cc\u5df4\u5df4\u96c6\u5718\u63a7\u80a1\u6709\u9650\u516c\u53f8 (Incorporated in the Cayman Islands with limited liability) (Stock Code: 9988 (HKD Counter) and 89988 (RMB Counter)) DATE OF BOARD MEETING Our board of directors will hold a board meeting for the purposes of, among other matters, discussing our unaudited results for the three months and six months ended September 30, 2026 (\u201c Results \u201d) and the Results announcement on November 18, 2026, and such Results and the Results announcement will further be approved by or on behalf of the Board and announced on November 19, 2026 . By order of the Board Alibaba Group Holding Limited Kevin Jinwei ZHANG Secretary Hong Kong, November 6, 2026 As at the date of this announcement, our board of directors comprises Mr. Joseph C. TSAI as the chairman, Mr. Eddie Yongming WU, Mr. J. Michael EVANS and Ms. Maggie Wei WU as directors, and Mr. Jerry YANG, Ms. Wan Ling MARTELLO, Mr. Weijian SHAN, Ms. Irene Yun-Lien LEE, Mr. Albert Kong Ping NG and Mr. Kabir MISRA as independent directors."
+   }
+  ],
+  "CRCL": [],
+  "ETHA": [
+   {
+    "form": "10-Q",
+    "filed": "2026-11-06",
+    "acceptedET": "2026-11-06 3:42 PM ET",
+    "items": "",
+    "description": "FORM 10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/2000638/000143774926035533/etha20260930_10q.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/2000638/000143774926035533/0001437749-26-035533-index.htm"
+   }
+  ],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-06",
+    "acceptedET": "2026-11-06 5:00 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926123945/tm267596d10_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926123945/0001104659-26-123945-index.htm"
+   }
+  ],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": []
+}
