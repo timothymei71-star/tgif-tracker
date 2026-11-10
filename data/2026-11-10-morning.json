@@ -1,0 +1,170 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 10, 2026",
+  "periodStart": "Mon, Nov 9, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Tue, Nov 10, 2026, 8:30 AM ET",
+  "lastUpdated": "Tue, Nov 10, 2026, 8:30 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Bloomberg, a powerful rebound in US stocks ran out of steam after Fed Governor Christopher Waller backed an interest-rate hike in December and said he would support a half-point move if inflation keeps accelerating (Nov 9, 5:16 PM ET). WSJ reported Brent crude fell to about $90 a barrel after Trump said further US military action against Iran did not seem necessary (4:55 AM ET), that global stocks strengthened as oil dipped below $90 for the first time since August (4:38 AM ET), that the Stoxx 600 was on track for its first record close since August (5:14 AM ET), and that Asian stocks rose with chip-related suppliers shrugging off concerns around Nvidia (2:12 AM ET). The Financial Times reported investors piling into defensive stocks amid fears the AI bull market may be over (12:00 AM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "Bloomberg / WSJ / Financial Times",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
+      "pubTime": "Nov 9, 2026, 5:16 PM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": [
+      {
+        "time": "Today",
+        "sourceName": "Bloomberg",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
+        "text": "US October consumer price (CPI) report, per Bloomberg's reference to Tuesday's inflation report (headline only)"
+      },
+      {
+        "time": "After the close",
+        "sourceName": "Bloomberg",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-10/coreweave-has-a-sentiment-problem-even-strong-earnings-can-t-fix",
+        "text": "CoreWeave reports earnings after the bell (headline and summary only)"
+      }
+    ],
+    "cryptoDriver": {
+      "text": "CoinDesk reported traders are pricing in a Fed rate hike for December as bitcoin and gold retreat ahead of the US inflation report.",
+      "sourceName": "CoinDesk",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+      "pubTime": "Nov 10, 2026, 5:41 AM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Nvidia Stock Slides After Chip Maker Opens Probe",
+          "summary": "Per WSJ, Nvidia stock slid after the company opened an investigation, while the Dow jumped more than 1,000 points and the Nasdaq rallied. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/finance/stocks/nvidia-stock-slides-after-chip-maker-opens-probe-b22a7a13",
+          "pubTime": "Nov 9, 2026, 4:21 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Trump says Nvidia CEO didn't know Alice Huang was a suspected spy",
+          "summary": "Per WSJ, President Trump defended Nvidia CEO Jensen Huang, saying he did not know Alice Huang was a suspected spy. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/world/asia/trump-says-nvidia-ceo-didnt-know-alice-huang-was-a-suspected-spy-211d65d7",
+          "pubTime": "Nov 9, 2026, 6:08 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Trump says FBI is 'looking into' Nvidia's Jensen Huang",
+          "summary": "Per the Financial Times, Trump said the FBI is looking into Huang; the FT's summary says the company has been rocked by allegations its chief executive had an affair with a Chinese spy. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/cbabf2da-2079-4b69-88e3-0ba84cf8d6fd?syn-25a6b1a6=1",
+          "pubTime": "Nov 9, 2026, 7:35 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia lawyer intervened in US AI chip smuggling probe",
+          "summary": "Per Bloomberg, Nvidia's general counsel intervened in a US government probe of suspected smuggling of AI chips by Megaspeed International, questioning whether the Trump administration played a role in detaining a Megaspeed executive who is now at the heart of a scandal threatening Jensen Huang. Written from the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-10/the-pulse-11-10-2026-video",
+          "pubTime": "Nov 10, 2026, 5:57 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "analyst",
+          "headline": "RBC Capital reiterates Nvidia Outperform, $330 price target",
+          "summary": "RBC Capital maintained its Outperform rating on Nvidia with a $330 price target, per Yahoo Finance analyst data.",
+          "firm": "RBC Capital",
+          "oldRating": "Outperform",
+          "newRating": "Outperform",
+          "oldTarget": "$330",
+          "newTarget": "$330",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 9, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Goldman Sachs reiterates Nvidia Buy, $300 price target",
+          "summary": "Goldman Sachs maintained its Buy rating on Nvidia with a $300 price target, per Yahoo Finance analyst data.",
+          "firm": "Goldman Sachs",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$300",
+          "newTarget": "$300",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 9, 2026",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
