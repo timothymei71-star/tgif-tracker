@@ -1,0 +1,42 @@
+{
+ "mode": "morning",
+ "reportDate": "2026-11-11",
+ "generatedAt": "2026-11-11T06:37:29-05:00",
+ "lookbackHours": 30,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-10",
+    "acceptedET": "2026-11-10 8:58 AM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926124859/tm2629456d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926124859/0001104659-26-124859-index.htm",
+    "exhibitUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926124859/tm2629456d1_ex99-1.htm",
+    "excerpt": "EX-99.1 2 tm2629456d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited (the \u201c Hong Kong Stock Exchange \u201d) take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. We have one class of shares, and each holder of our shares is entitled to one vote per share. As the Alibaba Partnership\u2019s director nomination rights are categorized as a weighted voting rights structure (the \u201c WVR structure \u201d) under the Rules Governing the Listing of Securities on the Hong Kong Stock Exchange, we are deemed as a company with a WVR structure. Shareholders and prospective investors should be aware of the potential risks of investing in a company with a WVR structure. Our American depositary shares, each representing eight of our shares, are listed on the New York Stock Exchange in the United States under the symbol BABA. This announcement is for information purpose only and does not constitute an invitation or offer to acquire, purchase or subscribe for any securities nor is it calculated to invite any such offer or invitation. In particular, this announcement does not constitute and is not an offer to sell or an invitation or a solicitation of any offer to buy or subscribe for any securities in Hong Kong, the United States of America or any other jurisdictions. This announcement is not for release, publication or distribution, in whole or in part, in, into or from any jurisdiction where to do so would constitute a violation of the applicable laws or regulations of such jurisdiction. Alibaba Group Holding Limited \u963f\u91cc\u5df4\u5df4\u96c6\u5718\u63a7\u80a1\u6709\u9650\u516c\u53f8 (Incorporated in the Cayman Islands with limited liability) (Stock Code: 9988 (HKD Counter) and 89988 (RMB Counter)) PROPOSED SPIN-OFF AND SEPARATE LISTING OF T-HEAD ON THE MAIN BOARD OF THE STOCK EXCHANGE OF HONG KONG LIMITED Alibaba Group Holding Limited (\u201c Alibaba \u201d, \u201c Alibaba Group \u201d or the \u201c Company \u201d) announced that it has submitted a proposal in relation to the proposed spin-off and separate listing of T-Head (Shanghai) Technology Co., Ltd.* (\u5e73\u982d\u54e5(\u4e0a\u6d77)\u6280\u8853\u80a1\u4efd\u6709\u9650\u516c\u53f8) (\u201c T-Head \u201d), a wholly-owned subsidiary of the Company (the \u201c Proposed Spin-off \u201d) to the Hong Kong Stock Exchange pursuant to PN15 of the Listing Rules. The Company is pleased to announce that the Hong Kong Stock Exchange has confirmed that the Company may proceed with the Proposed Spin-off, and therefore, on September 11, 2026, T-Head, on a confidential basis, submitted a listing application form (Form A1) to the Hong Kong Stock Exchange to apply for the listing of, and permission to deal in, the T-Head H Shares on the Main Board of the Hong Kong Stock Exchange. It is currently proposed that the Proposed Spin-off will be effected by way of the Global Offering of T-Head\u2019s H Shares, comprising (i) a Hong Kong public offering of T-Head\u2019s H Shares for subscription by the public in Hong Kong; and (ii) a placing of T-Head\u2019s H Shares to institutional and professional investors. As at the date of this announcement, T-Head is a wholly-owned subsidiary of the Company and is a leading provider of full-stack data center chips which enable system-level compute solutions in China. Following completion of the Proposed Spin-off, it is expected that T-Head will remain as a subsidiary of the Company. 1 Details in respect of the Proposed Spin-off, including the size and structure of the Global Offering and the extent of the decrease in the Company\u2019s shareholding percentage in T-Head, have not yet been finalized. REASONS FOR AND BENEFITS OF THE PROPOSED SPIN-OFF The Company considers that the Proposed Spin-off is commercially beneficial to the Company and T-Head and in the interests of the Shareholders as a whole, for the following reasons: (a) the Proposed Spin-off should enable investors t"
+   }
+  ],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": []
+}
