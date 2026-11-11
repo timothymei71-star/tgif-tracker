@@ -2,30 +2,25 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "November 10, 2026",
-    "periodStart": "Mon, Nov 9, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Tue, Nov 10, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Tue, Nov 10, 2026, 6:20 PM ET",
+    "reportDate": "November 11, 2026",
+    "periodStart": "Tue, Nov 10, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Wed, Nov 11, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Wed, Nov 11, 2026, 6:25 PM ET",
     "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per WSJ, U.S. stocks fell after hotter-than-expected October inflation data and a more modest valuation for one of the leading AI players (4:54 PM ET). Bloomberg reported Treasuries slid and short-term yields surged the most in 19 months as Federal Reserve officials called for rate hikes (8:41 AM ET), with the dollar logging its best day since September (12:43 PM ET). The FT reported Fed Governor Christopher Waller said policymakers should weigh a 50bp move if inflation fails to slow (11:03 AM ET), and MarketWatch reported the 10-year Treasury yield neared the 5% mark (4:42 PM ET). Bloomberg reported Fed Governor Michelle Bowman warned of a sharp stock downturn if returns on AI investments fall short (4:31 PM ET). WSJ reported oil settled lower as President Trump signaled restraint on Iran (3:43 PM ET) and gold settled nearly 2.1% lower (3:48 PM ET); Nvidia remained under pressure over the board probe of CEO Jensen Huang. After the close, WSJ reported CoreWeave met expectations with its backlog at $133 billion and shares rose (4:44 PM ET). Written from headlines and publisher summaries only.",
-        "sourceName": "WSJ / Bloomberg / FT / MarketWatch",
-        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-slip-on-inflation-ai-worries-feb790bc",
-        "pubTime": "Nov 10, 2026, 4:54 PM ET",
+        "text": "Per WSJ, U.S. stocks rose as CoreWeave's earnings update eased worries that AI profits would not come soon enough to cover infrastructure debt burdens (4:23 PM ET), and Nasdaq jumped after the update re-energized the AI trade (2:36 PM ET). The FT reported the Nasdaq erased last week's losses as CoreWeave's results and the prospect of a higher Anthropic IPO valuation boosted sentiment (4:04 PM ET), and Bloomberg reported the Nasdaq 100 nearly erased its losses since the U.S. midterm election as dip buyers returned (8:28 AM ET). WSJ reported European chip stocks climbed after CoreWeave's results (4:25 AM ET). On rates, WSJ reported Asian bond yields rose on growing expectations for a Fed rate hike next month after hotter-than-expected U.S. inflation data (1:37 AM ET), and gold futures settled back under $4,000 for a second session as inflation worries kept rate-hike expectations up (2:47 PM ET). WSJ reported crude futures stabilized after recent losses while the market awaited clarity on talks to end the U.S.-Iran conflict (4:27 PM ET). The U.S. Treasury market was closed for Veterans Day. Written from headlines and publisher summaries only.",
+        "sourceName": "WSJ / FT / Bloomberg",
+        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-coreweave-update-eases-some-ai-worries-f8bfbaa7?mod=rss_markets_main",
+        "pubTime": "Nov 11, 2026, 4:23 PM ET",
         "sourceDepth": "headline"
       },
-      "dataRelease": {
-        "name": "U.S. October consumer price index (CPI)",
-        "actual": "+0.4% (BLS)",
-        "expected": "Reported as above forecasts (WSJ, Bloomberg, FT); no consensus figure in the sources"
-      },
       "cryptoDriver": {
-        "text": "The Block reported Bitcoin slid after the October CPI report beat forecasts, with analysts flagging support levels (2:38 PM ET). CoinDesk reported Bitcoin declined as ETF outflows mounted (7:15 AM ET) and that miner MARA sold 13,597 BTC for $1.1 billion in six weeks and plans to sell more (12:18 AM ET). Bloomberg Crypto reported hackers stole $6.3 billion from Binance in what it called the biggest ever heist (2:17 PM ET). Written from headlines and publisher summaries only.",
-        "sourceName": "The Block / CoinDesk / Bloomberg",
-        "sourceUrl": "https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
-        "pubTime": "Nov 10, 2026, 2:38 PM ET",
+        "text": "CoinDesk reported bitcoin sat out the stock rebound as ETF outflows extended to a fourth day (6:37 AM ET), and that bitcoin barely moved on the hot CPI report as ETF selling slowed (7:19 AM ET). The Block reported stablecoin supply fell $14.2 billion, the largest contraction since the 2022 bear market, with USDT and USDC supply down nearly $11 billion over the past month (12:23 PM ET). Written from headlines and publisher summaries only.",
+        "sourceName": "CoinDesk / The Block",
+        "sourceUrl": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day",
+        "pubTime": "Nov 11, 2026, 6:37 AM ET",
         "sourceDepth": "headline"
       }
     },
@@ -33,18 +28,9 @@
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "updated",
-        "items": [
-          {
-            "type": "filing",
-            "headline": "Alibaba says HKEX allowed proposed spin-off and separate listing of chip unit T-Head to proceed",
-            "summary": "In a Form 6-K filed with the SEC, Alibaba said the Hong Kong Stock Exchange confirmed it may proceed with the proposed spin-off of T-Head (Shanghai) Technology Co., Ltd., a wholly owned subsidiary and provider of full-stack data center chips in China, and that T-Head confidentially submitted a listing application (Form A1) on September 11, 2026. The spin-off is proposed as a global offering of H shares (a Hong Kong public offering plus a placing to institutional investors); T-Head is expected to remain a subsidiary, and the size, structure and reduction in Alibaba's shareholding have not been finalized. SCMP also reported the filing. Alibaba closed down 2.52%.",
-            "sourceName": "SEC filing (Alibaba Form 6-K)",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926124859/tm2629456d1_6k.htm",
-            "pubTime": "Nov 10, 2026, 8:58 AM ET",
-            "sourceDepth": "full"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No material company news in this window."
       },
       {
         "ticker": "CRCL",
@@ -73,63 +59,37 @@
         "status": "updated",
         "items": [
           {
-            "type": "news",
-            "headline": "Nvidia Stock Slides After Chip Maker Opens Probe",
-            "summary": "Per WSJ, Nvidia stock slid after the company opened an investigation into reports about CEO Jensen Huang, while the Dow jumped more than 1,000 points and the Nasdaq rallied (Nov 9). Nvidia closed down 5.47% on Nov 10. Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/finance/stocks/nvidia-stock-slides-after-chip-maker-opens-probe-b22a7a13",
-            "pubTime": "Nov 9, 2026, 4:21 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Law Firm Wachtell Lipton to Lead Nvidia Internal Investigation",
-            "summary": "Per WSJ, the New York law firm will probe whether the company was the target of a foreign espionage effort. Bloomberg and the Financial Times reported that Nvidia's independent board members tapped a former top federal prosecutor at Wachtell to help probe Huang's relationship with a suspected Chinese spy. Written from the headlines and the publishers' summaries only.",
-            "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/tech/law-firm-wachtell-lipton-to-lead-nvidia-internal-investigation-d37731c7",
-            "pubTime": "Nov 10, 2026, 2:50 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Trump says FBI is 'looking into' Nvidia's Jensen Huang",
-            "summary": "Per the Financial Times, Trump said the FBI is looking into Huang; the FT's summary says the company has been rocked by allegations its chief executive had an affair with a Chinese spy. WSJ separately reported Trump said Huang did not know Alice Huang was a suspected spy (Nov 9, 6:08 PM ET). Written from the headlines and the publishers' summaries only.",
-            "sourceName": "Financial Times",
-            "sourceUrl": "https://www.ft.com/content/cbabf2da-2079-4b69-88e3-0ba84cf8d6fd?syn-25a6b1a6=1",
-            "pubTime": "Nov 9, 2026, 7:35 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Nvidia lawyer intervened in US AI chip smuggling probe",
-            "summary": "Per Bloomberg, Nvidia's general counsel intervened in a US government probe of suspected smuggling of AI chips by Megaspeed International, questioning whether the Trump administration played a role in detaining a Megaspeed executive who is now at the heart of a scandal threatening Jensen Huang. Written from the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-10/the-pulse-11-10-2026-video",
-            "pubTime": "Nov 10, 2026, 5:57 AM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "US commerce department delays Megaspeed's inclusion on trade blacklist",
-            "summary": "Per the Financial Times, a company connected to the alleged Chinese spy who had an affair with Nvidia chief Jensen Huang was left off the 'entity list'. Written from the headline and the publisher's summary only.",
-            "sourceName": "Financial Times",
-            "sourceUrl": "https://www.ft.com/content/afb6c960-a910-4d67-9588-73ba3bea5b06?syn-25a6b1a6=1",
-            "pubTime": "Nov 10, 2026, 3:05 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Nvidia could soon face tougher export rules, making it harder to sell chips to China after scandal",
-            "summary": "Per MarketWatch, 'there is growing momentum for these bills in light of the Jensen Huang spy scandal,' one analyst says. Written from the headline and the publisher's summary only.",
-            "sourceName": "MarketWatch",
-            "sourceUrl": "https://www.marketwatch.com/story/nvidia-could-soon-face-tougher-export-rules-making-it-harder-to-sell-chips-to-china-69c88cc8",
-            "pubTime": "Nov 10, 2026, 3:37 PM ET",
-            "sourceDepth": "headline"
+            "type": "analyst",
+            "headline": "Baird downgrades Nvidia to Neutral from Outperform, cuts price target to $200 from $500",
+            "summary": "Baird downgraded Nvidia to Neutral from Outperform and lowered its price target from $500 to $200, per Yahoo Finance analyst data. Nvidia closed up 2.87% on the day.",
+            "firm": "Baird",
+            "oldRating": "Outperform",
+            "newRating": "Neutral",
+            "oldTarget": "$500",
+            "newTarget": "$200",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+            "pubTime": "Nov 11, 2026",
+            "sourceDepth": "full"
           },
           {
             "type": "analyst",
-            "headline": "Citigroup lowers target, keeps Nvidia Buy, $285 price target",
-            "summary": "Citigroup lowered its price target on Nvidia from $315 to $285, with a Buy rating, per Yahoo Finance analyst data.",
+            "headline": "Morgan Stanley keeps Nvidia at Overweight, maintains $300 price target",
+            "summary": "Morgan Stanley reiterated its Overweight rating on Nvidia and maintained its $300 price target, per Yahoo Finance analyst data.",
+            "firm": "Morgan Stanley",
+            "oldRating": "Overweight",
+            "newRating": "Overweight",
+            "oldTarget": "$300",
+            "newTarget": "$300",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+            "pubTime": "Nov 11, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Citigroup lowers Nvidia price target to $285 from $315, keeps Buy",
+            "summary": "Citigroup kept its Buy rating on Nvidia and lowered its price target from $315 to $285, per Yahoo Finance analyst data.",
             "firm": "Citigroup",
             "oldRating": "Buy",
             "newRating": "Buy",
@@ -142,8 +102,8 @@
           },
           {
             "type": "analyst",
-            "headline": "Wells Fargo lowers target, keeps Nvidia Overweight, $300 price target",
-            "summary": "Wells Fargo lowered its price target on Nvidia from $315 to $300, with a Overweight rating, per Yahoo Finance analyst data.",
+            "headline": "Wells Fargo lowers Nvidia price target to $300 from $315, keeps Overweight",
+            "summary": "Wells Fargo kept its Overweight rating on Nvidia and lowered its price target from $315 to $300, per Yahoo Finance analyst data.",
             "firm": "Wells Fargo",
             "oldRating": "Overweight",
             "newRating": "Overweight",
@@ -155,32 +115,76 @@
             "sourceDepth": "full"
           },
           {
-            "type": "analyst",
-            "headline": "RBC Capital reiterates Nvidia Outperform, $330 price target",
-            "summary": "RBC Capital maintained its price target on Nvidia at $330, with a Outperform rating, per Yahoo Finance analyst data.",
-            "firm": "RBC Capital",
-            "oldRating": "Outperform",
-            "newRating": "Outperform",
-            "oldTarget": "$330",
-            "newTarget": "$330",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
-            "pubTime": "Nov 9, 2026",
-            "sourceDepth": "full"
+            "type": "news",
+            "headline": "Law Firm Wachtell Lipton to Lead Nvidia Internal Investigation",
+            "summary": "Per WSJ, the New York law firm will lead Nvidia's internal investigation into whether the company was the target of a foreign espionage effort. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/tech/law-firm-wachtell-lipton-to-lead-nvidia-internal-investigation-d37731c7?mod=rss_Technology",
+            "pubTime": "Nov 10, 2026, 6:05 PM ET",
+            "sourceDepth": "headline"
           },
           {
-            "type": "analyst",
-            "headline": "Goldman Sachs reiterates Nvidia Buy, $300 price target",
-            "summary": "Goldman Sachs maintained its price target on Nvidia at $300, with a Buy rating, per Yahoo Finance analyst data.",
-            "firm": "Goldman Sachs",
-            "oldRating": "Buy",
-            "newRating": "Buy",
-            "oldTarget": "$300",
-            "newTarget": "$300",
-            "sourceName": "Yahoo Finance analyst data",
-            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
-            "pubTime": "Nov 9, 2026",
-            "sourceDepth": "full"
+            "type": "news",
+            "headline": "The 31-Year-Old Trader Who Called Out Jensen Huang's 'China Problem'—and Shorted Nvidia",
+            "summary": "Per WSJ, Culper Research published a report on Huang's 'China problem' that went largely unnoticed for six months before drawing attention this week. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/business/nvidia-short-seller-culper-jensen-huang-0e0cec38?mod=rss_markets_main",
+            "pubTime": "Nov 11, 2026, 1:47 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Nvidia China Scandal Demands Answers, Says Congressman",
+            "summary": "Per Bloomberg, Rep. Raja Krishnamoorthi said Congress needs answers from CEO Jensen Huang over his reported relationship with a woman suspected of ties to Chinese intelligence, and that lawmakers could consider a subpoena if Huang does not voluntarily appear. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-11/nvidia-china-scandal-demands-answers-says-congressman-video",
+            "pubTime": "Nov 11, 2026, 2:03 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Huang's Ties to Trump Under Scrutiny After Spy Claim",
+            "summary": "Per Bloomberg, actions by the Trump administration and by Huang are coming under sharper scrutiny by Congress amid investigations into the affair Huang had with a woman alleged to be a Chinese spy. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-11/huang-s-ties-to-trump-under-scrutiny-after-spy-claim-video",
+            "pubTime": "Nov 11, 2026, 3:12 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Nvidia is spending more than ever on Washington lobbying. It may not stop Congress from limiting China chip sales now.",
+            "summary": "Per MarketWatch, a former U.S. ambassador to Beijing is quoted saying there is no question Congress will push for a complete ban on the sale of advanced semiconductors into China. Written from the headline and the publisher's summary only.",
+            "sourceName": "MarketWatch",
+            "sourceUrl": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
+            "pubTime": "Nov 11, 2026, 1:48 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Google in, but Nvidia out as US lines up Apec CEO Summit delegation: source",
+            "summary": "Per SCMP, citing a source familiar with the arrangements, Huang is unlikely to attend next week's Apec CEO Summit in Shenzhen at this stage. Written from the headline and the publisher's summary only.",
+            "sourceName": "South China Morning Post",
+            "sourceUrl": "https://www.scmp.com/economy/global-economy/article/3374105/google-nvidia-out-us-lines-apec-ceo-summit-delegation-source",
+            "pubTime": "Nov 11, 2026, 8:30 AM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Nvidia's Bull Case Hinges on Huang Surviving China Spy Probe",
+            "summary": "Per Bloomberg, Nvidia's investigation of CEO Jensen Huang's affair with an alleged Chinese spy is raising questions about the company's future and sending its stock into a tailspin. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-10/nvidia-s-bull-case-hinges-on-ceo-huang-surviving-china-spy-probe",
+            "pubTime": "Nov 10, 2026, 4:08 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Nvidia Scandal Tests the Resilience of the Global AI Boom",
+            "summary": "Per WSJ, the article asks whether the AI boom could carry on without Jensen Huang, described as its biggest cheerleader. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huang-nvidia-ceo-ai-bubble-93097556?mod=rss_Technology",
+            "pubTime": "Nov 10, 2026, 10:00 PM ET",
+            "sourceDepth": "headline"
           }
         ]
       },
@@ -205,20 +209,29 @@
         "items": [
           {
             "type": "news",
-            "headline": "Google Agrees to Privacy in Spirit Airlines Data Sale",
-            "summary": "Per WSJ Pro, a revised bankruptcy pact carves out personnel files and installs an independent monitor to address union and congressional pushback over AI training. Alphabet (GOOG) closed down 0.38%. Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/pro/bankruptcy/google-agrees-to-privacy-in-spirit-airlines-data-sale-474550e4",
-            "pubTime": "Nov 10, 2026, 4:22 PM ET",
+            "headline": "Google Adds Gemini Voice AI Assistant to Apple CarPlay",
+            "summary": "Per Bloomberg, Google is adding its Gemini app to Apple's CarPlay system, expanding options for drivers who may already use the assistant on their Apple devices. Alphabet (GOOG) closed up 2.0%. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-11/google-adds-gemini-voice-ai-assistant-to-apple-carplay",
+            "pubTime": "Nov 11, 2026, 1:57 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "Google's Gemini Targets Health Care's Data Problem",
-            "summary": "Per Bloomberg, Google Cloud is launching Gemini for Health Care, an AI platform designed to connect fragmented information across hospitals, insurers and other health systems while reducing administrative work. Written from the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-10/google-s-gemini-targets-health-care-s-data-problem-video",
-            "pubTime": "Nov 10, 2026, 2:13 PM ET",
+            "headline": "Google in, but Nvidia out as US lines up Apec CEO Summit delegation: source",
+            "summary": "Per SCMP, representatives from Google and Boeing will be included in the U.S. business delegation at next week's Apec CEO Summit in Shenzhen, the event organiser has confirmed. Written from the headline and the publisher's summary only.",
+            "sourceName": "South China Morning Post",
+            "sourceUrl": "https://www.scmp.com/economy/global-economy/article/3374105/google-nvidia-out-us-lines-apec-ceo-summit-delegation-source",
+            "pubTime": "Nov 11, 2026, 8:30 AM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Google Agrees to Privacy in Spirit Airlines Data Sale",
+            "summary": "Per WSJ, a revised bankruptcy agreement carves out personnel files and installs an independent monitor to address union and congressional pushback over AI training. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/pro/bankruptcy/google-agrees-to-privacy-in-spirit-airlines-data-sale-474550e4?mod=rss_markets_main",
+            "pubTime": "Nov 10, 2026, 4:22 PM ET",
             "sourceDepth": "headline"
           }
         ]
