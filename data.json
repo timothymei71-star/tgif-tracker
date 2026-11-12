@@ -249,33 +249,26 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "November 11, 2026",
-    "periodStart": "Tue, Nov 10, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Wed, Nov 11, 2026, 8:25 AM ET",
-    "lastUpdated": "Wed, Nov 11, 2026, 8:25 AM ET",
+    "reportDate": "November 12, 2026",
+    "periodStart": "Wed, Nov 11, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Thu, Nov 12, 2026, 8:24 AM ET",
+    "lastUpdated": "Thu, Nov 12, 2026, 8:24 AM ET",
     "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per WSJ, stocks fell Tuesday on hotter-than-expected inflation data and AI worries, and yields jumped (Nov 10, 4:54 PM and 4:17 PM ET). After the close, WSJ reported CoreWeave met Wall Street expectations with its backlog at $133 billion and shares rising (5:14 PM ET). Overnight, WSJ reported Nasdaq futures led stock futures higher as AI optimism returned (4:16 AM ET) and European chip stocks climbed after CoreWeave's results (4:25 AM ET); Bloomberg tied the rebound to demand for Anthropic's IPO (5:46 AM ET). WSJ reported Asian bond yields rose on expectations for a Fed rate hike (1:37 AM ET), the dollar reached a four-week high (4:55 AM ET), and Brent crude rose above $92 a barrel after a sharp selloff (3:02 AM ET). Written from headlines and publisher summaries only.",
-        "sourceName": "WSJ / Bloomberg",
-        "sourceUrl": "https://www.wsj.com/finance/commodities-futures/nasdaq-futures-rally-as-ai-optimism-returns-af100e62?mod=rss_markets_main",
-        "pubTime": "Nov 11, 2026, 4:16 AM ET",
+        "text": "Per Bloomberg, a tech rebound stalled Wednesday as a leadership crisis at Nvidia threatened wider fallout across the AI supply chain (Nov 11, 5:08 PM ET). Overnight, WSJ reported Nvidia dragged U.S. index futures lower and put the brakes on the AI rally (4:53 AM ET), Asian equities were broadly lower with some support for Chinese stocks on bets that domestic suppliers could gain share (1:46 AM ET), and European stocks rose as investors rotated away from AI (3:23 AM ET). Bloomberg reported AMD and Broadcom gained on bets they may win business from Nvidia (Nov 11, 9:56 PM ET), and long-dated Treasuries rose as trading resumed after the holiday, with Nvidia turmoil encouraging demand for safer assets (Nov 11, 7:58 PM ET). Bloomberg reported gold fell below $4,000 an ounce on persistent U.S. inflation and expectations of Fed rate hikes (7:12 PM ET). WSJ reported oil prices fell as investors weighed U.S.-Iran diplomacy (2:29 AM ET) and China's SMIC posted record revenue and doubled profit (6:31 AM ET). Written from headlines and publisher summaries only.",
+        "sourceName": "Bloomberg / WSJ",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+        "pubTime": "Nov 12, 2026, 4:53 AM ET",
         "sourceDepth": "headline"
       },
-      "calendar": [
-        {
-          "time": "Today",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com/finance/investing/u-s-treasurys-pause-on-market-holiday-after-inflation-fueled-selloff-7ff76731?mod=rss_markets_main",
-          "text": "US Treasury market closed for Veterans Day, per WSJ (headline and summary only)"
-        }
-      ],
+      "calendar": [],
       "cryptoDriver": {
-        "text": "CoinDesk reported bitcoin sat out the stock rebound as ETF outflows extended to a fourth day.",
+        "text": "CoinDesk reported bitcoin dipped alongside Nvidia as spot bitcoin ETF outflows reached a fifth day; separately, WSJ reported MSCI ruled Strategy ineligible for its global indexes.",
         "sourceName": "CoinDesk",
-        "sourceUrl": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day",
-        "pubTime": "Nov 11, 2026, 6:37 AM ET",
+        "sourceUrl": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
+        "pubTime": "Nov 12, 2026, 6:30 AM ET",
         "sourceDepth": "headline"
       }
     },
@@ -315,57 +308,110 @@
         "items": [
           {
             "type": "news",
-            "headline": "Law Firm Wachtell Lipton to Lead Nvidia Internal Investigation",
-            "summary": "Per WSJ, the New York law firm will lead Nvidia's internal investigation into whether the company was the target of a foreign espionage effort. Written from the headline and the publisher's summary only.",
+            "headline": "Nvidia Is Preparing to Oust CEO Jensen Huang",
+            "summary": "Per WSJ, the move follows the company investigation into an affair with a Chinese woman alleged to be a spy. Written from the headline and the publisher's summary only.",
             "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/tech/law-firm-wachtell-lipton-to-lead-nvidia-internal-investigation-d37731c7?mod=rss_Technology",
-            "pubTime": "Nov 10, 2026, 6:05 PM ET",
+            "sourceUrl": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+            "pubTime": "Nov 11, 2026, 7:17 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "Nvidia's Bull Case Hinges on Huang Surviving China Spy Probe",
-            "summary": "Per Bloomberg, Nvidia's investigation of CEO Jensen Huang's affair with an alleged Chinese spy is raising questions about the company's future and sending its stock into a tailspin. Written from the headline and the publisher's summary only.",
+            "headline": "Nvidia Working With Outside Firm to Identify CEO Candidates",
+            "summary": "Per Bloomberg, Nvidia's board has been working with an outside firm to identify potential replacements for CEO Jensen Huang following reports of multiple extramarital affairs. Written from the headline and the publisher's summary only.",
             "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-10/nvidia-s-bull-case-hinges-on-ceo-huang-surviving-china-spy-probe",
-            "pubTime": "Nov 10, 2026, 4:08 PM ET",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-ca",
+            "pubTime": "Nov 11, 2026, 6:46 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "Nvidia Scandal Tests the Resilience of the Global AI Boom",
-            "summary": "Per WSJ, the article asks whether the AI boom could carry on without Jensen Huang, described as its biggest cheerleader. Written from the headline and the publisher's summary only.",
+            "headline": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+            "summary": "Per MarketWatch, stock futures slid Wednesday evening as the selloff in Nvidia shares after the close weighed on the Nasdaq-100 and dragged down other chip makers. Written from the headline and the publisher's summary only.",
+            "sourceName": "MarketWatch",
+            "sourceUrl": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d",
+            "pubTime": "Nov 11, 2026, 11:41 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Top Democrats Target Trump Administration’s Nvidia-China Records",
+            "summary": "Per WSJ, Sens. Elizabeth Warren and Chris Coons asked that documents be preserved, often an initial step before formal congressional investigations. Written from the headline and the publisher's summary only.",
             "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huang-nvidia-ceo-ai-bubble-93097556?mod=rss_Technology",
-            "pubTime": "Nov 10, 2026, 10:00 PM ET",
+            "sourceUrl": "https://www.wsj.com/politics/policy/top-democrats-target-trump-administrations-nvidia-china-records-0c212746",
+            "pubTime": "Nov 11, 2026, 9:00 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "China warns US not to use Nvidia scandal as pretext for tech curbs",
+            "summary": "Per the Financial Times, Beijing accuses the US of fabricating \"espionage narratives\" as the chip company's board considers the future of CEO Jensen Huang. Written from the headline and the publisher's summary only.",
+            "sourceName": "Financial Times",
+            "sourceUrl": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd",
+            "pubTime": "Nov 12, 2026, 5:55 AM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Nvidia's Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
+            "summary": "Per WSJ, last year, just as scrutiny of Megaspeed was rising, Nvidia stopped reporting Singapore revenue. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/business/earnings/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-7d483180",
+            "pubTime": "Nov 11, 2026, 8:00 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "analyst",
-            "headline": "Citigroup lowers Nvidia price target to $285 from $315, keeps Buy",
-            "summary": "Citigroup kept its Buy rating on Nvidia and lowered its price target from $315 to $285, per Yahoo Finance analyst data.",
-            "firm": "Citigroup",
-            "oldRating": "Buy",
-            "newRating": "Buy",
-            "oldTarget": "$315",
-            "newTarget": "$285",
+            "headline": "Evercore ISI downgrades Nvidia to In-Line from Outperform, lowers price target to $186 from $465",
+            "summary": "Evercore ISI Group lowered its rating on Nvidia from Outperform to In-Line and cut its price target from $465 to $186, per Yahoo Finance analyst data.",
+            "firm": "Evercore ISI Group",
+            "oldRating": "Outperform",
+            "newRating": "In-Line",
+            "oldTarget": "$465",
+            "newTarget": "$186",
             "sourceName": "Yahoo Finance analyst data",
             "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
-            "pubTime": "Nov 10, 2026",
+            "pubTime": "Nov 12, 2026",
             "sourceDepth": "full"
           },
           {
             "type": "analyst",
-            "headline": "Wells Fargo lowers Nvidia price target to $300 from $315, keeps Overweight",
-            "summary": "Wells Fargo kept its Overweight rating on Nvidia and lowered its price target from $315 to $300, per Yahoo Finance analyst data.",
-            "firm": "Wells Fargo",
+            "headline": "Oppenheimer downgrades Nvidia to Perform from Outperform",
+            "summary": "Oppenheimer lowered its rating on Nvidia from Outperform to Perform, per Yahoo Finance analyst data. No price target was listed.",
+            "firm": "Oppenheimer",
+            "oldRating": "Outperform",
+            "newRating": "Perform",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+            "pubTime": "Nov 12, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Morgan Stanley maintains Nvidia at Overweight, $300 price target",
+            "summary": "Morgan Stanley maintained its Overweight rating on Nvidia with a $300 price target, per Yahoo Finance analyst data.",
+            "firm": "Morgan Stanley",
             "oldRating": "Overweight",
             "newRating": "Overweight",
-            "oldTarget": "$315",
+            "oldTarget": "$300",
             "newTarget": "$300",
             "sourceName": "Yahoo Finance analyst data",
             "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
-            "pubTime": "Nov 10, 2026",
+            "pubTime": "Nov 11, 2026",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "analyst",
+            "headline": "Baird downgrades Nvidia to Neutral from Outperform, lowers price target to $200 from $500",
+            "summary": "Baird lowered its rating on Nvidia from Outperform to Neutral and cut its price target from $500 to $200, per Yahoo Finance analyst data.",
+            "firm": "Baird",
+            "oldRating": "Outperform",
+            "newRating": "Neutral",
+            "oldTarget": "$500",
+            "newTarget": "$200",
+            "sourceName": "Yahoo Finance analyst data",
+            "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+            "pubTime": "Nov 11, 2026",
             "sourceDepth": "full"
           }
         ]
@@ -380,9 +426,18 @@
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Musk Phases Out Tesla (TSLA) Cybertruck for AI Cybercab as Drivers Resist",
+            "summary": "Per Bloomberg, the newsletter reports that Elon Musk is phasing out the Cybertruck in favor of the Cybercab, and notes that polls show Americans are unlikely to give up the steering wheel easily. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/newsletters/2026-11-12/musk-phases-out-tesla-tsla-cybertruck-for-ai-cybercab-as-drivers-resist",
+            "pubTime": "Nov 12, 2026, 6:28 AM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "GOOG",
@@ -391,11 +446,11 @@
         "items": [
           {
             "type": "news",
-            "headline": "Google Agrees to Privacy in Spirit Airlines Data Sale",
-            "summary": "Per WSJ, a revised bankruptcy agreement carves out personnel files and installs an independent monitor to address union and congressional pushback over AI training. Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/pro/bankruptcy/google-agrees-to-privacy-in-spirit-airlines-data-sale-474550e4?mod=rss_markets_main",
-            "pubTime": "Nov 10, 2026, 4:22 PM ET",
+            "headline": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny",
+            "summary": "Per Bloomberg, Alphabet is marketing its inaugural Hong Kong and Singapore dollar bond sale. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-12/alphabet-kicks-off-asia-bond-sale-as-ai-firms-face-scrutiny",
+            "pubTime": "Nov 11, 2026, 8:12 PM ET",
             "sourceDepth": "headline"
           }
         ]

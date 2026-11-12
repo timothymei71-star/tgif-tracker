@@ -1,0 +1,219 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 12, 2026",
+  "periodStart": "Wed, Nov 11, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Thu, Nov 12, 2026, 8:24 AM ET",
+  "lastUpdated": "Thu, Nov 12, 2026, 8:24 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Bloomberg, a tech rebound stalled Wednesday as a leadership crisis at Nvidia threatened wider fallout across the AI supply chain (Nov 11, 5:08 PM ET). Overnight, WSJ reported Nvidia dragged U.S. index futures lower and put the brakes on the AI rally (4:53 AM ET), Asian equities were broadly lower with some support for Chinese stocks on bets that domestic suppliers could gain share (1:46 AM ET), and European stocks rose as investors rotated away from AI (3:23 AM ET). Bloomberg reported AMD and Broadcom gained on bets they may win business from Nvidia (Nov 11, 9:56 PM ET), and long-dated Treasuries rose as trading resumed after the holiday, with Nvidia turmoil encouraging demand for safer assets (Nov 11, 7:58 PM ET). Bloomberg reported gold fell below $4,000 an ounce on persistent U.S. inflation and expectations of Fed rate hikes (7:12 PM ET). WSJ reported oil prices fell as investors weighed U.S.-Iran diplomacy (2:29 AM ET) and China's SMIC posted record revenue and doubled profit (6:31 AM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "Bloomberg / WSJ",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+      "pubTime": "Nov 12, 2026, 4:53 AM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": [],
+    "cryptoDriver": {
+      "text": "CoinDesk reported bitcoin dipped alongside Nvidia as spot bitcoin ETF outflows reached a fifth day; separately, WSJ reported MSCI ruled Strategy ineligible for its global indexes.",
+      "sourceName": "CoinDesk",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
+      "pubTime": "Nov 12, 2026, 6:30 AM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Nvidia Is Preparing to Oust CEO Jensen Huang",
+          "summary": "Per WSJ, the move follows the company investigation into an affair with a Chinese woman alleged to be a spy. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+          "pubTime": "Nov 11, 2026, 7:17 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Working With Outside Firm to Identify CEO Candidates",
+          "summary": "Per Bloomberg, Nvidia's board has been working with an outside firm to identify potential replacements for CEO Jensen Huang following reports of multiple extramarital affairs. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-ca",
+          "pubTime": "Nov 11, 2026, 6:46 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+          "summary": "Per MarketWatch, stock futures slid Wednesday evening as the selloff in Nvidia shares after the close weighed on the Nasdaq-100 and dragged down other chip makers. Written from the headline and the publisher's summary only.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d",
+          "pubTime": "Nov 11, 2026, 11:41 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Top Democrats Target Trump Administration’s Nvidia-China Records",
+          "summary": "Per WSJ, Sens. Elizabeth Warren and Chris Coons asked that documents be preserved, often an initial step before formal congressional investigations. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/politics/policy/top-democrats-target-trump-administrations-nvidia-china-records-0c212746",
+          "pubTime": "Nov 11, 2026, 9:00 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "China warns US not to use Nvidia scandal as pretext for tech curbs",
+          "summary": "Per the Financial Times, Beijing accuses the US of fabricating \"espionage narratives\" as the chip company's board considers the future of CEO Jensen Huang. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd",
+          "pubTime": "Nov 12, 2026, 5:55 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia's Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
+          "summary": "Per WSJ, last year, just as scrutiny of Megaspeed was rising, Nvidia stopped reporting Singapore revenue. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/earnings/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-7d483180",
+          "pubTime": "Nov 11, 2026, 8:00 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "analyst",
+          "headline": "Evercore ISI downgrades Nvidia to In-Line from Outperform, lowers price target to $186 from $465",
+          "summary": "Evercore ISI Group lowered its rating on Nvidia from Outperform to In-Line and cut its price target from $465 to $186, per Yahoo Finance analyst data.",
+          "firm": "Evercore ISI Group",
+          "oldRating": "Outperform",
+          "newRating": "In-Line",
+          "oldTarget": "$465",
+          "newTarget": "$186",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Oppenheimer downgrades Nvidia to Perform from Outperform",
+          "summary": "Oppenheimer lowered its rating on Nvidia from Outperform to Perform, per Yahoo Finance analyst data. No price target was listed.",
+          "firm": "Oppenheimer",
+          "oldRating": "Outperform",
+          "newRating": "Perform",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Morgan Stanley maintains Nvidia at Overweight, $300 price target",
+          "summary": "Morgan Stanley maintained its Overweight rating on Nvidia with a $300 price target, per Yahoo Finance analyst data.",
+          "firm": "Morgan Stanley",
+          "oldRating": "Overweight",
+          "newRating": "Overweight",
+          "oldTarget": "$300",
+          "newTarget": "$300",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 11, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Baird downgrades Nvidia to Neutral from Outperform, lowers price target to $200 from $500",
+          "summary": "Baird lowered its rating on Nvidia from Outperform to Neutral and cut its price target from $500 to $200, per Yahoo Finance analyst data.",
+          "firm": "Baird",
+          "oldRating": "Outperform",
+          "newRating": "Neutral",
+          "oldTarget": "$500",
+          "newTarget": "$200",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 11, 2026",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Musk Phases Out Tesla (TSLA) Cybertruck for AI Cybercab as Drivers Resist",
+          "summary": "Per Bloomberg, the newsletter reports that Elon Musk is phasing out the Cybertruck in favor of the Cybercab, and notes that polls show Americans are unlikely to give up the steering wheel easily. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/newsletters/2026-11-12/musk-phases-out-tesla-tsla-cybertruck-for-ai-cybercab-as-drivers-resist",
+          "pubTime": "Nov 12, 2026, 6:28 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny",
+          "summary": "Per Bloomberg, Alphabet is marketing its inaugural Hong Kong and Singapore dollar bond sale. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-12/alphabet-kicks-off-asia-bond-sale-as-ai-firms-face-scrutiny",
+          "pubTime": "Nov 11, 2026, 8:12 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
