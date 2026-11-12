@@ -1,0 +1,1920 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-12",
+ "generatedAt": "2026-11-12T17:11:32-05:00",
+ "lookbackHours": 30,
+ "note": "News items are feed headlines plus the publisher's own short summary only; article bodies were not read. Analyst data is from Yahoo Finance.",
+ "complete": true,
+ "news": [
+  {
+   "source": "WSJ Markets",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Nvidia Live Updates: Chip Giant\u2019s Stock Falls 4% After Jensen Huang Exit",
+     "summary": "Investors weigh how much Nvidia (and the AI trade) is worth without Huang",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026?mod=rss_markets_main",
+     "published": "2026-11-12 2:42 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang\u2019s Exit Will Test AI\u2019s Stocks, and Great-Man Theory",
+     "summary": "Nvidia\u2019s crisis divides the AI trade between companies dependent on Huang\u2019s patronage, and those that didn\u2019t need his chips or financing deals.",
+     "url": "https://www.wsj.com/finance/stocks/jensen-huangs-exit-will-test-ais-stocks-and-great-man-theory-3c4cd404?mod=rss_markets_main",
+     "published": "2026-11-12 4:41 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia Tumbles as its CEO Jensen Huang Departs Amid Multiplying Scandals",
+     "summary": "Plus, competitors AMD and Broadcom advance and yields rise.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f?mod=rss_markets_main",
+     "published": "2026-11-12 4:11 PM ET",
+     "tickers": [
+      "NVDA",
+      "AVGO"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia Shareholders Won\u2019t Miss Jensen Huang for Long",
+     "summary": "Steadier hands could be better suited to enriching shareholders as the AI chip company enters a new phase.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-shareholders-wont-miss-jensen-huang-for-long-13429e31?mod=rss_markets_main",
+     "published": "2026-11-12 12:43 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Hoping to Sell Your Home in the Spring? It\u2019s Not Looking Good",
+     "summary": "Plus, Nvidia\u2019s Huang teeters, and a Megaspeed mystery",
+     "url": "https://www.wsj.com/finance/stocks/hoping-to-sell-your-home-in-the-spring-its-not-looking-good-8dc94d1c?mod=rss_markets_main",
+     "published": "2026-11-12 6:09 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia\u2019s Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
+     "summary": "Last year, just as scrutiny of Megaspeed was rising, Nvidia stopped reporting Singapore revenue.",
+     "url": "https://www.wsj.com/business/earnings/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-7d483180?mod=rss_markets_main",
+     "published": "2026-11-11 8:00 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "U.S. Stocks Fall as Huang Ouster Sends Shockwaves Through Tech",
+     "summary": "U.S. stocks slipped after the sudden ouster of one of the key architects of the artificial-intelligence boom sent shockwaves through the technology sector.",
+     "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-huang-ouster-sends-shockwaves-through-tech-5b0aa02a?mod=rss_markets_main",
+     "published": "2026-11-12 4:26 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Praise Was Heaped on Jensen Huang. That Might Be Part of the Problem.",
+     "summary": "",
+     "url": "https://www.wsj.com/articles/praise-was-heaped-on-jensen-huang-that-might-be-part-of-the-problem-4cfa876c?mod=rss_markets_main",
+     "published": "2026-11-12 7:03 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "The Inflation Fight May Be About to Turn Painful",
+     "summary": "Plus, retirees\u2019 investments, the affordability agenda and the downsides of a boring job market.",
+     "url": "https://www.wsj.com/finance/investing/the-inflation-fight-may-be-about-to-turn-painful-1d053d79?mod=rss_markets_main",
+     "published": "2026-11-12 5:57 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia\u2019s Meteoric Rise, in One Chart",
+     "summary": "A once-modest company soared after ChatGPT unleashed demand for its chips.",
+     "url": "https://www.wsj.com/tech/nvidias-meteoric-rise-in-one-chart-2f47d54e?mod=rss_markets_main",
+     "published": "2026-11-12 3:14 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "European Stock Indexes Higher as Investors Rotate Away From AI",
+     "summary": "European stock indexes rose at the open, as the tech-light continent benefited from a rotation away from artificial-intelligence stocks.",
+     "url": "https://www.wsj.com/finance/stocks/nikkei-falls-0-2-dragged-by-electronics-stocks-0da84013?mod=rss_markets_main",
+     "published": "2026-11-12 3:23 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia\u2019s Leadership Crisis Weighs on Asian Markets",
+     "summary": "Equities were broadly lower in Asia, despite some support for Chinese stocks on bets that domestic suppliers could gain market share at Nvidia\u2019s expense.",
+     "url": "https://www.wsj.com/finance/stocks/nvidias-leadership-crisis-weighs-on-asian-markets-040b6d87?mod=rss_markets_main",
+     "published": "2026-11-12 1:46 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "U.S. Stocks Gain After CoreWeave Update Eases Some AI Concerns",
+     "summary": "U.S. stocks rose after CoreWeave\u2019s earnings update quelled worries that AI profits would not come soon enough to cover infrastructure debt burdens.",
+     "url": "https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-coreweave-update-eases-some-ai-worries-f8bfbaa7?mod=rss_markets_main",
+     "published": "2026-11-11 5:07 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Oil Futures Rebound as Trump Shrugs Off Need for Iran Deal",
+     "summary": "Oil futures rose after President Trump said the U.S. doesn\u2019t need to reach a deal with Iran, adding risk premium back into the market despite the recent increase in supply from the Middle East.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5?mod=rss_markets_main",
+     "published": "2026-11-12 5:02 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Basic Materials Roundup: Market Talk",
+     "summary": "Find insight on gold futures, Hudbay Minerals, palm oil and more in the latest Market Talks covering basic materials.",
+     "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-382816ab?mod=rss_markets_main",
+     "published": "2026-11-12 4:55 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "U.S. Natural Gas Futures Extend Gains",
+     "summary": "U.S. natural gas futures rose as a colder near-term weather outlook supported heating demand expectations along with solid LNG exports.",
+     "url": "https://www.wsj.com/finance/commodities-futures/u-s-natural-gas-futures-pick-up-as-cold-spell-nears-b99c70a2?mod=rss_markets_main",
+     "published": "2026-11-12 4:54 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Gold Falls to More Than 1-Year Low As U.S. Dollar, Yields Rise",
+     "summary": "Gold futures fell for a third consecutive session as the dollar gained and yields rose, with the market concerned about higher interest rates and a rebound in oil prices that could fuel more inflation.",
+     "url": "https://www.wsj.com/finance/commodities-futures/gold-dims-amid-rising-fed-rate-hike-expectations-22fab6f0?mod=rss_markets_main",
+     "published": "2026-11-12 2:36 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "U.S. Crude-Oil Stockpiles Post Unexpected Weekly Build",
+     "summary": "Commercial crude-oil inventories rose by 4.7 million barrels to 414.4 million barrels, the EIA said. Inventories were expected to have fallen by 700,000 barrels, according to a Wall Street Journal survey of analysts.",
+     "url": "https://www.wsj.com/business/energy-oil/u-s-crude-oil-stockpiles-post-unexpected-weekly-build-9058e7ae?mod=rss_markets_main",
+     "published": "2026-11-12 12:58 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "US FX: Dollar Strengthens; Emerging Markets Mixed",
+     "summary": "The U.S. dollar strengthened against major currencies, and Convera said the currency was likely to stay elevated due to increased Fed rate-hike expectations.",
+     "url": "https://www.wsj.com/finance/currencies/yen-hitting-160-to-dollar-again-wont-be-surprising-f82f47e6?mod=rss_markets_main",
+     "published": "2026-11-12 4:18 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "NYSE Affiliate to Launch 24/7 Tokenized Stock Trading This Month",
+     "summary": "Eligible U.S. customers will be able to trade tokenized versions of more than 70 assets starting on Nov. 23, said Intercontinental Exchange and OKX\u2019s joint venture OKXICE.",
+     "url": "https://www.wsj.com/finance/investing/nyse-affiliate-to-launch-24-7-tokenized-stock-trading-this-month-b3f0843a?mod=rss_markets_main",
+     "published": "2026-11-11 12:03 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Investors Run Back to AI Stocks, Less Than a Week After a Historic Selloff",
+     "summary": "CoreWeave, an AI data-center operator, delivered strong results late Tuesday. Tech stocks roared back the next morning.",
+     "url": "https://www.wsj.com/finance/stocks/investors-run-back-to-ai-stocks-less-than-a-week-after-a-historic-selloff-854483e8?mod=rss_markets_main",
+     "published": "2026-11-11 4:58 PM ET",
+     "tickers": [],
+     "marketWide": true
+    }
+   ]
+  },
+  {
+   "source": "WSJ Technology",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Nvidia\u2019s Meteoric Rise, in One Chart",
+     "summary": "A once-modest company soared after ChatGPT unleashed demand for its chips.",
+     "url": "https://www.wsj.com/tech/nvidias-meteoric-rise-in-one-chart-2f47d54e?mod=rss_Technology",
+     "published": "2026-11-12 3:14 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang Built Nvidia. Its Chips Made the AI Boom Possible.",
+     "summary": "Nvidia\u2019s first and only CEO turned semiconductors designed for videogames into the engine of the next technology revolution.",
+     "url": "https://www.wsj.com/tech/ai/jensen-huang-nvidia-ceo-departs-bef1b4bb?mod=rss_Technology",
+     "published": "2026-11-12 12:57 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "A Mystery Businessman Introduced Jensen Huang to His Paramour. It Was Her Husband.",
+     "summary": "Kang Wei appeared to accept that his wife Alice Huang was in a romantic relationship and spoke openly of her closeness to the Nvidia chief.",
+     "url": "https://www.wsj.com/tech/ai/a-mystery-businessman-introduced-jensen-huang-to-his-paramourher-husband-1ec3b581?mod=rss_Technology",
+     "published": "2026-11-12 12:42 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang Has Been Ousted as Nvidia CEO",
+     "summary": "Nvidia Chief Executive Jensen Huang has resigned after two extramarital affairs, including one with a suspected Chinese spy and another with an employee.",
+     "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=rss_Technology",
+     "published": "2026-11-12 11:09 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Who Is Colette Kress? Meet Nvidia\u2019s New Interim CEO",
+     "summary": "Nvidia\u2019s longtime finance chief spent years at Microsoft and Cisco before joining the AI-chips juggernaut.",
+     "url": "https://www.wsj.com/tech/colette-kress-nvidia-interim-ceo-ff26ef3a?mod=rss_Technology",
+     "published": "2026-11-12 10:19 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "A Timeline of the Scandals That Brought Down Nvidia CEO Jensen Huang",
+     "summary": "The world\u2019s most consequential AI CEO is out after two affairs \u2014 one with a suspected spy. Here\u2019s how it all unfolded.",
+     "url": "https://www.wsj.com/tech/ai/a-timeline-of-nvidia-ceo-jensen-huangs-suspected-spy-drama-05cbebf3?mod=rss_Technology",
+     "published": "2026-11-12 9:37 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Huang\u2019s Coziness With Trump Wasn\u2019t Enough to Save Him From Spying Scandal",
+     "summary": "U.S. officials have repeatedly raised concerns about his influence with the president and the Nvidia CEO\u2019s posture toward China.",
+     "url": "https://www.wsj.com/politics/national-security/huangs-coziness-with-trump-wasnt-enough-to-save-him-from-spying-scandal-85ce06f4?mod=rss_Technology",
+     "published": "2026-11-12 9:37 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia Board Must Craft Epic Job Description for New CEO",
+     "summary": "Plus, AI startup LangChain more than doubles valuation to $3 billion",
+     "url": "https://www.wsj.com/cio-journal/nvidia-board-must-craft-epic-job-description-for-new-ceo-cfdafeeb?mod=rss_Technology",
+     "published": "2026-11-12 9:37 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang\u2019s Resignation Quiets the AI Boom\u2019s Best PR Asset",
+     "summary": "Plus, air carriers chart differing routes on letting autonomous agents book tickets.",
+     "url": "https://www.wsj.com/cmo-today/jensen-huangs-resignation-quiets-the-ai-booms-best-pr-asset-090544e4?mod=rss_Technology",
+     "published": "2026-11-12 9:23 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "AI Startup LangChain More Than Doubles Its Valuation to $3 Billion",
+     "summary": "Alphabet\u2019s CapitalG led the $300 million investment into the startup as it targets enterprises with agent-development platform.",
+     "url": "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad?mod=rss_Technology",
+     "published": "2026-11-12 9:00 AM ET",
+     "tickers": [
+      "GOOG"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "The Morning Risk Report: Nvidia is Preparing to Oust CEO Jensen Huang",
+     "summary": "Plus: United Airlines is banning AI bots from booking flights, and the DOJ, Treasury in settlement talks with oil-field services firm over Mexico payments.",
+     "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-nvidia-is-preparing-to-oust-ceo-jensen-huang-324bfbd1?mod=rss_Technology",
+     "published": "2026-11-12 7:29 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Top Democrats Target Trump Administration\u2019s Nvidia-China Records",
+     "summary": "Sens. Elizabeth Warren and Chris Coons asked for documents to be preserved, often an initial step before formal congressional investigations.",
+     "url": "https://www.wsj.com/politics/policy/top-democrats-target-trump-administrations-nvidia-china-records-0c212746?mod=rss_Technology",
+     "published": "2026-11-11 9:00 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    }
+   ]
+  },
+  {
+   "source": "WSJ Business",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Jensen Huang Built Nvidia. Its Chips Made the AI Boom Possible.",
+     "summary": "Nvidia\u2019s first and only CEO turned semiconductors designed for videogames into the engine of the next technology revolution.",
+     "url": "https://www.wsj.com/tech/ai/jensen-huang-nvidia-ceo-departs-bef1b4bb?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 12:57 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Beijing Is Trying to Build a Chinese Rival for Insuring World Shipping",
+     "summary": "Officials have been sounding out shippers, banks and insurers in China about amassing funds for a marine-insurance hub.",
+     "url": "https://www.wsj.com/business/logistics/beijing-is-trying-to-build-a-chinese-rival-for-insuring-world-shipping-eaf8ccdb?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 12:43 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "A Mystery Businessman Introduced Jensen Huang to His Paramour. It Was Her Husband.",
+     "summary": "Kang Wei appeared to accept that his wife Alice Huang was in a romantic relationship and spoke openly of her closeness to the Nvidia chief.",
+     "url": "https://www.wsj.com/tech/ai/a-mystery-businessman-introduced-jensen-huang-to-his-paramourher-husband-1ec3b581?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 12:42 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang Has Been Ousted as Nvidia CEO",
+     "summary": "Nvidia Chief Executive Jensen Huang has resigned after two extramarital affairs, including one with a suspected Chinese spy and another with an employee.",
+     "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 11:09 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Who Is Colette Kress? Meet Nvidia\u2019s New Interim CEO",
+     "summary": "Nvidia\u2019s longtime finance chief spent years at Microsoft and Cisco before joining the AI-chips juggernaut.",
+     "url": "https://www.wsj.com/tech/colette-kress-nvidia-interim-ceo-ff26ef3a?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 10:19 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "A Timeline of the Scandals That Brought Down Nvidia CEO Jensen Huang",
+     "summary": "The world\u2019s most consequential AI CEO is out after two affairs \u2014 one with a suspected spy. Here\u2019s how it all unfolded.",
+     "url": "https://www.wsj.com/tech/ai/a-timeline-of-nvidia-ceo-jensen-huangs-suspected-spy-drama-05cbebf3?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 9:37 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Cerebras Lifts Outlook as Cloud Revenue Surges in Third Quarter",
+     "summary": "The company now expects core revenue of between $940 million and $960 million for the year on continued demand for its cloud services, even as direct sales of its artificial-intelligence chips fell.",
+     "url": "https://www.wsj.com/business/earnings/cerebras-lifts-outlook-as-cloud-revenue-surges-in-third-quarter-87d7cba2?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 4:18 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Burberry\u2019s Shares Jump After Sales Defy Tough Luxury Backdrop",
+     "summary": "The stock rose more than 9% after the group\u2014best known for its trench coats\u2014reported higher retail sales in a difficult market.",
+     "url": "https://www.wsj.com/business/retail/burberrys-shares-jump-after-sales-defy-tough-luxury-backdrop-70e3fc58?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 5:45 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Applied Materials Sales, Profit Climb on Semiconductor Demand",
+     "summary": "The semiconductor company posted a profit of $2.72 billion in the fourth quarter, fueled by artificial intelligence-driven demand for semiconductor services.",
+     "url": "https://www.wsj.com/business/earnings/applied-materials-sales-profit-climb-on-semiconductor-demand-1954e62c?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 4:23 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Oil Prices Rebound as Trump Questions Need for Iran Deal",
+     "summary": "Oil prices rebounded from initial losses and closed higher after President Trump said the U.S. doesn\u2019t need a deal with Iran, putting some risk premium back into the market.",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 4:01 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "U.S. Crude-Oil Stockpiles Post Unexpected Weekly Build",
+     "summary": "Commercial crude-oil inventories rose by 4.7 million barrels to 414.4 million barrels, the EIA said. Inventories were expected to have fallen by 700,000 barrels, according to a Wall Street Journal survey of analysts.",
+     "url": "https://www.wsj.com/business/energy-oil/u-s-crude-oil-stockpiles-post-unexpected-weekly-build-9058e7ae?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 12:58 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Jensen Huang\u2019s Resignation Quiets the AI Boom\u2019s Best PR Asset",
+     "summary": "Plus, air carriers chart differing routes on letting autonomous agents book tickets.",
+     "url": "https://www.wsj.com/cmo-today/jensen-huangs-resignation-quiets-the-ai-booms-best-pr-asset-090544e4?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 9:23 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Strategic Hiring: New Questions to Ask",
+     "summary": "Plus, Nvidia is preparing to oust CEO Jensen Huang.",
+     "url": "https://www.wsj.com/cfo-journal/strategic-hiring-new-questions-to-ask-28964268?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 7:12 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Huang\u2019s Coziness With Trump Wasn\u2019t Enough to Save Him From Spying Scandal",
+     "summary": "U.S. officials have repeatedly raised concerns about his influence with the president and the Nvidia CEO\u2019s posture toward China.",
+     "url": "https://www.wsj.com/politics/national-security/huangs-coziness-with-trump-wasnt-enough-to-save-him-from-spying-scandal-85ce06f4?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 9:37 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia Board Must Craft Epic Job Description for New CEO",
+     "summary": "Plus, AI startup LangChain more than doubles valuation to $3 billion",
+     "url": "https://www.wsj.com/cio-journal/nvidia-board-must-craft-epic-job-description-for-new-ceo-cfdafeeb?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 9:37 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "The Morning Risk Report: Nvidia is Preparing to Oust CEO Jensen Huang",
+     "summary": "Plus: United Airlines is banning AI bots from booking flights, and the DOJ, Treasury in settlement talks with oil-field services firm over Mexico payments.",
+     "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-nvidia-is-preparing-to-oust-ceo-jensen-huang-324bfbd1?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 7:29 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Praise Was Heaped on Jensen Huang. That Might Be Part of the Problem.",
+     "summary": "",
+     "url": "https://www.wsj.com/articles/praise-was-heaped-on-jensen-huang-that-might-be-part-of-the-problem-4cfa876c?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 7:03 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Party Fractures and Voter Anger Topple Republicans in a Conservative Bastion",
+     "summary": "Plus, Mississippi elects its first Black senator since Reconstruction, and Nvidia prepares to oust Jensen Huang",
+     "url": "https://www.wsj.com/articles/party-fractures-and-voter-anger-topple-republicans-in-a-conservative-bastion-d8b0bac1?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-12 5:53 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "The 31-Year-Old Trader Who Called Out Jensen Huang\u2019s \u2018China Problem\u2019\u2014and Shorted Nvidia",
+     "summary": "For six months, no one really noticed Culper Research\u2019s report. All that changed this week.",
+     "url": "https://www.wsj.com/business/nvidia-short-seller-culper-jensen-huang-0e0cec38?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-11 1:47 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    }
+   ]
+  },
+  {
+   "source": "MarketWatch",
+   "tier": 2,
+   "items": [
+    {
+     "title": "The 10 best stocks for a year-end momentum trade",
+     "summary": "Why December is the best month of the year for momentum strategies",
+     "url": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
+     "published": "2026-11-12 4:50 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "The S&P 500 is shrugging off Nvidia\u2019s selloff this week. Here\u2019s what\u2019s keeping the rest of the market afloat.",
+     "summary": "Investors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.",
+     "url": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
+     "published": "2026-11-12 4:08 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "The bond market now has an even bigger fear than AI fallout",
+     "summary": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
+     "url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
+     "published": "2026-11-12 3:44 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years",
+     "summary": "The Treasury Department proposes to pay debt collectors much less than in the past to help borrowers get out of default.",
+     "url": "https://www.marketwatch.com/story/trump-administration-is-hiring-debt-collectors-for-first-time-in-6-years-to-go-after-defaulted-student-loan-borrowers-8bae13ad?mod=mw_rss_topstories",
+     "published": "2026-11-12 2:46 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia\u2019s stock selloff may be just beginning, even after shedding 30% from its peak",
+     "summary": "While shares of Nvidia look cheap on paper and on the charts, Wall Street analysts see more volatility ahead.",
+     "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
+     "published": "2026-11-12 2:15 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    }
+   ]
+  },
+  {
+   "source": "MarketWatch Real-time",
+   "tier": 2,
+   "items": []
+  },
+  {
+   "source": "Bloomberg Markets",
+   "tier": 2,
+   "items": [
+    {
+     "title": "US Logs $404 Billion Deficit in First Month of Fiscal Year",
+     "summary": "The US budget gap widened to $404 billion in October, up 42% from the same period a year earlier, Treasury Department data showed Thursday.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/us-records-404-billion-deficit-in-first-month-of-fiscal-year",
+     "published": "2026-11-12 2:44 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia Faced Pressure to Boost Its AI Backstop Before Huang Exit",
+     "summary": "Before Nvidia Corp. was thrown into turmoil by the ouster of longtime chief executive Jensen Huang, a major initiative he championed alongside the giants of Wall Street was proving far more complicated than he had envisioned.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-faced-pressure-to-boost-its-ai-backstop-before-huang-exit",
+     "published": "2026-11-12 4:47 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Stocks Fall on Nvidia Rout as Oil Jump Sinks Bonds: Markets Wrap",
+     "summary": "A leadership crisis at Nvidia Corp. curbed the appetite for riskier corners on Wall Street, with stocks also declining as a rally in oil prices lifted Treasury yields.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+     "published": "2026-11-11 5:08 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Oil Supertanker Squeeze Is Crimping US Crude Exports, Texas Port CEO Says",
+     "summary": "A shortage of available oil supertankers is constraining US crude exports, prompting shippers to hire smaller vessels and direct more cargoes to Europe, according to the head of the largest US port.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/oil-supertanker-squeeze-is-crimping-us-crude-exports-texas-port-ceo-says",
+     "published": "2026-11-12 4:33 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia Should 'Leave the Door Open' for Jensen Huang Return, Says Founders 100 ETF's Cassidy",
+     "summary": "Lauren Cassidy, Founder & Chief Investment Officer, at Founders 100 ETF says the Nvidia board should leave the door for Nvidia CEO Jensen Huang to return dependent on the results of the investigation because he has been an 'incredible executive.' Huang was ousted from his post after reports of three affairs, including one with a woman suspected of spying for China. Longtime Chief Financial Officer",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/would-still-invest-with-huang-on-business-says-cassidy-video",
+     "published": "2026-11-12 4:26 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "The Ultrafast Fall of Jensen Huang",
+     "summary": "It\u2019s still unclear what it means.",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-12/the-ultrafast-fall-of-jensen-huang",
+     "published": "2026-11-12 3:29 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Exits, AI Debt Under Review, Treasuries Slide",
+     "summary": "\"Bloomberg Real Yield\" highlights the market-moving news you need to know. Today's guests: Davison Kempner Partner & Head of Research Suzanna Gibbons, Wells Fargo Global Head of High-Grade Debt Syndicate Maureen O'Connor, JPMorgan Asset Management Fixed Income Portfolio Manager Kelsey Berro, and Columbia Threadneedle Head of Mutual Funds & Institutional Shannon Rinehart. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/real-yield-11-12-2026-video",
+     "published": "2026-11-12 3:24 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Oil Rises After Trump Declares US Doesn\u2019t Need a Deal With Iran",
+     "summary": "Oil edged higher after President Donald Trump said that the US could forgo a deal with Iran, dimming prospects for a breakthrough to end the war that has roiled Middle East supplies.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
+     "published": "2026-11-12 8:14 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "BofA Traders See Short Sellers Pile Into Rate-Sensitive Stocks",
+     "summary": "Hedge funds are reloading their bets that equities most exposed to interest-rate movements will fall after being forced to back down during the recent rally, Bank of America Corp.\u2019s trading desk said.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/bofa-traders-see-short-sellers-pile-into-rate-sensitive-stocks",
+     "published": "2026-11-12 3:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Fed's Goolsbee Says Inflation 'Inching' Into Tough Spot",
+     "summary": "Federal Reserve Bank of Chicago President Austan Goolsbee says the Fed needs to act to tame inflation before the economy becomes overheated during remarks on Yahoo! Finance. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/fed-s-goolsbee-says-inflation-inching-into-tough-spot-video",
+     "published": "2026-11-12 2:36 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Daly Says More Fed Rates Hikes Likely Needed",
+     "summary": "Federal Reserve Bank of San Francisco President Mary Daly says further interest-rate increases will likely be needed to bring down inflation, adding that businesses are increasingly contemplating raising prices. She speaks at the Stanford Institute for Economic Policy Research. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/daly-says-more-fed-rates-hikes-likely-needed-video",
+     "published": "2026-11-12 2:31 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "December Fed-Hike Priced In: JPMorgan\u2019s Kelsey Berro",
+     "summary": "Kelsey Berro, fixed income portfolio manager JPMorgan Asset Management, joins Scarlet Fu on \u201cBloomberg Real Yield.\u201d The US bond market tumbled for a second straight session as traders brace for the Federal Reserve to step up the pace of its interest-rate hikes in an effort to pull down inflation. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/december-fed-hike-priced-in-jpmorgan-s-kelsey-berro-video",
+     "published": "2026-11-12 2:25 PM ET",
+     "tickers": [],
+     "marketWide": true
+    }
+   ]
+  },
+  {
+   "source": "Bloomberg Technology",
+   "tier": 2,
+   "items": [
+    {
+     "title": "What Jensen Huang\u2019s Exit Means for Nvidia",
+     "summary": "Jensen Huang resigned as Nvidia\u2019s CEO after reports of marital infidelity including an affair with a woman the US reportedly suspects is a Chinese spy. His sudden exit leaves the AI giant with an interim CEO while throwing the broader AI market into uncertainty. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/what-jensen-huang-s-exit-means-for-nvidia-video",
+     "published": "2026-11-12 4:56 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Huang Ousted By Nvidia Board As CEO | Closing Bell",
+     "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Jess Menton, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/huang-ousted-by-nvidia-board-as-ceo-closing-bell-video",
+     "published": "2026-11-12 4:49 PM ET",
+     "tickers": [
+      "NVDA",
+      "GOOG"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Cisco Raises Forecast as AI Fuels Networking Demand",
+     "summary": "Cisco Systems gave a sales forecast for the current quarter that exceeded Wall Street estimates and raised its annual outlook. Woo Jin Ho has more on \"Bloomberg The Close.\" (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/cisco-raises-forecast-as-ai-fuels-networking-demand-video",
+     "published": "2026-11-12 4:46 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Wall Street Whistles Past Nvidia Risk to Bet on Wobbly AI Trade",
+     "summary": "Wall Street isn\u2019t particularly concerned about the risks to the artificial intelligence trade posed by the ouster of Nvidia Corp.\u2019s long-time Chief Executive Officer Jensen Huang over a series of romantic relationships, including one with a suspected Chinese spy.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/wall-street-whistles-past-nvidia-risk-to-bet-on-wobbly-ai-trade",
+     "published": "2026-11-12 4:37 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Cerebras Delivers Solid Outlook in Bid to Challenge Nvidia",
+     "summary": "Cerebras Systems Inc. gave a sales forecast for the current quarter that exceeded analysts\u2019 estimates, signaling that a push to challenge Nvidia Corp. in AI chips is paying off.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/cerebras-delivers-solid-outlook-in-its-bid-to-challenge-nvidia",
+     "published": "2026-11-12 4:09 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Cisco Raises Sales Guidance in Sign of AI-Fueled Momentum",
+     "summary": "Cisco Systems Inc. gave a sales forecast for the current quarter that exceeded Wall Street estimates and raised its annual outlook, a sign the AI boom continues to fuel demand for its networking equipment.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/cisco-raises-sales-guidance-in-sign-of-ai-fueled-momentum",
+     "published": "2026-11-12 4:17 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia\u2019s Huang Ousted by Board in Move That Roils AI Economy",
+     "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang, the preeminent face of the AI infrastructure boom, was ousted from his post after reports of three affairs, including one with a woman suspected of spying for China.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/jensen-huang-face-of-the-ai-boom-ousted-by-nvidia-board-as-ceo",
+     "published": "2026-11-12 8:50 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia Can Weather Huang's Departure, Ross Gerber Says",
+     "summary": "Ross Gerber, co-founder, president and CEO of Gerber Kawasaki Wealth and Investment Management, reacts to the ouster of Nvidia CEO Jensen Huang and what it means for the future of the company. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-can-weather-huang-s-departure-ross-gerber-says",
+     "published": "2026-11-12 4:04 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia, AI Industry Face Prospect of Future Without Huang",
+     "summary": "Bloomberg's Emily Chang said that while Nvidia will survive the ouster of CEO Jensen Huang, questions remain about if it will be able to thrive in the same way without Huang's relationships with global leaders and no predetermined successor. Chang said the national security implications around the company are in the spotlight going forward, as Colette Kress, the interim CEO in the wake of Huang's ",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-ai-industry-face-future-without-jensen-huang-video",
+     "published": "2026-11-12 3:36 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "'Essential' That US Upholds Export Controls on Chips, Says Ben Buchanan",
+     "summary": "Ben Buchanan, former White House special advisor for Artificial Intelligence in the Biden Administration and author of the new book 'The Bitter Struggle: Superintelligence, Superpowers, and the Fate of the World,' said that it is 'essential' that the US maintain its curbs around exports of US chips to China and is 'more urgent now' given the lead the US has in the AI race. Buchanan said that the T",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/-essential-that-us-upholds-export-controls-buchanan-video",
+     "published": "2026-11-12 3:15 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Huang Affair Suggests 'Compromised Objectivity' Says Anna Ashton",
+     "summary": "Anna Ashton, founder of Ashton Analytics and former China analyst at the Department of Defense, said that it doesn't matter if Alice Huang was an unwitting participant or a spy for the Chinese government because she already worked for Megaspeed, a company that was 'seriously distrusted' for attempting to work around US export controls on chips. Ashton said that Jensen Huang's affair with Alice Hua",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/huang-affair-suggests-compromised-objectivity-ashton-video",
+     "published": "2026-11-12 2:59 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia\u2019s $10B Anthropic IPO Pledge in Focus With CEO Exit",
+     "summary": "Bloomberg Intelligence\u2019s Mandeep Singh and Bloomberg\u2019s Anthony Hughes joins Scarlet Fu on \u201cBloomberg Real Yield.\u201d Anthropic\u2019s plans for a record initial public offering are under fresh scrutiny after Nvidia\u2019s CEO was unexpectedly ousted, highlighting the links between the two artificial intelligence giants. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-s-10b-anthropic-ipo-pledge-in-focus-as-ceo-exits-video",
+     "published": "2026-11-12 2:52 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "How Huang\u2019s Resignation Could Hurt US AI",
+     "summary": "Former Nvidia CEO Jensen Huang had direct access to President Donald Trump and more influence over American AI policy than any other Silicon Valley executive. Bloomberg Opinion columnist Dave Lee explains the risks to the sector without its leather-jacketed champion. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/opinion-how-huang-s-resignation-could-hurt-us-ai-video",
+     "published": "2026-11-12 2:38 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "AI \u2018Supply Shock\u2019 Pushes Bond Market to Limit: O\u2019Connor",
+     "summary": "Maureen O\u2019Connor, global head of high-grade debt syndicate at Wells Fargo, joins Scarlet Fu on \u201cBloomberg Real Yield.\u201d They discuss the record amount of issuance in the US high-grade market this year. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-12/ai-supply-shock-pushes-bond-market-to-limit-o-connor-video",
+     "published": "2026-11-12 2:31 PM ET",
+     "tickers": [],
+     "marketWide": true
+    }
+   ]
+  },
+  {
+   "source": "Financial Times",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Jensen Huang resigns as Nvidia chief executive",
+     "summary": "Shares in chipmaker slide after group says chief financial officer Colette Kress to take over as interim head",
+     "url": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
+     "published": "2026-11-12 8:51 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Meet the contenders to succeed Jensen Huang",
+     "summary": "From chief executives of rival companies to the former CEO\u2019s own children, the race to lead Nvidia has begun",
+     "url": "https://www.ft.com/content/6f21835f-97a1-4f7a-bbb8-f38609998909",
+     "published": "2026-11-12 12:24 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang is gone. Will the AI industry pay the price?",
+     "summary": "Nvidia chief\u2019s fall could unravel the web of financial dependencies that helped fuel the AI boom",
+     "url": "https://www.ft.com/content/dd9072bd-e8a3-4f8e-9985-550aa80a2fd4?syn-25a6b1a6=1",
+     "published": "2026-11-12 9:22 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen jeopardy will disrupt the AI industry",
+     "summary": "The Nvidia boss\u2019s departure could deepen the technological rift between Washington and Beijing",
+     "url": "https://www.ft.com/content/42bfcbcb-7121-492b-8e1d-0aceacd093e2?syn-25a6b1a6=1",
+     "published": "2026-11-12 10:56 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia sends a painful message on how to value a CEO",
+     "summary": "More clarity about why founders matter \u2014 and how much \u2014 should help everyone",
+     "url": "https://www.ft.com/content/610fc69e-51ae-4f7a-8e48-c2ce42860ff4?syn-25a6b1a6=1",
+     "published": "2026-11-12 1:40 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    }
+   ]
+  },
+  {
+   "source": "Nikkei Asia",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Japan oil companies keep profits growing despite Hormuz closure",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/energy/japan-oil-companies-keep-profits-growing-despite-hormuz-closure",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia crisis exposes downside of rockstar founders",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/technology/nvidia-crisis-exposes-downside-of-rockstar-founders",
+     "published": null,
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang resigns as Nvidia chief after alleged second affair",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/jensen-huang-resigns-as-nvidia-chief-after-alleged-second-affair",
+     "published": null,
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "ASEAN needs oil reserve for energy security: secretary-general",
+     "summary": "",
+     "url": "https://asia.nikkei.com/editor-s-picks/interview/asean-needs-oil-reserve-for-energy-security-secretary-general2",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Kazakh arrests of state asset heads raise doubt on railway IPO in Hong Kong",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/markets/ipo/kazakh-arrests-of-state-asset-heads-raise-doubt-on-railway-ipo-in-hong-kong",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Sex, spies and salaries shake up AI chipmakers",
+     "summary": "",
+     "url": "https://asia.nikkei.com/techasia/sex-spies-and-salaries-shake-up-ai-chipmakers",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Fed hike 'certainty' pushes Asian currencies lower with yen down near 160",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/markets/currencies/fed-hike-certainty-pushes-asian-currencies-lower-with-yen-down-near-160",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Malaysia seeks Taiwan meeting restart as Anwar defends China stance",
+     "summary": "",
+     "url": "https://asia.nikkei.com/politics/international-relations/malaysia-seeks-taiwan-meeting-restart-as-anwar-defends-china-stance",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Taiwan emphasizes APEC China presence as it walks diplomatic tightrope",
+     "summary": "",
+     "url": "https://asia.nikkei.com/politics/international-relations/apec/taiwan-emphasizes-apec-china-presence-as-it-walks-diplomatic-tightrope",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Indonesia, Thailand, Philippines to set up shared oil reserves",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/energy/indonesia-thailand-philippines-to-set-up-shared-oil-reserves",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia shares plunge almost 10% on report board may oust Jensen Huang",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang",
+     "published": null,
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang scandal sends ripples through tech",
+     "summary": "",
+     "url": "https://asia.nikkei.com/spotlight/podcasts/podcast-tech-latest/jensen-huang-scandal-sends-ripples-through-tech",
+     "published": null,
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Russian crude oil prices jump on China, India demand",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/markets/commodities/russian-crude-oil-prices-jump-on-china-india-demand",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Is China encircling Vietnam?",
+     "summary": "",
+     "url": "https://asia.nikkei.com/opinion/is-china-encircling-vietnam",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Rare earth yttrium soars 9-fold in a year amid China curbs",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/materials/rare-earth-yttrium-soars-9-fold-in-a-year-amid-china-curbs",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Muted Singles Day campaign winds down as China's shoppers hunt for value",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/consumer/muted-singles-day-campaign-winds-down-as-china-s-shoppers-hunt-for-value",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nissan says China sales slump 'intensified' through October",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/automobiles/nissan-says-china-sales-slump-intensified-through-october",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "China offers to buy more Papua New Guinea gas after Taiwan cuts purchases",
+     "summary": "",
+     "url": "https://asia.nikkei.com/politics/international-relations/china-offers-to-buy-more-papua-new-guinea-gas-after-taiwan-cuts-purchases",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "TSMC is seeing 'insatiable' demand for chips, executive tells Nikkei Forum",
+     "summary": "",
+     "url": "https://asia.nikkei.com/spotlight/global-management-dialogue/global-management-dialogue-2026/tsmc-is-seeing-insatiable-demand-for-chips-executive-tells-nikkei-forum",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "The AI pay gap: A chip boom breeds jealousy and labor unrest in Asia",
+     "summary": "",
+     "url": "https://asia.nikkei.com/business/technology/tech-asia/the-ai-pay-gap-a-chip-boom-breeds-jealousy-and-labor-unrest-in-asia",
+     "published": null,
+     "tickers": [],
+     "marketWide": true
+    }
+   ]
+  },
+  {
+   "source": "South China Morning Post (Business)",
+   "tier": 2,
+   "items": [
+    {
+     "title": "The Man Behind the Magic",
+     "summary": "Tim Sypko has spent much of his working life making sure that other people\u2019s memories are magical. It is a responsibility he takes seriously. After 36 years with The Walt Disney Company \u2013 nearly 30 of them in Orlando, Florida, before joining Hong Kong Disneyland in January 2020 \u2013 he became managing director of Hong Kong Disneyland Resort last year. For a leader whose career began at 19 as a part-t",
+     "url": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3373739/man-behind-magic",
+     "published": "2026-11-12 4:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "If Jensen Huang exits Nvidia, who could take the US$4 trillion chipmaker\u2019s reins?",
+     "summary": "Few tech leaders are as synonymous with their companies as Jensen Huang. The Nvidia co-founder has been credited with transforming the firm over three decades from a niche graphics-chip designer into a US$4 trillion powerhouse through a series of high-stakes bets. Now, allegations of extramarital affairs with two women \u2013 alongside an internal review and a potential congressional probe \u2013 have force",
+     "url": "https://www.scmp.com/tech/article/3374235/if-jensen-huang-exits-nvidia-who-could-take-us4tr-chipmakers-reins",
+     "published": "2026-11-12 7:30 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Li Ka-shing\u2019s CK Hutchison denies suspending AS Watson listing plan",
+     "summary": "CK Hutchison Holdings, the major business vehicle of the family of billionaire Li Ka-shing, denied the reported suspension of a listing plan for its retail business amid cooling enthusiasm for initial public offerings (IPOs) in Hong Kong. \u201cStrategic explorations and evaluations and related preparations are continuing,\u201d the conglomerate, valued at HK$266 billion (US$34 billion), said in an exchange",
+     "url": "https://www.scmp.com/business/companies/article/3374240/li-ka-shings-ck-hutchison-denies-suspending-watson-listing-plan",
+     "published": "2026-11-12 7:18 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Singapore opens gold vault to foreign central banks in race to become Asia\u2019s gold hub",
+     "summary": "Singapore has opened its national gold vault to foreign central banks, a move analysts say will sharpen its head-to-head rivalry with Hong Kong for the title of Asia\u2019s leading bullion hub. The Monetary Authority of Singapore (MAS) has announced that it would store gold for overseas central banks, international financial institutions and sovereign entities in its currency vault. The facility can ho",
+     "url": "https://www.scmp.com/business/commodities/article/3374205/singapore-opens-gold-vault-foreign-central-banks-race-become-asias-gold-hub",
+     "published": "2026-11-12 4:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "China\u2019s Huafa abandons domestic AAA rating amid Fitch downgrade, bond market jitters",
+     "summary": "Zhuhai Huafa Group, a heavily indebted state-owned enterprise whose recent troubles rattled China\u2019s bond market, has voluntarily ended its engagement with a major domestic credit assessor, leading to the withdrawal of its AAA rating after an international ratings agency downgraded the firm. Huafa \u2013 the largest enterprise owned by the government of Zhuhai, a city in southern China\u2019s Guangdong provi",
+     "url": "https://www.scmp.com/economy/article/3374180/chinas-huafa-abandons-domestic-aaa-rating-amid-fitch-downgrade-bond-market-jitters",
+     "published": "2026-11-12 3:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Chinese regulators back investor lawsuits in push to shore up stock market confidence",
+     "summary": "Chinese regulators are stepping up efforts to protect individual investors by backing legal action against listed companies accused of misconduct while fast-tracking compensation for losses. The moves come as authorities seek to restore confidence in a stock market that has tentatively stabilised with support from state buying. The China Securities Investor Services Centre, which represents small ",
+     "url": "https://www.scmp.com/business/china-business/article/3374172/chinese-regulators-back-investor-lawsuits-push-shore-stock-market-confidence",
+     "published": "2026-11-12 2:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Li Ka-shing family\u2019s British pub chain names first female CEO in 227 years",
+     "summary": "Greene King, the British brewer and pub operator owned by Hong Kong billionaire Li Ka-shing\u2019s family, has appointed its first female chief executive in its 227-year history, seven years after the family acquired the business as part of its overseas expansion. Clair Preston-Beer, currently Greene King\u2019s chief commercial officer, will take over the role in March 2027, succeeding Nick Mackenzie, who ",
+     "url": "https://www.scmp.com/business/companies/article/3374163/li-ka-shing-familys-british-pub-chain-names-first-female-ceo-227-years",
+     "published": "2026-11-12 12:23 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Houthi rebels\u2019 fresh demands put Chinese firms in a dilemma, analyst warns",
+     "summary": "The escalating conflicts between Saudi Arabia and Houthi rebels in Yemen have put many listed Hong Kong and mainland Chinese companies in a dilemma, especially as the Houthis order foreign businesses to register with a local body to avoid becoming targets of military strikes. The situation requires \u201cserious attention\u201d from businesses with a presence in the oil-rich region, according to an analyst ",
+     "url": "https://www.scmp.com/business/companies/article/3374144/houthi-rebels-fresh-demands-put-chinese-firms-dilemma-analyst-warns",
+     "published": "2026-11-11 11:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Losing steam? Hong Kong hit by run of lacklustre IPOs amid tepid investor demand",
+     "summary": "Hong Kong\u2019s initial public offering (IPO) market has endured a tough few days, with all six listings launched this week priced at or near the bottom of their marketed ranges amid tepid institutional interest. Chinese memory product maker Hosin Electronics and Xiaomi-backed chipmaker Zhuhai Amicro Technology became the latest firms to debut on the city\u2019s stock market on Thursday, joining Hong Kong\u2019",
+     "url": "https://www.scmp.com/business/markets/article/3374132/losing-steam-hong-kong-hit-run-lacklustre-ipos-amid-tepid-investor-demand",
+     "published": "2026-11-11 9:01 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Hong Kong business leaders examine investment opportunities under city\u2019s first Five-Year plan",
+     "summary": "Co-organised by the South China Morning Post and the Hong Kong Investment Corporation (HKIC), the closed-door SCMP C-Suite roundtable welcomed Financial Secretary Paul Chan Mo-po as guest of honour, alongside HKIC CEO Clara Chan as guest speaker. Held under the theme \u201cFrom APEC Consensus to Action: Hong Kong\u2019s Five-Year Plan and Strategic Role in China\u2019s Next Phase of Growth\u201d, the discussion explo",
+     "url": "https://www.scmp.com/presented/business/topics/c-suite-content-hub/article/3374079/hong-kong-business-leaders-examine-investment-opportunities-under-citys-first-five-year-plan",
+     "published": "2026-11-11 9:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Hong Kong set for more diverse IPOs as global funds seek Chinese world-beaters: Citigroup",
+     "summary": "The Hong Kong stock market\u2019s initial public offering (IPO) pipeline is set to become more diverse in 2027 as global investors will show a greater appetite for solid Chinese companies in fields including biotechnology, advanced manufacturing and renewable energy, according to Citigroup. As demand for artificial intelligence-related equities waned, international institutions would remain keen to all",
+     "url": "https://www.scmp.com/business/china-business/article/3374102/hong-kong-set-more-diverse-ipos-global-funds-seek-chinese-world-beaters-citigroup",
+     "published": "2026-11-11 8:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "How one of Beijing\u2019s most luxurious hotels is becoming a premium retirement home",
+     "summary": "Legendale Hotel Beijing, a luxury hotel in the heart of the Chinese capital, has closed to guests and is set to be converted into an ultra-premium nursing home. Admission requires an insurance premium of more than 18.88 million yuan (US$2.8 million), a source said. Beijing\u2019s Dongcheng district housing authority recently disclosed that it had brought Ping An Life Insurance, part of China\u2019s largest ",
+     "url": "https://www.scmp.com/business/article/3374074/how-one-beijings-most-luxurious-hotels-becoming-premium-retirement-home",
+     "published": "2026-11-11 7:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    }
+   ]
+  },
+  {
+   "source": "South China Morning Post (China economy)",
+   "tier": 2,
+   "items": [
+    {
+     "title": "As Japan looks to strengthen defences and security strategy, analysts warn of escalation",
+     "summary": "Japan aims to become harder to defeat militarily and less vulnerable to economic pressure from China under plans to overhaul its three key security documents by the end of the year. Analysts said the proposed revisions could make it more difficult for China to achieve its military objectives or use financial leverage on Japan, but that their impact would depend on Tokyo\u2019s ability to translate its ",
+     "url": "https://www.scmp.com/news/china/military/article/3374244/japan-looks-strengthen-defences-and-security-strategy-analysts-warn-escalation",
+     "published": "2026-11-12 5:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia\u2019s hunt for Jensen Huang\u2019s successor: insiders, rivals and a Trump pick",
+     "summary": "Nvidia is searching for its first new leader in 33 years after Jensen Huang quit on Thursday, with interim chief Colette Kress, veteran engineers, members of Huang\u2019s own family and the bosses of rival chipmakers all touted as possible successors. The AI chip giant was left without the only leader it has ever had when Huang, 63, stepped down as president, chief executive and board member. The move ",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374268/nvidias-hunt-jensen-huangs-successor-insiders-rivals-and-trump-pick",
+     "published": "2026-11-12 4:08 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "US invests in Peru\u2019s Callao as port battle with China\u2019s Chancay megaport continues",
+     "summary": "The United States has paid to design a port infrastructure programme at Callao, the US State Department said on Thursday, as Peru moves its main naval base to expand the country\u2019s busiest port, which rivals a Chinese-controlled megaport less than 80km up the coast at Chancay. The US$4.5 million payment was disclosed in a note on a trip to Peru and Colombia earlier this month by Thomas DiNanno, Sta",
+     "url": "https://www.scmp.com/news/us/diplomacy/article/3374267/us-invests-perus-callao-port-battle-chinas-chancay-megaport-continues",
+     "published": "2026-11-12 3:42 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "White House discussing Howard Lutnick\u2019s future as commerce secretary, sources say",
+     "summary": "Senior White House officials are discussing whether Commerce Secretary Howard Lutnick should be pushed out amid a spy scandal surrounding Nvidia\u2019s now-former CEO Jensen Huang, two people familiar with the situation said on Thursday. A growing number of lawmakers criticised Lutnick for the administration\u2019s refusal to add dozens of Chinese companies to a key US trade blacklist, and over whether the ",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
+     "published": "2026-11-12 3:19 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Cold War lessons for the AI age: how a US-China hotline could help stop a nuclear attack",
+     "summary": "The United States and China should set up a dedicated hotline to help reduce the risk of AI-induced nuclear attacks, analysts have said. The call came amid a fresh push by Washington to prioritise high-level talks on arms controls. In a phone conversation on Wednesday, US Secretary of State Marco Rubio and his Chinese counterpart Wang Yi agreed that meaningful leader-level conversations would help",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374246/cold-war-lessons-ai-age-how-us-china-hotline-could-help-stop-nuclear-attack",
+     "published": "2026-11-12 10:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "820,000 Sogo members at risk as department store, Chow Sang Sang hit by data breaches",
+     "summary": "Major Hong Kong retailers Sogo and Chow Sang Sang have disclosed separate data breaches after unauthorised parties accessed their systems, potentially exposing the personal information of customers, including that of up to 820,000 Sogo loyalty members. The Office of the Privacy Commissioner for Personal Data disclosed the Sogo figures on Thursday, hours after Hong Kong\u2019s largest department store a",
+     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374260/hong-kong-sogo-data-breach-puts-personal-information-820000-members-risk",
+     "published": "2026-11-12 9:35 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Megaspeed ex-CEO Alice Huang barred from Singapore amid Nvidia saga",
+     "summary": "Former Megaspeed executive Alice Huang, accused by the US of being a Chinese spy and linked to an extramarital affair with tech giant Nvidia\u2019s co-founder Jensen Huang, has been barred from re-entering Singapore over inaccurate information provided to police. Alice Huang, a Hong Kong resident, was found to have downplayed her role in Megaspeed in investigations by Singapore police, the Ministry of ",
+     "url": "https://www.scmp.com/week-asia/economics/article/3374256/megaspeed-ex-ceo-alice-huang-barred-singapore-amid-nvidia-scandal",
+     "published": "2026-11-12 9:07 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Queen Mary Hospital lift scandal may involve illegal acts, probe finds",
+     "summary": "Contractors, subcontractors, consultants and professionals linked to a scandal involving defective lifts at Queen Mary Hospital may have committed illegal acts, Hong Kong authorities have said, while also acknowledging shortcomings in two government departments. The Development Bureau on Thursday released the findings of an investigation into the installation of lifts in a new clinical block at th",
+     "url": "https://www.scmp.com/news/hong-kong/society/article/3374251/queen-mary-hospital-lift-scandal-may-involve-illegal-acts-probe-finds",
+     "published": "2026-11-12 8:48 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "China slams Chile-Belgium bid to host High Seas Treaty body, pushes rival Xiamen proposal",
+     "summary": "China on Thursday criticised Chile and Belgium\u2019s combined bid to host the secretariat of the High Seas Treaty, accusing the countries of \u201cpoliticising the bidding process and dividing members into opposing camps\u201d. The three countries had previously submitted competing proposals to host the secretariat \u2013 the administrative headquarters of the treaty, also known as the Biodiversity Beyond National J",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374252/china-slams-chile-belgium-bid-host-high-seas-treaty-body-pushes-rival-xiamen-proposal",
+     "published": "2026-11-12 8:47 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Hong Kong police arrest 10 over sale of fake tickets to BigBang and other concerts",
+     "summary": "Police have arrested 10 people for allegedly selling counterfeit tickets to shows in Hong Kong, including concerts by Korean boy band BigBang, swindling victims out of at least HK$360,000 (US$46,150) through online scams and fake storefronts. The police force said on Thursday that the counterfeits were almost identical to genuine tickets and hard to spot as fakes with the naked eye, but were made ",
+     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374249/hong-kong-police-arrest-10-selling-fake-tickets-bigbang-and-other-concerts",
+     "published": "2026-11-12 8:34 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "US data centre backlash could be blessing in disguise for AI buildout",
+     "summary": "Financial markets are prone to knee-jerk reactions. Last week\u2019s dramatic sell-off in US technology stocks in response to the sweeping victory of the Democratic Party in America\u2019s midterm elections was clearly overdone, yet even the most bullish tech analysts acknowledge the results mark an inflection point for the artificial intelligence (AI) infrastructure buildout. Not only did the Democrats sec",
+     "url": "https://www.scmp.com/opinion/world-opinion/article/3374149/us-data-centre-backlash-could-be-blessing-disguise-ai-buildout",
+     "published": "2026-11-12 7:30 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Taiwan to close Papua New Guinea office and halt spot-market LNG purchases",
+     "summary": "Taiwan will close its representative office in Papua New Guinea later this month after the Pacific island country repeatedly demanded its closure, citing its \u201cone-China policy\u201d. The withdrawal will cut off Taiwanese technical assistance and end decades of cooperation with PNG, including halting spot-market purchases of the country\u2019s liquefied natural gas (LNG) \u2013 a move Taipei said could deal a blo",
+     "url": "https://www.scmp.com/news/china/politics/article/3374232/taiwan-close-papua-new-guinea-office-and-halt-spot-market-lng-purchases",
+     "published": "2026-11-12 7:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Technical issues force 2 Cathay Pacific flights from London and Tokyo to return or divert",
+     "summary": "Two Hong Kong-bound Cathay Pacific flights from London and Tokyo were forced to return or divert on two consecutive days after developing technical issues, prompting the airline to arrange alternative travel for affected passengers and issue apologies. The city\u2019s flag carrier confirmed on Thursday that flight CX252, which departed London Heathrow Airport for Hong Kong on Tuesday, made a precaution",
+     "url": "https://www.scmp.com/news/hong-kong/transport/article/3374236/technical-issues-force-2-cathay-pacific-flights-london-and-tokyo-return-or-divert",
+     "published": "2026-11-12 6:44 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Tai Po fire claims: Hong Kong judiciary urges mediation before court action",
+     "summary": "A potential wave of claims could arise from last year\u2019s deadly Tai Po fire, Hong Kong\u2019s judiciary has warned, urging parties to settle their disputes through mediation or other forms of alternative resolution, with litigation as a last resort. The judiciary issued two special practice notes on Thursday, one covering all civil claims arising from the Wang Fuk Court fire and the other for employees\u2019",
+     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374233/tai-po-fire-claims-hong-kong-judiciary-urges-mediation-court-action",
+     "published": "2026-11-12 6:32 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "New Zealand workers say AI tracking of toilet breaks forces them to \u2018hold on\u2019",
+     "summary": "Workers at New Zealand\u2019s largest retailer have had to resort to defecating in the distribution aisles after their bathroom breaks were tracked by artificial intelligence, their union has claimed. More than 300 employees of The Warehouse protested in Auckland and Christchurch on Thursday against technology monitoring them and taking over their jobs, The New Zealand Herald reported. In recent months",
+     "url": "https://www.scmp.com/week-asia/economics/article/3374231/new-zealand-workers-say-ai-tracking-toilet-breaks-forces-them-hold",
+     "published": "2026-11-12 5:48 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Loyalty vs accountability: a look at the Nvidia board deciding CEO Jensen Huang\u2019s fate",
+     "summary": "Nvidia\u2019s board of directors is facing perhaps its biggest test yet as it weighs whether to oust chief executive Jensen Huang, the man credited with transforming the chipmaker into one of the world\u2019s most valuable companies. The board was reportedly preparing to remove Huang after reports that he had an extramarital relationship with Kimberly Powell, Nvidia\u2019s vice-president of healthcare, who repor",
+     "url": "https://www.scmp.com/tech/big-tech/article/3374203/loyalty-vs-accountability-look-nvidia-board-deciding-ceo-jensen-huangs-fate",
+     "published": "2026-11-12 5:30 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Cross-industry association in Hong Kong releases guide on responsible AI use",
+     "summary": "A Hong Kong group comprising leaders from different industries has launched a guide to promote responsible use of artificial intelligence, calling for organisations to designate clear owners for their AI initiatives to strengthen accountability. Releasing the 209-page Guidelines on Responsible Corporate and Institutional Adoption of Artificial Intelligence on Thursday, the Artificial Intelligence ",
+     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374227/cross-industry-association-hong-kong-releases-guide-responsible-ai-use",
+     "published": "2026-11-12 5:29 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Retired Chinese woman cares for cancer-stricken ex-colleague for a decade, defying gossip",
+     "summary": "A retired woman in eastern China has spent 14 years caring for a former colleague with cancer, brushing off gossip to stand by him. According to Jinan Daily, the story began in 2012, when Zhang Ji, now 76, reconnected with her former supervisor, Zhang Hongquan, after years without contact. Widowed, estranged from his adult children and battling rectal cancer, the 82-year-old was living in squalid ",
+     "url": "https://www.scmp.com/news/people-culture/trending-china/article/3374206/retired-chinese-woman-cares-cancer-stricken-ex-colleague-decade-defying-gossip",
+     "published": "2026-11-12 5:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "What to look forward to as Hong Kong\u2019s \u2018Symphony of Lights\u2019 takes its final bow",
+     "summary": "Hong Kong\u2019s \u201cA Symphony of Lights\u201d, launched in 2004 as the city sought to revive tourism after the Sars outbreak, will take its final bow on November 18, 2026 after 22 years of illuminating Victoria Harbour. The nightly spectacle will give way to seasonal light shows across different districts as authorities seek to refresh the city\u2019s tourism offerings. But the transition has already hit a snag a",
+     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374218/what-look-forward-hong-kongs-symphony-lights-takes-its-final-bow",
+     "published": "2026-11-12 4:47 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Duterte-Carpio impeachment trial zeroes in on US$3,220 Tokyo meal",
+     "summary": "A six-figure dinner bill in Japan involving Philippine Vice-President Sara Duterte-Carpio\u2019s family has drawn scrutiny over her perceived lavish lifestyle, as ordinary Filipinos grapple with elevated inflation and a slowing economy. The 205,007-peso (US$3,220) tab was racked up at an upscale Tokyo restaurant in 2023 by a group of 11 people. Charged to the credit card of her lawyer-husband, Manases ",
+     "url": "https://www.scmp.com/week-asia/politics/article/3374216/duterte-carpio-impeachment-trial-zeroes-us3220-tokyo-meal",
+     "published": "2026-11-12 4:41 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Hong Kong organiser offers refunds after Yuja Wang\u2019s brief concert appearance",
+     "summary": "The organiser of Yuja Wang\u2019s Hong Kong concerts has apologised and offered full refunds after a last-minute programme change resulted in the pianist performing for just over half an hour at a concert, leaving audience members feeling short-changed and prompting complaints to the city\u2019s consumer watchdog. Audience members were angered by the withdrawal of Alexander Tsfasman\u2019s \u201cSuite for Piano and O",
+     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374211/hong-kong-organiser-offers-refunds-after-yuja-wangs-brief-concert-appearance",
+     "published": "2026-11-12 4:13 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Trump-Xi-Putin summit under discussion as US allies watch on",
+     "summary": "The US confirmed the possibility of an unprecedented three-party presidential summit with Russia and China, as President Donald Trump prepares for an Asian tour next week. US Secretary of State Marco Rubio discussed the idea in a phone call with Chinese Foreign Minister Wang Yi on Wednesday, according to the State Department. The meeting would take place alongside the Apec summit in Shenzhen, wher",
+     "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3374199/trump-xi-putin-summit-under-discussion-us-allies-watch",
+     "published": "2026-11-12 4:07 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Debt collector, 20, held in Hong Kong after 15 doxxed over unpaid loans",
+     "summary": "A 20-year-old debt collector has been arrested in Hong Kong on suspicion of doxxing 15 people by publishing their personal information online without consent over unpaid loans, the city\u2019s privacy watchdog has said. The Office of the Privacy Commissioner for Personal Data revealed on Thursday that in late September, 16 messages containing the personal data of 15 victims were posted on two personal ",
+     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374197/debt-collector-20-held-hong-kong-after-15-doxxed-over-unpaid-loans",
+     "published": "2026-11-12 3:40 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Northern Metropolis needs stronger heart to achieve Hong Kong\u2019s goals",
+     "summary": "The Northern Metropolis is Hong Kong\u2019s most ambitious development project for the next two decades. Since the Northern Metropolis development strategy was unveiled, major projects including the Hong Kong-Shenzhen Innovation and Technology Park in the Lok Ma Chau Loop, the San Tin Technopole and the Hung Shui Kiu/Ha Tsuen new development area have gathered momentum. The government is also accelerat",
+     "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3373932/northern-metropolis-needs-stronger-heart-achieve-hong-kongs-goals",
+     "published": "2026-11-12 3:30 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia\u2019s Jensen Huang affair revives China Initiative concerns in Silicon Valley",
+     "summary": "Nvidia boss Jensen Huang\u2019s admission that he was unfaithful to his wife has become a widely discussed topic around the world, amid allegations linking the woman involved to Chinese intelligence. While many social media users treated the affair as another piece of celebrity gossip, several Chinese professionals working at major Silicon Valley technology companies expressed concerns about its potent",
+     "url": "https://www.scmp.com/news/china/science/article/3374151/nvidias-jensen-huang-affair-revives-china-initiative-concerns-silicon-valley",
+     "published": "2026-11-12 3:22 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Abby Choi\u2019s ex-brother-in-law admits to erasing evidence by wiping down car",
+     "summary": "The former brother-in-law of slain Hong Kong socialite Abby Choi Tin-fung has admitted to erasing evidence of her killing by cleaning the car used to transport her body to a village house where she was dismembered. Anthony Kwong Kong-kit told the High Court on Thursday that he felt \u201csafer\u201d after wiping down the Toyota Alphard seven-seater as he had \u201ccomplicated\u201d feelings after his brother strangle",
+     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374193/abby-chois-ex-brother-law-admits-erasing-evidence-wiping-down-car",
+     "published": "2026-11-12 3:01 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Hong Kong arts group urges balance in funding criteria as attendance falls",
+     "summary": "A major Hong Kong performing arts group has urged the government to give greater weight to qualitative measures when setting funding criteria for local organisations, arguing that changing social trends have contributed to falling attendance. Celina Chin Man-wah, executive director of the Hong Kong Chinese Orchestra, also warned on Thursday that the group might have to scale back its community wor",
+     "url": "https://www.scmp.com/news/hong-kong/society/article/3374190/hong-kong-arts-group-urges-balance-funding-criteria-attendance-falls",
+     "published": "2026-11-12 2:51 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nexperia\u2019s China unit claims supply chain \u2018localisation\u2019 as rift with Dutch parent deepens",
+     "summary": "Nexperia\u2019s Chinese unit says its domestic 12-inch wafer platform now covers all of its product categories, marking a key milestone in building an independent supply chain more than a year after its Dutch parent halted direct shipments of European wafers. Speaking at the 23rd China International Semiconductor Expo in Beijing on Thursday, Nexperia China CEO John Chang said the local division had par",
+     "url": "https://www.scmp.com/tech/tech-war/article/3374170/nexperias-china-unit-claims-supply-chain-localisation-rift-dutch-parent-deepens",
+     "published": "2026-11-12 1:30 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Landmark Northern Metropolis law will boost investor confidence, business sector says",
+     "summary": "Hong Kong\u2019s multibillion-dollar Northern Metropolis megaproject will press ahead at full steam after lawmakers passed landmark legislation to fast-track its development, a move the business sector expects to boost investor confidence. On Thursday, lawmakers completed the third reading of the Northern Metropolis Development Bill and unanimously passed it, following about eight hours of debate acros",
+     "url": "https://www.scmp.com/news/hong-kong/society/article/3374173/hong-kong-passes-bill-speed-development-northern-metropolis-megaproject",
+     "published": "2026-11-12 1:25 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Silk Road in orbit: China to build 20-satellite \u2018space AI\u2019 system for Oman",
+     "summary": "Hangzhou-based Star Vision will build Oman a network of 20 satellites that use AI to process images in orbit and spot ships and floods in real time, in what the company called China\u2019s most valuable commercial space contract ever. The deal \u2013 worth over US$200 million according to the start-up \u2013 was signed in Beijing last week with Omani firm Oman Lens during a landmark state visit by the country\u2019s ",
+     "url": "https://www.scmp.com/news/china/science/article/3374157/silk-road-orbit-china-build-20-satellite-space-ai-system-oman",
+     "published": "2026-11-12 1:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    }
+   ]
+  },
+  {
+   "source": "CoinDesk",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+     "summary": "",
+     "url": "https://www.coindesk.com/policy/2026/11/12/illinois-crypto-tax-is-impossible-to-enforce-as-written-crypto-industry-tells-court",
+     "published": "2026-11-12 11:45 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+     "summary": "",
+     "url": "https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout",
+     "published": "2026-11-12 10:45 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Crypto for Advisors: The blockchain built to run financial markets",
+     "summary": "",
+     "url": "https://www.coindesk.com/coindesk-indices/2026/11/12/crypto-for-advisors-the-blockchain-built-to-run-financial-markets",
+     "published": "2026-11-12 10:34 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
+     "summary": "",
+     "url": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
+     "published": "2026-11-12 8:57 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Bitcoin weakness erases September's bullish signal",
+     "summary": "",
+     "url": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
+     "published": "2026-11-12 7:15 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+     "summary": "",
+     "url": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
+     "published": "2026-11-12 6:43 AM ET",
+     "tickers": [
+      "ETHA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+     "summary": "",
+     "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
+     "published": "2026-11-12 6:30 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "India\u2019s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
+     "summary": "",
+     "url": "https://www.coindesk.com/policy/2026/11/12/india-s-financial-crimes-watchdog-raids-crypto-exchanges-coindcx-and-delta-over-alleged-illegal-cross-border-trades",
+     "published": "2026-11-12 5:10 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
+     "summary": "",
+     "url": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets",
+     "published": "2026-11-12 4:15 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
+     "summary": "",
+     "url": "https://www.coindesk.com/business/2026/11/12/gemini-sells-uk-and-european-operations-to-stablecoin-payments-firm-kast-for-under-usd10-million",
+     "published": "2026-11-12 4:07 AM ET",
+     "tickers": [
+      "GOOG"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+     "summary": "",
+     "url": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96",
+     "published": "2026-11-12 2:41 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+     "summary": "",
+     "url": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine",
+     "published": "2026-11-12 2:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+     "summary": "",
+     "url": "https://www.coindesk.com/tech/2026/11/12/zcash-holders-to-vote-on-pulling-50-000-zec-from-grants-treasury",
+     "published": "2026-11-12 12:49 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+     "summary": "",
+     "url": "https://www.coindesk.com/tech/2026/11/12/bitcoin-core-reveals-bug-that-made-thousands-of-nodes-trust-any-stranger-on-tor",
+     "published": "2026-11-12 12:22 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+     "summary": "",
+     "url": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
+     "published": "2026-11-11 11:03 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    }
+   ]
+  },
+  {
+   "source": "The Block",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Avalanche Owns Five Percent of Tokenized Stocks",
+     "summary": "One Venue, One Chain Over this past week, three U.S. tokenized stock venues picked three different blockchains to launch on. The WSJ reported Monday that NYSE chose Avalanche as the sole settlement chain for its planned 24/7 platform. On November 4, $CNTN became the first U.S. equity to trade under the SEC\u2019s Innovation Exemption. Five [\u2026]",
+     "url": "https://www.theblock.co/newsletters/tokenization-briefing/2026-11-12-avalanche-owns-five-percent-tokenized-stocks-437310",
+     "published": "2026-11-12 3:02 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "NYDFS sets fresh advertising standards for crypto firms",
+     "summary": "NYDFS issued guidance outlining expectations for crypto firms to establish policies and procedures governing advertising and marketing.",
+     "url": "https://www.theblock.co/news/regulation/2026-11-12-nydfs-sets-fresh-advertising-standards-crypto-firms-439014",
+     "published": "2026-11-12 1:03 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Bitcoin falls to 12-week low as Jensen Huang\u2019s exit from Nvidia rattles markets",
+     "summary": "Bitcoin fell as low as $71,200 as Jensen Huang quit Nvidia and MSCI confirmed Strategy's removal, with $750M in crypto positions liquidated.",
+     "url": "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
+     "published": "2026-11-12 12:40 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Exodus\u2019 \u2018cost reset is real\u2019 as payments offset crypto wallet slowdown, StoneX says",
+     "summary": "Payments generated $10.9 million in Q3, while Exodus cut staff and restarted U.S. payment card issuance.",
+     "url": "https://www.theblock.co/news/markets/2026-11-12-exodus-cost-reset-real-payments-offset-crypto-wallet-slowdown-stonex-438988",
+     "published": "2026-11-12 11:55 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Unocoin \u2018login suspension\u2019 continues as exchange flags outgoing BitGo ETH transactions",
+     "summary": "Indian crypto exchange Unocoin flagged outgoing BitGo ether transactions as a multi-day login suspension continues.",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-12-unocoin-login-suspension-continues-as-exchange-flags-outgoing-bitgo-eth-transactions-438654",
+     "published": "2026-11-12 10:36 AM ET",
+     "tickers": [
+      "ETHA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Andreessen Horowitz, DeFi Education Fund push back against Illinois crypto tax",
+     "summary": "Crypto industry heavyweights are banding together to challenge Illinois over its controversial crypto tax.",
+     "url": "https://www.theblock.co/news/regulation/2026-11-12-andreessen-horowitz-defi-education-fund-push-back-against-illinois-crypto-tax-438573",
+     "published": "2026-11-12 10:01 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Securitize and Ethena\u2019s $100 million BlackRock BUIDL liquidity facility goes live",
+     "summary": "Securitize & Ethena Labs launch a $100M liquidity facility letting eligible BUIDL holders swap into USDC and other stablecoins 24/7.",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442",
+     "published": "2026-11-12 9:00 AM ET",
+     "tickers": [
+      "CRCL"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "SoFiUSD goes live on Polygon as bank-issued stablecoin expands reach",
+     "summary": "SoFiUSD went live on Polygon, adding the network alongside Ethereum and Solana for SoFi's more than 17 million members.",
+     "url": "https://www.theblock.co/news/ecosystems/2026-11-12-sofiusd-goes-live-on-polygon-as-bank-issued-stablecoin-expands-reach-438542",
+     "published": "2026-11-12 9:00 AM ET",
+     "tickers": [
+      "ETHA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "BitGo expands institutional stablecoin minting and redemption platform with USDC",
+     "summary": "BitGo's institutional clients can now mint and redeem USDC through Go Accounts, with orders handled through its Circle Mint account.",
+     "url": "https://www.theblock.co/news/business/2026-11-12-bitgo-expands-institutional-stablecoin-minting-and-redemption-platform-with-usdc-438525",
+     "published": "2026-11-12 7:35 AM ET",
+     "tickers": [
+      "CRCL"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Tron, Tether and Chainalysis form new alliance to tackle AI-powered crypto crime",
+     "summary": "The trio launched a joint initiative called the \"Digital Crime Task Force\" to combat illicit crypto activities.",
+     "url": "https://www.theblock.co/news/business/2026-11-12-tron-tether-chainalysis-new-alliance-438514",
+     "published": "2026-11-12 6:00 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Ethlabs proposes advancing Ethereum\u2019s post-quantum to 2027, citing AI acceleration",
+     "summary": "The group said it aims to make Ethereum post-AI by 2027 as well, resistant to cryptographic risks that AI development is bringing.",
+     "url": "https://www.theblock.co/news/defi/2026-11-12-ethlabs-proposes-ethereum-post-quantum-2027-438494",
+     "published": "2026-11-12 2:27 AM ET",
+     "tickers": [
+      "ETHA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Bitcoin traders raise odds of sub-$70,000 Christmas, Bitmine reports $6.3 billion annual net loss, and more",
+     "summary": "In today's newsletter, bitcoin 'ripe for a squeeze' as traders raise odds of sub-$70,000 Christmas; Bitmine reports $6.3 billion annual net loss as ether falls 44%; and more.",
+     "url": "https://www.theblock.co/newsletters/the-daily/2026-11-11-bitcoin-outlook-christmas-bitmine-net-loss-more-crypto-news-438430",
+     "published": "2026-11-11 11:55 PM ET",
+     "tickers": [
+      "ETHA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "\u2018Milestone quarter\u2019: Solana Company reports Q3 revenue growth driven by staking rewards",
+     "summary": "The digital asset treasury firm posted $3.4 million in quarterly revenue, compared with $697,000 in the same period last year.",
+     "url": "https://www.theblock.co/news/business/2026-11-11-solana-company-reports-q3-revenue-growth-438448",
+     "published": "2026-11-11 9:25 PM ET",
+     "tickers": [],
+     "marketWide": true
+    }
+   ]
+  }
+ ],
+ "official": [
+  {
+   "source": "Federal Reserve",
+   "tier": 1,
+   "items": [
+    {
+     "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+     "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+     "published": "2026-11-12 1:30 PM ET"
+    },
+    {
+     "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+     "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+     "published": "2026-11-12 12:45 PM ET"
+    },
+    {
+     "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+     "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+     "published": "2026-11-12 11:00 AM ET"
+    }
+   ]
+  },
+  {
+   "source": "BLS",
+   "tier": 1,
+   "items": []
+  },
+  {
+   "source": "BEA",
+   "tier": 1,
+   "items": []
+  }
+ ],
+ "analysts": {
+  "BABA": [],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [
+   {
+    "date": "2026-11-12",
+    "firm": "Melius Research",
+    "action": "down",
+    "fromRating": "Buy",
+    "toRating": "Hold",
+    "targetAction": "Lowers",
+    "oldTarget": 315.0,
+    "newTarget": 185.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "DA Davidson",
+    "action": "main",
+    "fromRating": "Buy",
+    "toRating": "Buy",
+    "targetAction": "Lowers",
+    "oldTarget": 300.0,
+    "newTarget": 200.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Craig-Hallum",
+    "action": "down",
+    "fromRating": "Buy",
+    "toRating": "Hold",
+    "targetAction": "Announces",
+    "oldTarget": 0.0,
+    "newTarget": 180.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "B of A Securities",
+    "action": "main",
+    "fromRating": "Buy",
+    "toRating": "Buy",
+    "targetAction": "Lowers",
+    "oldTarget": 350.0,
+    "newTarget": 280.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "BMO Capital",
+    "action": "main",
+    "fromRating": "Outperform",
+    "toRating": "Outperform",
+    "targetAction": "Lowers",
+    "oldTarget": 340.0,
+    "newTarget": 240.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Baird",
+    "action": "reit",
+    "fromRating": "Neutral",
+    "toRating": "Neutral",
+    "targetAction": "Maintains",
+    "oldTarget": 200.0,
+    "newTarget": 200.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Goldman Sachs",
+    "action": "main",
+    "fromRating": "Buy",
+    "toRating": "Buy",
+    "targetAction": "Lowers",
+    "oldTarget": 300.0,
+    "newTarget": 220.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Citigroup",
+    "action": "main",
+    "fromRating": "Buy",
+    "toRating": "Buy",
+    "targetAction": "Lowers",
+    "oldTarget": 285.0,
+    "newTarget": 225.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Needham",
+    "action": "main",
+    "fromRating": "Buy",
+    "toRating": "Buy",
+    "targetAction": "Lowers",
+    "oldTarget": 300.0,
+    "newTarget": 200.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "StoneX",
+    "action": "down",
+    "fromRating": "Buy",
+    "toRating": "Hold",
+    "targetAction": "",
+    "oldTarget": 0.0,
+    "newTarget": 0.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Stifel",
+    "action": "main",
+    "fromRating": "Buy",
+    "toRating": "Buy",
+    "targetAction": "Lowers",
+    "oldTarget": 315.0,
+    "newTarget": 205.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "RBC Capital",
+    "action": "main",
+    "fromRating": "Outperform",
+    "toRating": "Outperform",
+    "targetAction": "Lowers",
+    "oldTarget": 330.0,
+    "newTarget": 230.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "William Blair",
+    "action": "down",
+    "fromRating": "Outperform",
+    "toRating": "Market Perform",
+    "targetAction": "",
+    "oldTarget": 0.0,
+    "newTarget": 0.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Keybanc",
+    "action": "down",
+    "fromRating": "Overweight",
+    "toRating": "Sector Weight",
+    "targetAction": "",
+    "oldTarget": 0.0,
+    "newTarget": 0.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Bernstein",
+    "action": "down",
+    "fromRating": "Outperform",
+    "toRating": "Market Perform",
+    "targetAction": "Lowers",
+    "oldTarget": 400.0,
+    "newTarget": 200.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Cantor Fitzgerald",
+    "action": "main",
+    "fromRating": "Overweight",
+    "toRating": "Overweight",
+    "targetAction": "Lowers",
+    "oldTarget": 350.0,
+    "newTarget": 250.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Evercore ISI Group",
+    "action": "down",
+    "fromRating": "Outperform",
+    "toRating": "In-Line",
+    "targetAction": "Lowers",
+    "oldTarget": 465.0,
+    "newTarget": 186.0
+   },
+   {
+    "date": "2026-11-12",
+    "firm": "Oppenheimer",
+    "action": "down",
+    "fromRating": "Outperform",
+    "toRating": "Perform",
+    "targetAction": "",
+    "oldTarget": 0.0,
+    "newTarget": 0.0
+   },
+   {
+    "date": "2026-11-11",
+    "firm": "Morgan Stanley",
+    "action": "reit",
+    "fromRating": "Overweight",
+    "toRating": "Overweight",
+    "targetAction": "Maintains",
+    "oldTarget": 300.0,
+    "newTarget": 300.0
+   },
+   {
+    "date": "2026-11-11",
+    "firm": "Baird",
+    "action": "down",
+    "fromRating": "Outperform",
+    "toRating": "Neutral",
+    "targetAction": "Lowers",
+    "oldTarget": 500.0,
+    "newTarget": 200.0
+   }
+  ],
+  "TIGR": [],
+  "TSLA": [],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": [
+  "HKEX BABA: HKEX stock id not found"
+ ]
+}
