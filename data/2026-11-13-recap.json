@@ -1,0 +1,461 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 13, 2026",
+  "periodStart": "Thu, Nov 12, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Fri, Nov 13, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Fri, Nov 13, 2026, 6:20 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per WSJ, U.S. stocks finished mixed as rate fears resurfaced and tumult at Nvidia spilled into the wider semiconductor sector, dragging down technology indexes (4:33 PM ET). MarketWatch reported AMD and other chip stocks slid as Wall Street rethought the AI trade without Jensen Huang (4:10 PM ET), and Bloomberg reported Nvidia notched its worst week in more than 18 months (1:24 PM ET). On rates, Bloomberg reported Treasury yields surged over the week and investors expect more pain in bonds (1:00 AM ET), and that the dollar ended its strongest week in more than a month on Fed rate-hike bets (11:44 AM ET). WSJ reported gold held in choppy trading as a below-estimate U.S. producer price reading and steadier oil prices eased inflation concerns (2:29 PM ET). Bloomberg reported the Fed flagged potential vulnerabilities from AI and elevated asset valuations in its semi-annual financial stability report (4:00 PM ET). WSJ reported oil futures fell for a second straight week as traders weighed the IEA's outlook for a global supply surplus (4:11 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "WSJ / Bloomberg / MarketWatch",
+      "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-on-nvidia-fallout-fears-f9946e8d",
+      "pubTime": "Nov 13, 2026, 4:33 PM ET",
+      "sourceDepth": "headline"
+    },
+    "cryptoDriver": {
+      "text": "CoinDesk reported bitcoin hit a 12-week low as the dollar rallied on the interest-rate outlook, with liquidations topping $1.6 billion (6:52 AM ET). MarketWatch reported investors may need to sell crypto holdings to make room for the Anthropic IPO (4:26 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "CoinDesk / MarketWatch",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
+      "pubTime": "Nov 13, 2026, 6:52 AM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "filing",
+          "headline": "Nvidia 8-K: Jensen Huang resigns as CEO and director; CFO Colette Kress named interim CEO",
+          "summary": "In an 8-K (Item 5.02) accepted Nov 12 at 8:52 AM ET, Nvidia said its board accepted the resignation of Jen-Hsun Huang as President, CEO and director effective immediately on Nov 11. CFO Colette M. Kress, who remains CFO, was appointed interim CEO while the board searches for a permanent CEO, and Harvey C. Jones, a director since 1993, was appointed Chair. NVDA closed down 2.01% on Nov 13.",
+          "sourceName": "SEC EDGAR (Nvidia 8-K)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+          "pubTime": "Nov 12, 2026, 8:52 AM ET",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Tumbles as its CEO Jensen Huang Departs Amid Multiplying Scandals",
+          "summary": "Per WSJ, Nvidia shares fell after CEO Jensen Huang's departure, while competitors AMD and Broadcom advanced and yields rose. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f",
+          "pubTime": "Nov 12, 2026, 4:11 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Starts Search for Next CEO",
+          "summary": "Per WSJ, Nvidia has begun a search for its next chief executive. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/nvidia-starts-search-for-next-ceo-4fe0a873",
+          "pubTime": "Nov 12, 2026, 5:41 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Before His Ouster, Jensen Huang Belittled the Executive Replacing Him",
+          "summary": "Per WSJ, interim CEO Colette Kress has questioned some of Huang's dealmaking, and he had called her \"a deer in the headlights.\" Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097",
+          "pubTime": "Nov 12, 2026, 9:00 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Banned Nvidia Chips Installed at China Data Center Linked to Alice Huang",
+          "summary": "Per Bloomberg, a Chinese company founded by Alice Huang, the woman at the center of the controversy dogging Nvidia, procured smuggled AI chips. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-13/banned-nvidia-chips-installed-at-china-data-center-linked-to-alice-huang",
+          "pubTime": "Nov 13, 2026, 1:48 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Singapore Charges Fifth Person as Nvidia Fraud Case Expands",
+          "summary": "Per Bloomberg, Singapore charged a fifth person in a fraud case linked to the export of computer hardware suspected of containing Nvidia chips. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-13/singapore-charges-5th-person-linked-to-nvidia-chip-case-st-says",
+          "pubTime": "Nov 12, 2026, 9:24 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Jensen Huang Exit Sets Up US-China Showdown Over AI Chip Curbs",
+          "summary": "Per Bloomberg, the fall of Jensen Huang has removed the industry's most prominent opponent of US chip controls. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-13/jensen-huang-exit-sets-up-us-china-showdown-over-ai-chip-curbs",
+          "pubTime": "Nov 13, 2026, 2:30 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "US lawmakers pile pressure on Lutnick as Nvidia scandal widens",
+          "summary": "Per the Financial Times, legislators are demanding that the commerce secretary explain why he allowed chip sales to a company linked to an alleged Chinese spy. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/190e5eea-7461-4b26-8b69-17a3288e31d4?syn-25a6b1a6=1",
+          "pubTime": "Nov 12, 2026, 6:35 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Tech Stocks Fall as Next Week Brings Big Tests for the AI Trade",
+          "summary": "Per WSJ, tech stocks fell and Nvidia closed lower, with next week bringing big tests for the AI trade. NVDA closed down 2.01%. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49",
+          "pubTime": "Nov 13, 2026, 4:19 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Has Worst Week Since Trump Tariff Selloff as Huang Exits",
+          "summary": "Per Bloomberg, Nvidia stock notched its worst week in more than 18 months as its share price continued to reel after Jensen Huang's ouster. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
+          "pubTime": "Nov 13, 2026, 1:24 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Says Speculation on New CEO Candidates Is 'Premature'",
+          "summary": "Per Bloomberg, Nvidia tamped down speculation that it is already engaging with potential CEO candidates, saying it is still in the process of selecting a firm to find a successor to Jensen Huang. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-says-speculation-on-new-ceo-candidates-is-premature",
+          "pubTime": "Nov 13, 2026, 3:37 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Arm boss Rene Haas approached in Nvidia CEO search",
+          "summary": "Per the Financial Times, the head of SoftBank-owned UK semiconductor group Arm was sounded out after Jensen Huang resigned over affairs. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
+          "pubTime": "Nov 13, 2026, 12:45 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Bessent blames Lutnick's commerce department for failure to blacklist Megaspeed",
+          "summary": "Per the Financial Times, Treasury Secretary Bessent blamed the Commerce Department for the failure to blacklist Megaspeed, a salvo that risks stoking tensions within the Trump administration over the Nvidia scandal. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d",
+          "pubTime": "Nov 13, 2026, 12:06 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "analyst",
+          "headline": "Melius Research downgrades Nvidia to Hold from Buy, lowers price target to $185 from $315",
+          "summary": "Melius Research lowered its rating on Nvidia from Buy to Hold and cut its price target from $315 to $185, per Yahoo Finance analyst data.",
+          "firm": "Melius Research",
+          "oldRating": "Buy",
+          "newRating": "Hold",
+          "oldTarget": "$315",
+          "newTarget": "$185",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "DA Davidson maintains Nvidia at Buy, lowers price target to $200 from $300",
+          "summary": "DA Davidson maintained its Buy rating on Nvidia and lowered its price target from $300 to $200, per Yahoo Finance analyst data.",
+          "firm": "DA Davidson",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$300",
+          "newTarget": "$200",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Craig-Hallum downgrades Nvidia to Hold from Buy, sets price target at $180",
+          "summary": "Craig-Hallum lowered its rating on Nvidia from Buy to Hold and set a $180 price target, per Yahoo Finance analyst data.",
+          "firm": "Craig-Hallum",
+          "oldRating": "Buy",
+          "newRating": "Hold",
+          "newTarget": "$180",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "B of A Securities maintains Nvidia at Buy, lowers price target to $280 from $350",
+          "summary": "B of A Securities maintained its Buy rating on Nvidia and lowered its price target from $350 to $280, per Yahoo Finance analyst data.",
+          "firm": "B of A Securities",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$350",
+          "newTarget": "$280",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "BMO Capital maintains Nvidia at Outperform, lowers price target to $240 from $340",
+          "summary": "BMO Capital maintained its Outperform rating on Nvidia and lowered its price target from $340 to $240, per Yahoo Finance analyst data.",
+          "firm": "BMO Capital",
+          "oldRating": "Outperform",
+          "newRating": "Outperform",
+          "oldTarget": "$340",
+          "newTarget": "$240",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Baird maintains Nvidia at Neutral, $200 price target",
+          "summary": "Baird maintained its Neutral rating on Nvidia with a $200 price target, per Yahoo Finance analyst data.",
+          "firm": "Baird",
+          "oldRating": "Neutral",
+          "newRating": "Neutral",
+          "oldTarget": "$200",
+          "newTarget": "$200",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Goldman Sachs maintains Nvidia at Buy, lowers price target to $220 from $300",
+          "summary": "Goldman Sachs maintained its Buy rating on Nvidia and lowered its price target from $300 to $220, per Yahoo Finance analyst data.",
+          "firm": "Goldman Sachs",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$300",
+          "newTarget": "$220",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Citigroup maintains Nvidia at Buy, lowers price target to $225 from $285",
+          "summary": "Citigroup maintained its Buy rating on Nvidia and lowered its price target from $285 to $225, per Yahoo Finance analyst data.",
+          "firm": "Citigroup",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$285",
+          "newTarget": "$225",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Needham maintains Nvidia at Buy, lowers price target to $200 from $300",
+          "summary": "Needham maintained its Buy rating on Nvidia and lowered its price target from $300 to $200, per Yahoo Finance analyst data.",
+          "firm": "Needham",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$300",
+          "newTarget": "$200",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "StoneX downgrades Nvidia to Hold from Buy",
+          "summary": "StoneX lowered its rating on Nvidia from Buy to Hold. No price target was listed, per Yahoo Finance analyst data.",
+          "firm": "StoneX",
+          "oldRating": "Buy",
+          "newRating": "Hold",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Stifel maintains Nvidia at Buy, lowers price target to $205 from $315",
+          "summary": "Stifel maintained its Buy rating on Nvidia and lowered its price target from $315 to $205, per Yahoo Finance analyst data.",
+          "firm": "Stifel",
+          "oldRating": "Buy",
+          "newRating": "Buy",
+          "oldTarget": "$315",
+          "newTarget": "$205",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "RBC Capital maintains Nvidia at Outperform, lowers price target to $230 from $330",
+          "summary": "RBC Capital maintained its Outperform rating on Nvidia and lowered its price target from $330 to $230, per Yahoo Finance analyst data.",
+          "firm": "RBC Capital",
+          "oldRating": "Outperform",
+          "newRating": "Outperform",
+          "oldTarget": "$330",
+          "newTarget": "$230",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "William Blair downgrades Nvidia to Market Perform from Outperform",
+          "summary": "William Blair lowered its rating on Nvidia from Outperform to Market Perform. No price target was listed, per Yahoo Finance analyst data.",
+          "firm": "William Blair",
+          "oldRating": "Outperform",
+          "newRating": "Market Perform",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Keybanc downgrades Nvidia to Sector Weight from Overweight",
+          "summary": "Keybanc lowered its rating on Nvidia from Overweight to Sector Weight. No price target was listed, per Yahoo Finance analyst data.",
+          "firm": "Keybanc",
+          "oldRating": "Overweight",
+          "newRating": "Sector Weight",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Bernstein downgrades Nvidia to Market Perform from Outperform, lowers price target to $200 from $400",
+          "summary": "Bernstein lowered its rating on Nvidia from Outperform to Market Perform and cut its price target from $400 to $200, per Yahoo Finance analyst data.",
+          "firm": "Bernstein",
+          "oldRating": "Outperform",
+          "newRating": "Market Perform",
+          "oldTarget": "$400",
+          "newTarget": "$200",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Cantor Fitzgerald maintains Nvidia at Overweight, lowers price target to $250 from $350",
+          "summary": "Cantor Fitzgerald maintained its Overweight rating on Nvidia and lowered its price target from $350 to $250, per Yahoo Finance analyst data.",
+          "firm": "Cantor Fitzgerald",
+          "oldRating": "Overweight",
+          "newRating": "Overweight",
+          "oldTarget": "$350",
+          "newTarget": "$250",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Evercore ISI Group downgrades Nvidia to In-Line from Outperform, lowers price target to $186 from $465",
+          "summary": "Evercore ISI Group lowered its rating on Nvidia from Outperform to In-Line and cut its price target from $465 to $186, per Yahoo Finance analyst data.",
+          "firm": "Evercore ISI Group",
+          "oldRating": "Outperform",
+          "newRating": "In-Line",
+          "oldTarget": "$465",
+          "newTarget": "$186",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "analyst",
+          "headline": "Oppenheimer downgrades Nvidia to Perform from Outperform",
+          "summary": "Oppenheimer lowered its rating on Nvidia from Outperform to Perform. No price target was listed, per Yahoo Finance analyst data.",
+          "firm": "Oppenheimer",
+          "oldRating": "Outperform",
+          "newRating": "Perform",
+          "sourceName": "Yahoo Finance analyst data",
+          "sourceUrl": "https://finance.yahoo.com/quote/NVDA/analysis",
+          "pubTime": "Nov 12, 2026",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Talks on SpaceX-Tesla Deal Said to Advance",
+          "summary": "Per Bloomberg, SpaceX and Tesla are progressing in their merger negotiations, setting the stage for a combination that could redefine the limits of global dealmaking. Written from the headline and the publisher's summary only. TSLA closed down 1.82% on Nov 13.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-13/talks-on-spacex-tesla-deal-said-to-advance-video",
+          "pubTime": "Nov 13, 2026, 2:10 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
