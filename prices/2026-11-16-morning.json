@@ -1,0 +1,103 @@
+{
+  "mode": "morning",
+  "reportDate": "2026-11-16",
+  "generatedAt": "2026-11-16 10:00 ET",
+  "tickers": {
+    "BABA": {
+      "prevClose": 94.38,
+      "premarket": 92.49,
+      "premarketChangePct": -2.0,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "CRCL": {
+      "prevClose": 62.2,
+      "premarket": 57.22,
+      "premarketChangePct": -8.01,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "ETHA": {
+      "prevClose": 44.02,
+      "premarket": 40.65,
+      "premarketChangePct": -7.66,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "FUTU": {
+      "prevClose": 95.75,
+      "premarket": 93.27,
+      "premarketChangePct": -2.59,
+      "premarketAsOf": "7:49 AM ET"
+    },
+    "NVDA": {
+      "prevClose": 162.85,
+      "premarket": 158.51,
+      "premarketChangePct": -2.67,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "TIGR": {
+      "prevClose": 4.14,
+      "premarket": 4.07,
+      "premarketChangePct": -1.69,
+      "premarketAsOf": "7:45 AM ET"
+    },
+    "TSLA": {
+      "prevClose": 390.22,
+      "premarket": 385.8,
+      "premarketChangePct": -1.13,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "GOOG": {
+      "prevClose": 292.52,
+      "premarket": 291.37,
+      "premarketChangePct": -0.39,
+      "premarketAsOf": "8:00 AM ET"
+    },
+    "AVGO": {
+      "prevClose": 347.01,
+      "premarket": 335.34,
+      "premarketChangePct": -3.36,
+      "premarketAsOf": "8:00 AM ET"
+    }
+  },
+  "indices": [
+    {
+      "name": "Golden Dragon (China)",
+      "value": "5,522.55",
+      "changePct": 0.84
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,561.67",
+      "changePct": -0.4
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,136.27",
+      "changePct": -0.91
+    },
+    {
+      "name": "SOX (semis)",
+      "value": "10,146.32",
+      "changePct": -3.43
+    }
+  ],
+  "tenYear": {
+    "value": "5.15%",
+    "changeBp": 5,
+    "asOfDate": "2026-11-13",
+    "source": "US Treasury daily par yield curve"
+  },
+  "crypto": [
+    {
+      "name": "Bitcoin (BTC)",
+      "price": "$64,093.89",
+      "changePct": -2.1
+    },
+    {
+      "name": "Ethereum (ETH)",
+      "price": "$1,798.14",
+      "changePct": -2.01
+    }
+  ],
+  "cryptoTime": "8:00 AM ET prices (Coinbase)",
+  "errors": []
+}
