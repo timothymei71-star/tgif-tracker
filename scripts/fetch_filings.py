@@ -46,18 +46,23 @@ def cik_map():
     return {v["ticker"].upper(): int(v["cik_str"]) for v in data.values()}
 
 
-def exhibit_url(cik, acc_nodash):
-    """Press-release exhibit (EX-99.x) of a filing, if there is one."""
+def exhibit_urls(cik, acc_nodash, acc):
+    """All press-release exhibits (EX-99.x) of a filing. Returns (urls, note)."""
     base = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc_nodash}/"
+    names, note = [], ""
     try:
-        items = get(base + "index.json").json()["directory"]["item"]
-    except Exception:
-        return None
-    for it in items:
-        n = it["name"].lower()
-        if re.search(r"(ex[-_]?99|exhibit99)", n) and n.endswith((".htm", ".html", ".txt")):
-            return base + it["name"]
-    return None
+        names = [it["name"] for it in get(base + "index.json").json()["directory"]["item"]]
+    except Exception as e:
+        note = f"index.json: {str(e)[:80]}"
+        try:  # fall back to the human-readable index page
+            page = get(f"{base}{acc}-index.htm").text
+            names = [m.rsplit("/", 1)[-1] for m in re.findall(r'href="([^"]+)"', page)]
+            note = ""
+        except Exception as e2:
+            note += f"; index page: {str(e2)[:80]}"
+    urls = [base + n for n in names
+            if re.search(r"(ex[-_]?99|exhibit[-_]?99)", n.lower()) and n.lower().endswith((".htm", ".html", ".txt"))]
+    return urls, note
 
 
 _names = {}
@@ -67,7 +72,19 @@ def entity_name(cik):
     return _names.get(cik, "")
 
 
-def filings_for(ticker, cik, since):
+TEXT_DIR = Path("filings") / "text"
+MAX_SAVED_CHARS = 250_000
+
+
+def save_text(day, ticker, form, nodash, n, text):
+    d = TEXT_DIR / day
+    d.mkdir(parents=True, exist_ok=True)
+    f = d / f"{ticker}-{form.replace('/', '')}-{nodash}-{n}.txt"
+    f.write_text(text[:MAX_SAVED_CHARS], encoding="utf-8")
+    return str(f)
+
+
+def filings_for(ticker, cik, since, day):
     sub = get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json").json()
     _names[cik] = sub.get("name", "")
     rec = sub["filings"]["recent"]
@@ -90,18 +107,26 @@ def filings_for(ticker, cik, since):
             "url": base + rec["primaryDocument"][i],
             "indexUrl": f"https://www.sec.gov/Archives/edgar/data/{cik}/{nodash}/{acc}-index.htm",
         }
-        # Earnings and other news live in the press-release exhibit; for 6-Ks the main document is it.
-        src = None
+        # Earnings and other news live in the press-release exhibits; for 6-Ks the main document is it.
+        # The full text is saved in the repo so Claude can read it without reaching sec.gov (which it cannot).
         if form.startswith(("8-K", "6-K")):
-            ex = exhibit_url(cik, nodash)
-            if ex:
-                item["exhibitUrl"] = ex
-            src = ex or item["url"]
-        try:
-            if src:
-                item["excerpt"] = to_text(get(src).text)[:EXCERPT_CHARS]
-        except Exception as e:
-            item["excerptError"] = str(e)[:120]
+            exs, note = exhibit_urls(cik, nodash, acc)
+            if note:
+                item["exhibitNote"] = note
+            if exs:
+                item["exhibitUrls"] = exs
+            sources = exs or [item["url"]]
+            item["textFiles"], texts = [], []
+            for n, src in enumerate(sources[:4]):
+                try:
+                    text = to_text(get(src).text)
+                    item["textFiles"].append(save_text(day, ticker, form, nodash, n, text))
+                    texts.append(text)
+                except Exception as e:
+                    item.setdefault("textErrors", []).append(f"{src.rsplit('/', 1)[-1]}: {str(e)[:100]}")
+            if texts:
+                item["excerpt"] = texts[0][:EXCERPT_CHARS]
+                item["textChars"] = sum(len(t) for t in texts)
         out.append(item)
     return out
 
@@ -123,8 +148,9 @@ def main():
             return 0
         if path.exists():
             try:
-                if not json.loads(path.read_text()).get("errors"):
-                    print(f"{path} already exists with no errors; nothing to do")
+                prior = json.loads(path.read_text())
+                if not prior.get("errors") and prior.get("final"):
+                    print(f"{path} is already final with no errors; nothing to do")
                     return 0
             except Exception:
                 pass
@@ -145,14 +171,20 @@ def main():
             errors.append(f"{t}: not found in the SEC ticker list")
             continue
         try:
-            result[t] = filings_for(t, cik, since)
+            result[t] = filings_for(t, cik, since, now.date().isoformat())
             entities[t] = entity_name(cik)
+            for x in result[t]:
+                for msg in x.get("textErrors", []):
+                    errors.append(f"{t} {x['form']} text: {msg}")
         except Exception as e:
             errors.append(f"{t}: {e}")
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps({
         "mode": a.mode, "reportDate": now.date().isoformat(),
         "generatedAt": now.isoformat(timespec="seconds"), "lookbackHours": hours,
+        # "final" means this snapshot was taken just before the Claude task runs, so it includes
+        # earnings released after the close (recap) or before 8 AM (morning).
+        "final": now.hour * 60 + now.minute >= (8 * 60 if a.mode == "morning" else 17 * 60 + 25),
         "source": "SEC EDGAR", "entities": entities, "filings": result, "errors": errors}, indent=1))
     n = sum(len(v) for v in result.values())
     print(f"wrote {path}: {n} filings, {len(errors)} errors")

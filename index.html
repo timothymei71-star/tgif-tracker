@@ -119,6 +119,11 @@
   .analyst-grid .f .k{font-size:10px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-soft);}
   .analyst-grid .f .v{font-family:var(--font-mono); font-size:13px;}
   .analyst-grid .f .v.change{color:var(--accent); font-weight:600;}
+  .analyst-list{display:flex; flex-direction:column; gap:4px; margin:8px 0; background:var(--mono-bg); border-radius:4px; padding:8px 12px;}
+  .analyst-row{display:grid; grid-template-columns:minmax(120px,1.4fr) minmax(90px,1fr) minmax(110px,1fr); gap:10px; font-size:13px; font-variant-numeric:tabular-nums;}
+  .analyst-row .firm{font-weight:600;}
+  .analyst-row .target.change{color:var(--accent); font-weight:600;}
+  @media (max-width:560px){.analyst-row{grid-template-columns:1fr 1fr;}}
   .clean-note{font-size:13px; color:var(--ink-soft); padding:4px 0;}
   .corp-action{margin-top:4px; padding:10px 12px; background:var(--amber-soft); border-radius:4px; font-size:12.5px; color:var(--ink);}
   .corp-action a{color:var(--amber)}
@@ -293,7 +298,20 @@ function renderItem(item){
   const wrap = el('div','item '+item.type);
   wrap.appendChild(el('div','item-head', item.headline));
   if(item.summary) wrap.appendChild(el('div','item-summary', item.summary));
-  if(item.type==='analyst'){
+  if(item.type==='analyst' && Array.isArray(item.changes) && item.changes.length){
+    // one line per firm, all from the same day, so same-day cuts read as a single item
+    const list = el('div','analyst-list');
+    item.changes.forEach(c=>{
+      const row = el('div','analyst-row');
+      const rating = (c.oldRating && c.newRating && c.oldRating!==c.newRating) ? (c.oldRating+' → '+c.newRating) : (c.newRating||'');
+      const target = (c.oldTarget && c.newTarget && c.oldTarget!==c.newTarget) ? (c.oldTarget+' → '+c.newTarget) : (c.newTarget ? c.newTarget+' (unchanged)' : '');
+      row.appendChild(el('span','firm', c.firm));
+      row.appendChild(el('span','rating', rating));
+      row.appendChild(el('span','target'+((c.oldTarget&&c.newTarget&&c.oldTarget!==c.newTarget)?' change':''), target));
+      list.appendChild(row);
+    });
+    wrap.appendChild(list);
+  } else if(item.type==='analyst'){
     const grid = el('div','analyst-grid');
     const fields = [
       ['Firm', item.firm],

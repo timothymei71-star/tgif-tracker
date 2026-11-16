@@ -139,25 +139,84 @@ def hkex_announcements(code, label, since):
     return {"source": label, "tier": 1, "items": out[:25]}
 
 
-def analyst_rows(since_date):
+def window_start(now):
+    """Start of the report window: the previous weekday's 4:00 PM ET close."""
+    d = now.date() - dt.timedelta(days=1)
+    while d.weekday() >= 5:
+        d -= dt.timedelta(days=1)
+    return dt.datetime(d.year, d.month, d.day, 16, 0, tzinfo=ET)
+
+
+def money(v):
+    if v is None:
+        return None
+    return f"${v:,.0f}" if float(v) == int(v) else f"${v:,.2f}"
+
+
+def analyst_rows(start, now):
+    """Analyst actions inside the report window, de-duplicated, with one digest line per stock per day.
+
+    Yahoo sometimes gives a real time and sometimes only a date. With a time, the action must fall
+    between the previous close and now. With only a date, it counts when that date is after the
+    previous close's date, because an action dated on the close day belongs to the previous report.
+    """
     import yfinance as yf
     res, errs = {}, []
     for t in TICKERS:
         try:
             df = yf.Ticker(t).upgrades_downgrades
-            rows = []
+            seen, actions = {}, []
             if df is not None and len(df):
                 for idx, r in df.iterrows():
-                    d = idx.date() if hasattr(idx, "date") else None
-                    if d is None or d < since_date:
+                    ts = idx.to_pydatetime() if hasattr(idx, "to_pydatetime") else None
+                    if ts is None:
                         continue
+                    has_time = (ts.hour, ts.minute, ts.second) != (0, 0, 0)
+                    if has_time:
+                        ts = (ts if ts.tzinfo else ts.replace(tzinfo=dt.timezone.utc)).astimezone(ET)
+                        if not start <= ts <= now:
+                            continue
+                        day = ts.date()
+                    else:
+                        day = ts.date()
+                        if not start.date() < day <= now.date():
+                            continue
                     g = lambda k: (None if k not in r or r[k] != r[k] else r[k])
-                    rows.append({
-                        "date": d.isoformat(), "firm": g("Firm"), "action": g("Action"),
-                        "fromRating": g("FromGrade"), "toRating": g("ToGrade"),
-                        "targetAction": g("priceTargetAction"),
-                        "oldTarget": g("priorPriceTarget"), "newTarget": g("currentPriceTarget")})
-            res[t] = rows
+                    row = {"date": day.isoformat(), "time": ts.strftime("%-I:%M %p ET") if has_time else None,
+                           "firm": g("Firm"), "action": g("Action"), "fromRating": g("FromGrade"), "toRating": g("ToGrade"),
+                           "targetAction": g("priceTargetAction"), "oldTarget": g("priorPriceTarget"), "newTarget": g("currentPriceTarget")}
+                    key = (row["date"], row["firm"], row["fromRating"], row["toRating"], row["oldTarget"], row["newTarget"])
+                    if key in seen:
+                        seen[key]["repeats"] += 1  # same call listed more than once
+                        continue
+                    row["repeats"] = 1
+                    seen[key] = row
+                    actions.append(row)
+            digest = []
+            for day in sorted({x["date"] for x in actions}, reverse=True):
+                rows = sorted((x for x in actions if x["date"] == day), key=lambda x: x["firm"] or "")
+                parts = []
+                for x in rows:
+                    bits = []
+                    if x["fromRating"] and x["toRating"] and x["fromRating"] != x["toRating"]:
+                        bits.append(f'{x["fromRating"]} → {x["toRating"]}')
+                    elif x["toRating"]:
+                        bits.append(f'{x["toRating"]} (unchanged)')
+                    if x["oldTarget"] and x["newTarget"] and x["oldTarget"] != x["newTarget"]:
+                        bits.append(f'target {money(x["oldTarget"])} → {money(x["newTarget"])}')
+                    elif x["newTarget"]:
+                        bits.append(f'target {money(x["newTarget"])} (unchanged)')
+                    parts.append(f'{x["firm"]}: ' + ", ".join(bits))
+                moved = [(x["newTarget"] or 0) - (x["oldTarget"] or 0) for x in rows if x["oldTarget"] and x["newTarget"]]
+                if moved and all(m < 0 for m in moved) and len(moved) == len(rows):
+                    label = f"{len(rows)} price target cut{'s' if len(rows) > 1 else ''}"
+                elif moved and all(m > 0 for m in moved) and len(moved) == len(rows):
+                    label = f"{len(rows)} price target raise{'s' if len(rows) > 1 else ''}"
+                else:
+                    label = f"{len(rows)} analyst action{'s' if len(rows) > 1 else ''}"
+                digest.append({"date": day, "count": len(rows), "firms": [x["firm"] for x in rows],
+                               "line": f"{label}: " + "; ".join(parts)})
+            res[t] = {"actions": actions, "digest": digest}
         except Exception as e:
             errs.append(f"{t} analysts: {str(e)[:100]}")
     return res, errs
@@ -180,8 +239,9 @@ def main():
             return 0
         if path.exists():
             try:
-                if json.loads(path.read_text()).get("complete"):
-                    print(f"{path} already complete; nothing to do")
+                prior = json.loads(path.read_text())
+                if prior.get("complete") and prior.get("final"):
+                    print(f"{path} already complete and final; nothing to do")
                     return 0
             except Exception:
                 pass
@@ -235,7 +295,7 @@ def main():
         except Exception as e:
             errors.append(f"HKEX {t}: {str(e)[:100]}")
 
-    analysts, aerrs = analyst_rows((since.astimezone(ET)).date())
+    analysts, aerrs = analyst_rows(window_start(now), now)
     errors += aerrs
 
     path.parent.mkdir(exist_ok=True)
@@ -244,9 +304,11 @@ def main():
         "lookbackHours": hours,
         "note": "News items are feed headlines plus the publisher's own short summary only; article bodies were not read. Analyst data is from Yahoo Finance.",
         "complete": ok_feeds >= 3 and not aerrs,
+        "final": now.hour * 60 + now.minute >= (8 * 60 if a.mode == "morning" else 17 * 60 + 25),
+        "windowStart": window_start(now).isoformat(timespec="minutes"),
         "news": feeds, "official": official, "analysts": analysts, "errors": errors}, indent=1))
     n = sum(len(f["items"]) for f in feeds)
-    print(f"wrote {path}: {ok_feeds}/{len(NEWS_FEEDS)} feeds, {n} items, {sum(len(v) for v in analysts.values())} analyst actions, {len(errors)} errors")
+    print(f"wrote {path}: {ok_feeds}/{len(NEWS_FEEDS)} feeds, {n} items, {sum(len(v['actions']) for v in analysts.values())} analyst actions, {len(errors)} errors")
     for e in errors:
         print("  ", e)
     return 0 if ok_feeds else 1
