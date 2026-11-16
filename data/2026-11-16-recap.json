@@ -1,0 +1,207 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 16, 2026",
+  "periodStart": "Fri, Nov 13, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Mon, Nov 16, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Mon, Nov 16, 2026, 7:35 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per WSJ, stocks slid sharply, with the S&P 500 recording a third straight decline and its biggest loss since Nvidia's chief resigned last week (5:06 PM ET). The Financial Times reported the Nasdaq 100 sank 2.7% as US chip stocks fell and Nvidia sustained a fresh bout of selling pressure ahead of its earnings (4:58 PM ET). MarketWatch reported Micron, AMD and other AI stocks fell as the chip-sector selloff intensified, with investors jittery about Nvidia's earnings and whether it will scale back financing of the AI ecosystem (4:17 PM ET), and that the Commerce Department announced a rule aimed at restricting China's remote access to advanced chips (4:53 PM ET). WSJ reported Treasury yields declined as Fed Chairman Warsh refrained from giving hints about the path of interest rates (3:47 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "WSJ / Financial Times / MarketWatch",
+      "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-extend-slide-on-nvidia-china-fears-ea169587?mod=rss_markets_main",
+      "pubTime": "Nov 16, 2026, 5:06 PM ET",
+      "sourceDepth": "headline"
+    },
+    "cryptoDriver": {
+      "text": "CoinDesk reported bitcoin slipped after rebounding from a low that triggered $2 billion of liquidations over the weekend (6:03 AM ET). WSJ reported crypto started the week on a downbeat note, with both Bitcoin and Ethereum trading around key support levels as risk appetite remains constrained (4:05 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "CoinDesk / WSJ",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+      "pubTime": "Nov 16, 2026, 6:03 AM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "updated",
+      "items": [
+        {
+          "type": "filing",
+          "headline": "iShares Ethereum Trust 8-K: Paul Lohrey appointed to board of trust sponsor",
+          "summary": "In an 8-K (Item 5.02) accepted Nov 13 at 4:39 PM ET, the Trust disclosed that on Nov 13, 2026 Paul Lohrey was appointed to the Board of Directors of iShares Delaware Trust Sponsor LLC, the sponsor of iShares Ethereum Trust ETF.",
+          "sourceName": "SEC EDGAR (iShares Ethereum Trust 8-K)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2000638/000143774926036911/etha20261112_8k.htm",
+          "pubTime": "Nov 13, 2026, 4:39 PM ET",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Nvidia's Board Not Considering Reinstating Jensen Huang as CEO",
+          "summary": "Per WSJ, billionaire allies have called for his return as inquiries into his relationship with a woman suspected of working with Chinese intelligence proceed. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/nvidias-board-not-considering-reinstating-jensen-huang-as-ceo-a2b913b1?mod=rss_Technology",
+          "pubTime": "Nov 16, 2026, 3:32 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia's stock extends decline following harsh words from the U.S. government",
+          "summary": "Per MarketWatch, the Commerce Department announced a new rule aimed at restricting China's remote access to advanced chips. Written from the headline and the publisher's summary only.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
+          "pubTime": "Nov 16, 2026, 4:53 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Short Sellers Reap $24 Billion as Stock Extends Slide",
+          "summary": "Per Bloomberg, Nvidia's tumble in the wake of the scandal that led to former CEO Jensen Huang's ouster has fueled tens of billions of dollars in gains for short sellers. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-short-sellers-reap-24-billion-as-stock-extends-slide",
+          "pubTime": "Nov 16, 2026, 4:55 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Singapore agrees to continue discussions with US on Megaspeed case",
+          "summary": "Per South China Morning Post, Singapore's government said on Monday it had agreed to continue discussions with the United States about Megaspeed, the company at the centre of the Nvidia scandal. Written from the headline and the publisher's summary only.",
+          "sourceName": "South China Morning Post",
+          "sourceUrl": "https://www.scmp.com/news/asia/southeast-asia/article/3374629/singapore-agrees-continue-discussions-us-megaspeed-case",
+          "pubTime": "Nov 16, 2026, 8:43 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Trump Administration to Name Nvidia Among AI 'National Champions'",
+          "summary": "Per WSJ, the new program is part of an effort to help U.S. AI companies compete for business overseas. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344?mod=rss_Technology",
+          "pubTime": "Nov 15, 2026, 10:59 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
+          "summary": "Per WSJ, interim CEO Colette Kress is expected to rein in deals after a stretch in which Nvidia aggressively financed computing deals and startup investments. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388?mod=rss_Technology",
+          "pubTime": "Nov 15, 2026, 9:21 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Bessent Urges Nvidia to Pick Outsider as Next CEO",
+          "summary": "Per WSJ, the Treasury Secretary questioned whether the chip maker pushed illicit China sales to boost revenue. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/bessent-urges-nvidia-to-pick-outsider-as-next-ceo-f9d21a83?mod=rss_Technology",
+          "pubTime": "Nov 15, 2026, 1:44 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "The Campaign to Bring Back Jensen Huang as Nvidia CEO",
+          "summary": "Per WSJ, in open letters, phone calls and group chats, Huang's allies are making the case that his ouster was hasty, even as legal scrutiny intensifies. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/the-campaign-to-bring-back-jensen-huang-as-nvidia-ceo-e91b0b2c?mod=rss_Technology",
+          "pubTime": "Nov 16, 2026, 9:44 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Tesla Will Invest $3.31 Billion to Expand German Factory for Cybercab Production",
+          "summary": "Per WSJ, Tesla will add a new facility at its Berlin-Brandenburg factory as the electric-vehicle maker seeks to boost production of its autonomous Cybercab. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/autos/tesla-to-invest-over-3-billion-to-expand-german-factory-in-cybercab-bet-6355017a?mod=rss_Business",
+          "pubTime": "Nov 16, 2026, 4:33 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Tesla Opens Sales of Autonomous Cybercab for 'Select' Customers",
+          "summary": "Per WSJ, the new push to sell the vehicle, which has no steering wheel or pedals, comes amid a federal probe. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 14, 2026, 10:02 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Why Tesla Is Pulling the Plug on Cybertruck",
+          "summary": "Per WSJ, Tesla is scrapping the Cybertruck in a bet on Cybercab (WSJ video). Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/autos/why-tesla-is-pulling-the-plug-on-cybertruck-b6c2f97b?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 14, 2026, 10:03 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": [
+    {
+      "source": "Nikkei Asia",
+      "headline": "US issues new chip rule as China's AI companies fear Nvidia scandal fallout",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-issues-new-chip-rule-as-china-s-ai-companies-fear-nvidia-scandal-fallout",
+      "reason": "No publisher summary or publication time in the feed; not used."
+    }
+  ]
+}
