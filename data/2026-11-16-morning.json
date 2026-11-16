@@ -1,0 +1,184 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 16, 2026",
+  "periodStart": "Fri, Nov 13, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Mon, Nov 16, 2026, 8:30 AM ET",
+  "lastUpdated": "Mon, Nov 16, 2026, 8:30 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per WSJ, stock futures fell ahead of a pivotal week for the AI trade, with Nvidia earnings due Tuesday and Anthropic's public listing expected, after fresh weakness in Asian AI stocks (4:43 AM ET). WSJ also reported Asian equities dropped as Friday's U.S. chip selloff spilled over, led by Taiwan's Taiex (1:16 AM ET), and that U.S. Treasury yields declined while Fed rate-hike prospects stayed in focus (5:03 AM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "WSJ",
+      "sourceUrl": "https://www.wsj.com/finance/investing/stock-futures-slip-ahead-of-pivotal-week-for-ai-trade-with-nvidia-anthropic-in-focus-c1768330?mod=rss_markets_main",
+      "pubTime": "Nov 16, 2026, 4:43 AM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": [
+      {
+        "time": "Tuesday",
+        "text": "Nvidia is due to report earnings, per WSJ, amid its CEO leadership change.",
+        "sourceName": "WSJ",
+        "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-16-2026?mod=rss_markets_main"
+      },
+      {
+        "time": "This week",
+        "text": "Anthropic's public listing is expected, per WSJ.",
+        "sourceName": "WSJ",
+        "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-16-2026?mod=rss_markets_main"
+      },
+      {
+        "time": "This week",
+        "text": "A slate of Federal Reserve speeches and the central bank's most recent meeting minutes are due, per Bloomberg.",
+        "sourceName": "Bloomberg",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-15/roughed-up-bond-traders-look-to-fedspeak-minutes-for-next-move"
+      }
+    ],
+    "cryptoDriver": {
+      "text": "Per CoinDesk, Bitcoin slipped after rebounding from a low that triggered $2 billion of liquidations over the weekend. Written from the headline only.",
+      "sourceName": "CoinDesk",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
+      "pubTime": "Nov 16, 2026, 6:03 AM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "updated",
+      "items": [
+        {
+          "type": "filing",
+          "headline": "iShares Ethereum Trust 8-K: Paul Lohrey appointed to board of trust sponsor",
+          "summary": "In an 8-K (Item 5.02) accepted Nov 13 at 4:39 PM ET, the Trust disclosed that on Nov 13, 2026 Paul Lohrey was appointed to the Board of Directors of iShares Delaware Trust Sponsor LLC, the sponsor of iShares Ethereum Trust ETF.",
+          "sourceName": "SEC EDGAR (iShares Ethereum Trust 8-K)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2000638/000143774926036911/etha20261112_8k.htm",
+          "pubTime": "Nov 13, 2026, 4:39 PM ET",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Bessent Urges Nvidia to Pick Outsider as Next CEO",
+          "summary": "Per WSJ, the Treasury Secretary questioned whether the chip maker pushed illicit China sales to boost revenue. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/bessent-urges-nvidia-to-pick-outsider-as-next-ceo-f9d21a83?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 15, 2026, 1:44 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "The Campaign to Bring Back Jensen Huang as Nvidia CEO",
+          "summary": "Per WSJ, in open letters, phone calls and group chats, Huang's allies are making the case that his ouster was hasty, even as legal scrutiny intensifies. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/the-campaign-to-bring-back-jensen-huang-as-nvidia-ceo-e91b0b2c?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 16, 2026, 6:27 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia’s Days as an Open Checkbook for the AI Economy Are Numbered",
+          "summary": "Per WSJ, interim CEO Colette Kress is expected to rein in deals after a stretch in which Nvidia aggressively financed computing deals and startup investments. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388?mod=rss_Technology",
+          "pubTime": "Nov 15, 2026, 9:21 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Trump Administration to Name Nvidia Among AI 'National Champions'",
+          "summary": "Per WSJ, the new program is part of an effort to help U.S. AI companies compete for business overseas. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344?mod=rss_Technology",
+          "pubTime": "Nov 15, 2026, 10:59 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "US tech stocks set to open lower amid Nvidia fallout",
+          "summary": "Per the Financial Times, the chipmaker fell 2.1% in pre-market trading and CoreWeave dropped 5.9% as AI jitters continued. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+          "pubTime": "Nov 16, 2026, 6:07 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Tesla Opens Sales of Autonomous Cybercab for 'Select' Customers",
+          "summary": "Per WSJ, the new push to sell the vehicle, which has no steering wheel or pedals, comes amid a federal probe. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 14, 2026, 10:02 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Why Tesla Is Pulling the Plug on Cybertruck",
+          "summary": "Per WSJ video, Tesla is scrapping the Cybertruck in a bet on Cybercab. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/autos/why-tesla-is-pulling-the-plug-on-cybertruck-b6c2f97b?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 14, 2026, 10:03 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
