@@ -1,11 +1,11 @@
 {
  "mode": "recap",
  "reportDate": "2026-11-16",
- "generatedAt": "2026-11-16T16:55:57-05:00",
+ "generatedAt": "2026-11-16T17:32:40-05:00",
  "lookbackHours": 78,
  "note": "News items are feed headlines plus the publisher's own short summary only; article bodies were not read. Analyst data is from Yahoo Finance.",
  "complete": true,
- "final": false,
+ "final": true,
  "windowStart": "2026-11-13T16:00-05:00",
  "news": [
   {
@@ -85,22 +85,22 @@
      "marketWide": true
     },
     {
+     "title": "U.S. Stocks Extend Slide on Nvidia, China Fears",
+     "summary": "Stocks slid sharply, with the S&P 500 recording a third straight decline and its biggest loss since Nvidia\u2019s chief resigned last week.",
+     "url": "https://www.wsj.com/finance/stocks/u-s-stocks-extend-slide-on-nvidia-china-fears-ea169587?mod=rss_markets_main",
+     "published": "2026-11-16 5:06 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
      "title": "Financial Services Roundup: Market Talk",
      "summary": "Find insight on Legal & General, bitcoin and more in the latest Market Talks covering financial services.",
      "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-8b780372?mod=rss_markets_main",
      "published": "2026-11-16 4:54 PM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "U.S. Stocks Extend Slide on Nvidia, China Fears",
-     "summary": "U.S. stocks fell sharply, with the S&P 500 suffering its third straight decline and its sharpest since Nvidia\u2019s CEO resigned last week.",
-     "url": "https://www.wsj.com/finance/stocks/u-s-stocks-extend-slide-on-nvidia-china-fears-ea169587?mod=rss_markets_main",
-     "published": "2026-11-16 4:31 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     },
     {
      "title": "Nvidia Earnings, Anthropic IPO Ahead in New Test for AI Economy",
@@ -481,6 +481,22 @@
      "marketWide": false
     },
     {
+     "title": "Energy & Utilities Roundup: Market Talk",
+     "summary": "Find insight on oil futures, Canadian Natural Resources, Shell and more in the latest Market Talks covering energy and utilities.",
+     "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-02dc2fa2?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-16 4:55 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Auto & Transport Roundup: Market Talk",
+     "summary": "Find insight on oil prices, Yangzijiang Shipbuilding and more in the latest Market Talks covering the auto and transport sector.",
+     "url": "https://www.wsj.com/business/auto-transport-roundup-market-talk-4080b9af?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-16 4:54 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
      "title": "Oil Futures Retreat on Expected Global Surplus",
      "summary": "Oil prices extended losses as analysts and experts say the global market faces a growing surplus next year, despite persistent risks in the Middle East.",
      "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-as-supply-surplus-prospects-offset-mideast-tensions-9105d9bf?mod=pls_whats_news_us_business_f",
@@ -493,14 +509,6 @@
      "summary": "Oil prices fell as traders weighed expectations of a global supply surplus against renewed threats to Middle Eastern oil shipments.",
      "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97?mod=pls_whats_news_us_business_f",
      "published": "2026-11-16 3:30 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "Energy & Utilities Roundup: Market Talk",
-     "summary": "Find insight on crude futures, Shell and more in the latest Market Talks covering energy and utilities.",
-     "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-02dc2fa2?mod=pls_whats_news_us_business_f",
-     "published": "2026-11-16 12:24 PM ET",
      "tickers": [],
      "marketWide": true
     },
@@ -559,6 +567,24 @@
    "tier": 2,
    "items": [
     {
+     "title": "The FDA declined to approve one of biotech\u2019s most closely watched cancer drugs. The company\u2019s stock tumbled.",
+     "summary": "The regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.",
+     "url": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
+     "published": "2026-11-16 5:21 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nvidia\u2019s stock extends decline following harsh words from the U.S. government",
+     "summary": "The Commerce Department announced a new rule aimed at restricting China\u2019s remote access to advanced chips.",
+     "url": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
+     "published": "2026-11-16 4:53 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
      "title": "Rare-earth stocks sink deeper into the red. Here\u2019s the latest catalyst.",
      "summary": "Shares of Trump-backed USA Rare Earth slides 10% as analysts push out their sales estimates.",
      "url": "https://www.marketwatch.com/story/rare-earth-stocks-sinks-deeper-into-the-red-heres-the-latest-catalyst-3033c8d0?mod=mw_rss_topstories",
@@ -585,24 +611,6 @@
       "NVDA"
      ],
      "marketWide": false
-    },
-    {
-     "title": "The FDA declined to approve one of biotech\u2019s most closely watched cancer drugs. The company\u2019s stock tumbled.",
-     "summary": "The regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.",
-     "url": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
-     "published": "2026-11-16 3:41 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "Jensen Huang\u2019s fans want him back as Nvidia CEO. This is why that\u2019s unlikely.",
-     "summary": "Corporate-governance experts point to issues that would make a triumphant return difficult.",
-     "url": "https://www.marketwatch.com/story/jensen-huangs-fans-want-him-back-as-nvidia-ceo-this-is-why-thats-unlikely-2be28ac2?mod=mw_rss_topstories",
-     "published": "2026-11-16 3:17 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     }
    ]
   },
@@ -615,6 +623,24 @@
    "source": "Bloomberg Markets",
    "tier": 2,
    "items": [
+    {
+     "title": "China's Long-Term Auto Bet is Winning",
+     "summary": "China has emerged as the global leader in electric vehicles, combining advanced technology, highly automated factories and a dense battery supply chain to produce increasingly sophisticated cars at competitive prices. Bloomberg Businessweek Editor Brad Stone says Chinese automakers have benefited from years of government support and long-term industrial planning, while shifting US policies have ma",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-16/china-s-long-term-auto-bet-is-winning-video",
+     "published": "2026-11-16 5:22 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+     "summary": "Stocks in Asia looked set to decline, tracking losses on Wall Street as investors remained wary of the AI trade ahead of Nvidia Corp.\u2019s high-stakes earnings and Anthropic PBC\u2019s expected market debut.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+     "published": "2026-11-16 5:06 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
     {
      "title": "Brazilian Real Leads FX Losses; EM Stocks Sink on AI Uncertainty",
      "summary": "An index of developing-world stocks sank and most Latin American currencies sold off as a wave of risk aversion in financial markets kicked off a busy week for US technology companies.",
@@ -678,22 +704,6 @@
      "published": "2026-11-16 3:36 PM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "Latest Oil Market News and Analysis for Nov. 16",
-     "summary": "Oil declined the most in roughly a week amid signs that the market for physical barrels is well supplied, even as tensions in the Middle East threaten to hamper exports from the region.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-15/latest-oil-market-news-and-analysis-for-nov-16",
-     "published": "2026-11-15 6:03 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "BlackRock Pushing For New 'ETIF' Hybrid",
-     "summary": "Bloomberg's Vildana Hajric joins Isabelle Lee and Eric Balchunas on \"Bloomberg ETF IQ.\" BlackRock is pushing to redraw the boundaries of the $16 trillion US exchange-traded funds industry with a novel investment vehicle that would marry two of Wall Street\u2019s biggest obsessions: the trading ease of ETFs and the allure of private markets. (Source: Bloomberg)",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-16/blackrock-pushing-for-new-etif-hybrid-video",
-     "published": "2026-11-16 3:01 PM ET",
-     "tickers": [],
-     "marketWide": true
     }
    ]
   },
@@ -702,18 +712,28 @@
    "tier": 2,
    "items": [
     {
-     "title": "Kalshi to Offer Stock Trading After Buying Brokerage",
-     "summary": "Kalshi Inc. is preparing to offer stock trading on its app after acquiring a brokerage firm called FB Securities. The company is trying to expand beyond just prediction markets. It will also offer exchange-traded funds. This story was first reported by the Wall Street Journal on Monday. (Source: Bloomberg)",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-16/kalshi-to-offer-stock-trading-after-buying-brokerage-video",
-     "published": "2026-11-16 4:38 PM ET",
+     "title": "MIT Brothers Cleared of Charges in $25 Million Crypto Case",
+     "summary": "Two brothers who graduated from Massachusetts Institute of Technology were cleared of charges that they stole $25 million in cryptocurrency, avoiding a new trial in the case after a jury failed to reach a verdict last year.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/mit-brothers-acquitted-in-25-million-crypto-case-avoid-retrial",
+     "published": "2026-11-16 3:44 PM ET",
      "tickers": [],
      "marketWide": true
     },
     {
-     "title": "MIT Brothers Acquitted in $25 Million Crypto Case, Avoid Retrial",
-     "summary": "Two brothers who graduated from Massachusetts Institute of Technology were cleared of charges that they stole $25 million in cryptocurrency, avoiding a new trial in the case after a jury failed to reach a verdict last year.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-16/mit-brothers-acquitted-in-25-million-crypto-case-avoid-retrial",
-     "published": "2026-11-16 3:44 PM ET",
+     "title": "Nvidia Short Sellers Reap $24 Billion as Stock Extends Slide",
+     "summary": "Nvidia Corp.\u2019s tumble in the wake of the scandal that led to former Chief Executive Officer Jensen Huang\u2019s ouster has fueled tens of billions of dollars in gains for short sellers.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-short-sellers-reap-24-billion-as-stock-extends-slide",
+     "published": "2026-11-16 4:55 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Kalshi to Offer Stock Trading After Buying Brokerage",
+     "summary": "Kalshi Inc. is preparing to offer stock trading on its app after acquiring a brokerage firm called FB Securities. The company is trying to expand beyond just prediction markets. It will also offer exchange-traded funds. This story was first reported by the Wall Street Journal on Monday. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-16/kalshi-to-offer-stock-trading-after-buying-brokerage-video",
+     "published": "2026-11-16 4:38 PM ET",
      "tickers": [],
      "marketWide": true
     },
@@ -812,26 +832,6 @@
      "published": "2026-11-16 12:48 PM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "Nvidia, Anthropic Put the AI Trade On Trial",
-     "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Two major tests for the AI trade: Nvidia faces life after Jensen Huang, while Anthropic\u2019s blockbuster IPO reshapes Wall Street\u2019s deal pipeline. Bank of America Brian Moynihan shares his thoughts on how the mega IPO is impacting the landscape. Plus, We talk to Anthropic founding investor Anjney Midha about why the",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-16/open-interest-11-16-2026-video",
-     "published": "2026-11-16 12:42 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "Huang\u2019s Ouster Fuels Doubts About Nvidia\u2019s Support for Neoclouds",
-     "summary": "Jensen Huang built Nvidia Corp. into the world\u2019s most valuable company and channeled its financial heft into bankrolling neoclouds \u2014 a new class of businesses that stockpile chips and rent out computing power.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-16/huang-s-ouster-fuels-doubts-about-nvidia-s-support-for-neoclouds",
-     "published": "2026-11-16 12:40 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     }
    ]
   },
@@ -843,7 +843,7 @@
      "title": "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade",
      "summary": "US chip stocks fall as Nvidia sustains fresh bout of selling pressure",
      "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
-     "published": "2026-11-16 4:02 PM ET",
+     "published": "2026-11-16 4:58 PM ET",
      "tickers": [
       "NVDA"
      ],
@@ -884,7 +884,7 @@
      "marketWide": true
     },
     {
-     "title": "Chevron nears $5bn deal for Blackstone-backed oil group in US Gulf",
+     "title": "Chevron nears $5bn deal for Blackstone-backed oil producer in US Gulf",
      "summary": "Oil major pulls ahead of rival bidders for Beacon Offshore Energy as it expands deepwater production",
      "url": "https://www.ft.com/content/92e1c14a-f836-40b0-8d9e-0ed1c1d2fea9?syn-25a6b1a6=1",
      "published": "2026-11-16 4:20 PM ET",
@@ -1012,16 +1012,6 @@
      "published": null,
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "China sees Nvidia chief Huang's swift downfall as political hit",
-     "summary": "",
-     "url": "https://asia.nikkei.com/business/tech/semiconductors/china-sees-nvidia-chief-huang-s-swift-downfall-as-political-hit",
-     "published": null,
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     }
    ]
   },
@@ -1199,6 +1189,14 @@
    "source": "South China Morning Post (China economy)",
    "tier": 2,
    "items": [
+    {
+     "title": "Why China is betting on \u2018home-court diplomacy\u2019 at the Shenzhen Apec gathering",
+     "summary": "In October 2001, with the world still reeling from the September 11 attacks and China on the cusp of joining the World Trade Organization, then Chinese president Jiang Zemin opened the Asia-Pacific Economic Cooperation (Apec) leaders\u2019 meeting in Shanghai. The world, he said, was at \u201ca crucial moment, a moment of great hope as well as imposing challenges\u201d. The summit was both a diplomatic debut and",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374575/why-china-betting-home-court-diplomacy-shenzhen-apec-gathering",
+     "published": "2026-11-16 5:00 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
     {
      "title": "Squeezed in the US, China\u2019s CATL bets on Argentina\u2019s battery storage boom",
      "summary": "China\u2019s CATL, the world\u2019s largest battery maker, has opened a commercial office in Argentina as a base to expand from grid batteries in Buenos Aires into storage for mines, data centres and Patagonian wind farms, Argentine media reported on Monday. Contemporary Amperex Technology Co Ltd (CATL) already supplies the country\u2019s largest storage project and has pitched its systems to 35 companies intere",
@@ -1414,14 +1412,6 @@
      "summary": "Chinese artificial intelligence start-up Moonshot AI, the developer of the Kimi models, is setting its sights on scientific discovery, joining US rivals in the race to turn AI into a research engine. The Beijing-based company is increasingly exploring applications that demand more advanced AI reasoning capabilities, pushing into the realms of biology, chemistry and pharmaceutical research. \u201cThe re",
      "url": "https://www.scmp.com/tech/article/3374568/chinas-moonshot-ai-puts-kimi-models-race-science-discoveries",
      "published": "2026-11-16 2:30 AM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "Japan\u2019s fighter jet scrambles near 5-year high as China ramps up Pacific patrols",
-     "summary": "Chinese military aircraft have been spotted increasing activity in the skies around Japan\u2019s southwestern islands amid an aircraft carrier fleet operation in the western Pacific and persistent tension between the two nations. Japan scrambled fighter jets against Chinese military aircraft 94 times in October, the highest monthly figure in nearly five years, according to preliminary figures released ",
-     "url": "https://www.scmp.com/news/china/military/article/3374567/japan-faces-near-5-year-high-fighter-jet-scrambles-china-ramps-pacific-patrols",
-     "published": "2026-11-16 2:09 AM ET",
      "tickers": [],
      "marketWide": true
     }

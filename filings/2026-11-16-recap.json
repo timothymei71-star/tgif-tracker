@@ -1,9 +1,9 @@
 {
  "mode": "recap",
  "reportDate": "2026-11-16",
- "generatedAt": "2026-11-16T16:55:54-05:00",
+ "generatedAt": "2026-11-16T17:32:37-05:00",
  "lookbackHours": 78,
- "final": false,
+ "final": true,
  "source": "SEC EDGAR",
  "entities": {
   "BABA": "Alibaba Group Holding Ltd",
@@ -38,7 +38,17 @@
   "FUTU": [],
   "NVDA": [],
   "TIGR": [],
-  "TSLA": [],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-16",
+    "acceptedET": "2026-11-16 5:15 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926128559/tm267596d12_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926128559/0001104659-26-128559-index.htm"
+   }
+  ],
   "GOOG": [],
   "AVGO": []
  },
