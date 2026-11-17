@@ -1,0 +1,139 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 17, 2026",
+  "periodStart": "Mon, Nov 16, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Tue, Nov 17, 2026, 8:30 AM ET",
+  "lastUpdated": "Tue, Nov 17, 2026, 8:30 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot was not available for this run, so coverage is limited to items published through 5:32 PM ET on Nov 16.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per the Financial Times, the Nasdaq 100 sank 2.7% on Monday as US chip stocks fell amid fresh selling pressure on Nvidia, in a gloomy start to a pivotal week for the AI trade (4:58 PM ET). Per Bloomberg, Asian stocks were set to decline, tracking Wall Street losses as investors stayed wary of the AI trade ahead of Nvidia's earnings and Anthropic's expected market debut (5:06 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "Financial Times",
+      "sourceUrl": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+      "pubTime": "Nov 16, 2026, 4:58 PM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": [
+      {
+        "time": "Tuesday",
+        "text": "Nvidia is due to report earnings, per WSJ, amid its CEO leadership change.",
+        "sourceName": "WSJ",
+        "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-16-2026?mod=rss_markets_main"
+      },
+      {
+        "time": "This week",
+        "text": "Anthropic's public listing is expected, per WSJ.",
+        "sourceName": "WSJ",
+        "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-16-2026?mod=rss_markets_main"
+      },
+      {
+        "time": "This week",
+        "text": "A slate of Federal Reserve speeches and the central bank's most recent meeting minutes are due, per Bloomberg.",
+        "sourceName": "Bloomberg",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-15/roughed-up-bond-traders-look-to-fedspeak-minutes-for-next-move"
+      }
+    ],
+    "cryptoDriver": {
+      "text": "Per WSJ, Bitcoin and Ethereum were trading around key support levels as risk appetite remained constrained. Written from the headline and summary only.",
+      "sourceName": "WSJ",
+      "sourceUrl": "https://www.wsj.com/finance/currencies/crypto-off-to-downbeat-start-this-week-after-selloff-abeb286e?mod=rss_markets_main",
+      "pubTime": "Nov 16, 2026, 4:05 PM ET",
+      "sourceDepth": "headline"
+    }
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Nvidia's stock extends decline following harsh words from the U.S. government",
+          "summary": "Per MarketWatch, the Commerce Department announced a new rule aimed at restricting China's remote access to advanced chips.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
+          "pubTime": "Nov 16, 2026, 4:53 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Short Sellers Reap $24 Billion as Stock Extends Slide",
+          "summary": "Per Bloomberg, Nvidia's tumble in the wake of the scandal that led to former CEO Jensen Huang's ouster has fueled tens of billions of dollars in gains for short sellers.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-short-sellers-reap-24-billion-as-stock-extends-slide",
+          "pubTime": "Nov 16, 2026, 4:55 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Tesla Will Invest $3.31 Billion to Expand German Factory for Cybercab Production",
+          "summary": "Per WSJ, Tesla will add a new facility at its Berlin-Brandenburg factory as it seeks to boost production of its autonomous Cybercab.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/autos/tesla-to-invest-over-3-billion-to-expand-german-factory-in-cybercab-bet-6355017a?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 16, 2026, 4:33 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
