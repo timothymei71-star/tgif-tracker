@@ -184,7 +184,7 @@ def main():
         "generatedAt": now.isoformat(timespec="seconds"), "lookbackHours": hours,
         # "final" means this snapshot was taken just before the Claude task runs, so it includes
         # earnings released after the close (recap) or before 8 AM (morning).
-        "final": now.hour * 60 + now.minute >= (8 * 60 if a.mode == "morning" else 17 * 60 + 25),
+        "final": now.hour * 60 + now.minute >= (7 * 60 + 45 if a.mode == "morning" else 17 * 60 + 25),
         "source": "SEC EDGAR", "entities": entities, "filings": result, "errors": errors}, indent=1))
     n = sum(len(v) for v in result.values())
     print(f"wrote {path}: {n} filings, {len(errors)} errors")

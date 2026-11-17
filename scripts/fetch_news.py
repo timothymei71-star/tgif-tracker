@@ -105,7 +105,7 @@ def fetch_feed(url, ua=BROWSER_UA):
 
 
 HKEX_BASE = "https://www1.hkexnews.hk"
-HKEX_COMPANIES = [("BABA", "9988", "Alibaba Group (HKEX 9988)")]  # only BABA is also listed in Hong Kong
+HKEX_COMPANIES = []  # parked: BABA's key news also arrives as a 6-K. Re-enable with [("BABA", "9988", "Alibaba Group (HKEX 9988)")]
 
 
 def hkex_announcements(code, label, since):
@@ -216,7 +216,11 @@ def analyst_rows(start, now):
                     label = f"{len(rows)} analyst action{'s' if len(rows) > 1 else ''}"
                 digest.append({"date": day, "count": len(rows), "firms": [x["firm"] for x in rows],
                                "line": f"{label}: " + "; ".join(parts)})
-            res[t] = {"actions": actions, "digest": digest}
+            newest = None
+            if df is not None and len(df):
+                newest = max(df.index).isoformat()
+            res[t] = {"actions": actions, "digest": digest,
+                      "debug": {"yahooRows": 0 if df is None else len(df), "newestYahooTimestamp": newest}}
         except Exception as e:
             errs.append(f"{t} analysts: {str(e)[:100]}")
     return res, errs
@@ -304,7 +308,7 @@ def main():
         "lookbackHours": hours,
         "note": "News items are feed headlines plus the publisher's own short summary only; article bodies were not read. Analyst data is from Yahoo Finance.",
         "complete": ok_feeds >= 3 and not aerrs,
-        "final": now.hour * 60 + now.minute >= (8 * 60 if a.mode == "morning" else 17 * 60 + 25),
+        "final": now.hour * 60 + now.minute >= (7 * 60 + 45 if a.mode == "morning" else 17 * 60 + 25),
         "windowStart": window_start(now).isoformat(timespec="minutes"),
         "news": feeds, "official": official, "analysts": analysts, "errors": errors}, indent=1))
     n = sum(len(f["items"]) for f in feeds)
