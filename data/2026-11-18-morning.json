@@ -1,0 +1,171 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 18, 2026",
+  "periodStart": "Tue, Nov 17, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Wed, Nov 18, 2026, 8:30 AM ET",
+  "lastUpdated": "Wed, Nov 18, 2026, 8:35 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot for this morning was not available for this run, so coverage runs through about 9:04 PM ET on Nov 17.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per WSJ, US stocks finished lower on Tuesday as doubts about the sustainability of the AI boom festered ahead of Nvidia's earnings and Anthropic's market debut (5:07 PM ET). Per Bloomberg, a rebound fueled by Nvidia's better-than-expected sales forecast lost momentum as traders stayed wary of the AI trade (5:07 PM ET), and gold fell below $3,800 an ounce after Federal Reserve officials made the case for more rate hikes (6:33 PM ET). Per WSJ, Japanese stocks rose 1.0% led by chip and AI shares after Nvidia's results eased fears about the AI trade (7:34 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "WSJ / Bloomberg",
+      "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb?mod=rss_markets_main",
+      "pubTime": "Nov 17, 2026, 5:07 PM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": [
+      {
+        "time": "This week",
+        "text": "Anthropic's market debut is expected, per WSJ.",
+        "sourceName": "WSJ",
+        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-ai-doubts-fester-a0979bdb?mod=rss_markets_main"
+      },
+      {
+        "time": "This week",
+        "text": "A slate of Federal Reserve speeches and the central bank's most recent meeting minutes are due, per Bloomberg.",
+        "sourceName": "Bloomberg",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-15/roughed-up-bond-traders-look-to-fedspeak-minutes-for-next-move"
+      }
+    ]
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "filing",
+          "headline": "NVIDIA 8-K: results for third quarter fiscal 2027 (Item 2.02)",
+          "summary": "In an 8-K (Items 2.02 and 9.01) accepted Nov 17 at 4:20 PM ET, NVIDIA furnished its press release on results for the quarter ended October 25, 2026, CFO commentary from Interim CEO and CFO Colette Kress, and supplemental financial information. The filing text saved for this run contained the cover and item descriptions only, so no figures are quoted from it.",
+          "sourceName": "SEC EDGAR (NVIDIA 8-K)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+          "pubTime": "Nov 17, 2026, 4:20 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Reports Faster Growth, Says Jensen Huang Won't Return as CEO",
+          "summary": "Per WSJ, in her first earnings call as interim CEO, Colette Kress faced questions over the chipmaker's future without its longtime leader. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=rss_Technology",
+          "pubTime": "Nov 17, 2026, 6:30 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia results beat expectations, as ousted CEO Huang told no way back",
+          "summary": "Per South China Morning Post, Nvidia doubled revenue in the third quarter to more than US$115 billion, the company reported on Tuesday while ruling out any return for ousted CEO Jensen Huang. Written from the headline and the publisher's opening summary only.",
+          "sourceName": "South China Morning Post",
+          "sourceUrl": "https://www.scmp.com/news/world/united-states-canada/article/3374805/nvidia-results-beat-expectations-ousted-ceo-huang-told-no-way-back",
+          "pubTime": "Nov 17, 2026, 5:47 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia's stock rises as blowout numbers help ease CEO transition fears",
+          "summary": "Per MarketWatch, Nvidia's revenue growth and $130 billion quarterly forecast showed that demand for chips is still sky-high. Written from the headline and the publisher's summary only.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories",
+          "pubTime": "Nov 17, 2026, 8:28 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Stops Selling AI Chips to China Despite US Approval",
+          "summary": "Per Bloomberg, Nvidia is no longer shipping Hopper data center chips to China, despite winning the US government's blessing to sell a version of that model to the Asian country. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-18/interim-nvidia-ceo-says-it-s-no-longer-sending-ai-chips-to-china",
+          "pubTime": "Nov 17, 2026, 7:09 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "The SEC Is Investigating Nvidia",
+          "summary": "Per WSJ, the SEC is investigating Nvidia. Written from the headline only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/the-sec-is-investigating-nvidia-c59a9845?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 17, 2026, 5:43 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia Does Not Intend to Bring Back Huang as CEO, Chair Says",
+          "summary": "Per Bloomberg, Harvey Jones, chair of Nvidia's board, says former CEO Jensen Huang voluntarily resigned and the board does not intend to rehire him, speaking on the earnings call. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-17/nvidia-chair-says-huang-isn-t-coming-back-as-ceo-video",
+          "pubTime": "Nov 17, 2026, 6:12 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Microsoft Executive Says Nvidia Drama Could Boost Rival Chips",
+          "summary": "Per Bloomberg, Nvidia's corporate drama could help prompt customers to consider alternatives to the company's AI chips, according to a top Microsoft executive. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-17/microsoft-executive-says-nvidia-drama-could-boost-rival-chips",
+          "pubTime": "Nov 17, 2026, 5:34 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
