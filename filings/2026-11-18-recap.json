@@ -1,0 +1,65 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-18",
+ "generatedAt": "2026-11-18T20:56:05-05:00",
+ "lookbackHours": 30,
+ "final": true,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [
+   {
+    "form": "8-K",
+    "filed": "2026-11-17",
+    "acceptedET": "2026-11-17 4:20 PM ET",
+    "items": "2.02,9.01",
+    "description": "8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.htm",
+    "textFiles": [
+     "filings/text/2026-11-18/NVDA-8-K-000104581026000088-0.txt"
+    ],
+    "excerpt": "nvda-20261117 0001045810 false 0001045810 2026-11-17 2026-11-17 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 ______________ FORM 8-K CURRENT REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Date of Report (Date of earliest event reported): November 17, 2026 NVIDIA CORP ORATION (Exact name of registrant as specified in its charter) Delaware 0-23985 94-3177549 (State or other jurisdiction (Commission (IRS Employer of incorporation) File Number) Identification No.) 2788 San Tomas Expressway , Santa Clara , CA 95051 (Address of principal executive offices) (Zip Code) Registrant\u2019s telephone number, including area code: ( 408 ) 486-2000 Not Applicable (Former name or former address, if changed since last report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: \u2610 Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \u2610 Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) \u2610 Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) \u2610 Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Stock, $0.001 par value per share NVDA The Nasdaq Global Select Market Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\u00a7230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\u00a7240.12b-2 of this chapter). Emerging Growth Company \u2610 If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \u2610 Item 2.02 Results of Operations and Financial Condition. On November 17, 2026, NVIDIA Corporation, or the Company, issued a press release announcing its results for the quarter ended October 25, 2026. The press release is attached as Exhibit 99.1 and is incorporated herein by reference. Attached hereto as Exhibit 99.2 and incorporated by reference herein is financial information and commentary by Colette M. Kress, Interim Chief Executive Officer, Executive Vice President and Chief Financial Officer of the Company, regarding results for the quarter ended October 25, 2026, or the CFO Commentary. Attached hereto as Exhibit 99.3 and incorporated by reference herein is supplemental financial information for the quarter ended October 25, 2026, or the Supplemental Financial Information. The CFO Commentary and the Supplemental Financial Information will be posted to https://investor.nvidia.com immediately after the filing of this Current Report. The press release, CFO Commentary, and Supplemental Financial Information are furnished and shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or subject to the liabilities of that Section or Sections 11 and 12(a)(2) of the Securities Act of 1933, as amended. The information in this Current Report shall not be incorporated by reference in any filing with the U.S. Securities and Exchange Commission made by the Company, whether made before or after the date hereof, regardless of any general incorporation language in such filing. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit Description 99.1 Press Release, dated November 17 , 2026, entitled \"NVIDIA Announces Financial Results for Third Quarter Fiscal 2027\" 99.2 CFO Commentary on Third Quarter Fiscal 2027 Results 99.3 Supplemental Financial Information for Third Quarter Fiscal 2027 104 The cover page of this Current Report on Form 8-K, formatted in",
+    "textChars": 4403
+   }
+  ],
+  "TIGR": [],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-18",
+    "acceptedET": "2026-11-18 5:15 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926129807/tm267596d14_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926129807/0001104659-26-129807-index.htm"
+   },
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-17",
+    "acceptedET": "2026-11-17 5:15 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926129146/tm267596d13_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926129146/0001104659-26-129146-index.htm"
+   }
+  ],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": []
+}
