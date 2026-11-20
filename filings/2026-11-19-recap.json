@@ -1,0 +1,96 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-19",
+ "generatedAt": "2026-11-19T20:49:58-05:00",
+ "lookbackHours": 30,
+ "final": true,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-19",
+    "acceptedET": "2026-11-19 4:00 PM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/0001104659-26-130115-index.htm",
+    "exhibitUrls": [
+     "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_ex99-1.htm"
+    ],
+    "textFiles": [
+     "filings/text/2026-11-19/BABA-6-K-000110465926130115-0.txt"
+    ],
+    "excerpt": "EX-99.1 2 tm2630263d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited (the \u201c Hong Kong Stock Exchange \u201d) take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. We have one class of shares, and each holder of our shares is entitled to one vote per share. As the Alibaba Partnership\u2019s director nomination rights are categorized as a weighted voting rights structure (the \u201c WVR structure \u201d) under the Rules Governing the Listing of Securities on the Hong Kong Stock Exchange (the \u201c Hong Kong Listing Rules \u201d), we are deemed as a company with a WVR structure. Shareholders and prospective investors should be aware of the potential risks of investing in a company with a WVR structure. Our American depositary shares, each representing eight of our shares, are listed on the New York Stock Exchange (\u201c NYSE \u201d) in the United States under the symbol BABA. Alibaba Group Holding Limited \u963f\u91cc\u5df4\u5df4\u96c6\u5718\u63a7\u80a1\u6709\u9650\u516c\u53f8 (Incorporated in the Cayman Islands with limited liability) (Stock Code: 9988 (HKD Counter) and 89988 (RMB Counter)) ANNOUNCEMENT OF THE SEPTEMBER QUARTER 2026 RESULTS AND INTERIM RESULTS FOR THE SIX MONTHS ENDED SEPTEMBER 30, 2026 The board of directors (the \u201c Board \u201d) of Alibaba Group Holding Limited (\u201c Alibaba Group \u201d or the \u201c company \u201d) is pleased to announce that the unaudited consolidated results of the company, its subsidiaries and consolidated entities (the \u201c Group \u201d) for the three months and the six months ended S eptember 30, 2026. The Group\u2019s unaudited consolidated financial statements have been prepared under accounting principles generally accepted in the United States (\u201c U.S. GAAP \u201d) and reviewed by the audit committee (the \u201c Audit Committee \u201d) of the Board. In this results announcement, \u201cwe,\u201d \u201cus,\u201d and \u201cour\u201d refer to the company and where the context otherwise requires, the Group. 1 \u201cOur full-stack AI capabilities continue to improve commercialization and delivered a strong quarter. Growth in Alibaba Cloud\u2019s recurring revenue from external customers was 67%, which drove an acceleration of overall cloud revenue growth with significantly improving profitability. AI-related product revenue delivered triple-digit growth for the thirteenth consecutive quarter. We recently announced comprehensive upgrades spanning proprietary chips, supernode architecture, agent-native cloud infrastructure, AI models and agents. Notably, T-Head unveiled its next-generation Zhenwu V900 AI chip. In our consumption business, Alibaba E-commerce Group\u2019s profitability improved significantly. Quick commerce continued to narrow its losses substantially while maintaining market share,\u201d said Eddie Wu, Chief Executive Officer of Alibaba Group. \u201cWe will continue to bring technological innovations to our comprehensive AI stack to meet the strong and diverse AI demands across industries.\u201d \u201cThis quarter, our business delivered strong growth in both revenue and earnings because of our strategic focus on AI + Cloud growth and profit sustainability in Alibaba E-commerce Group. Cloud segment revenue growth continued to accelerate, with quality earnings further driving EBITA margin up to 14.5%. The e-commerce segment delivered significant EBITA growth, driven by improving unit economics in quick commerce and solid growth of marketplace e-commerce,\u201d said Toby Xu, Chief Financial Officer of Alibaba Group. \u201cAs AI monetization continues to ramp up, we will maintain disciplined investments in AI capabilities with a focus on return on invested capital while targeting to achieve positive free cash flow.\u201d BUSINESS HIGHLIGHTS In the quarter ended September 30, 2026: \u00b7 Revenue was RMB271,519 million (US$40,498 million), an increase of 10% year-over-year. \u00b7 AI Cloud and Compute Services reven",
+    "textChars": 111893
+   }
+  ],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-19",
+    "acceptedET": "2026-11-19 6:00 AM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1754581/000110465926129886/tm2629883d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1754581/000110465926129886/0001104659-26-129886-index.htm",
+    "exhibitUrls": [
+     "https://www.sec.gov/Archives/edgar/data/1754581/000110465926129886/tm2629883d1_ex99-1.htm"
+    ],
+    "textFiles": [
+     "filings/text/2026-11-19/FUTU-6-K-000110465926129886-0.txt"
+    ],
+    "excerpt": "EX-99.1 2 tm2629883d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Futu Announces Third Quarter 2026 Unaudited Financial Results HONG KONG, November 19, 2026 (GLOBE NEWSWIRE) -- Futu Holdings Limited (\u201cFutu\u201d or the \u201cCompany\u201d) (Nasdaq: FUTU), a leading tech-driven online brokerage and wealth management platform, today announced its unaudited financial results for the third quarter ended September 30, 2026. Third Quarter 2026 Operational Highlights \u00b7 Total number of funded accounts 1 increased 27.9% year-over-year to 4,005,858 as of September 30, 2026. \u00b7 Total number of brokerage accounts 2 increased 22.5% year-over-year to 6,868,829 as of September 30, 2026. \u00b7 Total number of users 3 increased 13.8% year-over-year to 32.0 million as of September 30, 2026. \u00b7 Total client assets increased 7.6% year-over-year to HK$1.33 trillion as of September 30, 2026. \u00b7 Daily average client assets were HK$1.33 trillion in the third quarter of 2026, an increase of 21.1% from the same period in 2025. \u00b7 Total trading volume in the third quarter of 2026 increased by 28.4% year-over-year to HK$5.01 trillion, in which trading volume for U.S. stocks was HK$3.81 trillion, and trading volume for Hong Kong stocks was HK$942.5 billion. \u00b7 Margin financing and securities lending balance increased 17.1% year-over-year to HK$73.8 billion as of September 30, 2026. Third Quarter 2026 Financial Highlights \u00b7 Total revenues increased 4.5% year-over-year to HK$6,690.6 million (US$852.7 million). \u00b7 Total gross profit was largely stable year-over-year to HK$5,630.5 million (US$717.6 million). \u00b7 Net income was largely stable year-over-year to HK$3,186.7 million (US$406.1 million). \u00b7 Non-GAAP adjusted net income\u2074 was largely stable year-over-year to HK$3,272.4 million (US$417.0 million). Three months ended September 30, Nine months ended September 30, (HK$ millions, unless otherwise stated) 2026 YoY QoQ 2026 YoY Total number of funded accounts (k) 4,005.9 +27.9 % +4.2 % 4,005.9 +27.9 % Total client assets (HK$ trillion) 1.33 +7.6 % -4.6 % 1.33 +7.6 % Total revenues 6,690.6 +4.5 % -7.1 % 19,746.8 +20.3 % Non-GAAP adjusted net income 3,272.4 -1.2 % -12.2 % 7,917.0 -3.3 % Mr. Leaf Hua Li, Futu\u2019s Chairman and Chief Executive Officer, said, \u201cWhile equity market conditions softened during the past quarter and investor sentiment became more cautious, our business remained resilient. During the quarter, we deepened our relationships with clients, broadened our multi-asset product capabilities, and continued to diversify our geographic mix and revenue base. These developments reinforce our confidence in the direction of our long-term strategy, while we remain focused on disciplined execution.\u201d 1 The number of funded accounts refers to the number of brokerage accounts with Futu that have a positive account balance. Multiple funded accounts by one client are counted as one funded account. 2 Multiple brokerage accounts by one client are counted as one brokerage account. 3 The number of users refers to the number of user accounts registered with Futu. 4 Non-GAAP adjusted net income is defined as net income excluding share-based compensation expenses. 1 \u201cAs of quarter-end, our total funded accounts reached 4.0 million, up 27.9% year-over-year. We added 163 thousand net new funded accounts in the quarter despite challenging equity markets and mixed news across certain regions. Excluding mainland China and Japan, net new funded accounts would have been approximately 173 thousand. International markets remain primary growth engine, with Malaysia contributing the largest number of net new funded account additions, followed by Singapore and Hong Kong, reflecting a diversified geographic profile of growth. Our average client retention rate remained above 98%, showing our ability to support clients through changing market conditions and evolving investment needs.\u201d \u201cWe delivered resilient net asset inflows of approximately HK$34.5 billion during the quarter despite challenging market conditions, su",
+    "textChars": 24236
+   }
+  ],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-19",
+    "acceptedET": "2026-11-19 5:15 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130227/tm267596d15_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130227/0001104659-26-130227-index.htm"
+   },
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-18",
+    "acceptedET": "2026-11-18 5:15 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926129807/tm267596d14_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926129807/0001104659-26-129807-index.htm"
+   }
+  ],
+  "GOOG": [
+   {
+    "form": "424B5",
+    "filed": "2026-11-19",
+    "acceptedET": "2026-11-19 9:34 AM ET",
+    "items": "",
+    "description": "424B5",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526467927/d115240d424b5.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526467927/0001193125-26-467927-index.htm"
+   }
+  ],
+  "AVGO": []
+ },
+ "errors": []
+}
