@@ -209,32 +209,26 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "November 19, 2026",
-    "periodStart": "Wed, Nov 18, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Thu, Nov 19, 2026, 8:30 AM ET",
-    "lastUpdated": "Thu, Nov 19, 2026, 8:45 AM ET",
-    "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot for this morning was not available for this run, so coverage runs through about 8:56 PM ET on Nov 18.",
+    "reportDate": "November 20, 2026",
+    "periodStart": "Thu, Nov 19, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Fri, Nov 20, 2026, 8:30 AM ET",
+    "lastUpdated": "Fri, Nov 20, 2026, 8:35 AM ET",
+    "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot for this morning was not available for this run, so coverage runs through about 8:15 PM ET on Nov 19.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per WSJ, US stocks ended mixed on Wednesday ahead of Anthropic's IPO, with Nvidia down again as its efforts to end questions around Jensen Huang's exit failed to stabilize the stock (5:14 PM ET). Per WSJ, the dollar rose to new 52-week highs after the minutes of the Federal Reserve's October meeting revealed mounting inflation concerns (5:59 PM ET). Per Bloomberg, gold rose from a 14-month low as dip buyers offset expectations the Fed will hike rates (6:24 PM ET). Per MarketWatch, Palo Alto Networks raised its outlook on earnings (8:02 PM ET). Written from headlines and publisher summaries only.",
-        "sourceName": "WSJ / Bloomberg / MarketWatch",
-        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-nvidia-falls-ahead-of-anthropic-ipo-c7de4692?mod=rss_markets_main",
-        "pubTime": "Nov 18, 2026, 5:14 PM ET",
+        "text": "Per WSJ, US stocks ended lower in a volatile session as Anthropic's record-breaking IPO failed to staunch the bleeding in AI stocks; the Nasdaq composite fell 2.3% (5:04 PM and 7:00 PM ET). Per MarketWatch, all 11 S&P 500 sectors declined, 10 of them by more than 1%, and all four major indexes are on pace for their worst week since April 2025 (6:11 PM and 5:12 PM ET). Per WSJ, Japan's Nikkei fell 2.9%, dragged by chip and metals stocks (7:38 PM ET). Per Bloomberg, emerging-market stocks are set to enter a bear market on an AI-led tech slide (8:05 PM ET). Written from headlines and publisher summaries only.",
+        "sourceName": "WSJ / MarketWatch / Bloomberg",
+        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-ai-bust-continues-despite-anthropic-ipo-5a14e137?mod=rss_markets_main",
+        "pubTime": "Nov 19, 2026, 5:04 PM ET",
         "sourceDepth": "headline"
       },
       "calendar": [
         {
-          "time": "Thu",
-          "text": "World leaders gather in Shenzhen for the APEC plenary, and Trump and Xi hold talks, per SCMP and Bloomberg.",
-          "sourceName": "Bloomberg",
-          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal"
-        },
-        {
-          "time": "Nov 18, 2:00 PM",
-          "text": "The Federal Reserve published the minutes of the October 27-28 FOMC meeting.",
-          "sourceName": "Federal Reserve",
-          "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+          "time": "Fri",
+          "text": "Australian Prime Minister Anthony Albanese holds bilateral talks with China's President Xi Jinping, per the Financial Times.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1"
         }
       ]
     },
@@ -245,13 +239,13 @@
         "status": "updated",
         "items": [
           {
-            "type": "news",
-            "headline": "Alibaba's AI Ambitions Face Steep Challenge in US Chip Controls",
-            "summary": "Per Bloomberg, Alibaba is facing mounting pressure to show it can deliver on its AI business plan despite new limits on its access to data center chips. Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-19/alibaba-s-ai-ambitions-face-steep-challenge-in-us-chip-controls",
-            "pubTime": "Nov 18, 2026, 7:00 PM ET",
-            "sourceDepth": "headline"
+            "type": "filing",
+            "headline": "Alibaba reports September-quarter results: revenue RMB271,519 million, up 10% year-over-year",
+            "summary": "Per Alibaba's 6-K filing (HKEX results announcement), revenue for the quarter ended Sept 30, 2026 was RMB271,519 million (US$40,498 million), up 10% year-over-year. AI Cloud and Compute Services revenue rose 53%; customer management revenue fell 5% (up 1% like-for-like excluding the contra revenue impact of the new business development program). Income from operations was RMB29,116 million, up 443%, and adjusted EBITA rose 260% to RMB32,636 million. Net income was RMB64,420 million, up 213%, and non-GAAP diluted EPS per ADS was RMB8.10 (US$1.21), up 86%. Free cash flow was an outflow of RMB34,472 million (US$5,142 million), compared with an outflow of RMB21,840 million a year earlier, mainly due to higher cloud infrastructure expenditure.",
+            "sourceName": "SEC filing (Form 6-K)",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_6k.htm",
+            "pubTime": "Nov 19, 2026, 4:00 PM ET",
+            "sourceDepth": "full"
           }
         ]
       },
@@ -283,38 +277,38 @@
         "items": [
           {
             "type": "news",
-            "headline": "Nvidia's Outlook Cut to Stable by Moody's on Governance Concerns",
-            "summary": "Per Bloomberg, Moody's lowered Nvidia's credit-rating outlook to stable from positive, citing governance concerns following the ouster of longtime CEO Jensen Huang. Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-18/moody-s-lowers-nvidia-s-ratings-outlook-to-stable-from-positive",
-            "pubTime": "Nov 18, 2026, 5:29 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Nvidia Says It's 'Business as Usual' After Huang's Ouster. Wall Street Doesn't Buy It.",
-            "summary": "Per WSJ, Nvidia shares fell for a fifth straight session after its earnings call fell flat. Written from the headline and the publisher's summary only.",
+            "headline": "California Attorney General Issues Investigative Subpoena to Nvidia",
+            "summary": "Per WSJ, California Attorney General Rob Bonta opened a probe into Nvidia to determine whether the company misled investors. Written from the headline and the publisher's summary only.",
             "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main",
-            "pubTime": "Nov 18, 2026, 5:01 PM ET",
+            "sourceUrl": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e?mod=rss_markets_main",
+            "pubTime": "Nov 19, 2026, 7:01 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "Trump Hails 'Great' Ties With Xi, Downplays Nvidia Spy Scandal",
-            "summary": "Per Bloomberg, President Trump hailed his 'friendship' with Chinese leader Xi Jinping and downplayed a spying scandal involving Nvidia, hours before the two leaders meet for talks in China. Written from the headline and the publisher's summary only.",
+            "headline": "California Probing If Nvidia Misled Investors on China Risks",
+            "summary": "Per Bloomberg, Nvidia is being investigated by California officials to determine whether any of its actions resulted in advanced chips or confidential information being sent to China. Written from the headline and the publisher's summary only.",
             "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal",
-            "pubTime": "Nov 18, 2026, 8:44 PM ET",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-19/california-probing-if-nvidia-misled-investors-over-china-risks",
+            "pubTime": "Nov 19, 2026, 5:31 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "Nvidia's booming demand is 'hard to ignore,' but these four questions loom over the stock",
-            "summary": "Per MarketWatch, Nvidia investors face uncertainty around CEO succession, the AI ecosystem, export controls and China. Written from the headline and the publisher's summary only.",
+            "headline": "US approved sale of Nvidia and AMD chips to Chinese companies",
+            "summary": "Per the Financial Times, the US approved sales of Nvidia and AMD chips to Chinese companies, and the Pentagon believes some of the groups were associated with the People's Liberation Army. Written from the headline and the publisher's summary only.",
+            "sourceName": "Financial Times",
+            "sourceUrl": "https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1",
+            "pubTime": "Nov 19, 2026, 7:42 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Nvidia's stock falls further. It has lost $669 billion in six trading days.",
+            "summary": "Per MarketWatch, Nvidia's market value has fallen by $669 billion over six trading days. Written from the headline and the publisher's summary only.",
             "sourceName": "MarketWatch",
-            "sourceUrl": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
-            "pubTime": "Nov 18, 2026, 5:31 PM ET",
+            "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+            "pubTime": "Nov 19, 2026, 4:45 PM ET",
             "sourceDepth": "headline"
           }
         ]
@@ -336,25 +330,25 @@
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc.",
-        "status": "updated",
-        "items": [
-          {
-            "type": "news",
-            "headline": "Ex-Google Engineer May Face New Charges Over Bets on Gemini 3.0",
-            "summary": "Per Bloomberg, a former Google software engineer accused of making an illegal Polymarket bet about company search data may face additional charges that he also traded on the release date of its Gemini 3.0 AI model. Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-18/ex-google-engineer-may-face-new-charges-over-bets-on-gemini-3-0",
-            "pubTime": "Nov 18, 2026, 6:44 PM ET",
-            "sourceDepth": "headline"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No material company news in this window."
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
+            "summary": "Per MarketWatch, the Anthropic enthusiasm has faded while China concerns have intensified, leading AI stocks including Broadcom to give up earlier gains. Written from the headline and the publisher's summary only.",
+            "sourceName": "MarketWatch",
+            "sourceUrl": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+            "pubTime": "Nov 19, 2026, 4:27 PM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       }
     ],
     "droppedLinks": []

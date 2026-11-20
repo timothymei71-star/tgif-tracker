@@ -1,0 +1,147 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 20, 2026",
+  "periodStart": "Thu, Nov 19, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Fri, Nov 20, 2026, 8:30 AM ET",
+  "lastUpdated": "Fri, Nov 20, 2026, 8:35 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot for this morning was not available for this run, so coverage runs through about 8:15 PM ET on Nov 19.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per WSJ, US stocks ended lower in a volatile session as Anthropic's record-breaking IPO failed to staunch the bleeding in AI stocks; the Nasdaq composite fell 2.3% (5:04 PM and 7:00 PM ET). Per MarketWatch, all 11 S&P 500 sectors declined, 10 of them by more than 1%, and all four major indexes are on pace for their worst week since April 2025 (6:11 PM and 5:12 PM ET). Per WSJ, Japan's Nikkei fell 2.9%, dragged by chip and metals stocks (7:38 PM ET). Per Bloomberg, emerging-market stocks are set to enter a bear market on an AI-led tech slide (8:05 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "WSJ / MarketWatch / Bloomberg",
+      "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-ai-bust-continues-despite-anthropic-ipo-5a14e137?mod=rss_markets_main",
+      "pubTime": "Nov 19, 2026, 5:04 PM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": [
+      {
+        "time": "Fri",
+        "text": "Australian Prime Minister Anthony Albanese holds bilateral talks with China's President Xi Jinping, per the Financial Times.",
+        "sourceName": "Financial Times",
+        "sourceUrl": "https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1"
+      }
+    ]
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "updated",
+      "items": [
+        {
+          "type": "filing",
+          "headline": "Alibaba reports September-quarter results: revenue RMB271,519 million, up 10% year-over-year",
+          "summary": "Per Alibaba's 6-K filing (HKEX results announcement), revenue for the quarter ended Sept 30, 2026 was RMB271,519 million (US$40,498 million), up 10% year-over-year. AI Cloud and Compute Services revenue rose 53%; customer management revenue fell 5% (up 1% like-for-like excluding the contra revenue impact of the new business development program). Income from operations was RMB29,116 million, up 443%, and adjusted EBITA rose 260% to RMB32,636 million. Net income was RMB64,420 million, up 213%, and non-GAAP diluted EPS per ADS was RMB8.10 (US$1.21), up 86%. Free cash flow was an outflow of RMB34,472 million (US$5,142 million), compared with an outflow of RMB21,840 million a year earlier, mainly due to higher cloud infrastructure expenditure.",
+          "sourceName": "SEC filing (Form 6-K)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_6k.htm",
+          "pubTime": "Nov 19, 2026, 4:00 PM ET",
+          "sourceDepth": "full"
+        }
+      ]
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "California Attorney General Issues Investigative Subpoena to Nvidia",
+          "summary": "Per WSJ, California Attorney General Rob Bonta opened a probe into Nvidia to determine whether the company misled investors. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e?mod=rss_markets_main",
+          "pubTime": "Nov 19, 2026, 7:01 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "California Probing If Nvidia Misled Investors on China Risks",
+          "summary": "Per Bloomberg, Nvidia is being investigated by California officials to determine whether any of its actions resulted in advanced chips or confidential information being sent to China. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-19/california-probing-if-nvidia-misled-investors-over-china-risks",
+          "pubTime": "Nov 19, 2026, 5:31 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "US approved sale of Nvidia and AMD chips to Chinese companies",
+          "summary": "Per the Financial Times, the US approved sales of Nvidia and AMD chips to Chinese companies, and the Pentagon believes some of the groups were associated with the People's Liberation Army. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1",
+          "pubTime": "Nov 19, 2026, 7:42 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Nvidia's stock falls further. It has lost $669 billion in six trading days.",
+          "summary": "Per MarketWatch, Nvidia's market value has fallen by $669 billion over six trading days. Written from the headline and the publisher's summary only.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+          "pubTime": "Nov 19, 2026, 4:45 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
+          "summary": "Per MarketWatch, the Anthropic enthusiasm has faded while China concerns have intensified, leading AI stocks including Broadcom to give up earlier gains. Written from the headline and the publisher's summary only.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+          "pubTime": "Nov 19, 2026, 4:27 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    }
+  ],
+  "droppedLinks": []
+}
