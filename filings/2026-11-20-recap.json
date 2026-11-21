@@ -1,0 +1,68 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-20",
+ "generatedAt": "2026-11-20T20:38:26-05:00",
+ "lookbackHours": 30,
+ "final": true,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-19",
+    "acceptedET": "2026-11-19 4:00 PM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/0001104659-26-130115-index.htm",
+    "exhibitUrls": [
+     "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_ex99-1.htm"
+    ],
+    "textFiles": [
+     "filings/text/2026-11-20/BABA-6-K-000110465926130115-0.txt"
+    ],
+    "excerpt": "EX-99.1 2 tm2630263d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited (the \u201c Hong Kong Stock Exchange \u201d) take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. We have one class of shares, and each holder of our shares is entitled to one vote per share. As the Alibaba Partnership\u2019s director nomination rights are categorized as a weighted voting rights structure (the \u201c WVR structure \u201d) under the Rules Governing the Listing of Securities on the Hong Kong Stock Exchange (the \u201c Hong Kong Listing Rules \u201d), we are deemed as a company with a WVR structure. Shareholders and prospective investors should be aware of the potential risks of investing in a company with a WVR structure. Our American depositary shares, each representing eight of our shares, are listed on the New York Stock Exchange (\u201c NYSE \u201d) in the United States under the symbol BABA. Alibaba Group Holding Limited \u963f\u91cc\u5df4\u5df4\u96c6\u5718\u63a7\u80a1\u6709\u9650\u516c\u53f8 (Incorporated in the Cayman Islands with limited liability) (Stock Code: 9988 (HKD Counter) and 89988 (RMB Counter)) ANNOUNCEMENT OF THE SEPTEMBER QUARTER 2026 RESULTS AND INTERIM RESULTS FOR THE SIX MONTHS ENDED SEPTEMBER 30, 2026 The board of directors (the \u201c Board \u201d) of Alibaba Group Holding Limited (\u201c Alibaba Group \u201d or the \u201c company \u201d) is pleased to announce that the unaudited consolidated results of the company, its subsidiaries and consolidated entities (the \u201c Group \u201d) for the three months and the six months ended S eptember 30, 2026. The Group\u2019s unaudited consolidated financial statements have been prepared under accounting principles generally accepted in the United States (\u201c U.S. GAAP \u201d) and reviewed by the audit committee (the \u201c Audit Committee \u201d) of the Board. In this results announcement, \u201cwe,\u201d \u201cus,\u201d and \u201cour\u201d refer to the company and where the context otherwise requires, the Group. 1 \u201cOur full-stack AI capabilities continue to improve commercialization and delivered a strong quarter. Growth in Alibaba Cloud\u2019s recurring revenue from external customers was 67%, which drove an acceleration of overall cloud revenue growth with significantly improving profitability. AI-related product revenue delivered triple-digit growth for the thirteenth consecutive quarter. We recently announced comprehensive upgrades spanning proprietary chips, supernode architecture, agent-native cloud infrastructure, AI models and agents. Notably, T-Head unveiled its next-generation Zhenwu V900 AI chip. In our consumption business, Alibaba E-commerce Group\u2019s profitability improved significantly. Quick commerce continued to narrow its losses substantially while maintaining market share,\u201d said Eddie Wu, Chief Executive Officer of Alibaba Group. \u201cWe will continue to bring technological innovations to our comprehensive AI stack to meet the strong and diverse AI demands across industries.\u201d \u201cThis quarter, our business delivered strong growth in both revenue and earnings because of our strategic focus on AI + Cloud growth and profit sustainability in Alibaba E-commerce Group. Cloud segment revenue growth continued to accelerate, with quality earnings further driving EBITA margin up to 14.5%. The e-commerce segment delivered significant EBITA growth, driven by improving unit economics in quick commerce and solid growth of marketplace e-commerce,\u201d said Toby Xu, Chief Financial Officer of Alibaba Group. \u201cAs AI monetization continues to ramp up, we will maintain disciplined investments in AI capabilities with a focus on return on invested capital while targeting to achieve positive free cash flow.\u201d BUSINESS HIGHLIGHTS In the quarter ended September 30, 2026: \u00b7 Revenue was RMB271,519 million (US$40,498 million), an increase of 10% year-over-year. \u00b7 AI Cloud and Compute Services reven",
+    "textChars": 111893
+   }
+  ],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-20",
+    "acceptedET": "2026-11-20 5:26 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130698/tm267596d16_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130698/0001104659-26-130698-index.htm"
+   },
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-19",
+    "acceptedET": "2026-11-19 5:15 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130227/tm267596d15_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130227/0001104659-26-130227-index.htm"
+   }
+  ],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": []
+}
