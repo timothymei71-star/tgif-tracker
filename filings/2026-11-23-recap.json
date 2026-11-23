@@ -1,0 +1,84 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-23",
+ "generatedAt": "2026-11-23T17:15:05-05:00",
+ "lookbackHours": 78,
+ "final": false,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-23",
+    "acceptedET": "2026-11-23 6:01 AM ET",
+    "items": "",
+    "description": "FORM 6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130757/tm2630460d1_6k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130757/0001104659-26-130757-index.htm",
+    "exhibitUrls": [
+     "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130757/tm2630460d1_ex99-1.htm"
+    ],
+    "textFiles": [
+     "filings/text/2026-11-23/BABA-6-K-000110465926130757-0.txt"
+    ],
+    "excerpt": "EX-99.1 2 tm2630460d1_ex99-1.htm EXHIBIT 99.1 Exhibit 99.1 Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited (the \u201c Hong Kong Stock Exchange \u201d) take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim any liability whatsoever for any loss howsoever arising from or in reliance upon the whole or any part of the contents of this announcement. We have one class of shares, and each holder of our shares is entitled to one vote per share. As the Alibaba Partnership\u2019s director nomination rights are categorized as a weighted voting rights structure (the \u201c WVR structure \u201d) under the Rules Governing the Listing of Securities on the Hong Kong Stock Exchange (the \u201c Hong Kong Listing Rules \u201d), we are deemed as a company with a WVR structure. Shareholders and prospective investors should be aware of the potential risks of investing in a company with a WVR structure. Our American depositary shares, each representing eight of our shares, are listed on the New York Stock Exchange in the United States under the symbol BABA. Alibaba Group Holding Limited \u963f \u91cc \u5df4 \u5df4 \u96c6 \u5718 \u63a7 \u80a1 \u6709 \u9650 \u516c \u53f8 (Incorporated in the Cayman Islands with limited liability) (Stock Code: 9988 (HKD Counter) and 89988 (RMB Counter)) ANNOUNCEMENT GRANT OF AWARDS PURSUANT TO THE 2024 PLAN Pursuant to Rule 17.06A of the Hong Kong Listing Rules, the Board announces that on November 23, 2026, the Company granted Awards involving 3,947,118 underlying Shares (representing approximately 0.02% of the total Shares in issue (excluding treasury shares) as at the date of this announcement), to certain Employees in accordance with the terms of the 2024 Plan (subject to acceptance by the grantees). Details of Grant of Awards The details of the grant of Awards to the grantees are as follows: Date of grant: November 23, 2026 Grantees and number of underlying Shares of the Awards granted: Awards involving 3,947,118 underlying Shares were granted to certain Employees under the 2024 Plan. The above grant is not subject to approval by the Shareholders in general meeting. To the best knowledge of the Directors, as of the date of this announcement, none of the grantees is (i) a director, chief executive or substantial shareholder of the Company, or an associate of any of them; (ii) a participant with options and awards granted and to be granted exceeding the 1% individual limit under the Hong Kong Listing Rules; or (iii) a Related Entity Participant or a Service Provider. 1 The above grant would not result in the Shares issued and to be issued in respect of all options and awards granted to each grantee in the 12-month period up to and including the date of such grant in aggregate to be over 1% of the Shares in issue (excluding treasury shares). Purchase price of the Awards granted: Nil Closing price of the Shares on the date of grant: HK$ 83.05 per Share Vesting period: The Awards granted have mixed vesting schedules where the Awards shall vest by batches up to 4 years, with certain Awards to be vested within 12 months, of the date of grant. It is permitted under the 2024 Plan to have a vesting period shorter than 12 months, given that these Awards (i) shall vest evenly over a period of 12 months or more; and/or (ii) were granted in batches due to administrative and compliance reasons which caused delays in grant. Performance targets: The Awards were granted to the grantees without any performance targets. Clawback mechanism: Subject to applicable laws, upon the occurrence of any applicable event as may be specified in the applicable award agreements, including but not limited to termination for cause, breaches of restrictive covenants, or commission of specified tortious conduct (i) all Awards granted to a participant shall become ab initio void and (ii) considering that all of such participant\u2019s Awards, whether vested or unvested, are ab initio void, such participant shall forthwith retu",
+    "textChars": 9156
+   }
+  ],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [
+   {
+    "form": "8-K",
+    "filed": "2026-11-23",
+    "acceptedET": "2026-11-23 8:57 AM ET",
+    "items": "5.02,9.01",
+    "description": "8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/0001045810-26-000090-index.htm",
+    "textFiles": [
+     "filings/text/2026-11-23/NVDA-8-K-000104581026000090-0.txt"
+    ],
+    "excerpt": "nvda-20261122 0001045810 false 0001045810 2026-11-22 2026-11-22 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 ______________ FORM 8-K CURRENT REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 Date of Report (Date of earliest event reported): November 22, 2026 NVIDIA CORP ORATION (Exact name of registrant as specified in its charter) Delaware 0-23985 94-3177549 (State or other jurisdiction (Commission (IRS Employer of incorporation) File Number) Identification No.) 2788 San Tomas Expressway , Santa Clara , CA 95051 (Address of principal executive offices) (Zip Code) Registrant\u2019s telephone number, including area code: ( 408 ) 486-2000 Not Applicable (Former name or former address, if changed since last report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions: \u2610 Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \u2610 Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) \u2610 Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) \u2610 Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Stock, $0.001 par value per share NVDA The Nasdaq Global Select Market Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (\u00a7230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (\u00a7240.12b-2 of this chapter). Emerging Growth Company \u2610 If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \u2610 Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. On November 22, 2026, the Board of Directors of NVIDIA Corporation reinstated Jen-Hsun Huang as NVIDIA\u2019s President, Chief Executive Officer and member of the Board of Directors, effective immediately. Following the reinstatement of Mr. Huang, Ms. Kress will continue to serve as NVIDIA\u2019s Executive Vice President and Chief Financial Officer. A copy of the press release announcing the above is attached as Exhibit 99.1 to this Current Report on Form 8-K. Item 9.01. Financial Statements and Exhibits. (d) Exhibits Exhibit Description 99.1 Press Release, dated November 23, 2026 104 The cover page of this Current Report on Form 8-K, formatted in inline XBRL (included as Exhibit 101) SIGNATURE Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized. NVIDIA Corporation Date: November 23, 2026 By: /s/ Colette M. Kress Colette M. Kress Executive Vice President and Chief Financial Officer",
+    "textChars": 3238
+   }
+  ],
+  "TIGR": [],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-20",
+    "acceptedET": "2026-11-20 5:26 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130698/tm267596d16_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926130698/0001104659-26-130698-index.htm"
+   }
+  ],
+  "GOOG": [
+   {
+    "form": "424B2",
+    "filed": "2026-11-23",
+    "acceptedET": "2026-11-20 9:47 PM ET",
+    "items": "",
+    "description": "424B2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526470750/d115240d424b2.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526470750/0001193125-26-470750-index.htm"
+   }
+  ],
+  "AVGO": []
+ },
+ "errors": []
+}
