@@ -1,11 +1,11 @@
 {
  "mode": "recap",
  "reportDate": "2026-11-23",
- "generatedAt": "2026-11-23T17:15:09-05:00",
+ "generatedAt": "2026-11-23T17:56:29-05:00",
  "lookbackHours": 78,
  "note": "News items are feed headlines plus the publisher's own short summary only; article bodies were not read. Analyst data is from Yahoo Finance.",
  "complete": true,
- "final": false,
+ "final": true,
  "windowStart": "2026-11-20T16:00-05:00",
  "news": [
   {
@@ -17,6 +17,16 @@
      "summary": "Nasdaq rebounds 6.5% after Friday\u2019s bloodbath",
      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026?mod=rss_markets_main",
      "published": "2026-11-23 4:52 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Trump Engineered Huang\u2019s Reinstatement as Nvidia CEO",
+     "summary": "Plus, Nvidia added nearly $1 trillion in market value, and Trump ordered the U.S. Army to hold off on detonating tons of toxic explosives in Iowa.",
+     "url": "https://www.wsj.com/business/trump-engineered-huangs-reinstatement-as-nvidia-ceo-4e9c1cd3?mod=rss_markets_main",
+     "published": "2026-11-23 5:25 PM ET",
      "tickers": [
       "NVDA"
      ],
@@ -135,14 +145,6 @@
      "marketWide": true
     },
     {
-     "title": "Has the AI Bubble Already Burst?",
-     "summary": "The AI selloff ravaging the stock market in recent weeks is remarkably like the bursting of the dot-com bubble.",
-     "url": "https://www.wsj.com/finance/stocks/has-the-ai-bubble-already-burst-2f1dcca8?mod=rss_markets_main",
-     "published": "2026-11-22 5:30 AM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
      "title": "Opinion | Why China Wants to Control a Yacht Maker",
      "summary": "The story of Italy\u2019s Ferretti Group points to a vulnerability in the West\u2019s system to control investment by foreign adversaries.",
      "url": "https://www.wsj.com/opinion/why-china-wants-to-control-a-yacht-maker-69ca60c7?mod=rss_markets_main",
@@ -195,14 +197,22 @@
      "marketWide": false
     },
     {
-     "title": "Dollar Jumps as Nvidia Reinstates Jensen Huang",
-     "summary": "The dollar rose to its highest level since April 2025 against a basket of currencies after AI company Nvidia reinstated Jensen Huang as president, chief executive and board director.",
-     "url": "https://www.wsj.com/finance/currencies/yen-may-strengthen-vs-dollar-on-diminished-risk-appetite-6434fe7e?mod=rss_markets_main",
-     "published": "2026-11-23 9:16 AM ET",
+     "title": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him.",
+     "summary": "Several probes are examining the chip maker, its CEO and issues related to his initial ouster.",
+     "url": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=rss_markets_main",
+     "published": "2026-11-23 5:15 PM ET",
      "tickers": [
       "NVDA"
      ],
      "marketWide": false
+    },
+    {
+     "title": "Has the AI Bubble Already Burst?",
+     "summary": "The AI selloff ravaging the stock market in recent weeks is remarkably like the bursting of the dot-com bubble.",
+     "url": "https://www.wsj.com/finance/stocks/has-the-ai-bubble-already-burst-2f1dcca8?mod=rss_markets_main",
+     "published": "2026-11-22 5:30 AM ET",
+     "tickers": [],
+     "marketWide": true
     },
     {
      "title": "The Blame Game Has Begun Over Anthropic\u2019s Turbulent Trading Debut",
@@ -234,6 +244,16 @@
    "source": "WSJ Technology",
    "tier": 2,
    "items": [
+    {
+     "title": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him.",
+     "summary": "Several probes are examining the chip maker, its CEO and issues related to his initial ouster.",
+     "url": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=rss_Technology",
+     "published": "2026-11-23 5:15 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
     {
      "title": "Trump Asked Vance to Help Persuade Nvidia to Bring Back Jensen Huang",
      "summary": "The vice president worked over the weekend to help coax the chip maker\u2019s board to reinstate its former CEO.",
@@ -267,16 +287,6 @@
      "summary": "Plus, the best tech gifts of 2026, New York City\u2019s new high-tech public restrooms, the culture inside Jensen Huang\u2019s Nvidia and more.",
      "url": "https://www.wsj.com/tech/ai/what-comes-next-after-anthropics-historic-ipo-464368c1?mod=rss_Technology",
      "published": "2026-11-22 10:55 AM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
-     "summary": "The defendant in a case involving chip smuggling worked with Jensen Huang\u2019s romantic partner.",
-     "url": "https://www.wsj.com/tech/li-ming-megaspeed-nvidia-chips-china-6260d836?mod=rss_Technology",
-     "published": "2026-11-21 9:00 PM ET",
      "tickers": [
       "NVDA"
      ],
@@ -341,6 +351,16 @@
      "marketWide": true
     },
     {
+     "title": "The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
+     "summary": "The defendant in a case involving chip smuggling worked with Jensen Huang\u2019s romantic partner.",
+     "url": "https://www.wsj.com/tech/li-ming-megaspeed-nvidia-chips-china-6260d836?mod=rss_Technology",
+     "published": "2026-11-21 9:00 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
      "title": "Nvidia Board Reinstates Jensen Huang as CEO",
      "summary": "President Trump acknowledged involvement in efforts to bring back the chip maker\u2019s longtime leader, who had resigned following revelations of extramarital affairs.",
      "url": "https://www.wsj.com/articles/nvidia-board-reinstates-jensen-huang-as-ceo-a6b49914?mod=rss_Technology",
@@ -365,6 +385,26 @@
    "tier": 2,
    "items": [
     {
+     "title": "Trump Engineered Huang\u2019s Reinstatement as Nvidia CEO",
+     "summary": "Plus, Nvidia added nearly $1 trillion in market value, and Trump ordered the U.S. Army to hold off on detonating tons of toxic explosives in Iowa.",
+     "url": "https://www.wsj.com/business/trump-engineered-huangs-reinstatement-as-nvidia-ceo-4e9c1cd3?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-23 5:25 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him.",
+     "summary": "Several probes are examining the chip maker, its CEO and issues related to his initial ouster.",
+     "url": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-23 5:15 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
      "title": "Nvidia Board Reinstates Jensen Huang as CEO",
      "summary": "President Trump acknowledged involvement in efforts to bring back the chip maker\u2019s longtime leader, who had resigned following revelations of extramarital affairs.",
      "url": "https://www.wsj.com/articles/nvidia-board-reinstates-jensen-huang-as-ceo-a6b49914?mod=pls_whats_news_us_business_f",
@@ -381,16 +421,6 @@
      "published": "2026-11-23 4:06 PM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "Jensen Is Back. But AI\u2019s Problems Haven\u2019t Gone Away.",
-     "summary": "The Nvidia CEO\u2019s return is bad on multiple levels, and doesn\u2019t remove serious challenges facing the AI ecosystem in general or the company in particular.",
-     "url": "https://www.wsj.com/finance/stocks/jensen-is-back-but-ais-problems-havent-gone-away-7551770e?mod=pls_whats_news_us_business_f",
-     "published": "2026-11-23 1:32 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     },
     {
      "title": "CrowdStrike to Buy Zscaler in $44 Billion Stock Swap",
@@ -491,6 +521,16 @@
      "published": "2026-11-23 6:55 AM ET",
      "tickers": [],
      "marketWide": true
+    },
+    {
+     "title": "Jensen Is Back. But AI\u2019s Problems Haven\u2019t Gone Away.",
+     "summary": "The Nvidia CEO\u2019s return is bad on multiple levels, and doesn\u2019t remove serious challenges facing the AI ecosystem in general or the company in particular.",
+     "url": "https://www.wsj.com/finance/stocks/jensen-is-back-but-ais-problems-havent-gone-away-7551770e?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-23 1:32 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
     },
     {
      "title": "Five Urgent Questions in D.C. About Jensen Huang\u2019s Return as Nvidia CEO",
@@ -602,9 +642,272 @@
    "items": []
   },
   {
+   "source": "Bloomberg Markets",
+   "tier": 2,
+   "items": [
+    {
+     "title": "Strong Earnings No Match for the Crumbling AI Trade",
+     "summary": "For years, a strong earnings season has given Wall Street something to fall back on. But the crumbling artificial-intelligence trade has ripped away that support.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/strong-earnings-prove-no-match-for-the-crumbling-ai-trade",
+     "published": "2026-11-22 8:30 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Latest Oil Market News and Analysis for Nov. 23",
+     "summary": "Oil fell to the lowest since August as investors unwound hedges against a weekend escalation by US forces in Iran, with Washington taking a more dovish stance for now.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/latest-oil-market-news-and-analysis-for-nov-23",
+     "published": "2026-11-22 6:06 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Asian Stocks to Rally as Huang\u2019s Return Revives AI: Markets Wrap",
+     "summary": "Asian stocks looked set to ride a wave of optimism sparked by Jensen Huang\u2019s return to lead Nvidia Corp., a stunning development that propelled Wall Street toward its best day since April 2025.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+     "published": "2026-11-23 5:06 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Credit Fear Gauge Drops as Huang\u2019s Return Boosts AI Hopes",
+     "summary": "Corporate-debt markets rallied globally on Monday, with US fear gauges improving the most in weeks and technology firms\u2019 bonds rebounding after Nvidia Corp.\u2019s board reinstated Jensen Huang as chief executive officer.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/credit-heads-swivel-as-huang-return-ignites-tech-debt-rally",
+     "published": "2026-11-23 10:56 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Jensen Huang Returns to Nvidia Offices",
+     "summary": "Jensen Huang returned to the company\u2019s Santa Clara, California, offices on Monday to applause and cheers from employees who shared videos. He spoke with them briefly at one of the entrances (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/jensen-huang-returns-to-nvidia-offices-video",
+     "published": "2026-11-23 4:46 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Wall Street Storms Back as AI Trade Rebounds With Huang\u2019s Return",
+     "summary": "US stocks staged a stunning rally on Monday, bouncing back from last week\u2019s brutal technology-led selloff as the surprise return of Jensen Huang to lead Nvidia Corp. propelled Wall Street to its best day since April 2025.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
+     "published": "2026-11-23 4:42 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia\u2019s 31% Surge Exposes Wall Street\u2019s Growing Stock Trap",
+     "summary": "Monday\u2019s spectacular stock rebound exposes the latest trap facing investors in a market dominated by a handful of technology giants: Selling them offers protection when markets plunge, but risks missing the recovery.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/nvidia-s-comeback-exposes-the-trap-gripping-stock-investors",
+     "published": "2026-11-23 12:36 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Trump Puts a Floor Under AI Trade With Push for Huang\u2019s Return",
+     "summary": "In the heat of Friday\u2019s meltdown, Wall Street wondered what could stop the bleeding in the artificial intelligence trade that had been powering the stock market for years but was suddenly on the ropes.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-puts-a-floor-under-ai-trade-with-push-for-huang-s-return",
+     "published": "2026-11-23 4:29 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Jensen Huang\u2019s Return, Nvidia ETFs Surge",
+     "summary": "\"Bloomberg ETF IQ\" focuses on the opportunities, risks and current trends tied to the trillions of dollars in the global exchange traded funds industry. Today's guests: Roundhill Investments Chief Investment Strategist Drew Pettit, Proshares Executive Director Tactical Products Inkoo Kang, and Baird Strategas Chief Strategist Todd Sohn. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/etf-iq-11-23-2026-video",
+     "published": "2026-11-23 4:22 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia Soars 31% as Jensen Huang Returns, Sparking $3 Trillion Rally | Closing Bell",
+     "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/nvidia-soars-on-jensen-huang-return-closing-bell-video",
+     "published": "2026-11-23 4:22 PM ET",
+     "tickers": [
+      "NVDA",
+      "GOOG"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "US-Backed Firm to Ink Venezuela Dredging Deal to Aid Oil Exports",
+     "summary": "The US-backed firm working to help revive Venezuela\u2019s oil production plans to sign a dredging deal to make it easier to export from a lake in the heart of the nation\u2019s oldest oilfields.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/us-backed-firm-to-ink-venezuela-dredging-deal-to-aid-oil-exports",
+     "published": "2026-11-23 4:17 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Gold Rebounds as Huang\u2019s Return to Nvidia Revives Risk Appetite",
+     "summary": "Gold extended its rebound in a broad risk-on rally triggered by the reinstatement of Jensen Huang as chief executive officer of Nvidia Corp.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes",
+     "published": "2026-11-22 7:28 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Anthropic Shares Sink, Defying AI Trade Rally on Huang\u2019s Return",
+     "summary": "Anthropic PBC shares declined on Monday, leaving the artificial intelligence lab out of step with the rest of the sector\u2019s rebound following the reinstatement of Nvidia Corp.\u2019s Jensen Huang.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/anthropic-shares-churn-defying-ai-trade-rally-on-huang-s-return",
+     "published": "2026-11-23 9:51 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nvidia Surge Crushes Short-Leveraged Funds With Losses Up to 92%",
+     "summary": "For investors betting against Nvidia Corp., Monday\u2019s big rebound turned a lucrative wager into a financial wrecking ball.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/nvidia-s-big-rebound-hammers-leveraged-funds-betting-on-a-fall",
+     "published": "2026-11-23 2:58 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Stocks Jump Most Since April 2025 as Huang Is Back: Markets Wrap",
+     "summary": "An overnight bounce in stocks erupted into the biggest rally since April 2025 after Nvidia Corp.\u2019s reinstatement of Jensen Huang as chief executive officer recharged artificial-intelligence bets.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
+     "published": "2026-11-22 5:02 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Hartree Is Top Supplier Behind $10 Million Oil Crypto Coin Mint",
+     "summary": "Hartree Partners LP is supplying physical oil to back a crypto token in an unusual tie-up between the traditional energy industry and the blockchain.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/hartree-is-top-supplier-behind-10-million-oil-crypto-coin-mint",
+     "published": "2026-11-23 4:04 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Brazil\u2019s Real Hits 19-Month Low as Post-Election Selloff Deepens",
+     "summary": "The month-long selloff unleashed by Brazilian President Luiz In\u00e1cio Lula da Silva\u2019s surprise re-election victory deepened on Monday as investors grew increasingly worried that his administration has no intention of reining in the government\u2019s swelling budget deficit.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/brazil-s-real-weakens-past-6-per-dollar-as-lula-selloff-extends",
+     "published": "2026-11-23 8:11 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Treasuries Slip as Huang\u2019s Nvidia Return Revives Risk Trade",
+     "summary": "Short-term Treasuries slipped as Jensen Huang\u2019s return to the helm of Nvidia Corp. unleashed steep gains in US stocks, unwinding some of the haven bid that swept through the bond market during last week\u2019s AI-fueled selloff.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/treasury-futures-fall-as-rising-stock-futures-damp-haven-demand",
+     "published": "2026-11-22 6:59 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    }
+   ]
+  },
+  {
    "source": "Bloomberg Technology",
    "tier": 2,
    "items": [
+    {
+     "title": "Circular Financing Will Now Be Under a Microscope After Jensen Huang\u2019s Return, Warns Gary Marcus",
+     "summary": "Gary Marcus discusses whether Jensen Huang\u2019s return to Nvidia - and the reported involvement of President Trump and the White House- has reinflated the AI bubble. Nvidia surged 31% in the session, but Marcus notes the stock had remained well below its peak. He argues Huang now faces greater scrutiny, including potential congressional investigations, shareholder lawsuits and questions about possibl",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/expect-more-bearishness-after-nvidia-ceo-return-marcus-video",
+     "published": "2026-11-23 5:50 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Katy Kaminsky Reacts to NVDA Surge After Huang Returns",
+     "summary": "Katy Kaminski, Chief Research Strategist and Portfolio Manager at AlphaSimplex Group, says Nvidia\u2019s sharp jump underscored how concentrated and pervasive the AI trade has become. She notes that its influence extends beyond equities and that the scale of recent market moves shows how important the theme has become. She speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/katy-kaminsky-reacts-to-nvda-surge-after-huang-returns-video",
+     "published": "2026-11-23 5:38 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Why Nvidia CEO Jensen Huang Matters So Much to the Stock Market",
+     "summary": "The decision by Nvidia Corp.\u2019s board of directors to restore Jensen Huang as chief executive officer on Nov. 23 after President Donald Trump pressed for the move speaks to the enormous impact both of Huang on the company and of the company on the larger stock market. The sharp decline in Nvidia\u2019s stock price that began after news emerged that Huang had had an affair with a woman suspected of being",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/why-nvidia-ceo-jensen-huang-matters-so-much-to-the-stock-market",
+     "published": "2026-11-23 5:37 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Emily Kilcrease on Jensen Huang\u2019s Return to Nvidia",
+     "summary": "Emily Kilcrease criticized Nvidia\u2019s decision to reinstate Jensen Huang as CEO, saying the allegations surrounding possible chip diversion and Chinese influence are serious and warrant a thorough investigation. She argued that only about two weeks had passed since the revelations became public, leaving too little time to establish whether national security concerns exist. She speaks with Romaine Bo",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/emily-kilcrease-on-jensen-huang-s-return-to-nvidia-video",
+     "published": "2026-11-23 5:32 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Stocks Take Off After Nvidia Reinstates Jensen Huang",
+     "summary": "US stocks staged a stunning rally on Monday, bouncing back from last week\u2019s brutal technology-led selloff after the surprise return of Jensen Huang to lead Nvidia. Norah Mulinda has more. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/stocks-take-off-after-nvidia-reinstates-jensen-huang-video",
+     "published": "2026-11-23 5:27 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "John Belton: This Volatility Isn\u2019t Healthy for the Market",
+     "summary": "John Belton, Gabelli Funds Portfolio Manager, Growth Portfolios MD, discusses a sharp reversal in markets after last week\u2019s broad selloff: Nvidia added about $950 billion in market value, the largest one-day increase for any stock, while the Philadelphia Semiconductor Index rose 13% and CoreWeave gained 21%. Investors treated Jensen Huang\u2019s return as a pivotal event for the AI economy, with Nvidia",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/belton-this-volatility-isn-t-healthy-for-the-market-video",
+     "published": "2026-11-23 5:20 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Wall Street Week | Gaming Blockbuster, Healthcare Costs, Cybersecurity Meets AI",
+     "summary": "This week, former New York Fed President Bill Dudley and Kathryn Judge of Columbia Law School discuss what the Treasury and Fed can do to tackle the nation\u2019s debt crisis. Plus, what Grand Theft Auto 6\u2019s release means for a video game industry that routinely faces layoffs, delays and slowing consumer spending. Later, surging healthcare costs affect businesses and their employees as Americans choose",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-21/wall-street-week-gaming-blockbuster-cybersecurity-video",
+     "published": "2026-11-20 7:13 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "US Blacklists Megaspeed, Targeting a Key Player in Nvidia Crisis",
+     "summary": "The Trump administration put Megaspeed International on a US trade blacklist barring it from buying advanced artificial intelligence chips, targeting a Singapore-based firm at the heart of the scandal that briefly cost Jensen Huang his job as Nvidia chief executive officer. In a filing Monday, the Commerce Department formally added Megaspeed to its so-called entity list, a designation that bars th",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/us-blacklists-megaspeed-targeting-a-key-player-in-nvidia-crisis",
+     "published": "2026-11-23 5:01 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "AI-Linked Stocks Take Off as Nvidia Brings Back Jensen Huang",
+     "summary": "Stephanie Aliaga, Global Market Strategist at JPMorgan Asset Management says that market reaction to Nvidia shows the power of sentiment, and Jensen Huang's return as CEO \"could power an upswing\" if the fundamentals accompany it. Today, US stocks rallied, recovering from last week\u2019s technology-led selloff, as Jensen Huang's return to lead Nvidia propelled Wall Street toward its best day since Apri",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/ai-linked-stocks-take-off-as-nvidia-brings-back-jensen-huang",
+     "published": "2026-11-23 4:57 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
     {
      "title": "Emerging Assets Rebound as Huang Comeback Revives Risk Appetite",
      "summary": "Emerging-market assets rebounded from Friday\u2019s selloff after Jensen Huang returned to the helm of Nvidia Corp., fueling a broad risk-on rally across global markets as his comeback rekindled enthusiasm for the AI trade.",
@@ -684,56 +987,6 @@
       "NVDA"
      ],
      "marketWide": false
-    },
-    {
-     "title": "Lawmakers Demand Answers As Huang Returns to Nvidia",
-     "summary": "Democrat Representative from Kansas Sharice Davids said that she wants to make sure that there are 'no gray areas' when it comes to national security and AI competition with China, as Nvidia's board reinstates Jensen Huang as CEO amid allegations of an affair with a suspected Chinese spy. Huang is scheduled to appear in front of multiple committees and Davids said that 'serious unanswered question",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-23/lawmakers-demand-answers-as-huang-returns-to-nvidia-video",
-     "published": "2026-11-23 2:32 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "Nvidia Board Reinstated CEO Without Consulting Management",
-     "summary": "The Nvidia Corp. board\u2019s surprise move to reinstate ousted Chief Executive Officer Jensen Huang was done without consulting the company\u2019s senior leaders, who were informed of the plan at the last minute, according to people familiar with what happened.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-23/nvidia-s-about-face-on-huang-made-without-consulting-leadership",
-     "published": "2026-11-23 12:40 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "Jensen Huang Is Back As Nvidia CEO",
-     "summary": "Bloomberg\u2019s Ed Ludlow breaks down the day's top story: Nvidia reinstating Jensen Huang as CEO, less than two weeks after his ouster. His return follows backing from the US government and President Trump, who has publicly supported Huang and says he does not believe his return poses a national security risk. (Source: Bloomberg)",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-23/bloomberg-tech-11-23-2026-video",
-     "published": "2026-11-23 2:00 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "Marlowe Hits $1.15B Valuation With Bet Beyond Nvidia",
-     "summary": "Marlowe, a startup co-founded by two Microsoft vice presidents, has raised $277 million to pursue ways to boost computing power from chips that rival Nvidia\u2019s processors. The seed round, valuing the company at $1.15 billion, was led by venture firm Accel. Co-founder and CEO Dan Lewis joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-23/marlowe-hits-1-15b-valuation-with-bet-beyond-nvidia-video",
-     "published": "2026-11-23 1:54 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "Nvidia Board Did Not Consult Leadership on Huang Decision",
-     "summary": "The surprise move by the board of Nvidia to bring back ousted Chief Executive Officer Jensen Huang was done without consulting the company\u2019s senior leadership, according to people familiar with what happened. Ed Ludlow reports on Bloomberg Television. (Source: Bloomberg)",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-23/nvidia-board-did-not-consult-leadership-on-huang-video",
-     "published": "2026-11-23 1:19 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     }
    ]
   },
@@ -784,6 +1037,26 @@
      "summary": "Nvidia took Huang back because his failures left the company with no other options",
      "url": "https://www.ft.com/content/611430d0-9aec-4e5e-95d7-615e86f692ce?syn-25a6b1a6=1",
      "published": "2026-11-23 12:17 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Trump made up to $15mn on Nvidia shares after Huang\u2019s return",
+     "summary": "Profit on 30% jump in chip group\u2019s share price based on maximum amount US president could have owned in latest disclosure",
+     "url": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
+     "published": "2026-11-23 5:21 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Nasdaq jumps 7% as Nvidia shares soar",
+     "summary": "Chip giant gains 31.5% after Huang reinstated while S&P rises 4.7%",
+     "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
+     "published": "2026-11-23 5:01 PM ET",
      "tickers": [
       "NVDA"
      ],
@@ -1220,14 +1493,6 @@
      "published": "2026-11-23 1:00 AM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "China sentences ministry official to death for leaking over 100 state secrets",
-     "summary": "A Chinese ministry official has been sentenced to death for spying after being groomed and blackmailed into handing over dozens of state secrets to a foreign intelligence agency, according to a rare public disclosure by Beijing\u2019s state secrecy apparatus. The official, identified only by his surname, Ma, was convicted of espionage, stripped of his political rights for life and all his personal prop",
-     "url": "https://www.scmp.com/news/china/politics/article/3375436/china-sentences-ministry-official-death-leaking-over-100-state-secrets",
-     "published": "2026-11-23 12:56 AM ET",
-     "tickers": [],
-     "marketWide": true
     }
    ]
   },
@@ -1416,6 +1681,14 @@
    "tier": 2,
    "items": [
     {
+     "title": "Grayscale says bitcoin and major altcoins look \u2018oversold\u2019 as AI risks cloud near-term outlook",
+     "summary": "Grayscale said bitcoin's drop to about $55,000 on Saturday made the current bear market its longest on record, at least 411 days.",
+     "url": "https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418",
+     "published": "2026-11-23 5:18 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
      "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
      "summary": "The U.S. Justice Department is seeking to recover about $1.17 billion in USDC tied to the Oct. 29 Binance hack.",
      "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
@@ -1594,7 +1867,5 @@
    }
   }
  },
- "errors": [
-  "Bloomberg Markets: HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=30)"
- ]
+ "errors": []
 }
