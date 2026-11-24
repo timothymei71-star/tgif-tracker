@@ -182,45 +182,29 @@
   "morning": {
     "label": "Morning Brief",
     "populated": true,
-    "reportDate": "November 20, 2026",
-    "periodStart": "Thu, Nov 19, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Fri, Nov 20, 2026, 8:30 AM ET",
-    "lastUpdated": "Fri, Nov 20, 2026, 8:35 AM ET",
-    "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot for this morning was not available for this run, so coverage runs through about 8:15 PM ET on Nov 19.",
+    "reportDate": "November 24, 2026",
+    "periodStart": "Mon, Nov 23, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Tue, Nov 24, 2026, 8:30 AM ET",
+    "lastUpdated": "Tue, Nov 24, 2026, 8:35 AM ET",
+    "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot for this morning was not available for this run, so coverage runs through about 6:00 PM ET on Nov 23.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per WSJ, US stocks ended lower in a volatile session as Anthropic's record-breaking IPO failed to staunch the bleeding in AI stocks; the Nasdaq composite fell 2.3% (5:04 PM and 7:00 PM ET). Per MarketWatch, all 11 S&P 500 sectors declined, 10 of them by more than 1%, and all four major indexes are on pace for their worst week since April 2025 (6:11 PM and 5:12 PM ET). Per WSJ, Japan's Nikkei fell 2.9%, dragged by chip and metals stocks (7:38 PM ET). Per Bloomberg, emerging-market stocks are set to enter a bear market on an AI-led tech slide (8:05 PM ET). Written from headlines and publisher summaries only.",
-        "sourceName": "WSJ / MarketWatch / Bloomberg",
-        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-ai-bust-continues-despite-anthropic-ipo-5a14e137?mod=rss_markets_main",
-        "pubTime": "Nov 19, 2026, 5:04 PM ET",
+        "text": "Per Bloomberg, US stocks staged a stunning rally on Monday as the surprise return of Jensen Huang to lead Nvidia propelled Wall Street to its best day since April 2025 (4:42 PM ET), and its Asia markets wrap said Asian stocks looked set to rally on the same optimism (5:06 PM ET). The Financial Times reported the Nasdaq jumped 7% and the S&P 500 rose 4.7% (5:01 PM ET). Per The Block, Grayscale said bitcoin's drop to about $55,000 on Saturday made the current bear market its longest on record (5:18 PM ET). Written from headlines and publisher summaries only.",
+        "sourceName": "Bloomberg / Financial Times / The Block",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
+        "pubTime": "Nov 23, 2026, 4:42 PM ET",
         "sourceDepth": "headline"
       },
-      "calendar": [
-        {
-          "time": "Fri",
-          "text": "Australian Prime Minister Anthony Albanese holds bilateral talks with China's President Xi Jinping, per the Financial Times.",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1"
-        }
-      ]
+      "calendar": []
     },
     "tickers": [
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "updated",
-        "items": [
-          {
-            "type": "filing",
-            "headline": "Alibaba reports September-quarter results: revenue RMB271,519 million, up 10% year-over-year",
-            "summary": "Per Alibaba's 6-K filing (HKEX results announcement), revenue for the quarter ended Sept 30, 2026 was RMB271,519 million (US$40,498 million), up 10% year-over-year. AI Cloud and Compute Services revenue rose 53%; customer management revenue fell 5% (up 1% like-for-like excluding the contra revenue impact of the new business development program). Income from operations was RMB29,116 million, up 443%, and adjusted EBITA rose 260% to RMB32,636 million. Net income was RMB64,420 million, up 213%, and non-GAAP diluted EPS per ADS was RMB8.10 (US$1.21), up 86%. Free cash flow was an outflow of RMB34,472 million (US$5,142 million), compared with an outflow of RMB21,840 million a year earlier, mainly due to higher cloud infrastructure expenditure.",
-            "sourceName": "SEC filing (Form 6-K)",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_6k.htm",
-            "pubTime": "Nov 19, 2026, 4:00 PM ET",
-            "sourceDepth": "full"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No material company news in this window."
       },
       {
         "ticker": "CRCL",
@@ -250,38 +234,38 @@
         "items": [
           {
             "type": "news",
-            "headline": "California Attorney General Issues Investigative Subpoena to Nvidia",
-            "summary": "Per WSJ, California Attorney General Rob Bonta opened a probe into Nvidia to determine whether the company misled investors. Written from the headline and the publisher's summary only.",
+            "headline": "Huang's return to Nvidia draws heavy fire from lawmakers",
+            "summary": "Per WSJ, Republicans and Democrats see national-security risks and are vowing to press forward with investigations. Written from the headline and the publisher's summary only.",
             "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e?mod=rss_markets_main",
-            "pubTime": "Nov 19, 2026, 7:01 PM ET",
+            "sourceUrl": "https://www.wsj.com/politics/policy/jensen-huangs-return-to-nvidia-draws-heavy-fire-from-lawmakers-ae698d88?mod=rss_Technology",
+            "pubTime": "Nov 23, 2026, 4:10 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "California Probing If Nvidia Misled Investors on China Risks",
-            "summary": "Per Bloomberg, Nvidia is being investigated by California officials to determine whether any of its actions resulted in advanced chips or confidential information being sent to China. Written from the headline and the publisher's summary only.",
+            "headline": "US blacklists Megaspeed, a firm at the center of the Nvidia crisis",
+            "summary": "Per Bloomberg, the Trump administration put Singapore-based Megaspeed International on a US trade blacklist barring it from buying advanced AI chips; the firm is described as being at the heart of the scandal that briefly cost Jensen Huang his job as Nvidia CEO. Written from the headline and the publisher's summary only.",
             "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-19/california-probing-if-nvidia-misled-investors-over-china-risks",
-            "pubTime": "Nov 19, 2026, 5:31 PM ET",
+            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-23/us-blacklists-megaspeed-targeting-a-key-player-in-nvidia-crisis",
+            "pubTime": "Nov 23, 2026, 5:01 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "US approved sale of Nvidia and AMD chips to Chinese companies",
-            "summary": "Per the Financial Times, the US approved sales of Nvidia and AMD chips to Chinese companies, and the Pentagon believes some of the groups were associated with the People's Liberation Army. Written from the headline and the publisher's summary only.",
+            "headline": "Jensen Huang is back at Nvidia; major investigations still surround him",
+            "summary": "Per WSJ, several probes are examining the chip maker, its CEO and issues related to his initial ouster. Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=rss_Technology",
+            "pubTime": "Nov 23, 2026, 5:15 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
+            "type": "news",
+            "headline": "Trump made up to $15mn on Nvidia shares after Huang's return",
+            "summary": "Per the Financial Times, the profit on the roughly 30% jump in Nvidia's share price is based on the maximum amount the US president could have owned in his latest disclosure. Written from the headline and the publisher's summary only.",
             "sourceName": "Financial Times",
-            "sourceUrl": "https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1",
-            "pubTime": "Nov 19, 2026, 7:42 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Nvidia's stock falls further. It has lost $669 billion in six trading days.",
-            "summary": "Per MarketWatch, Nvidia's market value has fallen by $669 billion over six trading days. Written from the headline and the publisher's summary only.",
-            "sourceName": "MarketWatch",
-            "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
-            "pubTime": "Nov 19, 2026, 4:45 PM ET",
+            "sourceUrl": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
+            "pubTime": "Nov 23, 2026, 5:21 PM ET",
             "sourceDepth": "headline"
           }
         ]
@@ -310,18 +294,9 @@
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
-        "status": "updated",
-        "items": [
-          {
-            "type": "news",
-            "headline": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
-            "summary": "Per MarketWatch, the Anthropic enthusiasm has faded while China concerns have intensified, leading AI stocks including Broadcom to give up earlier gains. Written from the headline and the publisher's summary only.",
-            "sourceName": "MarketWatch",
-            "sourceUrl": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
-            "pubTime": "Nov 19, 2026, 4:27 PM ET",
-            "sourceDepth": "headline"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No material company news in this window."
       }
     ],
     "droppedLinks": []

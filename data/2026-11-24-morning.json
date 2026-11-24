@@ -1,0 +1,122 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 24, 2026",
+  "periodStart": "Mon, Nov 23, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Tue, Nov 24, 2026, 8:30 AM ET",
+  "lastUpdated": "Tue, Nov 24, 2026, 8:35 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The overnight news snapshot for this morning was not available for this run, so coverage runs through about 6:00 PM ET on Nov 23.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Bloomberg, US stocks staged a stunning rally on Monday as the surprise return of Jensen Huang to lead Nvidia propelled Wall Street to its best day since April 2025 (4:42 PM ET), and its Asia markets wrap said Asian stocks looked set to rally on the same optimism (5:06 PM ET). The Financial Times reported the Nasdaq jumped 7% and the S&P 500 rose 4.7% (5:01 PM ET). Per The Block, Grayscale said bitcoin's drop to about $55,000 on Saturday made the current bear market its longest on record (5:18 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "Bloomberg / Financial Times / The Block",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
+      "pubTime": "Nov 23, 2026, 4:42 PM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Huang's return to Nvidia draws heavy fire from lawmakers",
+          "summary": "Per WSJ, Republicans and Democrats see national-security risks and are vowing to press forward with investigations. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/politics/policy/jensen-huangs-return-to-nvidia-draws-heavy-fire-from-lawmakers-ae698d88?mod=rss_Technology",
+          "pubTime": "Nov 23, 2026, 4:10 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "US blacklists Megaspeed, a firm at the center of the Nvidia crisis",
+          "summary": "Per Bloomberg, the Trump administration put Singapore-based Megaspeed International on a US trade blacklist barring it from buying advanced AI chips; the firm is described as being at the heart of the scandal that briefly cost Jensen Huang his job as Nvidia CEO. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-23/us-blacklists-megaspeed-targeting-a-key-player-in-nvidia-crisis",
+          "pubTime": "Nov 23, 2026, 5:01 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Jensen Huang is back at Nvidia; major investigations still surround him",
+          "summary": "Per WSJ, several probes are examining the chip maker, its CEO and issues related to his initial ouster. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=rss_Technology",
+          "pubTime": "Nov 23, 2026, 5:15 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Trump made up to $15mn on Nvidia shares after Huang's return",
+          "summary": "Per the Financial Times, the profit on the roughly 30% jump in Nvidia's share price is based on the maximum amount the US president could have owned in his latest disclosure. Written from the headline and the publisher's summary only.",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
+          "pubTime": "Nov 23, 2026, 5:21 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
