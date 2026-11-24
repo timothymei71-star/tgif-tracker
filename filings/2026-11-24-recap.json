@@ -1,0 +1,59 @@
+{
+ "mode": "recap",
+ "reportDate": "2026-11-24",
+ "generatedAt": "2026-11-24T16:35:38-05:00",
+ "lookbackHours": 30,
+ "final": false,
+ "source": "SEC EDGAR",
+ "entities": {
+  "BABA": "Alibaba Group Holding Ltd",
+  "CRCL": "Circle Internet Group, Inc.",
+  "ETHA": "iShares Ethereum Trust ETF",
+  "FUTU": "Futu Holdings Ltd",
+  "NVDA": "NVIDIA CORP",
+  "TIGR": "UP Fintech Holding Ltd",
+  "TSLA": "Tesla, Inc.",
+  "GOOG": "Alphabet Inc.",
+  "AVGO": "Broadcom Inc."
+ },
+ "filings": {
+  "BABA": [],
+  "CRCL": [],
+  "ETHA": [],
+  "FUTU": [],
+  "NVDA": [],
+  "TIGR": [
+   {
+    "form": "6-K",
+    "filed": "2026-11-24",
+    "acceptedET": "2026-11-24 6:10 AM ET",
+    "items": "",
+    "description": "6-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1756699/000119312526473075/tigr-6k-2026_q3.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1756699/000119312526473075/0001193125-26-473075-index.htm",
+    "exhibitUrls": [
+     "https://www.sec.gov/Archives/edgar/data/1756699/000119312526473075/tigr-ex99_1.htm"
+    ],
+    "textFiles": [
+     "filings/text/2026-11-24/TIGR-6-K-000119312526473075-0.txt"
+    ],
+    "excerpt": "EX-99.1 2 tigr-ex99_1.htm EX-99.1 EX-99.1 EXHIBIT 99.1 UP Fintech Holding Limited Reports Unaudited Third Quarter 2026 Financial Results Singapore, November 24, 2026 \u2013 UP Fintech Holding Limited (NASDAQ: TIGR) (\u201cUP Fintech\u201d or the \u201cCompany\u201d), a leading online brokerage firm focusing on global investors, today announced its unaudited financial results for the third quarter ended September 30, 2026. Mr. Wu Tianhua, Chairman and CEO of UP Fintech stated: \u201cIn the third quarter, total revenues were US$172.6 million, broadly stable compared with the same period last year. Our diversified revenue mix continued to provide stability as user trading activity moderated. Interest-related income remained solid at US$85.5 million, increasing 12.5% year over year and 3.0% quarter over quarter, supported in part by active securities borrowing volume. Other revenues increased 14.7% sequentially to US$24.0 million, as wealth management products, including fixed coupon notes, continued to gain traction with clients. For the first nine months of the year, total revenues increased 16.8% year over year to US$509.7 million. Despite heightened market volatility, disciplined expense management and our continued focus on operating efficiency helped us deliver GAAP and non-GAAP net income attributable to ordinary shareholders of UP Fintech of US$46.4 million and US$49.9 million, our second-highest quarterly result to date, representing sequential increases of 17.9% and 16.4%, respectively. In the third quarter, we added 48,500 new funded clients, representing an increase of 48.9% quarter over quarter and 54.1% year over year, with Singapore and Hong Kong serving as the primary contributors. This brought the number of newly funded clients added during the first nine months of the year to 110,000. Based on our current momentum, we remain confident in achieving our full-year target of acquiring 150,000 new funded clients. Supported by robust net asset inflows, primarily from retail clients, as well as positive mark-to-market gains despite pullbacks in parts of the market, including AI-related stocks, total client assets increased 6.7% quarter over quarter to a record high of US$64.8 billion. Our Hong Kong market contributed nearly US$1.0 billion in net asset inflows, setting a new quarterly record and driving sequential client asset growth of more than 20% in the market. In addition, client assets increased sequentially across all our overseas markets, reflecting the continued trust clients placed in Tiger\u2019s platform and our ability to meet their global investment needs. We continued to strengthen our global service capabilities by broadening market access, extending trading functionality and deepening client engagement in key markets. Recently, TradeUP, our U.S. platform, launched Hong Kong equity trading, broadening U.S. clients\u2019 access to Asian markets and providing a more complete cross-market experience. In November, building on our existing 24/5 U.S. stock trading service, we became one of the first online brokerage platforms globally to offer extended-hours trading in eligible U.S. equity options. By routing orders directly to U.S. options exchanges, the service gives clients greater flexibility to adjust positions and manage risk around market-moving events outside regular trading hours, while providing more transparent execution and access to exchange liquidity. Alongside these product enhancements, we continued to build brand awareness and deepen client engagement in Hong Kong through our flagship offline events, Tiger Investment Festival held in October and November. These events were well received and helped more local investors discover and join Tiger, while giving us valuable firsthand insight into their needs and preferences so we can further tailor our products and services to the Hong Kong market. Our corporate business continued to perform well in the third quarter of 2026. During this period, we underwrote a total of 12 U.S. and Hong Kon",
+    "textChars": 24424
+   }
+  ],
+  "TSLA": [
+   {
+    "form": "DEFA14A",
+    "filed": "2026-11-23",
+    "acceptedET": "2026-11-23 5:15 PM ET",
+    "items": "",
+    "description": "DEFA14A",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926131169/tm267596d17_defa14a.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926131169/0001104659-26-131169-index.htm"
+   }
+  ],
+  "GOOG": [],
+  "AVGO": []
+ },
+ "errors": []
+}
