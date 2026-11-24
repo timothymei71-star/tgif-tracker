@@ -2,26 +2,24 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "November 23, 2026",
-    "periodStart": "Fri, Nov 20, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Mon, Nov 23, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Mon, Nov 23, 2026, 6:45 PM ET",
+    "reportDate": "November 24, 2026",
+    "periodStart": "Mon, Nov 23, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Tue, Nov 24, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Tue, Nov 24, 2026, 6:55 PM ET",
     "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per Bloomberg, US stocks staged a stunning rally, bouncing back from last week's technology-led selloff as the surprise return of Jensen Huang to lead Nvidia propelled Wall Street to its best day since April 2025 (4:42 PM ET). The Financial Times reported the Nasdaq jumped 7% and the S&P 500 rose 4.7% (5:01 PM ET); WSJ reported the Nasdaq composite added more than $2 trillion in market value (4:45 PM ET). MarketWatch called it the best day for US stocks in more than a year (4:51 PM ET). WSJ reported Treasury yields rose as investors piled into riskier assets (4:15 PM ET), and gold settled 3.9% higher after its steepest weekly decline since March (3:21 PM ET). Written from headlines and publisher summaries only.",
-        "sourceName": "Bloomberg / Financial Times / WSJ / MarketWatch",
-        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
-        "pubTime": "Nov 23, 2026, 4:42 PM ET",
+        "text": "Per WSJ, US stocks finished mixed, with the Nasdaq and S&P 500 giving back some of Monday's rally as traders digested the implications of President Trump's push to reinstall Jensen Huang as head of Nvidia (5:03 PM ET). Bloomberg reported the Nasdaq 100 fell, led by another steep decline in chipmakers, as the relief rally gave way to renewed worries about the durability of the AI trade, with plans for new tariffs also weighing. The Financial Times reported Trump is readying a raft of new tariffs on major economies, with China, the EU, Japan and South Korea expected to be hit (11:30 AM ET), and Bloomberg reported the US is set to announce the tariff hike as soon as Tuesday (4:58 PM ET). The Financial Times reported Anthropic closed below its IPO price as the tech rally faded (4:11 PM ET). Bloomberg reported Treasuries rose on haven demand as stocks gave back part of Monday's gains. Written from headlines and publisher summaries only.",
+        "sourceName": "WSJ / Bloomberg / Financial Times",
+        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-huang-relief-rally-fades-9fa9750a?mod=rss_markets_main",
+        "pubTime": "Nov 24, 2026, 5:03 PM ET",
         "sourceDepth": "headline"
       },
       "cryptoDriver": {
-        "text": "The Block reported Grayscale said bitcoin and major altcoins look 'oversold' as AI risks cloud the near-term outlook, and that bitcoin's weekend drop made the current bear market its longest on record (5:18 PM ET). CoinDesk reported bitcoin rebounded from a two-year low as Wall Street futures recovered (6:51 AM ET). Written from headlines and publisher summaries only.",
-        "sourceName": "The Block / CoinDesk",
-        "sourceUrl": "https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418",
-        "pubTime": "Nov 23, 2026, 5:18 PM ET",
-        "sourceDepth": "headline"
+        "text": "CoinDesk reported bitcoin handed back Monday's Nvidia-driven gains as liquidations tripled (6:31 AM ET). The Block reported analysts said Huang's return was a reflex rally that did not resolve the macro headwinds bitcoin faces as a risk asset (1:21 AM ET). Written from headlines and publisher summaries only.",
+        "sourceName": "CoinDesk / The Block",
+        "sourceUrl": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple"
       }
     },
     "tickers": [
@@ -35,18 +33,9 @@
       {
         "ticker": "CRCL",
         "name": "Circle Internet Group, Inc.",
-        "status": "updated",
-        "items": [
-          {
-            "type": "news",
-            "headline": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
-            "summary": "Per The Block, the U.S. Justice Department is seeking to recover about $1.17 billion in USDC tied to the Oct. 29 Binance hack. Written from the headline and the publisher's summary only.",
-            "sourceName": "The Block",
-            "sourceUrl": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-            "pubTime": "Nov 23, 2026, 3:00 PM ET",
-            "sourceDepth": "headline"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No material company news in this window."
       },
       {
         "ticker": "ETHA",
@@ -68,75 +57,48 @@
         "status": "updated",
         "items": [
           {
-            "type": "filing",
-            "headline": "Nvidia 8-K: board reinstates Jen-Hsun Huang as President, CEO and director",
-            "summary": "In an 8-K (Items 5.02 and 9.01) accepted Nov 23 at 8:57 AM ET, Nvidia disclosed that on Nov 22, 2026 its Board of Directors reinstated Jen-Hsun Huang as President, Chief Executive Officer and a member of the Board, effective immediately. Colette Kress continues as Executive Vice President and Chief Financial Officer. A press release dated Nov 23, 2026 is attached as Exhibit 99.1.",
-            "sourceName": "SEC EDGAR (NVIDIA 8-K)",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
-            "pubTime": "Nov 23, 2026, 8:57 AM ET",
-            "sourceDepth": "full"
-          },
-          {
             "type": "news",
-            "headline": "Nvidia Board Reinstates Jensen Huang as CEO",
-            "summary": "Per WSJ, President Trump acknowledged involvement in efforts to bring back the chip maker's longtime leader, who had resigned following revelations of extramarital affairs. Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/articles/nvidia-board-reinstates-jensen-huang-as-ceo-a6b49914?mod=rss_Technology",
-            "pubTime": "Nov 23, 2026, 4:21 PM ET",
+            "headline": "Huang apologizes to Nvidia staff at town hall, says he is in daily therapy",
+            "summary": "Per Bloomberg, Jensen Huang struck a somber tone a day after his reinstatement as CEO, apologizing to employees during an all-hands meeting and saying he had been in daily therapy (12:11 PM ET). WSJ reported he thanked the Trump administration while addressing staff (3:09 PM ET), and the Financial Times reported he told staff he still does not believe in CEO succession planning at Nvidia (3:18 PM ET). Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg / WSJ / Financial Times",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-24/nvidia-s-huang-to-host-all-hands-meeting-a-day-after-his-return",
+            "pubTime": "Nov 24, 2026, 12:11 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "Nvidia gains nearly $1tn in value after Jensen Huang reinstated",
-            "summary": "Per the Financial Times, the interim chief and senior management were unaware of the discussions over the weekend. Written from the headline and the publisher's summary only.",
-            "sourceName": "Financial Times",
-            "sourceUrl": "https://www.ft.com/content/20d2ebe3-e945-4659-a122-31bf85a4e4e5?syn-25a6b1a6=1",
-            "pubTime": "Nov 23, 2026, 4:05 PM ET",
+            "headline": "Nvidia shares slip as relief rally stalls; questions over Huang's return remain",
+            "summary": "Per MarketWatch, Nvidia's stock dropped as Huang's reinstatement does not fix regulatory issues or the investigation into his relationship with a former Megaspeed executive (4:14 PM ET). WSJ reported Nvidia's relief rally stalled (4:23 PM ET). Written from the headline and the publisher's summary only.",
+            "sourceName": "MarketWatch / WSJ",
+            "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-drops-as-these-major-questions-loom-over-jensen-huangs-return-9096636f?mod=mw_rss_topstories",
+            "pubTime": "Nov 24, 2026, 4:14 PM ET",
             "sourceDepth": "headline"
           },
           {
-            "type": "news",
-            "headline": "Nasdaq jumps 7% as Nvidia shares soar",
-            "summary": "Per the Financial Times, the chip giant gained 31.5% after Huang was reinstated while the S&P 500 rose 4.7%. Written from the headline and the publisher's summary only.",
-            "sourceName": "Financial Times",
-            "sourceUrl": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-            "pubTime": "Nov 23, 2026, 5:01 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
-            "summary": "Per MarketWatch, two products aiming to profit off daily declines in Nvidia shares were nearly wiped out as the stock rallied more than 30%. Written from the headline and the publisher's summary only.",
-            "sourceName": "MarketWatch",
-            "sourceUrl": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
-            "pubTime": "Nov 23, 2026, 4:19 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "US Blacklists Megaspeed, Targeting a Key Player in Nvidia Crisis",
-            "summary": "Per Bloomberg, the Trump administration put Megaspeed International on a US trade blacklist barring it from buying advanced artificial intelligence chips, targeting a Singapore-based firm at the heart of the scandal that briefly cost Jensen Huang his job as Nvidia chief executive officer. Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-23/us-to-blacklist-megaspeed-the-firm-at-center-of-nvidia-scandal",
-            "pubTime": "Nov 23, 2026, 3:43 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "news",
-            "headline": "Jensen Huang's Return to Nvidia Draws Heavy Fire From Lawmakers",
-            "summary": "Per WSJ, Republicans and Democrats see national-security risks and are vowing to press forward with investigations. The Financial Times separately reported that lawmakers insist Huang must testify in public (2:11 PM ET). Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ / Financial Times",
+            "type": "regulatory",
+            "headline": "Lawmakers press investigations after Huang's return; Huang to testify before senators Dec. 3",
+            "summary": "Per WSJ, Republicans and Democrats see national-security risks in Huang's return and are vowing to press forward with investigations (Nov 23, 4:10 PM ET); WSJ separately reported several probes are examining the chip maker, its CEO and issues related to his initial ouster (Nov 23, 5:15 PM ET). Per a Bloomberg headline, Huang is to testify publicly before senators on Dec. 3 (Nov 24, 3:10 PM ET). Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ / Bloomberg",
             "sourceUrl": "https://www.wsj.com/politics/policy/jensen-huangs-return-to-nvidia-draws-heavy-fire-from-lawmakers-ae698d88?mod=rss_Technology",
             "pubTime": "Nov 23, 2026, 4:10 PM ET",
             "sourceDepth": "headline"
           },
           {
+            "type": "regulatory",
+            "headline": "US blacklists Megaspeed, a firm at the center of the Nvidia crisis",
+            "summary": "Per Bloomberg, the Trump administration put Singapore-based Megaspeed International on a US trade blacklist barring it from buying advanced AI chips; the firm is described as being at the heart of the scandal that briefly cost Jensen Huang his job as Nvidia CEO. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-23/us-blacklists-megaspeed-targeting-a-key-player-in-nvidia-crisis",
+            "pubTime": "Nov 23, 2026, 5:01 PM ET",
+            "sourceDepth": "headline"
+          },
+          {
             "type": "news",
-            "headline": "Jensen Huang Is Back at Nvidia. Major Investigations Still Surround Him.",
-            "summary": "Per WSJ, several probes are examining the chip maker, its CEO and issues related to his initial ouster. Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ",
-            "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huang-is-back-at-nvidia-major-investigations-still-surround-him-c904001c?mod=rss_Technology",
-            "pubTime": "Nov 23, 2026, 5:15 PM ET",
+            "headline": "White House pushed for Huang's reinstatement; Trump made up to $15mn on Nvidia shares",
+            "summary": "Per WSJ, Trump made clear he wanted the Nvidia CEO reinstated and on Monday touted the decision, saying the market proved it was right (Nov 23, 9:00 PM ET). Per the Financial Times, Trump made up to $15mn on the roughly 30% jump in Nvidia's share price, based on the maximum amount he could have owned in his latest disclosure (Nov 23, 5:21 PM ET). Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ / Financial Times",
+            "sourceUrl": "https://www.wsj.com/business/nvidia-jensen-huang-white-house-9ad03961?mod=rss_Technology",
+            "pubTime": "Nov 23, 2026, 9:00 PM ET",
             "sourceDepth": "headline"
           }
         ]
@@ -144,16 +106,34 @@
       {
         "ticker": "TIGR",
         "name": "UP Fintech Holding Ltd",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "earnings",
+            "headline": "UP Fintech reports Q3 2026 results: revenue $172.6M, non-GAAP EPS per ADS $0.27",
+            "summary": "UP Fintech's Q3 2026 release (6-K) reported total revenues of US$172.6 million, down 1.5% year over year and 5.3% quarter over quarter; commissions fell 13.5% to US$63.0 million while interest income rose 12.9% to US$82.7 million. Net income attributable to ordinary shareholders was US$46.4 million (US$0.25 per diluted ADS) versus US$53.8 million (US$0.29) a year earlier; non-GAAP net income was US$49.9 million (US$0.27 per diluted ADS) versus US$57.0 million (US$0.31). The company added 48,500 new funded clients (110,000 in the first nine months) and said it remains confident in its full-year target of 150,000; total client assets reached a record US$64.8 billion, up 6.7% quarter over quarter.",
+            "sourceName": "SEC filing (6-K, UP Fintech Q3 2026 results)",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1756699/000119312526473075/tigr-6k-2026_q3.htm",
+            "pubTime": "Nov 24, 2026, 6:10 AM ET",
+            "sourceDepth": "full"
+          }
+        ]
       },
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Directors negotiating a potential SpaceX-Tesla merger",
+            "summary": "Per the Financial Times, five executives are charged with combining Elon Musk's sprawling enterprises into a potential $3.5tn company. Written from the headline and the publisher's summary only.",
+            "sourceName": "Financial Times",
+            "sourceUrl": "https://www.ft.com/content/2585e45e-9133-4215-a2d8-e1275e1033b9?syn-25a6b1a6=1",
+            "pubTime": "Nov 24, 2026, 12:00 AM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "GOOG",
@@ -170,14 +150,7 @@
         "cleanNote": "No material company news in this window."
       }
     ],
-    "droppedLinks": [
-      {
-        "source": "Nikkei Asia",
-        "headline": "Nvidia server suppliers halt Southeast Asia shipments over US curbs",
-        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-server-suppliers-halt-southeast-asia-shipments-over-us-curbs",
-        "reason": "No publisher summary or publication time in the feed; not used."
-      }
-    ]
+    "droppedLinks": []
   },
   "morning": {
     "label": "Morning Brief",
