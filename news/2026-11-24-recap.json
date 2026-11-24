@@ -1,7 +1,7 @@
 {
  "mode": "recap",
  "reportDate": "2026-11-24",
- "generatedAt": "2026-11-24T16:35:41-05:00",
+ "generatedAt": "2026-11-24T17:19:11-05:00",
  "lookbackHours": 30,
  "note": "News items are feed headlines plus the publisher's own short summary only; article bodies were not read. Analyst data is from Yahoo Finance.",
  "complete": true,
@@ -23,20 +23,20 @@
      "marketWide": false
     },
     {
-     "title": "Nvidia\u2019s Relief Rally Stalls",
-     "summary": "Plus, Anthropic dips below its IPO price, and the investors who won\u2014and lost\u2014in the Nvidia saga.",
-     "url": "https://www.wsj.com/finance/stocks/nvidias-relief-rally-stalls-a9455613?mod=rss_markets_main",
-     "published": "2026-11-24 4:23 PM ET",
+     "title": "The Retail Investors Who Believed Nvidia\u2019s Board\u2014and Got Burned by Its U-Turn",
+     "summary": "Nvidia\u2019s board said as recently as last week that Jensen Huang wouldn\u2019t return as CEO. Some investors sold their shares.",
+     "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main",
+     "published": "2026-11-24 4:53 PM ET",
      "tickers": [
       "NVDA"
      ],
      "marketWide": false
     },
     {
-     "title": "The Retail Investors Who Believed Nvidia\u2019s Board\u2014and Got Burned by Its U-Turn",
-     "summary": "Nvidia\u2019s board said as recently as last week that Jensen Huang wouldn\u2019t return as CEO. Some investors sold their shares.",
-     "url": "https://www.wsj.com/finance/stocks/the-retail-investors-who-believed-nvidias-boardand-got-burned-by-its-u-turn-05349a63?mod=rss_markets_main",
-     "published": "2026-11-24 11:01 AM ET",
+     "title": "Nvidia\u2019s Relief Rally Stalls",
+     "summary": "Plus, Anthropic dips below its IPO price, and the investors who won\u2014and lost\u2014in the Nvidia saga.",
+     "url": "https://www.wsj.com/finance/stocks/nvidias-relief-rally-stalls-a9455613?mod=rss_markets_main",
+     "published": "2026-11-24 4:23 PM ET",
      "tickers": [
       "NVDA"
      ],
@@ -61,44 +61,18 @@
      "marketWide": false
     },
     {
-     "title": "Trump Engineered Huang\u2019s Reinstatement as Nvidia CEO",
-     "summary": "Plus, Nvidia added nearly $1 trillion in market value, and Trump ordered the U.S. Army to hold off on detonating tons of toxic explosives in Iowa.",
-     "url": "https://www.wsj.com/business/trump-engineered-huangs-reinstatement-as-nvidia-ceo-4e9c1cd3?mod=rss_markets_main",
-     "published": "2026-11-23 5:25 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "\u2018I Fell Off My Chair.\u2019 Investors Marvel as Huang\u2019s Return Sends Stocks Rocketing.",
-     "summary": "The tech-heavy Nasdaq composite roars back from last week\u2019s selloff, adding more than $2 trillion in market value.",
-     "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main",
-     "published": "2026-11-23 4:45 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "U.S. Treasury Auction of 5-Year Note Shows Slightly Soft Demand",
-     "summary": "The U.S. Treasury\u2019s auction of 5-year notes showed signs of slightly softer demand.",
-     "url": "https://www.wsj.com/finance/jgb-futures-rise-buoyed-by-decline-in-crude-oil-prices-deebd8c8?mod=rss_markets_main",
-     "published": "2026-11-24 1:38 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
      "title": "Energy & Utilities Roundup: Market Talk",
-     "summary": "Find insight on oil futures, Var Energi and more in the latest Market Talks covering Energy and Utilities.",
+     "summary": "Find insight on oil futures, Oryx Midstream Services, Var Energi and more in the latest Market Talks covering Energy and Utilities.",
      "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-762271f0?mod=rss_markets_main",
-     "published": "2026-11-24 12:27 PM ET",
+     "published": "2026-11-24 4:59 PM ET",
      "tickers": [],
      "marketWide": true
     },
     {
-     "title": "Tech, Media & Telecom Roundup: Market Talk",
-     "summary": "Find insight on Anthropic, crypto, Analog Devices and more in the latest Market Talks covering Technology, Media and Telecom.",
-     "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-925cd40f?mod=rss_markets_main",
-     "published": "2026-11-24 12:24 PM ET",
+     "title": "Financial Services Roundup: Market Talk",
+     "summary": "Find insight on U.S. spot bitcoin ETFs, Canadian banks, Spanish banks and more in the latest Market Talks covering Financial Services.",
+     "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-2d65d6bc?mod=rss_markets_main",
+     "published": "2026-11-24 4:56 PM ET",
      "tickers": [],
      "marketWide": true
     },
@@ -106,7 +80,7 @@
      "title": "U.S. Stocks Mixed as Huang Relief Rally Fades",
      "summary": "U.S. stocks finished mixed, with the Nasdaq and S&P 500 giving back some of Monday\u2019s rally, as traders digested the implications of President Donald Trump\u2019s push to reinstall Jensen Huang as head of Nvidia.",
      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-huang-relief-rally-fades-9fa9750a?mod=rss_markets_main",
-     "published": "2026-11-24 4:32 PM ET",
+     "published": "2026-11-24 5:03 PM ET",
      "tickers": [
       "NVDA"
      ],
@@ -141,6 +115,14 @@
      "marketWide": false
     },
     {
+     "title": "Crude Futures Settle Higher on Shipping Risks",
+     "summary": "Oil futures picked up with continuing attacks on shipping in the Strait of Hormuz keeping some risk premium in prices, and limiting the downside in market expectations for a global supply surplus.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-edge-higher-on-likely-technical-recovery-3d1650f7?mod=rss_markets_main",
+     "published": "2026-11-24 4:51 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
      "title": "Oil Prices Rebound as Shipping Risks Persist",
      "summary": "Oil prices picked up from initial losses and settled higher Tuesday as traders weighed persistent threats to energy shipments in the Middle East against expectations of a global supply surplus.",
      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_markets_main",
@@ -167,14 +149,6 @@
      "marketWide": false
     },
     {
-     "title": "Crude Futures Pick Up After Sharp Drop",
-     "summary": "Oil futures picked up after solid declines the previous session, with the market continuing to weigh abundant supply against conflict risks.",
-     "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-edge-higher-on-likely-technical-recovery-3d1650f7?mod=rss_markets_main",
-     "published": "2026-11-24 10:21 AM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
      "title": "Dollar Could Rise Further in 2027 if Fed Lifts Rates",
      "summary": "The DXY dollar index fell after hitting a 20-month high. The dollar could strengthen in 2027 as the Federal Reserve looks set to deliver more interest-rate hikes, J.P. Morgan analysts said.",
      "url": "https://www.wsj.com/articles/dollar-stays-strong-after-nvidia-news-boosts-u-s-tech-stocks-a0c603c2?mod=rss_markets_main",
@@ -191,6 +165,24 @@
       "NVDA"
      ],
      "marketWide": false
+    },
+    {
+     "title": "Trump Engineered Huang\u2019s Reinstatement as Nvidia CEO",
+     "summary": "Plus, Nvidia added nearly $1 trillion in market value, and Trump ordered the U.S. Army to hold off on detonating tons of toxic explosives in Iowa.",
+     "url": "https://www.wsj.com/business/trump-engineered-huangs-reinstatement-as-nvidia-ceo-4e9c1cd3?mod=rss_markets_main",
+     "published": "2026-11-23 5:25 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "\u2018I Fell Off My Chair.\u2019 Investors Marvel as Huang\u2019s Return Sends Stocks Rocketing.",
+     "summary": "The tech-heavy Nasdaq composite roars back from last week\u2019s selloff, adding more than $2 trillion in market value.",
+     "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6?mod=rss_markets_main",
+     "published": "2026-11-23 4:45 PM ET",
+     "tickers": [],
+     "marketWide": true
     },
     {
      "title": "Nvidia Chief\u2019s Return Lifts Many Boats",
@@ -369,16 +361,6 @@
      "marketWide": false
     },
     {
-     "title": "The Morning Risk Report: U.S. Chip Restrictions Amplify Shell Company Headaches in AI Ecosystem",
-     "summary": "Plus: Nvidia reinstates Jensen Huang as CEO and new study raises Bayer cancer link again",
-     "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-u-s-chip-restrictions-amplify-shell-company-headaches-in-ai-ecosystem-fd7a749d?mod=pls_whats_news_us_business_f",
-     "published": "2026-11-24 7:36 AM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
      "title": "Dell Lifts Outlook as Revenue Doubles on Server Demand",
      "summary": "The company also said its board approved a $25 billion expansion to its existing stock buyback program.",
      "url": "https://www.wsj.com/business/earnings/dell-lifts-outlook-as-revenue-doubles-on-server-demand-40c14b0b?mod=pls_whats_news_us_business_f",
@@ -415,18 +397,18 @@
      "marketWide": false
     },
     {
-     "title": "Oil Prices Rebound as Shipping Risks Persist",
-     "summary": "Oil prices picked up from initial losses and settled higher Tuesday as traders weighed persistent threats to energy shipments in the Middle East against expectations of a global supply surplus.",
-     "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=pls_whats_news_us_business_f",
-     "published": "2026-11-24 4:28 PM ET",
+     "title": "Energy & Utilities Roundup: Market Talk",
+     "summary": "Find insight on oil futures, Oryx Midstream Services, Var Energi and more in the latest Market Talks covering Energy and Utilities.",
+     "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-762271f0?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-24 4:59 PM ET",
      "tickers": [],
      "marketWide": true
     },
     {
-     "title": "Energy & Utilities Roundup: Market Talk",
-     "summary": "Find insight on oil futures, Var Energi and more in the latest Market Talks covering Energy and Utilities.",
-     "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-762271f0?mod=pls_whats_news_us_business_f",
-     "published": "2026-11-24 12:27 PM ET",
+     "title": "Oil Prices Rebound as Shipping Risks Persist",
+     "summary": "Oil prices picked up from initial losses and settled higher Tuesday as traders weighed persistent threats to energy shipments in the Middle East against expectations of a global supply surplus.",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-24 4:28 PM ET",
      "tickers": [],
      "marketWide": true
     },
@@ -485,6 +467,16 @@
      "marketWide": true
     },
     {
+     "title": "The Morning Risk Report: U.S. Chip Restrictions Amplify Shell Company Headaches in AI Ecosystem",
+     "summary": "Plus: Nvidia reinstates Jensen Huang as CEO and new study raises Bayer cancer link again",
+     "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-u-s-chip-restrictions-amplify-shell-company-headaches-in-ai-ecosystem-fd7a749d?mod=pls_whats_news_us_business_f",
+     "published": "2026-11-24 7:36 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
      "title": "The White House Push to Reinstate Jensen Huang",
      "summary": "Plus, the Pentagon is in talks with GM and Ford to make drones, and the most famous problem in math was just solved by AI\u2014and a human.",
      "url": "https://www.wsj.com/articles/the-white-house-push-to-reinstate-jensen-huang-097e06dd?mod=pls_whats_news_us_business_f",
@@ -523,16 +515,6 @@
      "marketWide": true
     },
     {
-     "title": "The Frantic White House Push to Get Jensen Huang Back",
-     "summary": "Trump made clear he wanted the Nvidia CEO reinstated. On Monday, he touted the decision, saying the market proved it was right.",
-     "url": "https://www.wsj.com/business/nvidia-jensen-huang-white-house-9ad03961?mod=pls_whats_news_us_business_f",
-     "published": "2026-11-23 9:00 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
      "title": "Jensen Huang Got His Job Back. What Message Does It Send to Corporate America?",
      "summary": "Executives and board members are grappling with what precedent Jensen Huang\u2019s return at Nvidia sets for corporate governance and leadership amid scandal.",
      "url": "https://www.wsj.com/business/nvidia-jensen-huang-corporate-culture-23e37147?mod=pls_whats_news_us_business_f",
@@ -548,6 +530,22 @@
    "source": "MarketWatch",
    "tier": 2,
    "items": [
+    {
+     "title": "Anthropic\u2019s stock just broke below its IPO price for the first time",
+     "summary": "Shares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.",
+     "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+     "published": "2026-11-24 4:46 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "HPE just posted its strongest growth ever \u2014 but its stock is sinking",
+     "summary": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+     "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+     "published": "2026-11-24 4:45 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
     {
      "title": "Micron\u2019s stock falls as an analyst warns about a future supply glut",
      "summary": "A BNP Paribas analyst says the risk of an \u201coversupply scenario is mounting\u201d for memory chips, and that could threaten Micron\u2019s pricing power.",
@@ -581,16 +579,6 @@
      "published": "2026-11-24 4:14 PM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "A bipartisan backlash is hitting Nvidia in Washington in the wake of Trump\u2019s push for Huang\u2019s return",
-     "summary": "Congress appears even more likely to OK new restrictions on the chip giant\u2019s dealings with China \u2014 and it\u2019s calling for more investigations, additional hearings and briefings",
-     "url": "https://www.marketwatch.com/story/a-bipartisan-backlash-is-hitting-nvidia-in-washington-in-the-wake-of-trumps-push-for-huangs-return-565626f2?mod=mw_rss_topstories",
-     "published": "2026-11-24 3:42 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     }
    ]
   },
@@ -604,10 +592,68 @@
    "tier": 2,
    "items": [
     {
+     "title": "Canadian Dollar Gains Most Since August on Inflation Warning",
+     "summary": "The Canadian dollar logged its biggest gain in more than three months after the head of the Bank of Canada warned higher oil costs will further drive up consumer prices, compounding persistent inflation.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
+     "published": "2026-11-24 2:31 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Gold Slips as Investors Weigh Fed Outlook, US Tariff Plans",
+     "summary": "Gold slumped, erasing most of Monday\u2019s dramatic rebound as investors bet on further interest-rate hikes while a tariff-driven rout in equities prompted some traders to sell bullion to cover losses elsewhere.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally",
+     "published": "2026-11-23 7:06 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "US Readies Tariff Hike on China, EU Goods",
+     "summary": "The US is set to announce as soon as Tuesday plans to raise tariffs on goods from China, the European Union and more than a dozen other economies, according to people familiar with the matter. Alicia Diaz reports. (Source: Bloomberg)",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video",
+     "published": "2026-11-24 4:58 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Loom",
+     "summary": "The Nasdaq 100 Index plunged on Tuesday, led by another steep decline in chipmakers as a relief rally in technology stocks gave way to renewed worries about the durability of the AI trade. Plans for new US tariffs also weighed on stocks.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally",
+     "published": "2026-11-24 4:45 AM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
+     "title": "Latam Currencies Lag Emerging Peers as Global Selloff Weighs",
+     "summary": "Most Latin American currencies slumped Tuesday as falling metal prices and a renewed selloff in US tech stocks fanned a move away from riskier assets.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/emerging-market-stocks-rally-as-huang-s-return-revives-ai-trade",
+     "published": "2026-11-24 1:26 AM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Quant Funds Are Having a Hard Time Keeping Up With This Market",
+     "summary": "The stock market narrative is shifting so quickly, even the so-called fast money can\u2019t keep up.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/quant-funds-are-having-a-hard-time-keeping-up-with-this-market",
+     "published": "2026-11-24 4:36 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
      "title": "Nasdaq 100 Falls 2% on AI Rout, Tariff Hike Talk: Markets Wrap",
      "summary": "Wall Street\u2019s doubts about the durability of the artificial-intelligence trade spurred selling in technology stocks, with investors also parsing talks of fresh US tariffs.",
      "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
      "published": "2026-11-23 5:06 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
+    {
+     "title": "Bond Traders Rush to Hedge Risk of Fed Hikes Stalling Economy",
+     "summary": "Bond traders are racing to hedge the risk that the Federal Reserve\u2019s interest-rate hikes and the stock market\u2019s slide will significantly slow the US economy, forcing the central bank to shift back to easing monetary policy as soon as late next year.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/bond-traders-rush-to-hedge-risk-of-fed-hikes-stalling-economy",
+     "published": "2026-11-24 4:30 PM ET",
      "tickers": [],
      "marketWide": true
     },
@@ -670,40 +716,6 @@
      "published": "2026-11-23 6:04 PM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Floated",
-     "summary": "The Nasdaq 100 Index plunged on Tuesday, led by another steep decline in chipmakers as a relief rally in technology stocks gave way to renewed worries about the durability of the AI trade. Plans for new US tariffs also weighed on stocks.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-tech-stocks-poised-to-slide-as-ai-caution-returns-after-rally",
-     "published": "2026-11-24 4:45 AM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "Canadian Dollar Gains Most Since August on BOC Inflation Warning",
-     "summary": "The Canadian dollar is headed for its biggest gain in more than three months after the head of the Bank of Canada warned higher oil costs will further drive up consumer prices, compounding persistent inflation.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/canadian-dollar-gains-most-since-august-on-boc-inflation-warning",
-     "published": "2026-11-24 2:31 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "Quant Funds Reduce US Treasury Short Bets, Fueling Bond Rally",
-     "summary": "Trend-chasing quant funds are trimming their long-held short positions in US Treasuries, fueling a bond rally as an equity selloff revives haven demand for government debt.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/trend-followers-dump-bond-shorts-as-stocks-swoon-aids-haven-bids",
-     "published": "2026-11-24 2:08 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "Latam Currencies Lead EM Losses as Global Selloff Hits Risk Mood",
-     "summary": "Most Latin American currencies slumped Tuesday as falling metal prices and a renewed selloff in US tech stocks fanned a move away from riskier assets.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/emerging-market-stocks-rally-as-huang-s-return-revives-ai-trade",
-     "published": "2026-11-24 1:26 AM ET",
-     "tickers": [],
-     "marketWide": true
     }
    ]
   },
@@ -711,6 +723,14 @@
    "source": "Bloomberg Technology",
    "tier": 2,
    "items": [
+    {
+     "title": "Crypto Winter Persists, 24/7 Trading Arrives, Kalshi Under Pressure",
+     "summary": "\"Bloomberg Crypto\" covers the people, transactions, and technology shaping the world of decentralized finance. Today's guests: Bullish President Stacey Cunningham, OKXice Co-Chair Andrew Cuomo, Bain Capital ventures Partner Matt Harris, NYU Faculty & Monarq Asset Management Chief Operating Officer Professor Ayesha Kiani, and Vanderbilt Law School Associate Dean & Professor of Law Yesha Yadav. (Sou",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-24/bloomberg-crypto-11-24-2026-video",
+     "published": "2026-11-24 4:36 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
     {
      "title": "Paul Krugman Weighs In on AI Boom and Nvidia's Huang",
      "summary": "Nobel laureate Paul Krugman, a City University of New York Graduate Center professor, argues that stock-market performance should not be confused with the health of the broader economy. Speaking on \"Bloomberg The Close,\" Krugman also says the economy shouldn't depend on one executive when asked about Nvidia's Jensen Huang. (Source: Bloomberg)",
@@ -822,44 +842,6 @@
      "published": "2026-11-24 2:51 PM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "Most Exciting Time For Fintech: Cunningham",
-     "summary": "Stacey Cunningham, president of Bullish and former president of the New York Stock Exchange, joins Scarlet Fu and Tim Stenovec on \u201cBloomberg Crypto.\u201d They discuss her recent move to Bullish, market volatility, and her preference of digital shares of tokens. (Source: Bloomberg)",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-24/most-exciting-time-for-fintech-cunningham-video",
-     "published": "2026-11-24 2:47 PM ET",
-     "tickers": [],
-     "marketWide": true
-    },
-    {
-     "title": "Trump's Nvidia Push is 'Crony Capitalism,' Says Rep.-Elect Killin",
-     "summary": "Trump's Nvidia Push is 'Crony Capitalism,' Says Rep.-Elect Killin Democrat Representative-Elect from Colorado Jessica Killin said that Trump's involvement in reinstating Nvidia CEO Jensen Huang is 'crony capitalism' and should be investigated for both potential national security risks and corruption from the president and his family. Killin also called for a 'complete overhaul' of the ethics syste",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-24/trump-s-nvidia-push-is-crony-capitalism-says-killin-video",
-     "published": "2026-11-24 2:39 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "Nvidia Is a \u2018Good Corporate Citizen,\u2019 Attorney General Says",
-     "summary": "US Attorney General Todd Blanche said Nvidia Corp. is \u201ca good corporate citizen,\u201d while declining to directly answer questions about whether the Justice Department is scrutinizing the circumstances that led to the temporary exit of Chief Executive Officer Jensen Huang.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/nvidia-is-a-good-corporate-citizen-us-attorney-general-says",
-     "published": "2026-11-24 11:59 AM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
-    },
-    {
-     "title": "CoreWeave Bonds Hit All-Time Lows, Erasing Nvidia-Fueled Gains",
-     "summary": "Bonds backing cloud computing provider CoreWeave Inc. fell to record lows Tuesday, among the day\u2019s biggest corporate bond losses, amid renewed concerns about the durability of the AI trade.",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/coreweave-bonds-hit-all-time-lows-erasing-nvidia-fueled-gains",
-     "published": "2026-11-24 1:55 PM ET",
-     "tickers": [
-      "NVDA"
-     ],
-     "marketWide": false
     }
    ]
   },
@@ -1084,6 +1066,16 @@
    "tier": 2,
    "items": [
     {
+     "title": "Why Asia\u2019s AI rally faces a tougher road even after Jensen Huang\u2019s comeback",
+     "summary": "While Jensen Huang\u2019s return to Nvidia has soothed market sentiment, analysts have warned that the artificial intelligence boom that propelled Asian chip stocks this year is unlikely to regain its first-half momentum \u2013 and that US regulatory scrutiny of the sector remains far from over. \u201cThe market is certainly, at least for a day, soothed by the fact that Jensen is back,\u201d said Brian Levitt, chief ",
+     "url": "https://www.scmp.com/business/markets/article/3375601/why-asias-ai-rally-faces-tougher-road-even-after-jensen-huangs-comeback",
+     "published": "2026-11-24 5:00 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
+    {
      "title": "Rent hikes, low supply in Hong Kong\u2019s CBD sees banks, tech firms heading for West Kowloon",
      "summary": "Rising Central rents and tightening supply are driving a renewed wave of office decentralisation, with West Kowloon standing as the primary destination for investment banks, tech majors and mainland Chinese asset managers, according to a new report by Knight Frank. The property consultancy\u2019s analysis of office relocations between 2024 and the third quarter of 2026 shows that 896,126 square feet of",
      "url": "https://www.scmp.com/business/banking-finance/article/3375574/rent-hikes-low-supply-hong-kongs-cbd-sees-banks-tech-firms-heading-west-kowloon",
@@ -1183,6 +1175,16 @@
    "source": "South China Morning Post (China economy)",
    "tier": 2,
    "items": [
+    {
+     "title": "Nvidia\u2019s Jensen Huang apologises to staff, says he is in therapy",
+     "summary": "Nvidia Chief Executive Jensen Huang apologised to employees on Tuesday for violating the company\u2019s code of conduct and told them he was in therapy, a day after he was reinstated as CEO, according to US media reports. \u201cI made some terrible mistakes,\u201d Huang told an hour-long all-hands meeting at the company\u2019s Santa Clara, California, headquarters, The New York Times reported after reviewing a live s",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy",
+     "published": "2026-11-24 5:03 PM ET",
+     "tickers": [
+      "NVDA"
+     ],
+     "marketWide": false
+    },
     {
      "title": "As China and Italy try to boost birth rates, their histories offer lessons",
      "summary": "Since ancient times, states have sought to encourage childbearing while protecting children already born. The comparison between Rome and China is especially revealing. In different ways, the two civilisations addressed the same question: how to encourage families to have children and help raise them. As early as 59BC, Julius Caesar made the number of children one of the main criteria for allocati",
@@ -1338,14 +1340,6 @@
      "published": "2026-11-24 3:50 AM ET",
      "tickers": [],
      "marketWide": true
-    },
-    {
-     "title": "Hong Kong customs arrests 7, seizes HK$23 million in suspected smuggled drugs",
-     "summary": "Hong Kong customs officers have arrested seven people and seized about HK$23 million (US$2.9 million) worth of suspected smuggled controlled drugs, including Viagra, cancer medication and slimming injections, in an operation targeting air parcels. The Customs and Excise Department said on Tuesday it had launched a series of investigations late last month into the smuggling of controlled pharmaceut",
-     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375591/hong-kong-customs-arrests-7-seizes-hk23-million-suspected-smuggled-drugs",
-     "published": "2026-11-24 2:15 AM ET",
-     "tickers": [],
-     "marketWide": true
     }
    ]
   },
@@ -1471,6 +1465,14 @@
    "source": "The Block",
    "tier": 2,
    "items": [
+    {
+     "title": "Bitcoin miner CleanSpark swings to $987 million annual loss as BTC production declines",
+     "summary": "CleanSpark's annual revenue fell 25% as the bitcoin miner continues to shift toward AI infrastructure.",
+     "url": "https://www.theblock.co/news/business/2026-11-24-bitcoin-miner-cleanspark-swings-987-million-annual-loss-btc-production-declines-446061",
+     "published": "2026-11-24 5:10 PM ET",
+     "tickers": [],
+     "marketWide": true
+    },
     {
      "title": "Payward\u2019s Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC",
      "summary": "Krak has opened a waitlist for two U.S. credit card products, including a secured card that uses USDC as collateral.",

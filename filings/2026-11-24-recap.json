@@ -1,7 +1,7 @@
 {
  "mode": "recap",
  "reportDate": "2026-11-24",
- "generatedAt": "2026-11-24T16:35:38-05:00",
+ "generatedAt": "2026-11-24T17:19:07-05:00",
  "lookbackHours": 30,
  "final": false,
  "source": "SEC EDGAR",
@@ -52,7 +52,22 @@
     "indexUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926131169/0001104659-26-131169-index.htm"
    }
   ],
-  "GOOG": [],
+  "GOOG": [
+   {
+    "form": "8-K",
+    "filed": "2026-11-24",
+    "acceptedET": "2026-11-24 4:49 PM ET",
+    "items": "8.01,9.01",
+    "description": "8-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+    "indexUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/0001193125-26-475973-index.htm",
+    "textFiles": [
+     "filings/text/2026-11-24/GOOG-8-K-000119312526475973-0.txt"
+    ],
+    "excerpt": "8-K Depositary Shares, each representing a 1/20th interest in a share of 6.25% of Series A Mandatory Convertible Preferred Stock, par value $0.001 per Depositary Shares, each representing a 1/20th interest in a share of 6.25% of Series B Mandatory Convertible Preferred Stock, par value $0.001 per false 0001652044 0001652044 2026-11-24 2026-11-24 0001652044 us-gaap:CommonClassAMember 2026-11-24 2026-11-24 0001652044 goog:CapitalClassCMember 2026-11-24 2026-11-24 0001652044 goog:DepositarySharesSeriesAMandatoryConvertiblePreferredStockMember 2026-11-24 2026-11-24 0001652044 goog:DepositarySharesSeriesBMandatoryConvertiblePreferredStockMember 2026-11-24 2026-11-24 0001652044 goog:FloatingRateSeniorNotesDue2028Member 2026-11-24 2026-11-24 0001652044 goog:A2.375SeniorNotesDue2028Member 2026-11-24 2026-11-24 0001652044 goog:SeniorNotesDue2028Member 2026-11-24 2026-11-24 0001652044 goog:A2.500SeniorNotesDue2029Member 2026-11-24 2026-11-24 0001652044 goog:A4.125SeniorNotesDue2029Member 2026-11-24 2026-11-24 0001652044 goog:A3.200SeniorNotesDue2030Member 2026-11-24 2026-11-24 0001652044 us-gaap:SeniorNotesMember 2026-11-24 2026-11-24 0001652044 goog:A2.875SeniorNotesDue2031Member 2026-11-24 2026-11-24 0001652044 goog:A3.450SeniorNotesDue2032Member 2026-11-24 2026-11-24 0001652044 goog:A4.250SeniorNotesDue2032Member 2026-11-24 2026-11-24 0001652044 goog:A4.625SeniorNotesDue2032Member 2026-11-24 2026-11-24 0001652044 goog:A3.000SeniorNotesDue2033Member 2026-11-24 2026-11-24 0001652044 goog:A3.125SeniorNotesDue2034Member 2026-11-24 2026-11-24 0001652044 goog:A3.625SeniorNotesDue2034Member 2026-11-24 2026-11-24 0001652044 goog:A4.500SeniorNotesDue2035Member 2026-11-24 2026-11-24 0001652044 goog:A3.375SeniorNotesDue2037Member 2026-11-24 2026-11-24 0001652044 goog:A3.500SeniorNotesDue2038Member 2026-11-24 2026-11-24 0001652044 goog:A4.100SeniorNotesDue2039Member 2026-11-24 2026-11-24 0001652044 goog:A4.875SeniorNotesDue2039Member 2026-11-24 2026-11-24 0001652044 goog:A5.500SeniorNotesDue2041Member 2026-11-24 2026-11-24 0001652044 goog:A4.000SeniorNotesDue2044Member 2026-11-24 2026-11-24 0001652044 goog:A3.875SeniorNotesDue2045Member 2026-11-24 2026-11-24 0001652044 goog:A4.500SeniorNotesDue2045Member 2026-11-24 2026-11-24 0001652044 goog:SeniorNotesDue2045Member 2026-11-24 2026-11-24 0001652044 goog:A4.000SeniorNotesDue2054Member 2026-11-24 2026-11-24 0001652044 goog:A5.875SeniorNotesDue2058Member 2026-11-24 2026-11-24 0001652044 goog:A4.800SeniorNotesDue2063Member 2026-11-24 2026-11-24 0001652044 goog:A4.375SeniorNotesDue2064Member 2026-11-24 2026-11-24 0001652044 goog:A6.125SeniorNotesDue2126Member 2026-11-24 2026-11-24 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K CURRENT REPORT Pursuant to Section 13 or 15(d) of The Securities Exchange Act of 1934 Date of Report (Date of earliest event reported) November 24, 2026 ALPHABET INC. (Exact name of registrant as specified in its charter) Delaware 001-37580 61-1767919 (State or other jurisdiction of incorporation) (Commission File Number) (IRS Employer Identification No.) 1600 Amphitheatre Parkway Mountain View , CA 94043 (Address of principal executive offices, including zip code) ( 650 ) 253-0000 (Registrant\u2019s telephone number, including area code) Not Applicable (Former name or former address, if changed since last report) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below): \u2610 Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425) \u2610 Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) \u2610 Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) \u2610 Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) Securities registered pursuant to Section 12(b) of ",
+    "textChars": 9267
+   }
+  ],
   "AVGO": []
  },
  "errors": []
