@@ -1,0 +1,163 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 25, 2026",
+  "periodStart": "Tue, Nov 24, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Wed, Nov 25, 2026, 4:00 PM ET (that day's close)",
+  "lastUpdated": "Wed, Nov 25, 2026, 6:33 PM ET",
+  "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The final news, filings and closing-price files were not available when this recap was written, so late items may be missing and story text does not quote closing moves.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per the Financial Times, US stocks closed lower in a volatile session as the AI trade remained under pressure, with Nvidia among the losers and Anthropic a bright spot as its shares finished higher (4:26 PM ET); WSJ reported stocks finished lower after a wild session, with tariffs back on the agenda (4:23 PM ET). Bloomberg reported the Nasdaq 100 tumbled for a second day and briefly entered bear-market territory as mounting fears about over-investment in AI hit the biggest technology companies (12:29 PM ET). On data, the BEA's second estimate showed real GDP grew at a 4.3% annual rate in the third quarter, and October personal income rose 0.7% with PCE up 0.3% (8:30 AM ET); MarketWatch reported the Fed's preferred inflation measure rose again in October at an accelerated rate, virtually assuring a rate increase next month (12:31 PM ET), and the FT said the GDP upgrade keeps a December rate rise in play (11:07 AM ET). On trade, the South China Morning Post reported the US proposed additional tariffs on 14 economies including China, a week after the Trump-Xi summit (9:03 AM ET). Market news written from headlines and publisher summaries only; data figures from the BEA releases.",
+      "sourceName": "Financial Times / WSJ / Bloomberg / BEA / MarketWatch / SCMP",
+      "sourceUrl": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+      "pubTime": "Nov 25, 2026, 4:26 PM ET",
+      "sourceDepth": "headline"
+    },
+    "cryptoDriver": {
+      "text": "CoinDesk reported ether and DeFi tokens fell twice as hard as bitcoin as the equities selloff resumed (6:57 AM ET). The Block reported the total crypto market cap fell to its lowest since September 2024 as stocks slid and US inflation picked up (12:26 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "CoinDesk / The Block",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes"
+    },
+    "calendar": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Alibaba in talks for potential offshore bond sale next year",
+          "summary": "Per Bloomberg, Alibaba has been in discussions in recent weeks with banks about potentially raising money in the offshore bond markets next year, according to people familiar with the matter. No further development was reported in today's sources. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/alibaba-in-talks-for-potential-yuan-dollar-bond-sale-next-year",
+          "pubTime": "Nov 24, 2026, 8:38 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "regulatory",
+          "headline": "S&P says it may downgrade Nvidia's credit ratings on governance concerns",
+          "summary": "Per Bloomberg, S&P Global Ratings is looking at cutting Nvidia's credit rating by one notch, citing concerns over management and governance following the departure and then the return of CEO Jensen Huang (1:56 PM ET). Nikkei Asia also reported Nvidia's shares dropped and its credit rating was placed on watch two days after Huang's return. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg / Nikkei Asia",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries",
+          "pubTime": "Nov 25, 2026, 1:56 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "legal",
+          "headline": "Nvidia agrees to $290 million settlement over crypto mining disclosures",
+          "summary": "Per The Block, Nvidia agreed to a $290 million settlement over claims it misled investors about crypto mining demand driving its 2017-18 gaming GPU sales. Written from the headline and the publisher's summary only.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+          "pubTime": "Nov 25, 2026, 1:00 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "regulatory",
+          "headline": "Officials brief Congress: no evidence China orchestrated Huang's affair",
+          "summary": "Per WSJ, officials told Congress in a classified discussion that there is no evidence China orchestrated Jensen Huang's affair; the briefing came one day after the Trump administration helped reinstall Huang as Nvidia CEO (10:46 AM ET). Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/politics/national-security/no-evidence-china-orchestrated-jensen-huangs-affair-officials-brief-congress-00228bb7?mod=rss_Technology",
+          "pubTime": "Nov 25, 2026, 10:46 AM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "Huang works to signal business as usual; shares among the day's losers",
+          "summary": "Per WSJ, as Nvidia's co-founder resumes control, the company is working to convince the market it is business as usual while facing fresh challenges (Nov 24, 9:00 PM ET). On Wednesday, WSJ reported US stocks finished mixed as the tech sector gave back more of the gains that followed Huang's reinstatement (4:31 PM ET), and the Financial Times listed Nvidia among the session's losers (4:26 PM ET). Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ / Financial Times",
+          "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huangs-vision-for-the-new-nvidia-is-a-lot-like-the-old-one-d0d4abc3?mod=rss_Technology",
+          "pubTime": "Nov 24, 2026, 9:00 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "UP Fintech logs record near-US$1 billion net asset inflow in Hong Kong",
+          "summary": "Per the South China Morning Post, UP Fintech, parent of Tiger Brokers, said its net asset inflows in Hong Kong approached US$1 billion in the third quarter, the highest since it entered the market. Written from the headline and the publisher's summary only.",
+          "sourceName": "South China Morning Post",
+          "sourceUrl": "https://www.scmp.com/business/companies/article/3375689/after-beijing-crackdown-tiger-brokers-holding-firm-logs-record-us1b-inflow-hong-kong",
+          "pubTime": "Nov 24, 2026, 10:00 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "updated",
+      "items": [
+        {
+          "type": "corporate",
+          "headline": "Alphabet closes C$6 billion Canadian dollar senior notes offering",
+          "summary": "Alphabet's 8-K (Item 8.01) says that on November 24 it closed an underwritten public offering of C$6 billion of Canadian dollar-denominated senior notes: C$2.0 billion of 4.100% notes due 2029, C$1.25 billion of 4.800% notes due 2034, C$1.5 billion of 5.325% notes due 2038 and C$1.25 billion of 6.000% notes due 2066.",
+          "sourceName": "Alphabet Inc. Form 8-K (SEC)",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+          "pubTime": "Nov 24, 2026, 4:49 PM ET",
+          "sourceDepth": "full"
+        },
+        {
+          "type": "legal",
+          "headline": "Malaysian regulator sues Google for US$146 million over YouTube content",
+          "summary": "Per the South China Morning Post, Malaysia's internet regulator filed two lawsuits against Google seeking a combined 600 million ringgit (US$146 million) in damages over its alleged failure to address harmful content on YouTube. Written from the headline and the publisher's summary only.",
+          "sourceName": "South China Morning Post",
+          "sourceUrl": "https://www.scmp.com/week-asia/politics/article/3375742/malaysian-regulator-sues-google-us146m-over-harmful-online-content",
+          "pubTime": "Nov 25, 2026, 3:32 AM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}

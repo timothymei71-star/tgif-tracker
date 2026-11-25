@@ -2,33 +2,43 @@
   "recap": {
     "label": "Daily Recap",
     "populated": true,
-    "reportDate": "November 24, 2026",
-    "periodStart": "Mon, Nov 23, 2026, 4:00 PM ET (previous close)",
-    "periodEnd": "Tue, Nov 24, 2026, 4:00 PM ET (that day's close)",
-    "lastUpdated": "Tue, Nov 24, 2026, 6:55 PM ET",
-    "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary.",
+    "reportDate": "November 25, 2026",
+    "periodStart": "Tue, Nov 24, 2026, 4:00 PM ET (previous close)",
+    "periodEnd": "Wed, Nov 25, 2026, 4:00 PM ET (that day's close)",
+    "lastUpdated": "Wed, Nov 25, 2026, 6:33 PM ET",
+    "timezoneNote": "All times below are shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. The final news, filings and closing-price files were not available when this recap was written, so late items may be missing and story text does not quote closing moves.",
     "revisions": [],
     "market": {
       "driver": {
-        "text": "Per WSJ, US stocks finished mixed, with the Nasdaq and S&P 500 giving back some of Monday's rally as traders digested the implications of President Trump's push to reinstall Jensen Huang as head of Nvidia (5:03 PM ET). Bloomberg reported the Nasdaq 100 fell, led by another steep decline in chipmakers, as the relief rally gave way to renewed worries about the durability of the AI trade, with plans for new tariffs also weighing. The Financial Times reported Trump is readying a raft of new tariffs on major economies, with China, the EU, Japan and South Korea expected to be hit (11:30 AM ET), and Bloomberg reported the US is set to announce the tariff hike as soon as Tuesday (4:58 PM ET). The Financial Times reported Anthropic closed below its IPO price as the tech rally faded (4:11 PM ET). Bloomberg reported Treasuries rose on haven demand as stocks gave back part of Monday's gains. Written from headlines and publisher summaries only.",
-        "sourceName": "WSJ / Bloomberg / Financial Times",
-        "sourceUrl": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-huang-relief-rally-fades-9fa9750a?mod=rss_markets_main",
-        "pubTime": "Nov 24, 2026, 5:03 PM ET",
+        "text": "Per the Financial Times, US stocks closed lower in a volatile session as the AI trade remained under pressure, with Nvidia among the losers and Anthropic a bright spot as its shares finished higher (4:26 PM ET); WSJ reported stocks finished lower after a wild session, with tariffs back on the agenda (4:23 PM ET). Bloomberg reported the Nasdaq 100 tumbled for a second day and briefly entered bear-market territory as mounting fears about over-investment in AI hit the biggest technology companies (12:29 PM ET). On data, the BEA's second estimate showed real GDP grew at a 4.3% annual rate in the third quarter, and October personal income rose 0.7% with PCE up 0.3% (8:30 AM ET); MarketWatch reported the Fed's preferred inflation measure rose again in October at an accelerated rate, virtually assuring a rate increase next month (12:31 PM ET), and the FT said the GDP upgrade keeps a December rate rise in play (11:07 AM ET). On trade, the South China Morning Post reported the US proposed additional tariffs on 14 economies including China, a week after the Trump-Xi summit (9:03 AM ET). Market news written from headlines and publisher summaries only; data figures from the BEA releases.",
+        "sourceName": "Financial Times / WSJ / Bloomberg / BEA / MarketWatch / SCMP",
+        "sourceUrl": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+        "pubTime": "Nov 25, 2026, 4:26 PM ET",
         "sourceDepth": "headline"
       },
       "cryptoDriver": {
-        "text": "CoinDesk reported bitcoin handed back Monday's Nvidia-driven gains as liquidations tripled (6:31 AM ET). The Block reported analysts said Huang's return was a reflex rally that did not resolve the macro headwinds bitcoin faces as a risk asset (1:21 AM ET). Written from headlines and publisher summaries only.",
+        "text": "CoinDesk reported ether and DeFi tokens fell twice as hard as bitcoin as the equities selloff resumed (6:57 AM ET). The Block reported the total crypto market cap fell to its lowest since September 2024 as stocks slid and US inflation picked up (12:26 PM ET). Written from headlines and publisher summaries only.",
         "sourceName": "CoinDesk / The Block",
-        "sourceUrl": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple"
-      }
+        "sourceUrl": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes"
+      },
+      "calendar": []
     },
     "tickers": [
       {
         "ticker": "BABA",
         "name": "Alibaba Group Holding Ltd",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "news",
+            "headline": "Alibaba in talks for potential offshore bond sale next year",
+            "summary": "Per Bloomberg, Alibaba has been in discussions in recent weeks with banks about potentially raising money in the offshore bond markets next year, according to people familiar with the matter. No further development was reported in today's sources. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/alibaba-in-talks-for-potential-yuan-dollar-bond-sale-next-year",
+            "pubTime": "Nov 24, 2026, 8:38 PM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "CRCL",
@@ -57,48 +67,39 @@
         "status": "updated",
         "items": [
           {
-            "type": "news",
-            "headline": "Huang apologizes to Nvidia staff at town hall, says he is in daily therapy",
-            "summary": "Per Bloomberg, Jensen Huang struck a somber tone a day after his reinstatement as CEO, apologizing to employees during an all-hands meeting and saying he had been in daily therapy (12:11 PM ET). WSJ reported he thanked the Trump administration while addressing staff (3:09 PM ET), and the Financial Times reported he told staff he still does not believe in CEO succession planning at Nvidia (3:18 PM ET). Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg / WSJ / Financial Times",
-            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-24/nvidia-s-huang-to-host-all-hands-meeting-a-day-after-his-return",
-            "pubTime": "Nov 24, 2026, 12:11 PM ET",
+            "type": "regulatory",
+            "headline": "S&P says it may downgrade Nvidia's credit ratings on governance concerns",
+            "summary": "Per Bloomberg, S&P Global Ratings is looking at cutting Nvidia's credit rating by one notch, citing concerns over management and governance following the departure and then the return of CEO Jensen Huang (1:56 PM ET). Nikkei Asia also reported Nvidia's shares dropped and its credit rating was placed on watch two days after Huang's return. Written from the headline and the publisher's summary only.",
+            "sourceName": "Bloomberg / Nikkei Asia",
+            "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries",
+            "pubTime": "Nov 25, 2026, 1:56 PM ET",
             "sourceDepth": "headline"
           },
           {
-            "type": "news",
-            "headline": "Nvidia shares slip as relief rally stalls; questions over Huang's return remain",
-            "summary": "Per MarketWatch, Nvidia's stock dropped as Huang's reinstatement does not fix regulatory issues or the investigation into his relationship with a former Megaspeed executive (4:14 PM ET). WSJ reported Nvidia's relief rally stalled (4:23 PM ET). Written from the headline and the publisher's summary only.",
-            "sourceName": "MarketWatch / WSJ",
-            "sourceUrl": "https://www.marketwatch.com/story/nvidias-stock-drops-as-these-major-questions-loom-over-jensen-huangs-return-9096636f?mod=mw_rss_topstories",
-            "pubTime": "Nov 24, 2026, 4:14 PM ET",
+            "type": "legal",
+            "headline": "Nvidia agrees to $290 million settlement over crypto mining disclosures",
+            "summary": "Per The Block, Nvidia agreed to a $290 million settlement over claims it misled investors about crypto mining demand driving its 2017-18 gaming GPU sales. Written from the headline and the publisher's summary only.",
+            "sourceName": "The Block",
+            "sourceUrl": "https://www.theblock.co/news/regulation/2026-11-25-nvidia-290-million-settlement-crypto-mining-class-action-446709",
+            "pubTime": "Nov 25, 2026, 1:00 PM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "regulatory",
-            "headline": "Lawmakers press investigations after Huang's return; Huang to testify before senators Dec. 3",
-            "summary": "Per WSJ, Republicans and Democrats see national-security risks in Huang's return and are vowing to press forward with investigations (Nov 23, 4:10 PM ET); WSJ separately reported several probes are examining the chip maker, its CEO and issues related to his initial ouster (Nov 23, 5:15 PM ET). Per a Bloomberg headline, Huang is to testify publicly before senators on Dec. 3 (Nov 24, 3:10 PM ET). Written from the headline and the publisher's summary only.",
-            "sourceName": "WSJ / Bloomberg",
-            "sourceUrl": "https://www.wsj.com/politics/policy/jensen-huangs-return-to-nvidia-draws-heavy-fire-from-lawmakers-ae698d88?mod=rss_Technology",
-            "pubTime": "Nov 23, 2026, 4:10 PM ET",
-            "sourceDepth": "headline"
-          },
-          {
-            "type": "regulatory",
-            "headline": "US blacklists Megaspeed, a firm at the center of the Nvidia crisis",
-            "summary": "Per Bloomberg, the Trump administration put Singapore-based Megaspeed International on a US trade blacklist barring it from buying advanced AI chips; the firm is described as being at the heart of the scandal that briefly cost Jensen Huang his job as Nvidia CEO. Written from the headline and the publisher's summary only.",
-            "sourceName": "Bloomberg",
-            "sourceUrl": "https://www.bloomberg.com/news/videos/2026-11-23/us-blacklists-megaspeed-targeting-a-key-player-in-nvidia-crisis",
-            "pubTime": "Nov 23, 2026, 5:01 PM ET",
+            "headline": "Officials brief Congress: no evidence China orchestrated Huang's affair",
+            "summary": "Per WSJ, officials told Congress in a classified discussion that there is no evidence China orchestrated Jensen Huang's affair; the briefing came one day after the Trump administration helped reinstall Huang as Nvidia CEO (10:46 AM ET). Written from the headline and the publisher's summary only.",
+            "sourceName": "WSJ",
+            "sourceUrl": "https://www.wsj.com/politics/national-security/no-evidence-china-orchestrated-jensen-huangs-affair-officials-brief-congress-00228bb7?mod=rss_Technology",
+            "pubTime": "Nov 25, 2026, 10:46 AM ET",
             "sourceDepth": "headline"
           },
           {
             "type": "news",
-            "headline": "White House pushed for Huang's reinstatement; Trump made up to $15mn on Nvidia shares",
-            "summary": "Per WSJ, Trump made clear he wanted the Nvidia CEO reinstated and on Monday touted the decision, saying the market proved it was right (Nov 23, 9:00 PM ET). Per the Financial Times, Trump made up to $15mn on the roughly 30% jump in Nvidia's share price, based on the maximum amount he could have owned in his latest disclosure (Nov 23, 5:21 PM ET). Written from the headline and the publisher's summary only.",
+            "headline": "Huang works to signal business as usual; shares among the day's losers",
+            "summary": "Per WSJ, as Nvidia's co-founder resumes control, the company is working to convince the market it is business as usual while facing fresh challenges (Nov 24, 9:00 PM ET). On Wednesday, WSJ reported US stocks finished mixed as the tech sector gave back more of the gains that followed Huang's reinstatement (4:31 PM ET), and the Financial Times listed Nvidia among the session's losers (4:26 PM ET). Written from the headline and the publisher's summary only.",
             "sourceName": "WSJ / Financial Times",
-            "sourceUrl": "https://www.wsj.com/business/nvidia-jensen-huang-white-house-9ad03961?mod=rss_Technology",
-            "pubTime": "Nov 23, 2026, 9:00 PM ET",
+            "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huangs-vision-for-the-new-nvidia-is-a-lot-like-the-old-one-d0d4abc3?mod=rss_Technology",
+            "pubTime": "Nov 24, 2026, 9:00 PM ET",
             "sourceDepth": "headline"
           }
         ]
@@ -109,38 +110,47 @@
         "status": "updated",
         "items": [
           {
-            "type": "earnings",
-            "headline": "UP Fintech reports Q3 2026 results: revenue $172.6M, non-GAAP EPS per ADS $0.27",
-            "summary": "UP Fintech's Q3 2026 release (6-K) reported total revenues of US$172.6 million, down 1.5% year over year and 5.3% quarter over quarter; commissions fell 13.5% to US$63.0 million while interest income rose 12.9% to US$82.7 million. Net income attributable to ordinary shareholders was US$46.4 million (US$0.25 per diluted ADS) versus US$53.8 million (US$0.29) a year earlier; non-GAAP net income was US$49.9 million (US$0.27 per diluted ADS) versus US$57.0 million (US$0.31). The company added 48,500 new funded clients (110,000 in the first nine months) and said it remains confident in its full-year target of 150,000; total client assets reached a record US$64.8 billion, up 6.7% quarter over quarter.",
-            "sourceName": "SEC filing (6-K, UP Fintech Q3 2026 results)",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1756699/000119312526473075/tigr-6k-2026_q3.htm",
-            "pubTime": "Nov 24, 2026, 6:10 AM ET",
-            "sourceDepth": "full"
+            "type": "news",
+            "headline": "UP Fintech logs record near-US$1 billion net asset inflow in Hong Kong",
+            "summary": "Per the South China Morning Post, UP Fintech, parent of Tiger Brokers, said its net asset inflows in Hong Kong approached US$1 billion in the third quarter, the highest since it entered the market. Written from the headline and the publisher's summary only.",
+            "sourceName": "South China Morning Post",
+            "sourceUrl": "https://www.scmp.com/business/companies/article/3375689/after-beijing-crackdown-tiger-brokers-holding-firm-logs-record-us1b-inflow-hong-kong",
+            "pubTime": "Nov 24, 2026, 10:00 PM ET",
+            "sourceDepth": "headline"
           }
         ]
       },
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
-        "status": "updated",
-        "items": [
-          {
-            "type": "news",
-            "headline": "Directors negotiating a potential SpaceX-Tesla merger",
-            "summary": "Per the Financial Times, five executives are charged with combining Elon Musk's sprawling enterprises into a potential $3.5tn company. Written from the headline and the publisher's summary only.",
-            "sourceName": "Financial Times",
-            "sourceUrl": "https://www.ft.com/content/2585e45e-9133-4215-a2d8-e1275e1033b9?syn-25a6b1a6=1",
-            "pubTime": "Nov 24, 2026, 12:00 AM ET",
-            "sourceDepth": "headline"
-          }
-        ]
+        "status": "clean",
+        "items": [],
+        "cleanNote": "No material company news in this window."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc.",
-        "status": "clean",
-        "items": [],
-        "cleanNote": "No material company news in this window."
+        "status": "updated",
+        "items": [
+          {
+            "type": "corporate",
+            "headline": "Alphabet closes C$6 billion Canadian dollar senior notes offering",
+            "summary": "Alphabet's 8-K (Item 8.01) says that on November 24 it closed an underwritten public offering of C$6 billion of Canadian dollar-denominated senior notes: C$2.0 billion of 4.100% notes due 2029, C$1.25 billion of 4.800% notes due 2034, C$1.5 billion of 5.325% notes due 2038 and C$1.25 billion of 6.000% notes due 2066.",
+            "sourceName": "Alphabet Inc. Form 8-K (SEC)",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+            "pubTime": "Nov 24, 2026, 4:49 PM ET",
+            "sourceDepth": "full"
+          },
+          {
+            "type": "legal",
+            "headline": "Malaysian regulator sues Google for US$146 million over YouTube content",
+            "summary": "Per the South China Morning Post, Malaysia's internet regulator filed two lawsuits against Google seeking a combined 600 million ringgit (US$146 million) in damages over its alleged failure to address harmful content on YouTube. Written from the headline and the publisher's summary only.",
+            "sourceName": "South China Morning Post",
+            "sourceUrl": "https://www.scmp.com/week-asia/politics/article/3375742/malaysian-regulator-sues-google-us146m-over-harmful-online-content",
+            "pubTime": "Nov 25, 2026, 3:32 AM ET",
+            "sourceDepth": "headline"
+          }
+        ]
       },
       {
         "ticker": "AVGO",
