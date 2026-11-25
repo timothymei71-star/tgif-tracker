@@ -1,0 +1,113 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 25, 2026",
+  "periodStart": "Tue, Nov 24, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Wed, Nov 25, 2026, 8:30 AM ET",
+  "lastUpdated": "Wed, Nov 25, 2026, 8:30 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. This morning's overnight news and filings snapshot was not available for this run, so coverage runs through about 10:40 PM ET on Nov 24.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Bloomberg's markets wrap, stocks extended their decline and futures signaled further weakness as doubts over the durability of the AI boom drove a retreat from technology shares, while Treasuries advanced on haven demand (5:09 PM ET). Bloomberg also reported the US is set to announce plans to raise tariffs on goods from China, the European Union and more than a dozen other economies, according to people familiar with the matter (6:41 PM ET). In Asia, Bloomberg reported enthusiasm over Jensen Huang's return to Nvidia quickly evaporated as Taiwan stocks tumbled and investors refocused on worries around the global AI trade (9:45 PM ET); the Financial Times said tech stocks in Tokyo and Seoul suffered as the Wall Street bounce faded (8:41 PM ET). Written from the headline and the publisher's summary only.",
+      "sourceName": "Bloomberg / Financial Times",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
+      "pubTime": "Nov 24, 2026, 5:09 PM ET",
+      "sourceDepth": "headline"
+    },
+    "calendar": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Alibaba in talks for potential offshore bond sale next year",
+          "summary": "Per Bloomberg, Alibaba has been in discussions in recent weeks with banks about potentially raising money in the offshore bond markets next year, according to people familiar with the matter. Written from the headline and the publisher's summary only.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/alibaba-in-talks-for-potential-yuan-dollar-bond-sale-next-year",
+          "pubTime": "Nov 24, 2026, 8:38 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "Jensen Huang's vision for the new Nvidia is a lot like the old one",
+          "summary": "Per WSJ, as Nvidia's co-founder resumes control, the company is working to convince the market it is business as usual while facing fresh challenges. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/ai/jensen-huangs-vision-for-the-new-nvidia-is-a-lot-like-the-old-one-d0d4abc3?mod=rss_Technology",
+          "pubTime": "Nov 24, 2026, 9:00 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "UP Fintech logs record near-US$1 billion net asset inflow in Hong Kong",
+          "summary": "Per the South China Morning Post, UP Fintech, parent of Tiger Brokers, said its net asset inflows in Hong Kong approached US$1 billion in the third quarter, the highest since it entered the market. Written from the headline and the publisher's summary only.",
+          "sourceName": "South China Morning Post",
+          "sourceUrl": "https://www.scmp.com/business/companies/article/3375689/after-beijing-crackdown-tiger-brokers-holding-firm-logs-record-us1b-inflow-hong-kong",
+          "pubTime": "Nov 24, 2026, 10:00 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}

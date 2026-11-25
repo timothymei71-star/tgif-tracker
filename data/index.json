@@ -1,6 +1,11 @@
 {
   "days": [
     {
+      "date": "2026-11-25",
+      "morning": true,
+      "recap": false
+    },
+    {
       "date": "2026-11-24",
       "morning": true,
       "recap": true
