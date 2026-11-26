@@ -1,0 +1,109 @@
+{
+  "label": "Morning Brief",
+  "populated": true,
+  "reportDate": "November 26, 2026",
+  "periodStart": "Wed, Nov 25, 2026, 4:00 PM ET (previous close)",
+  "periodEnd": "Thu, Nov 26, 2026, 8:30 AM ET",
+  "lastUpdated": "Thu, Nov 26, 2026, 8:30 AM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. This morning's overnight news and filings snapshot was not available for this run, so coverage runs through about 10:00 PM ET on Nov 25.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Bloomberg, AI uncertainty drove wild swings on Wednesday, with the Nasdaq ending down 0.6% after a sharp selloff (4:17 PM ET); WSJ said the Nasdaq composite plunged as much as 4.5% before paring losses (4:48 PM ET) and that Treasury yields extended their fall after a flurry of U.S. data including the PCE price index (4:02 PM ET). Overnight, the Financial Times reported stocks advanced in Asia after the volatile U.S. trading over AI risks (7:57 PM ET), and WSJ said Japan's Nikkei rose 1.3%, led by chip and metals stocks (7:19 PM ET). Bloomberg also reported U.S. chip curbs are stalling AI data center financing across Asia, with lenders reassessing deals tied to Chinese tech firms including ByteDance, Alibaba and Tencent (9:49 PM ET). Written from the headline and the publisher's summary only.",
+      "sourceName": "Bloomberg / WSJ / Financial Times",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/stomach-churning-swings-rock-wall-street-as-ai-doubts-creep-in",
+      "pubTime": "Nov 25, 2026, 4:17 PM ET",
+      "sourceDepth": "headline"
+    },
+    "cryptoDriver": {
+      "text": "Per The Block, Sens. Warren and Van Hollen sent two letters to SEC Chair Atkins demanding he rescind the SEC's innovation exemption and Regulation Crypto. Written from the headline and the publisher's summary only.",
+      "sourceName": "The Block",
+      "sourceUrl": "https://www.theblock.co/news/regulation/2026-11-25-warren-van-hollen-lead-push-scrap-sec-regulation-crypto-innovation-exemption-446756"
+    },
+    "calendar": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "U.S. officials say there's no evidence China coordinated Jensen Huang's affair",
+          "summary": "WSJ reported that U.S. officials say there is no evidence China coordinated Nvidia CEO Jensen Huang's affair. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/u-s-officials-say-theres-no-evidence-china-coordinated-jensen-huangs-affair-52fa4961?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 25, 2026, 4:48 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "WSJ: Nvidia's sales chief married an executive formerly at a company linked to chip smuggling",
+          "summary": "Per WSJ, Nvidia's sales chief dated a Super Micro executive for years; they have now married, and her former company has been linked to chip smuggling. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/finance/stocks/nvidia-china-executive-affair-jay-puri-cenly-chen-a42d733b?mod=rss_markets_main",
+          "pubTime": "Nov 25, 2026, 9:00 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": []
+}
