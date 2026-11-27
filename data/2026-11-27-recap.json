@@ -1,0 +1,125 @@
+{
+  "label": "Daily Recap",
+  "populated": true,
+  "reportDate": "November 27, 2026",
+  "periodStart": "Wed, Nov 25, 2026, 4:00 PM ET (previous close; markets closed Thursday for Thanksgiving)",
+  "periodEnd": "Fri, Nov 27, 2026, market close (holiday-shortened session)",
+  "lastUpdated": "Fri, Nov 27, 2026, 6:34 PM ET",
+  "timezoneNote": "All times shown in ET (America/New_York). Items marked headline were written only from the publisher's headline and summary. Today's closing-price, news and filings files were not available when this recap was written, so news coverage runs through about 10:00 PM ET on Nov 26, Friday's developments are not included, and story text does not quote closing moves.",
+  "revisions": [],
+  "market": {
+    "driver": {
+      "text": "Per Bloomberg, AI uncertainty drove wild swings on Wednesday, with the Nasdaq ending down 0.6% after a sharp selloff (Nov 25, 4:17 PM ET); WSJ said the Nasdaq composite plunged as much as 4.5% before paring losses and that Treasury yields extended their fall after a flurry of U.S. data including the PCE price index. After the Thanksgiving break, Bloomberg reported Asian stocks rose for a second day along with US equity-index futures, extending a tentative recovery after weeks of volatility in the AI trade, while Treasuries declined as cash trading resumed (Nov 26, 4:59 PM ET); WSJ said Asian markets were mostly higher as sentiment around AI stabilized (9:13 PM ET), and Bloomberg reported China's industrial profits grew at the fastest pace in five months in October (9:18 PM ET). The Financial Times reported a hawkish Fed is poised to raise rates despite the stock market turmoil, with inflation the top concern for officials (Nov 26, 9:58 AM ET). In chips, WSJ reported Washington closed a loophole that let Chinese companies access Nvidia chips (Nov 26, 7:42 AM ET), and Bloomberg reported U.S. chip curbs are stalling AI data center financing across Asia (Nov 25, 9:49 PM ET). Written from headlines and publisher summaries only.",
+      "sourceName": "Bloomberg / WSJ / Financial Times",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+      "pubTime": "Nov 26, 2026, 4:59 PM ET",
+      "sourceDepth": "headline"
+    },
+    "cryptoDriver": {
+      "text": "Per The Block, spot bitcoin ETFs have already hit record monthly net outflows of $5.39 billion in November, with several trading days remaining, putting them on track for their worst month on record. Written from the headline and the publisher's summary only.",
+      "sourceName": "The Block",
+      "sourceUrl": "https://www.theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814"
+    },
+    "calendar": []
+  },
+  "tickers": [
+    {
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "CRCL",
+      "name": "Circle Internet Group, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "FUTU",
+      "name": "Futu Holdings Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp",
+      "status": "updated",
+      "items": [
+        {
+          "type": "news",
+          "headline": "WSJ: U.S. officials say there's no evidence China coordinated Jensen Huang's affair",
+          "summary": "WSJ reported that U.S. officials say there is no evidence China coordinated Nvidia CEO Jensen Huang's affair. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/business/u-s-officials-say-theres-no-evidence-china-coordinated-jensen-huangs-affair-52fa4961?mod=pls_whats_news_us_business_f",
+          "pubTime": "Nov 25, 2026, 4:48 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "WSJ: Nvidia's sales chief married an executive formerly at a company linked to chip smuggling",
+          "summary": "Per WSJ, Nvidia's sales chief dated a Super Micro executive for years; they have now married, and her former company has been linked to chip smuggling. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/finance/stocks/nvidia-china-executive-affair-jay-puri-cenly-chen-a42d733b?mod=rss_markets_main",
+          "pubTime": "Nov 25, 2026, 9:00 PM ET",
+          "sourceDepth": "headline"
+        },
+        {
+          "type": "news",
+          "headline": "WSJ: Nvidia tells partners to pause shipments to Southeast Asia",
+          "summary": "Per WSJ, Nvidia told partners to pause shipments to Southeast Asia; Washington recently closed a remote-access loophole that helped Chinese companies tap in to computing power in the region. Written from the headline and the publisher's summary only.",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0?mod=rss_Technology",
+          "pubTime": "Nov 26, 2026, 12:06 PM ET",
+          "sourceDepth": "headline"
+        }
+      ]
+    },
+    {
+      "ticker": "TIGR",
+      "name": "UP Fintech Holding Ltd",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "status": "clean",
+      "items": [],
+      "cleanNote": "No material company news in this window."
+    }
+  ],
+  "droppedLinks": [
+    {
+      "source": "South China Morning Post",
+      "headline": "Alibaba sells US$482 million in ZTO Express shares as AI focus sharpens",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375870/alibaba-sells-us482-million-zto-express-shares-ai-focus-sharpens",
+      "reason": "SCMP-only for BABA (Alibaba-owned outlet); no second allowed source found in this run."
+    }
+  ]
+}
