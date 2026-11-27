@@ -1,9 +1,9 @@
 {
  "mode": "recap",
  "reportDate": "2026-11-26",
- "generatedAt": "2026-11-26T16:24:43-05:00",
+ "generatedAt": "2026-11-26T21:59:56-05:00",
  "lookbackHours": 30,
- "final": false,
+ "final": true,
  "source": "SEC EDGAR",
  "entities": {
   "BABA": "Alibaba Group Holding Ltd",
